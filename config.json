@@ -17,7 +17,7 @@
     "tvl_drop_pct": 5.0,
     "price_drop_pct": 5.0,
     "zscore_threshold": 3.0,
-    "min_history": 5,
+    "min_history": 8,
     "correlations": [
       {
         "name": "coordinated_drawdown",
@@ -78,7 +78,7 @@
     "currency": "USD",
     "timezone": "UTC",
     "refresh_interval_min": 60,
-    "title": "Solana Ecosystem Report"
+    "title": "Solana Eye — Solana Ecosystem Report"
   },
   "sources": {
     "defillama": true,

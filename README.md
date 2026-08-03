@@ -1,14 +1,14 @@
-# 🟢 solana-pulse
+# 👁️ Solana Eye
 
 **Auto-updating Solana ecosystem report & interactive dashboard.**
 
-A zero-dependency (Python stdlib only) pipeline that collects the current state of the
-Solana network — performance, validators, economics, news — detects anomalies, and
-renders three outputs: an interactive **HTML dashboard**, a human-readable **Markdown
-report**, and a machine-readable **JSON** snapshot. It refreshes automatically every
-hour via GitHub Actions (live demo) or a local systemd timer.
+A zero-dependency (Python stdlib only) pipeline that keeps an eye on the Solana
+network — performance, validators, economics, news — detects anomalies, and
+renders three outputs: an interactive **HTML dashboard**, a human-readable
+**Markdown report**, and a machine-readable **JSON** snapshot. It refreshes
+automatically every hour via GitHub Actions (live demo) or a local systemd timer.
 
-> Live dashboard: **https://sharkwon.github.io/solana-pulse/**
+> Live dashboard: **https://sharkwon.github.io/solana-eye/**
 > (self-updating hourly — no server, CI is the cron)
 
 ---
@@ -52,8 +52,8 @@ news sources. This project pulls it all into one automatically-refreshing view:
 ## Quickstart
 
 ```bash
-git clone https://github.com/sharkwon/solana-pulse.git
-cd solana-pulse
+git clone https://github.com/sharkwon/solana-eye.git
+cd solana-eye
 python3 run.py            # collect + render (no pip install needed)
 # outputs written to outputs/:
 #   dashboard.html  interactive dark-theme dashboard
@@ -62,7 +62,8 @@ python3 run.py            # collect + render (no pip install needed)
 ```
 
 Requirements: **Python 3.10+** and internet access. No virtualenv, no requirements.txt,
-no API keys.
+no API keys. (The Python package is named `solanapulse` internally — the product is
+**Solana Eye**.)
 
 ### Run it continuously
 
@@ -74,13 +75,13 @@ result to GitHub Pages automatically. Enable Pages → *Deploy from branch → m
 
 ```bash
 bash scripts/install_service.sh      # hourly refresh, survives reboots
-systemctl --user list-timers solana-pulse.timer
+systemctl --user list-timers solana-eye.timer
 ```
 
 **Option C — plain cron:**
 
 ```bash
-17 * * * * cd /path/to/solana-pulse && python3 run.py >> outputs/cron.log 2>&1
+17 * * * * cd /path/to/solana-eye && python3 run.py >> outputs/cron.log 2>&1
 ```
 
 ## Data sources & automation strategy
