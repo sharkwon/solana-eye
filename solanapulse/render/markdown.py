@@ -52,6 +52,20 @@ def render_markdown(report: dict[str, Any]) -> str:
         lines.append("## ✅ No Anomalies Detected")
         lines.append("")
 
+    # --- composite health score ---
+    hs = report.get("health_score")
+    if hs:
+        lines.append("## ❤️ Solana Health Score")
+        lines.append("")
+        lines.append(f"**{hs.get('score')}/100 — {str(hs.get('grade', '')).upper()}** "
+                     "(weighted blend of TPS, slot time, validator health, TVL/price trend, status page)")
+        lines.append("")
+        lines.append("| Component | Score |")
+        lines.append("|---|---|")
+        for k, v in (hs.get("components") or {}).items():
+            lines.append(f"| {k} | {v} |")
+        lines.append("")
+
     # --- network ---
     tps = net["tps"] or {}
     slot = net["slot_time_sec"] or {}
@@ -120,6 +134,32 @@ def render_markdown(report: dict[str, Any]) -> str:
     lines.append(f"- Circulating: {_fmt(sup.get('circulating_sol'), 0)} SOL")
     lines.append(f"- Non-circulating: {_fmt(sup.get('non_circulating_sol'), 0)} SOL")
     lines.append("")
+
+    # --- cross-chain comparison ---
+    comp = report.get("comparison") or {}
+    if comp.get("chains"):
+        lines.append("## Cross-Chain Comparison")
+        lines.append("")
+        lines.append("| Chain | TVL | DEX 24h | Stablecoins |")
+        lines.append("|---|---|---|---|")
+        for c in comp["chains"]:
+            d = (comp.get("dex") or {}).get(c) or {}
+            lines.append(f"| {c} | {_usd((comp.get('tvl') or {}).get(c))} | "
+                         f"{_usd(d.get('volume24h'))} | {_usd((comp.get('stablecoins') or {}).get(c))} |")
+        lines.append("")
+
+    # --- baselines (30d percentiles) ---
+    bl = report.get("baselines") or {}
+    if bl:
+        lines.append("## Baselines · 30-Day History")
+        lines.append("")
+        lines.append("| Metric | Current | Median (30d) | Percentile |")
+        lines.append("|---|---|---|---|")
+        for b in bl.values():
+            pctile = _fmt(b.get("percentile"), 0) if b.get("percentile") is not None else "n/a"
+            lines.append(f"| {b.get('label')} | {_fmt(b.get('current'), 2)} | "
+                         f"{_fmt(b.get('median'), 2)} | {pctile}th |")
+        lines.append("")
 
     # --- news / SIMD ---
     simd = report["news"].get("simd") or []

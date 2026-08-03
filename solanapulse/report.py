@@ -41,6 +41,9 @@ def build_report(
         "economics": metrics.get("economics"),
         "news": {"simd": metrics.get("simd") or []},
         "status_page": metrics.get("status_page"),
+        "health_score": metrics.get("health_score"),
+        "comparison": metrics.get("comparison") or {},
+        "baselines": metrics.get("baselines") or {},
         "anomalies": anomalies,
         "history": history[-24:],  # last 24 snapshots for sparklines
         "sources_ok": metrics.get("sources_ok") or {},

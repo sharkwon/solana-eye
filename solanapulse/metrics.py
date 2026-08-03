@@ -159,6 +159,7 @@ def compute_metrics(raw: dict[str, Any], top_validators: int = 20) -> dict[str, 
     m["status_page"] = raw.get("status") or {}
     m["simd"] = raw.get("simd") or []
     m["sources_ok"] = raw.get("sources_ok") or {}
+    m["comparison"] = raw.get("comparison") or {}
     return m
 
 

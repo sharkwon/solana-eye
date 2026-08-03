@@ -42,20 +42,20 @@ def historical_chain_tvl(chain: str = "Solana", days: int = 30) -> list[dict]:
 
 
 def dex_volume_24h(chain: str = "Solana") -> Optional[dict]:
-    """Return {'volume24h': float, 'change_1d_pct': float|None} for a chain."""
+    """Return {'volume24h': float, 'change_1d_pct': float|None} for a chain.
+
+    NOTE: use the /overview/dexs/{chain} path form. The query-param form
+    (?volumeChain=...) silently ignores the parameter and returns the
+    all-chains aggregate — verified against live responses.
+    """
     url = (
-        f"{BASE}/overview/dexs?volumeChain={chain}"
-        "&excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true"
+        f"{BASE}/overview/dexs/{chain.lower()}"
+        "?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true"
     )
     data = http.request_json(url)
     if not data or not isinstance(data, dict):
         return None
-    t24 = data.get("total24h")
-    t48 = data.get("total48hto24h")
-    change = None
-    if t24 is not None and t48:
-        change = (t24 - t48) / t48 * 100.0
-    return {"volume24h": t24, "change_1d_pct": change}
+    return {"volume24h": data.get("total24h"), "change_1d_pct": data.get("change_1d")}
 
 
 def stablecoin_supply(chain: str = "Solana") -> Optional[dict]:
@@ -67,3 +67,35 @@ def stablecoin_supply(chain: str = "Solana") -> Optional[dict]:
             total = sum(v for v in tcu.values() if isinstance(v, (int, float)))
             return {"total_usd": total}
     return None
+
+
+# --- multi-chain comparison (one call per dataset, all chains at once) --------
+
+def multi_chain_tvl(chains: list[str]) -> dict:
+    """TVL for many chains from a single /v2/chains call."""
+    data = http.request_json(f"{BASE}/v2/chains")
+    by_name = {row.get("name", "").lower(): row.get("tvl") for row in data or []}
+    return {c: by_name.get(c.lower()) for c in chains}
+
+
+def multi_chain_stablecoins(chains: list[str]) -> dict:
+    """Stablecoin supply for many chains from a single stablecoinchains call."""
+    data = http.request_json(f"{STABLE_BASE}/stablecoinchains")
+    by_name = {}
+    for row in data or []:
+        tcu = row.get("totalCirculatingUSD") or {}
+        by_name[row.get("name", "").lower()] = sum(
+            v for v in tcu.values() if isinstance(v, (int, float))
+        )
+    return {c: by_name.get(c.lower()) for c in chains}
+
+
+def multi_chain_dex(chains: list[str]) -> dict:
+    """DEX volume 24h per chain (one call per chain — bounded, keyless)."""
+    out: dict = {}
+    for c in chains:
+        try:
+            out[c] = dex_volume_24h(c)
+        except Exception:  # noqa: BLE001 — one chain failing shouldn't kill the panel
+            out[c] = None
+    return out

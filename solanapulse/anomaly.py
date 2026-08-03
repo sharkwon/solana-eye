@@ -152,8 +152,54 @@ def check_zscore(metrics: dict[str, Any], history: list[dict], cfg: dict[str, An
     return anomalies
 
 
+def check_correlations(metrics: dict[str, Any], cfg: dict[str, Any]) -> list[dict]:
+    """Cross-metric correlation rules.
+
+    A rule fires when >= min_count metrics breach their threshold in the same
+    direction within one snapshot — e.g. price + TVL + DEX volume all falling
+    together signals a coordinated drawdown, far more informative than any
+    single-metric alert. Rules live in config.json -> anomaly.correlations.
+
+    Rule shape:
+      {"name": str, "severity": str, "direction": "below"|"above",
+       "default_threshold": float, "min_count": int, "message": str,
+       "metrics": [{"path": [..], "label": str, "threshold": float?}]}
+    """
+    anomalies: list[dict] = []
+    for rule in cfg.get("correlations", []):
+        breaches: list[tuple[str, float]] = []
+        for item in rule.get("metrics", []):
+            node: Any = metrics
+            for key in item["path"]:
+                if not isinstance(node, dict):
+                    break
+                node = node.get(key)
+            if not isinstance(node, (int, float)):
+                continue
+            thr = item.get("threshold", rule.get("default_threshold", 0.0))
+            direction = rule.get("direction", "below")
+            hit = node <= thr if direction == "below" else node >= thr
+            if hit:
+                breaches.append((item.get("label", item["path"][-1]), float(node)))
+        if len(breaches) >= rule.get("min_count", 2):
+            evidence = ", ".join(f"{label}={v:.1f}" for label, v in breaches)
+            anomalies.append(
+                _anom(
+                    rule.get("name", "correlation"),
+                    rule.get("severity", "warning"),
+                    f"{rule.get('message', rule.get('name', 'correlation'))} — {evidence}",
+                    value=[b[1] for b in breaches],
+                )
+            )
+    return anomalies
+
+
 def run(metrics: dict[str, Any], history: list[dict], cfg: dict[str, Any]) -> list[dict]:
-    combined = check_thresholds(metrics, cfg) + check_zscore(metrics, history, cfg)
+    combined = (
+        check_thresholds(metrics, cfg)
+        + check_zscore(metrics, history, cfg)
+        + check_correlations(metrics, cfg)
+    )
     # Deduplicate by (metric, message)
     seen: set = set()
     out = []

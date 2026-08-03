@@ -58,6 +58,11 @@ td.num, th.num {{ text-align: right; }}
 .badge.crit {{ background: rgba(255,92,92,.12); color: var(--crit); }}
 details {{ background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 12px 16px; margin-bottom: 8px; }}
 summary {{ cursor: pointer; font-weight: 600; }}
+.hero {{ display: flex; align-items: center; gap: 20px; background: linear-gradient(135deg, var(--panel), var(--panel2)); border: 1px solid var(--border); border-radius: 12px; padding: 18px 22px; margin-bottom: 20px; }}
+.hero .score {{ font-size: 46px; font-weight: 800; line-height: 1; font-variant-numeric: tabular-nums; }}
+.hero .spark {{ width: 220px; height: 44px; margin-left: auto; }}
+.bar {{ height: 6px; border-radius: 3px; background: var(--accent); display: inline-block; vertical-align: middle; }}
+.barwrap {{ background: var(--panel2); border-radius: 3px; height: 6px; width: 100%; }}
 .two {{ display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }}
 @media (max-width: 800px) {{ .two {{ grid-template-columns: 1fr; }} }}
 footer {{ color: var(--muted); font-size: 12px; margin-top: 32px; border-top: 1px solid var(--border); padding-top: 12px; }}
@@ -114,6 +119,12 @@ function render() {{
 
   let html = `<header><div><h1><span class="dot">●</span> Solana Pulse <span style="color:var(--muted);font-weight:400;font-size:14px">· Solana Ecosystem Report</span></h1><div class="sub">Generated ${{DATA.generated_at}} UTC · refresh ${{DATA.config.refresh_interval_min}}m · keyless · stdlib-only</div></div></header>`;
 
+  const hs = DATA.health_score;
+  if (hs) {{
+    const gcol = {{excellent:'#00d4a0', good:'#4aa8ff', fair:'#ffb454', 'at-risk':'#ff8c5c', critical:'#ff5c5c'}}[hs.grade] || '#00d4a0';
+    html += `<div class="hero"><div class="score" style="color:${{gcol}}">${{hs.score}}</div><div><div class="k">Solana Health Score · <span style="color:${{gcol}};text-transform:uppercase">${{hs.grade}}</span></div><div style="font-size:12px;color:var(--muted);margin-top:4px">${{Object.entries(hs.components).map(([k,v])=>`${{k}} ${{v}}`).join(' · ')}}</div></div><div class="spark">${{sparkline(seriesOf(['metrics','health_score']), 220, 44)}}</div></div>`;
+  }}
+
   html += '<div class="grid">' + cards.map(c => `<div class="card"><div class="k">${{c.k}}</div><div class="v">${{c.v}}</div><div class="d">${{c.d||''}}</div>${{c.spark?sparkline(c.spark):''}}</div>`).join('') + '</div>';
 
   if (anoms.length) {{
@@ -136,6 +147,27 @@ function render() {{
   if (sp) html += `<section><h2>Network status</h2><div class="card"><div class="k">${{sp.page_name}}</div><div class="v">${{sp.indicator}}</div><div class="d">${{sp.description}}</div></div></section>`;
 
   html += '<section><h2>Data sources</h2><table><tr><th>Source</th><th>Status</th></tr>' + Object.entries(DATA.sources_ok||{{}}).map(([k,v]) => `<tr><td>${{k}}</td><td><span class="badge ${{v?'good':'crit'}}">${{v?'online':'failed'}}</span></td></tr>`).join('') + '</table></section>';
+
+  const comp = DATA.comparison;
+  if (comp && comp.chains && comp.chains.length) {{
+    const maxTvl = Math.max(...comp.chains.map(c => comp.tvl[c]||0), 1);
+    html += '<section><h2>Cross-chain comparison</h2><table><tr><th>Chain</th><th>TVL</th><th class="num">DEX 24h</th><th class="num">Stablecoins</th></tr>';
+    comp.chains.forEach(c => {{
+      const tvl = comp.tvl[c]||0, d = comp.dex[c]||{{}}, sc = comp.stablecoins[c]||0;
+      html += `<tr><td>${{c}} ${{c==='Solana'?'<span class="badge good">us</span>':''}}</td><td><div class="barwrap"><div class="bar" style="width:${{Math.max((tvl/maxTvl*100),1).toFixed(1)}}%"></div></div><span style="font-size:12px;color:var(--muted)">${{usd(tvl)}}</span></td><td class="num">${{usd(d.volume24h)}}</td><td class="num">${{usd(sc)}}</td></tr>`;
+    }});
+    html += '</table></section>';
+  }}
+
+  const bl = DATA.baselines;
+  if (bl && Object.keys(bl).length) {{
+    html += '<section><h2>Baselines · 30-day history</h2><table><tr><th>Metric</th><th class="num">Current</th><th class="num">Median</th><th class="num">Percentile</th></tr>';
+    Object.values(bl).forEach(b => {{
+      const cls = b.percentile==null ? 'flat' : (b.percentile>=90||b.percentile<=10) ? 'down' : (b.percentile>=50 ? 'up' : 'flat');
+      html += `<tr><td>${{b.label}}</td><td class="num">${{fmt(b.current,2)}}</td><td class="num">${{fmt(b.median,2)}}</td><td class="num ${{cls}}">${{b.percentile==null?'n/a':b.percentile+'th'}}</td></tr>`;
+    }});
+    html += '</table></section>';
+  }}
 
   html += '<footer>solana-pulse · single-file dashboard (no external dependencies) · data: Solana RPC, DeFiLlama, CoinGecko, GitHub SIMD, status.solana.com · machine-readable <span class="mono">latest.json</span> &amp; <span class="mono">report.md</span> in <span class="mono">outputs/</span></footer>';
   $('app').innerHTML = html;

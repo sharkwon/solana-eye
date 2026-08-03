@@ -1,27 +1,39 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-03T05:32:54Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-03T05:49:21Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 **validators_delinquent**: 13 validators delinquent (0.13% of stake)
-- 🔵 **dex_volume_24h_change_pct**: DEX volume surged 7.9% in 24h
+
+## ❤️ Solana Health Score
+
+**84.5/100 — GOOD** (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+
+| Component | Score |
+|---|---|
+| network_status | 100 |
+| price_trend | 40.3 |
+| slot_time | 94.8 |
+| tps | 82.6 |
+| tvl_trend | 56.8 |
+| validators | 97.4 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,198.71 |
-| Peak TPS | 1,269.12 |
-| Non-vote TPS | 517.35 |
-| Avg slot time | 0.4200 s |
-| Slot | 436,911,476 |
-| Block height | 414,967,069 |
+| Avg TPS (10 samples) | 1,238.42 |
+| Peak TPS | 1,331.42 |
+| Non-vote TPS | 552.73 |
+| Avg slot time | 0.4210 s |
+| Slot | 436,913,974 |
+| Block height | 414,969,563 |
 
 ### Epoch
 
-- **Epoch 1011** — 36.92% complete (159,476/432,000 slots)
-- Slots remaining: 272,524
-- Total transactions (all-time): 534,639,098,987
+- **Epoch 1011** — 37.49% complete (161,974/432,000 slots)
+- Slots remaining: 270,026
+- Total transactions (all-time): 534,642,199,052
 
 ## Validators
 
@@ -62,17 +74,27 @@ _Auto-generated at 2026-08-03T05:32:54Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $72.83 (-0.88% 24h) |
+| SOL price | $72.77 (-0.97% 24h) |
 | TVL | $4,736,081,164.75 (+0.68% 24h) |
-| DEX volume 24h | $5,071,260,163.66 (+7.87%) |
+| DEX volume 24h | $1,327,543,712.96 (+2.06%) |
 | Stablecoin supply | $15,723,724,362.73 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 3,979 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 4,553 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 581,193,161 SOL
+- Circulating: 581,193,153 SOL
 - Non-circulating: 50,310,253 SOL
+
+## Cross-Chain Comparison
+
+| Chain | TVL | DEX 24h | Stablecoins |
+|---|---|---|---|
+| Solana | $4,736,081,164.75 | $1,327,543,712.96 | $15,723,724,362.73 |
+| Ethereum | $40,654,438,410.02 | $550,299,736.93 | $147,629,832,363.62 |
+| Base | $4,523,416,725.16 | $558,544,702.85 | $4,834,248,287.27 |
+| Tron | $4,842,480,629.98 | $22,418,863 | $91,596,108,217.07 |
+| Arbitrum | $1,177,192,710.80 | $83,050,032.26 | $3,628,645,719.97 |
 
 ## Network Status
 
@@ -94,6 +116,7 @@ _Auto-generated at 2026-08-03T05:32:54Z UTC — refresh every 60 min_
 | defillama_tvl_history | ✅ |
 | defillama_dex | ✅ |
 | defillama_stablecoins | ✅ |
+| defillama_comparison | ✅ |
 | coingecko | ✅ |
 | github_simd | ✅ |
 | statuspage | ✅ |

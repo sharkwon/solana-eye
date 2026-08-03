@@ -107,6 +107,22 @@ def collect(cfg: dict) -> tuple[dict, dict]:
                 ok[f"defillama_{name}"] = False
                 print(f"  [!] defillama/{name} failed: {e}", file=sys.stderr)
 
+        # multi-chain comparison panel
+        chains = (cfg.get("comparison") or {}).get("chains", [])
+        if chains:
+            try:
+                raw["comparison"] = {
+                    "chains": chains,
+                    "tvl": defillama.multi_chain_tvl(chains),
+                    "dex": defillama.multi_chain_dex(chains),
+                    "stablecoins": defillama.multi_chain_stablecoins(chains),
+                }
+                ok["defillama_comparison"] = True
+            except Exception as e:  # noqa: BLE001
+                raw["comparison"] = {}
+                ok["defillama_comparison"] = False
+                print(f"  [!] defillama/comparison failed: {e}", file=sys.stderr)
+
     if cfg["sources"].get("coingecko", True):
         try:
             raw["price"] = coingecko.sol_price()
@@ -168,7 +184,15 @@ def main() -> int:
 
     metrics = compute_metrics(raw, top_validators=cfg["collect"].get("top_validators", 20))
 
+    # composite health score + percentile baselines
+    from solanapulse.healthscore import compute_health_score
+    from solanapulse.baseline import compute_baselines
+
+    metrics["health_score"] = compute_health_score(metrics, cfg.get("healthscore"))
+
     history = store.load_history(history_path)
+    metrics["baselines"] = compute_baselines(metrics, history, cfg.get("baselines") or {})
+
     if not args.once and history:
         anoms = anomaly_mod.run(metrics, history, cfg["anomaly"])
     else:
