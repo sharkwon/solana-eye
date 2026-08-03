@@ -1,19 +1,22 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-03T13:21:12Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-03T16:41:20Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
+- 🟠 **tps**: TPS statistically high (z=4.1)
+- 🟠 **tvl_usd**: TVL statistically low (z=-3.2)
+- 🟠 **dex_volume_24h_usd**: DEX volume statistically high (z=100.0)
 - 🔵 **validators_delinquent**: 12 validators delinquent (0.13% of stake)
 
 ## ❤️ Solana Health Score
 
-**87.4/100 — GOOD** (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+**89.7/100 — GOOD** (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 45.6 |
-| slot_time | 94.8 |
-| tps | 93.8 |
+| price_trend | 53.8 |
+| slot_time | 94.0 |
+| tps | 100.0 |
 | tvl_trend | 50.0 |
 | validators | 97.4 |
 
@@ -22,18 +25,18 @@ _Auto-generated at 2026-08-03T13:21:12Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,406.55 |
-| Peak TPS | 1,597.17 |
-| Non-vote TPS | 721.95 |
-| Avg slot time | 0.4210 s |
-| Slot | 436,978,145 |
-| Block height | 415,033,644 |
+| Avg TPS (10 samples) | 1,705.81 |
+| Peak TPS | 1,878.18 |
+| Non-vote TPS | 1,021.73 |
+| Avg slot time | 0.4240 s |
+| Slot | 437,006,505 |
+| Block height | 415,061,965 |
 
 ### Epoch
 
-- **Epoch 1011** — 52.35% complete (226,143/432,000 slots)
-- Slots remaining: 205,857
-- Total transactions (all-time): 534,724,164,771
+- **Epoch 1011** — 58.91% complete (254,504/432,000 slots)
+- Slots remaining: 177,496
+- Total transactions (all-time): 534,770,171,149
 
 ## Validators
 
@@ -74,50 +77,50 @@ _Auto-generated at 2026-08-03T13:21:12Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $72.54 (-0.44% 24h) |
-| TVL | $4,714,471,445.56 (+0.00% 24h) |
+| SOL price | $73.38 (+0.38% 24h) |
+| TVL | $4,749,797,473.56 (+0.00% 24h) |
 | DEX volume 24h | $1,342,682,592.96 (+3.22%) |
-| Stablecoin supply | $15,695,453,347.59 |
+| Stablecoin supply | $15,701,813,874.11 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 6,094 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 4,700 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 581,192,938 SOL
+- Circulating: 581,192,817 SOL
 - Non-circulating: 50,310,253 SOL
 
 ## Cross-Chain Comparison
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,714,471,445.56 | $1,342,682,592.96 | $15,695,453,347.59 |
-| Ethereum | $40,488,888,797.37 | $550,056,565.93 | $147,608,658,078.34 |
-| Base | $4,507,201,942.38 | $558,544,260.85 | $4,828,210,405.63 |
-| Tron | $4,830,620,867.58 | $22,418,863 | $91,590,899,301.45 |
-| Arbitrum | $1,173,475,661.50 | $83,050,032.26 | $3,596,674,927.49 |
+| Solana | $4,749,797,473.56 | $1,342,682,592.96 | $15,701,813,874.11 |
+| Ethereum | $40,798,543,262.09 | $550,056,565.93 | $147,650,211,725.21 |
+| Base | $4,563,601,214.65 | $558,544,260.85 | $4,833,174,017.01 |
+| Tron | $4,861,749,429.94 | $22,418,863 | $91,602,041,050.04 |
+| Arbitrum | $1,180,927,195.43 | $83,050,032.26 | $3,595,166,544.06 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,406.55 | 1,309.96 | 100th |
-| Slot time (s) | 0.42 | 0.42 | 86th |
-| TVL (USD) | 4,714,471,445.56 | 4,732,342,574.93 | 0th |
-| SOL price (USD) | 72.54 | 72.63 | 0th |
+| Avg TPS | 1,705.81 | 1,310.33 | 100th |
+| Slot time (s) | 0.42 | 0.42 | 100th |
+| TVL (USD) | 4,749,797,473.56 | 4,732,342,574.93 | 100th |
+| SOL price (USD) | 73.38 | 72.60 | 100th |
 | DEX volume 24h (USD) | 1,342,682,592.96 | 1,327,543,712.96 | 100th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
-- **#401 SIMD-0401: Stake program Pinocchio migration (`p-stake`)** (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/401)
+- **#567 SIMD-0567: CU-optimized ATA Program (`p-ATA`)** (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/567)
 - **#593 simd-0504: remove identical signature requirement** (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/593)
+- **#401 SIMD-0401: Stake program Pinocchio migration (`p-stake`)** (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/401)
 - **#571 SIMD-0571: Soft Deprecation of Durable Nonce Transactions** (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/571)
 - **#562 Remove mentions of SIMD-0161** (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/562)
 - **#177 SIMD-0177: Program Runtime ABI v2** (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/177)
 - **#579 SIMD-0579: Keccak-p1600 syscall** (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/579)
 - **#586 SIMD-0511: On-Chain Epoch Stakes** (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/586)
-- **#585 Amend 0529** (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/585)
 
 ## Network Status
 
