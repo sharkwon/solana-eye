@@ -35,12 +35,12 @@
     }
   },
   "validators": {
-    "active_count": 690,
-    "delinquent_count": 13,
-    "active_stake_sol": 432105134.6,
-    "delinquent_stake_sol": 545049.3,
-    "delinquent_stake_pct": 0.13,
-    "avg_commission_pct": 12.218840579710145,
+    "active_count": 689,
+    "delinquent_count": 14,
+    "active_stake_sol": 431105134.6,
+    "delinquent_stake_sol": 1545049.3,
+    "delinquent_stake_pct": 0.36,
+    "avg_commission_pct": 12.091436865021771,
     "top_by_stake": [
       {
         "pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -200,7 +200,7 @@
     "tvl_24h_change_pct": 0.68,
     "dex_volume_24h_usd": 1327543712.96,
     "dex_volume_24h_change_pct": 2.06,
-    "stablecoin_supply_usd": 15718026164.937525
+    "stablecoin_supply_usd": 15723724362.732632
   },
   "news": {
     "simd": [
@@ -294,7 +294,7 @@
       "slot_time": 94.8,
       "tps": 79.8,
       "tvl_trend": 56.8,
-      "validators": 97.4
+      "validators": 92.8
     }
   },
   "comparison": {
@@ -306,11 +306,11 @@
       "Arbitrum"
     ],
     "tvl": {
-      "Solana": 4736079716.420567,
-      "Ethereum": 40661351658.44286,
-      "Base": 4523427364.764478,
+      "Solana": 4736081164.753554,
+      "Ethereum": 40654438410.02174,
+      "Base": 4523416725.1556,
       "Tron": 4842480629.977562,
-      "Arbitrum": 1177189330.0958076
+      "Arbitrum": 1177192710.7956543
     },
     "dex": {
       "Solana": {
@@ -335,11 +335,11 @@
       }
     },
     "stablecoins": {
-      "Solana": 15718026164.937525,
-      "Ethereum": 147631742420.8612,
-      "Base": 4830985713.659692,
-      "Tron": 91596776962.98053,
-      "Arbitrum": 3631415331.814938
+      "Solana": 15723724362.732632,
+      "Ethereum": 147629832363.62143,
+      "Base": 4834248287.270838,
+      "Tron": 91596108217.06804,
+      "Arbitrum": 3628645719.968678
     }
   },
   "baselines": {
@@ -365,7 +365,7 @@
     },
     "tvl_usd": {
       "label": "TVL (USD)",
-      "current": 4736079716.42,
+      "current": 4736081164.75,
       "median": 4736079716.42,
       "min": 4736079716.42,
       "max": 4736081164.75,
@@ -398,8 +398,8 @@
     {
       "metric": "validators_delinquent",
       "severity": "info",
-      "message": "13 validators delinquent (0.13% of stake)",
-      "value": 0.13,
+      "message": "14 validators delinquent (0.36% of stake)",
+      "value": 0.36,
       "z": null
     }
   ],

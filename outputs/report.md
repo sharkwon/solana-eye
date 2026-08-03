@@ -2,7 +2,7 @@
 _Auto-generated at 2026-08-03T06:19:38Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 **validators_delinquent**: 13 validators delinquent (0.13% of stake)
+- 🔵 **validators_delinquent**: 14 validators delinquent (0.36% of stake)
 
 ## ❤️ Solana Health Score
 
@@ -15,7 +15,7 @@ _Auto-generated at 2026-08-03T06:19:38Z UTC — refresh every 60 min_
 | slot_time | 94.8 |
 | tps | 79.8 |
 | tvl_trend | 56.8 |
-| validators | 97.4 |
+| validators | 92.8 |
 
 ## Network Performance
 
@@ -39,11 +39,11 @@ _Auto-generated at 2026-08-03T06:19:38Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| Active validators | 690 |
-| Delinquent validators | 13 |
-| Total active stake | 432,105,135 SOL |
-| Delinquent stake | 545,049 SOL (0.13%) |
-| Avg commission | 12.22% |
+| Active validators | 689 |
+| Delinquent validators | 14 |
+| Total active stake | 431,105,135 SOL |
+| Delinquent stake | 1,545,049 SOL (0.36%) |
+| Avg commission | 12.09% |
 
 ### Top 20 Validators by Stake
 
@@ -77,7 +77,7 @@ _Auto-generated at 2026-08-03T06:19:38Z UTC — refresh every 60 min_
 | SOL price | $72.87 (-0.78% 24h) |
 | TVL | $4,736,079,716.42 (+0.68% 24h) |
 | DEX volume 24h | $1,327,543,712.96 (+2.06%) |
-| Stablecoin supply | $15,718,026,164.94 |
+| Stablecoin supply | $15,723,724,362.73 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
 | Est. fee revenue 24h | 3,359 SOL (sampled block meta.fee (estimates)) |
 
@@ -90,11 +90,11 @@ _Auto-generated at 2026-08-03T06:19:38Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,736,079,716.42 | $1,327,543,712.96 | $15,718,026,164.94 |
-| Ethereum | $40,661,351,658.44 | $550,299,736.93 | $147,631,742,420.86 |
-| Base | $4,523,427,364.76 | $558,544,702.85 | $4,830,985,713.66 |
-| Tron | $4,842,480,629.98 | $22,418,863 | $91,596,776,962.98 |
-| Arbitrum | $1,177,189,330.10 | $83,050,032.26 | $3,631,415,331.81 |
+| Solana | $4,736,081,164.75 | $1,327,543,712.96 | $15,723,724,362.73 |
+| Ethereum | $40,654,438,410.02 | $550,299,736.93 | $147,629,832,363.62 |
+| Base | $4,523,416,725.16 | $558,544,702.85 | $4,834,248,287.27 |
+| Tron | $4,842,480,629.98 | $22,418,863 | $91,596,108,217.07 |
+| Arbitrum | $1,177,192,710.80 | $83,050,032.26 | $3,628,645,719.97 |
 
 ## Baselines · 30-Day History
 
