@@ -135,7 +135,7 @@ def collect(cfg: dict) -> tuple[dict, dict]:
     if cfg["sources"].get("github_simd", True):
         try:
             raw["simd"] = simd_news.recent_simd()
-            ok["github_simd"] = True
+            ok["github_simd"] = raw["simd"] is not None
         except Exception as e:  # noqa: BLE001
             raw["simd"] = []
             ok["github_simd"] = False
