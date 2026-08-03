@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local run state (history is regenerated; committed copies live in docs/)
+outputs/history.jsonl.local
+outputs/latest.json.local
+
+# Editors
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,39 @@
+{
+  "rpc": {
+    "url": "https://api.mainnet-beta.solana.com",
+    "timeout": 20,
+    "max_retries": 2
+  },
+  "collect": {
+    "performance_samples": 10,
+    "fee_sample_blocks": 10,
+    "top_validators": 20,
+    "history_keep_days": 90
+  },
+  "anomaly": {
+    "tps_drop_pct": 30.0,
+    "slot_time_sec_max": 0.6,
+    "delinquent_stake_pct_max": 5.0,
+    "tvl_drop_pct": 5.0,
+    "price_drop_pct": 5.0,
+    "zscore_threshold": 3.0,
+    "min_history": 5
+  },
+  "render": {
+    "currency": "USD",
+    "timezone": "UTC",
+    "refresh_interval_min": 60,
+    "title": "Solana Ecosystem Report"
+  },
+  "sources": {
+    "defillama": true,
+    "coingecko": true,
+    "github_simd": true,
+    "statuspage": true,
+    "dune": {
+      "enabled": false,
+      "api_key_env": "DUNE_API_KEY",
+      "dashboards": []
+    }
+  }
+}
