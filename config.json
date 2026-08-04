@@ -16,6 +16,9 @@
     "delinquent_stake_pct_max": 5.0,
     "tvl_drop_pct": 5.0,
     "price_drop_pct": 5.0,
+    "dau_drop_pct": 15.0,
+    "tokenized_equities_volume_change_pct": 20.0,
+    "nakamoto_min": 5,
     "zscore_threshold": 3.0,
     "min_history": 8,
     "correlations": [
@@ -86,9 +89,20 @@
     "github_simd": true,
     "statuspage": true,
     "dune": {
-      "enabled": false,
+      "enabled": true,
       "api_key_env": "DUNE_API_KEY",
-      "dashboards": []
-    }
+      "queries": {
+        "dau": 576193,
+        "tokenized": 0
+      }
+    },
+    "twitter": true,
+    "twitter_accounts": [
+      "solana",
+      "SolanaFndn",
+      "SolanaFloor",
+      "solana_daily",
+      "SolanaEvents"
+    ]
   }
 }

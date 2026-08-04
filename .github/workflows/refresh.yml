@@ -28,6 +28,9 @@ jobs:
           python-version: "3.11"
 
       - name: Collect + render
+        env:
+          DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
+          TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
         run: |
           python run.py
 

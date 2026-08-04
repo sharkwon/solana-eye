@@ -102,16 +102,19 @@ def render_markdown(report: dict[str, Any]) -> str:
     lines.append(f"| Delinquent stake | {_fmt(val.get('delinquent_stake_sol'), 0)} SOL "
                  f"({_fmt(val.get('delinquent_stake_pct'))}%) |")
     lines.append(f"| Avg commission | {_fmt(val.get('avg_commission_pct'))}% |")
+    lines.append(f"| **Nakamoto coefficient** | **{_fmt(val.get('nakamoto_coefficient'), 0)}** "
+                 f"(validators controlling >33% of active stake) |")
     lines.append("")
     top = val.get("top_by_stake") or []
     if top:
         lines.append(f"### Top {len(top)} Validators by Stake")
         lines.append("")
-        lines.append("| Rank | Vote Account (prefix) | Stake (SOL) | Commission |")
-        lines.append("|---|---|---|---|")
+        lines.append("| Rank | Vote Account (prefix) | Stake (SOL) | Stake % | Commission |")
+        lines.append("|---|---|---|---|---|")
         for i, tv in enumerate(top, 1):
             pk = (tv.get("pubkey") or "")[:8] + "…"
-            lines.append(f"| {i} | `{pk}` | {_fmt(tv.get('stake_sol'), 0)} | {_fmt(tv.get('commission_pct'))}% |")
+            lines.append(f"| {i} | `{pk}` | {_fmt(tv.get('stake_sol'), 0)} | "
+                         f"{_fmt(tv.get('stake_pct'))}% | {_fmt(tv.get('commission_pct'))}% |")
         lines.append("")
 
     # --- economics ---
@@ -134,6 +137,23 @@ def render_markdown(report: dict[str, Any]) -> str:
     lines.append(f"- Circulating: {_fmt(sup.get('circulating_sol'), 0)} SOL")
     lines.append(f"- Non-circulating: {_fmt(sup.get('non_circulating_sol'), 0)} SOL")
     lines.append("")
+
+    # --- ecosystem growth (Dune: DAU + tokenized equities) ---
+    eg = report.get("ecosystem_growth") or {}
+    dau = eg.get("daily_active_addresses") or {}
+    tok = eg.get("tokenized_equities") or {}
+    if dau.get("available") or tok.get("available"):
+        lines.append("## Ecosystem Growth")
+        lines.append("")
+        dau_val = f"{dau.get('value'):,}" if dau.get("available") and dau.get("value") is not None else "n/a (Dune key not set)"
+        tok_vol = f"${tok.get('volume_usd'):,.0f}" if tok.get("available") and tok.get("volume_usd") is not None else "n/a"
+        tok_aum = f"${tok.get('aum_usd'):,.0f}" if tok.get("available") and tok.get("aum_usd") is not None else "n/a"
+        tok_hold = f"{tok.get('holders'):,}" if tok.get("available") and tok.get("holders") is not None else "n/a"
+        lines.append(f"- **Daily Active Addresses:** {dau_val}")
+        lines.append(f"- **Tokenized Equities Volume (24h):** {tok_vol}")
+        lines.append(f"- **Tokenized Equities AUM:** {tok_aum}")
+        lines.append(f"- **Tokenized Equities Holders:** {tok_hold}")
+        lines.append("")
 
     # --- cross-chain comparison ---
     comp = report.get("comparison") or {}
@@ -171,6 +191,21 @@ def render_markdown(report: dict[str, Any]) -> str:
         for s in simd[:8]:
             labels = ", ".join(s.get("labels") or []) or "—"
             lines.append(f"- **#{s.get('number')} {s.get('title')}** (labels: {labels}) — [link]({s.get('url')})")
+        lines.append("")
+
+    # --- ecosystem / community news (X/Twitter) ---
+    tw = (report.get("news") or {}).get("twitter") or {}
+    tweets = tw.get("tweets") or []
+    if tweets:
+        lines.append("## Community News (X/Twitter)")
+        lines.append("")
+        for t in tweets[:8]:
+            handle = t.get("handle") or "?"
+            text = (t.get("text") or "").replace("\n", " ")[:180]
+            lines.append(f"- **@{handle}**: {text}")
+        if tw.get("degraded"):
+            lines.append("")
+            lines.append(f"_Degraded (no data): {', '.join(tw['degraded'])}_")
         lines.append("")
 
     sp = report.get("status_page") or {}

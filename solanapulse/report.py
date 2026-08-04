@@ -39,7 +39,11 @@ def build_report(
         "validators": metrics.get("validators"),
         "fees": metrics.get("fees"),
         "economics": metrics.get("economics"),
-        "news": {"simd": metrics.get("simd") or []},
+        "ecosystem_growth": metrics.get("ecosystem_growth") or {},
+        "news": {
+            "simd": metrics.get("simd") or [],
+            "twitter": metrics.get("twitter") or {},
+        },
         "status_page": metrics.get("status_page"),
         "health_score": metrics.get("health_score"),
         "comparison": metrics.get("comparison") or {},

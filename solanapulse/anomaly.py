@@ -99,6 +99,52 @@ def check_thresholds(metrics: dict[str, Any], cfg: dict[str, Any]) -> list[dict]
                 value=sp.get("indicator"),
             )
         )
+
+    # --- ecosystem growth (optional Dune) ---
+    eg = metrics.get("ecosystem_growth") or {}
+    dau = eg.get("daily_active_addresses") or {}
+    if dau.get("available") and dau.get("value") is not None:
+        dau_thr = cfg.get("dau_drop_pct", 15.0)
+        # A low DAU absolute value vs the configured floor flags stagnation;
+        # the day-over-day drop check happens in z-score once history exists.
+        if isinstance(dau["value"], (int, float)) and dau["value"] <= dau_thr * 10_000:
+            anomalies.append(
+                _anom(
+                    "daily_active_addresses",
+                    "warning",
+                    f"Daily active addresses {dau['value']:,} suspiciously low",
+                    value=dau["value"],
+                )
+            )
+    tok = eg.get("tokenized_equities") or {}
+    if tok.get("available") and tok.get("volume_usd") is not None:
+        tok_thr = cfg.get("tokenized_equities_volume_change_pct", 20.0)
+        # Volume collapse below $100k while previously tracked flags a stall.
+        if isinstance(tok["volume_usd"], (int, float)) and tok["volume_usd"] < 100_000:
+            anomalies.append(
+                _anom(
+                    "tokenized_equities_volume",
+                    "info",
+                    f"Tokenized equities volume ${tok['volume_usd']:,.0f} unusually low",
+                    value=tok["volume_usd"],
+                )
+            )
+
+    # --- decentralization ---
+    nk = (metrics.get("validators") or {}).get("nakamoto_coefficient")
+    if nk is not None:
+        nk_thr = cfg.get("nakamoto_min", 5)
+        if nk < nk_thr:
+            anomalies.append(
+                _anom(
+                    "nakamoto_coefficient",
+                    "warning",
+                    f"Nakamoto coefficient {nk} < {nk_thr}: stake highly concentrated "
+                    f"({nk} validators control >33% of active stake)",
+                    value=nk,
+                )
+            )
+
     return anomalies
 
 

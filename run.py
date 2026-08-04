@@ -156,12 +156,34 @@ def collect(cfg: dict) -> tuple[dict, dict]:
         try:
             from solanapulse.sources import dune as dune_mod
 
-            raw["dune"] = dune_mod.fetch_dashboards(dune_cfg.get("dashboards") or [])
-            ok["dune"] = raw["dune"] is not None
+            raw["dune"] = dune_mod.collect(dune_cfg.get("queries"))
+            ok["dune"] = bool(
+                (raw["dune"].get("dau") or {}).get("available")
+                or (raw["dune"].get("tokenized") or {}).get("available")
+            )
         except Exception as e:  # noqa: BLE001
             raw["dune"] = None
             ok["dune"] = False
             print(f"  [!] dune failed: {e}", file=sys.stderr)
+
+    # --- ecosystem/community news (X/Twitter, keyless) ---
+    if cfg["sources"].get("twitter", True):
+        try:
+            from solanapulse.sources import twitter as twitter_mod
+
+            raw["twitter"] = twitter_mod.collect(
+                (cfg.get("sources") or {}).get("twitter_accounts")
+            )
+            ok["twitter"] = bool(raw["twitter"].get("tweets"))
+            if raw["twitter"].get("degraded"):
+                print(
+                    f"  [!] twitter degraded for: {', '.join(raw['twitter']['degraded'])}",
+                    file=sys.stderr,
+                )
+        except Exception as e:  # noqa: BLE001
+            raw["twitter"] = {"tweets": [], "degraded": []}
+            ok["twitter"] = False
+            print(f"  [!] twitter failed: {e}", file=sys.stderr)
 
     raw["sources_ok"] = ok
     return raw, ok

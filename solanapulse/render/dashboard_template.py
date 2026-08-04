@@ -117,6 +117,11 @@ TEMPLATE = """<!DOCTYPE html>
   .anomaly-chip.info{background:rgba(59,130,246,.09);border-color:rgba(59,130,246,.4);color:#8FB8FF}
   .anomaly-chip.ok{background:rgba(20,241,178,.06);border-color:rgba(20,241,178,.25);color:#7DF5D6}
   .anomaly-chip b{font-weight:650}
+  .anom-val,.anom-z{opacity:.85;font-size:10.5px}
+  .anom-z{color:var(--violet)}
+  .nk-row{margin-top:6px;color:var(--text-dim)}
+  .nk-row b{color:var(--warning);font-family:'JetBrains Mono',monospace}
+  .nk-hint{color:var(--text-faint);font-size:10.5px}
 
   /* ---------- KPI ---------- */
   .kpi-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-bottom:20px}
@@ -219,6 +224,29 @@ TEMPLATE = """<!DOCTYPE html>
   .source-row .name{display:flex;align-items:center}
   .source-row .lat{color:var(--text-faint);font-family:'JetBrains Mono',monospace;font-size:11px}
 
+  /* ---------- ecosystem growth ---------- */
+  .growth-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}
+  .growth-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px;transition:.16s}
+  .growth-card:hover{border-color:var(--border-2)}
+  .growth-card .gc-label{font-size:11px;color:var(--text-dim);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+  .growth-card .gc-value{font-size:22px;font-weight:650;margin-top:5px;font-variant-numeric:tabular-nums;font-family:'Space Grotesk',sans-serif}
+  .growth-card .gc-sub{font-size:11px;color:var(--text-faint);margin-top:3px}
+  .growth-card .gc-value.na{color:var(--text-faint);font-size:14px;font-weight:500;padding-top:6px}
+  .sub-note{color:var(--text-faint);font-size:11px;font-weight:500}
+
+  /* ---------- sortable / filterable table ---------- */
+  .table-tools{margin-left:auto}
+  .filter-input{background:var(--surface-2);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:6px 11px;font-size:12px;font-family:inherit;width:190px;outline:none;transition:.15s}
+  .filter-input::placeholder{color:var(--text-faint)}
+  .filter-input:focus{border-color:var(--teal);box-shadow:0 0 0 3px rgba(20,241,178,.12)}
+  th[data-sort]{cursor:pointer;user-select:none;transition:.12s}
+  th[data-sort]:hover{color:var(--teal)}
+  th[data-sort] .sort-arrow{display:inline-block;width:0;height:0;margin-left:4px;border-left:4px solid transparent;border-right:4px solid transparent;opacity:.45;vertical-align:middle}
+  th[data-sort].asc .sort-arrow{border-bottom:5px solid var(--teal);border-top:none;opacity:1}
+  th[data-sort].desc .sort-arrow{border-top:5px solid var(--teal);border-bottom:none;opacity:1}
+  .sortable tbody tr{transition:background .12s}
+  .sortable tbody tr:hover{background:var(--surface-2)}
+
   footer{margin-top:26px;color:var(--text-faint);font-size:11.5px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;border-top:1px solid var(--border);padding-top:16px}
   footer b{color:var(--text-dim)}
 
@@ -308,17 +336,39 @@ TEMPLATE = """<!DOCTYPE html>
     </div>
   </div>
 
+  <div class="panel sec rv" id="growth" style="margin-bottom:16px">
+    <div class="panel-head"><h3>Ecosystem Growth</h3><span class="sub-note" id="growthNote">Dune Analytics</span></div>
+    <div class="growth-grid" id="growthGrid"></div>
+  </div>
+
   <div class="panel sec rv" id="validators" style="margin-bottom:16px">
-    <div class="panel-head"><h3>Top Validators by Stake</h3></div>
-    <table>
-      <thead><tr><th>#</th><th>Validator</th><th class="num">Stake (SOL)</th><th class="num">Commission</th><th class="num">Status</th></tr></thead>
+    <div class="panel-head">
+      <h3>Top Validators by Stake</h3>
+      <div class="table-tools">
+        <input class="filter-input" id="valFilter" type="text" placeholder="Filter validator…" aria-label="Filter validators">
+      </div>
+    </div>
+    <table class="sortable">
+      <thead><tr>
+        <th>#</th>
+        <th>Validator</th>
+        <th class="num" data-sort="stake_sol">Stake (SOL) <span class="sort-arrow"></span></th>
+        <th class="num" data-sort="stake_pct">Stake % <span class="sort-arrow"></span></th>
+        <th class="num" data-sort="commission_pct">Commission <span class="sort-arrow"></span></th>
+        <th class="num">Status</th>
+      </tr></thead>
       <tbody id="valTbody"></tbody>
     </table>
   </div>
 
   <div class="bottom-grid">
     <div class="panel sec rv" id="news">
-      <div class="panel-head"><h3>Latest SIMD Proposals</h3></div>
+      <div class="panel-head"><h3>Ecosystem News</h3>
+        <div class="tabs" id="newsTabs">
+          <div class="tab active" data-news="simd">SIMD</div>
+          <div class="tab" data-news="twitter">X / Twitter</div>
+        </div>
+      </div>
       <div id="newsList"></div>
     </div>
     <div class="panel sec rv" id="sources" style="animation-delay:.08s">
@@ -409,7 +459,11 @@ function renderAnoms(){
   const anoms=DATA.anomalies||[];
   if(!anoms.length){ $('anomBanner').innerHTML='<div class="anomaly-chip ok"><b>✓ All clear</b>&nbsp;no anomalies detected</div>'; return; }
   const sevCls={critical:'',warning:'warn',info:'info'};
-  $('anomBanner').innerHTML=anoms.map(a=>`<div class="anomaly-chip ${sevCls[a.severity]||''}"><b>${a.severity==='info'?'ℹ️':'⚠️'} ${esc(a.metric)}</b>&nbsp;${esc(a.message)}</div>`).join('');
+  $('anomBanner').innerHTML=anoms.map(a=>{
+    const val=a.value!=null?` <span class="anom-val mono">${esc(String(a.value))}</span>`:'';
+    const z=a.z!=null?` <span class="anom-z mono">z=${fmt(a.z,2)}</span>`:'';
+    return `<div class="anomaly-chip ${sevCls[a.severity]||''}" title="${esc(a.message)}${val}${z}"><b>${a.severity==='info'?'ℹ️':'⚠️'} ${esc(a.metric)}</b>&nbsp;${esc(a.message)}${val}${z}</div>`;
+  }).join('');
 }
 function renderKpi(){
   const priceD=eco.sol_price_24h_change_pct, tvlD=eco.tvl_24h_change_pct, tpsD=histDelta(['metrics','tps','avg']);
@@ -481,27 +535,67 @@ function renderGauge(){
 function renderDonut(){
   const top20=(val.top_by_stake||[]).reduce((a,v)=>a+(v.stake_sol||0),0);
   const total=val.active_stake_sol||1, share=(top20/total)*100;
+  const nk=val.nakamoto_coefficient;
   $('donutWrap').innerHTML=`<div class="donut" style="--p1:${share.toFixed(1)}%"><div class="donut-center"><div class="n">${fmt(share,1)}%</div><div class="l">TOP 20</div></div></div>
     <div class="legend">
       <div class="row"><span class="sw" style="background:var(--teal)"></span> Top 20 validators — ${fmt(share,1)}%</div>
       <div class="row"><span class="sw" style="background:var(--violet)"></span> Others — ${fmt(100-share,1)}%</div>
       <div class="row" style="color:var(--text-dim);margin-top:6px">Avg commission: ${fmt(val.avg_commission_pct,1)}%</div>
       <div class="row" style="color:var(--text-dim)">Delinquent: ${fmt(val.delinquent_stake_pct,2)}% of stake</div>
+      ${nk!=null?`<div class="row nk-row"><span class="sw" style="background:var(--warning)"></span> Nakamoto coefficient: <b>${nk}</b> <span class="nk-hint">(validators &gt;33% stake)</span></div>`:''}
     </div>`;
 }
 
+/* ---------- ecosystem growth ---------- */
+function renderGrowth(){
+  const eg=DATA.ecosystem_growth||{};
+  const dau=eg.daily_active_addresses||{}, tok=eg.tokenized_equities||{};
+  const dauV=dau.available&&dau.value!=null?fmt(dau.value,0):'n/a (Dune key not set)';
+  const tokV=tok.available&&tok.volume_usd!=null?usd(tok.volume_usd,0):'n/a';
+  const aumV=tok.available&&tok.aum_usd!=null?usd(tok.aum_usd,0):'n/a';
+  const holV=tok.available&&tok.holders!=null?fmt(tok.holders,0):'n/a';
+  $('growthGrid').innerHTML=[
+    `<div class="growth-card"><div class="gc-label">Daily Active Addresses</div><div class="gc-value ${dau.available?'':'na'}">${dauV}</div><div class="gc-sub">source: ${esc(dau.source||'dune')}</div></div>`,
+    `<div class="growth-card"><div class="gc-label">Tokenized Equities Vol (24h)</div><div class="gc-value ${tok.available?'':'na'}">${tokV}</div><div class="gc-sub">source: ${esc(tok.source||'dune')}</div></div>`,
+    `<div class="growth-card"><div class="gc-label">Tokenized Equities AUM</div><div class="gc-value ${tok.available?'':'na'}">${aumV}</div><div class="gc-sub">source: ${esc(tok.source||'dune')}</div></div>`,
+    `<div class="growth-card"><div class="gc-label">Tokenized Equities Holders</div><div class="gc-value ${tok.available?'':'na'}">${holV}</div><div class="gc-sub">source: ${esc(tok.source||'dune')}</div></div>`,
+  ].join('');
+  if(!dau.available&&!tok.available) $('growthNote').textContent='Dune Analytics · key not configured';
+}
+
 /* ---------- validators / news / sources ---------- */
+let valRows=[];
 function renderValidators(){
-  const rows=(val.top_by_stake||[]).slice(0,8).map((v,i)=>{
+  valRows=(val.top_by_stake||[]).map((v,i)=>{
     const pk=v.pubkey||''; const rk=i+1;
-    return `<tr><td><span class="rank-badge ${rk===1?'r1':rk===2?'r2':rk===3?'r3':''}">${rk}</span></td>
+    return {rk,pk,v,
+      html:`<tr data-pk="${esc(pk)}" data-stake="${v.stake_sol??0}" data-pct="${v.stake_pct??0}" data-comm="${v.commission_pct??0}">
+      <td><span class="rank-badge ${rk===1?'r1':rk===2?'r2':rk===3?'r3':''}">${rk}</span></td>
       <td><span class="vavatar">${esc(pk.slice(0,2).toUpperCase())}</span><span class="mono">${esc(pk.slice(0,4))}…${esc(pk.slice(-4))}</span></td>
-      <td class="num mono">${fmt(v.stake_sol,0)}</td><td class="num mono">${fmt(v.commission_pct,0)}%</td>
-      <td class="num"><span class="status-dot ok"></span>Active</td></tr>`;
-  }).join('');
-  $('valTbody').innerHTML=rows;
+      <td class="num mono">${fmt(v.stake_sol,0)}</td><td class="num mono">${fmt(v.stake_pct,2)}%</td>
+      <td class="num mono">${fmt(v.commission_pct,0)}%</td>
+      <td class="num"><span class="status-dot ok"></span>Active</td></tr>`};
+  });
+  applyValView();
+}
+function applyValView(){
+  const q=($('valFilter').value||'').toLowerCase();
+  const rows=valRows.filter(r=>!q||r.pk.toLowerCase().includes(q));
+  $('valTbody').innerHTML=rows.map(r=>r.html).join('')||'<tr><td colspan="6" style="color:var(--text-faint);text-align:center;padding:14px">No validators match “'+esc(q)+'”</td></tr>';
 }
 function renderNews(){
+  const tab=(document.querySelector('#newsTabs .tab.active')||{}).dataset?.news||'simd';
+  if(tab==='twitter'){
+    const tw=DATA.news?.twitter||{};
+    const tweets=tw.tweets||[];
+    if(!tweets.length){ $('newsList').innerHTML='<div style="color:var(--text-faint);font-size:12.5px;padding:8px 0">No tweets available'+(tw.degraded&&tw.degraded.length?` (degraded: ${esc(tw.degraded.join(', '))})`:'')+'.</div>'; return; }
+    $('newsList').innerHTML=tweets.slice(0,8).map(x=>{
+      const txt=(x.text||'').slice(0,200);
+      const url=x.id?`https://x.com/${esc(x.handle)}/status/${esc(x.id)}`:'';
+      return `<div class="news-item" ${url?`onclick="window.open('${url}','_blank')"`:''}><div class="title">@${esc(x.handle)} — ${esc(txt)}</div><div class="meta"><span class="badge teal">X</span>${relTime(x.created_at)}</div></div>`;
+    }).join('');
+    return;
+  }
   const s=DATA.news?.simd||[];
   if(!s.length){ $('newsList').innerHTML='<div style="color:var(--text-faint);font-size:12.5px;padding:8px 0">No recent SIMD proposals.</div>'; return; }
   $('newsList').innerHTML=s.slice(0,6).map(x=>{
@@ -510,7 +604,7 @@ function renderNews(){
     return `<div class="news-item" onclick="window.open('${esc(x.url)}','_blank')"><div class="title">#${x.number} ${esc(x.title)}</div><div class="meta">${badges.join('')}updated ${relTime(x.updated_at)}</div></div>`;
   }).join('');
 }
-const SRC_NAMES={rpc_health:'Solana RPC',rpc_epoch:'Solana RPC · epoch',rpc_slot:'Solana RPC · slot',rpc_block_height:'Solana RPC · height',rpc_perf:'Solana RPC · perf',rpc_votes:'Solana RPC · votes',rpc_supply:'Solana RPC · supply',rpc_fee_sampling:'RPC fee sampling',defillama_tvl:'DeFiLlama · TVL',defillama_tvl_history:'DeFiLlama · TVL history',defillama_dex:'DeFiLlama · DEX',defillama_stablecoins:'DeFiLlama · stablecoins',defillama_comparison:'DeFiLlama · multi-chain',coingecko:'CoinGecko',github_simd:'GitHub · SIMD',statuspage:'status.solana.com',dune:'Dune (optional)'};
+const SRC_NAMES={rpc_health:'Solana RPC',rpc_epoch:'Solana RPC · epoch',rpc_slot:'Solana RPC · slot',rpc_block_height:'Solana RPC · height',rpc_perf:'Solana RPC · perf',rpc_votes:'Solana RPC · votes',rpc_supply:'Solana RPC · supply',rpc_fee_sampling:'RPC fee sampling',defillama_tvl:'DeFiLlama · TVL',defillama_tvl_history:'DeFiLlama · TVL history',defillama_dex:'DeFiLlama · DEX',defillama_stablecoins:'DeFiLlama · stablecoins',defillama_comparison:'DeFiLlama · multi-chain',coingecko:'CoinGecko',github_simd:'GitHub · SIMD',statuspage:'status.solana.com',dune:'Dune Analytics',twitter:'X / Twitter'};
 function renderSources(){
   const rows=Object.entries(DATA.sources_ok||{}).map(([k,v])=>`<div class="source-row"><span class="name"><span class="status-dot ${v?'ok':'bad'}"></span>${esc(SRC_NAMES[k]||k)}</span><span class="lat">${v?'online':'failed'}</span></div>`).join('');
   $('srcList').innerHTML=rows;
@@ -540,7 +634,36 @@ function wireCrosshair(){
 }
 
 /* ---------- init ---------- */
-renderTicker(); renderTopbar(); renderAnoms(); renderKpi(); renderChart(); renderGauge(); renderDonut(); renderValidators(); renderNews(); renderSources(); wireCrosshair();
+renderTicker(); renderTopbar(); renderAnoms(); renderKpi(); renderChart(); renderGauge(); renderDonut(); renderGrowth(); renderValidators(); renderNews(); renderSources(); wireCrosshair();
+
+/* freshness ticker — keep "synced X ago" alive without a reload */
+setInterval(()=>{ const pill=$('livePill'); if(pill) pill.textContent=`Live · synced ${relTime(DATA.generated_at)}`; },30000);
+
+/* sortable validator table */
+let sortKey=null, sortAsc=false;
+document.querySelectorAll('th[data-sort]').forEach(th=>{
+  th.addEventListener('click',()=>{
+    const key=th.dataset.sort;
+    if(sortKey===key){ sortAsc=!sortAsc; } else { sortKey=key; sortAsc=true; }
+    document.querySelectorAll('th[data-sort]').forEach(x=>x.classList.remove('asc','desc'));
+    th.classList.add(sortAsc?'asc':'desc');
+    const rows=[...valRows];
+    rows.sort((a,b)=>{
+      const av=a.v[key]??0, bv=b.v[key]??0;
+      return sortAsc?av-bv:bv-av;
+    });
+    valRows=rows; applyValView();
+  });
+});
+
+/* filter validators */
+$('valFilter').addEventListener('input',applyValView);
+
+/* news tabs */
+document.querySelectorAll('#newsTabs .tab').forEach(t=>t.addEventListener('click',()=>{
+  document.querySelectorAll('#newsTabs .tab').forEach(x=>x.classList.remove('active'));
+  t.classList.add('active'); renderNews();
+}));
 
 $('chartTabs').addEventListener('click',e=>{
   const t=e.target.closest('.tab'); if(!t) return;
