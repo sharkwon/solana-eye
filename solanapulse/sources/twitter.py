@@ -1,22 +1,24 @@
 """Ecosystem / community news from key X (Twitter) accounts.
 
-Default path is keyless: the unofficial syndication endpoint
-(https://syndication.twitter.com/srv/timeline-profile/screen-name/<handle>)
-returns embeddable timeline JSON without any API key. It is best-effort and
-can stop working without notice — every handle degrades gracefully and the
-failure is recorded in the source-health table.
+Keyless by default. Source priority:
+1. **Nitter RSS** (`/solana/rss`) — public mirrors of X timelines; we try a
+   list of instances in order and use the first that responds. Rate-limited
+   instances are skipped.
+2. **Syndication endpoint** — unofficial `syndication.twitter.com` embed JSON.
+   Best-effort; often rate-limited (429) from datacenter IPs.
+3. **Official X API v2** — only when `TWITTER_BEARER_TOKEN` is set (requires
+   an approved developer account). Most stable but needs a key.
 
-Optional upgrade: set TWITTER_BEARER_TOKEN to use the official X API v2
-(users/by/username/{handle}/tweets) which is more stable but requires an
-approved developer account.
-
-Zero third-party dependencies (stdlib only), consistent with the rest of
-the project.
+Every handle degrades gracefully: failures are recorded in the source-health
+table and never kill the run. Zero third-party dependencies (stdlib only),
+consistent with the rest of the project.
 """
 
 from __future__ import annotations
 
 import os
+import re
+import xml.etree.ElementTree as ET
 from typing import Any, Optional
 
 from .. import http
@@ -32,8 +34,63 @@ DEFAULT_ACCOUNTS: list[str] = [
     "SolanaEvents",
 ]
 
+NITTER_INSTANCES: list[str] = [
+    "https://nitter.net",
+    "https://xcancel.com",
+    "https://nitter.poast.org",
+    "https://nitter.privacydev.net",
+]
+
 SYNDICATION_URL = "https://syndication.twitter.com/srv/timeline-profile/screen-name/{handle}"
 OFFICIAL_URL = "https://api.twitter.com/2/users/by/username/{handle}/tweets"
+
+_NITTER_TITLE_RE = re.compile(r"<title>(.*?)</title>", re.S)
+_NITTER_DATE_RE = re.compile(r"<pubDate>(.*?)</pubDate>", re.S)
+_NITTER_GUID_RE = re.compile(r"<guid[^>]*>(.*?)</guid>", re.S)
+
+
+def _clean_text(s: str) -> str:
+    """Strip HTML entities / tags that Nitter embeds in titles."""
+    s = re.sub(r"<[^>]+>", "", s)
+    s = s.replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">")
+    s = s.replace("&quot;", '"').replace("&#39;", "'").replace("&nbsp;", " ")
+    return s.strip()
+
+
+def _fetch_nitter(handle: str, timeout: int = 12) -> list[dict]:
+    """Fetch the RSS timeline from the first working Nitter instance."""
+    for base in NITTER_INSTANCES:
+        url = f"{base}/{handle}/rss"
+        try:
+            raw = http.request_raw(
+                url,
+                headers={"User-Agent": "Mozilla/5.0 (compatible; solana-pulse/1.0)"},
+                timeout=timeout,
+                max_retries=1,
+            )
+        except Exception:  # noqa: BLE001 — try next instance
+            continue
+        if not raw:
+            continue
+        tweets: list[dict] = []
+        for item in re.findall(r"<item>(.*?)</item>", raw, re.S):
+            title = _NITTER_TITLE_RE.search(item)
+            date = _NITTER_DATE_RE.search(item)
+            guid = _NITTER_GUID_RE.search(item)
+            text = _clean_text(title.group(1)) if title else ""
+            if not text:
+                continue
+            tweets.append(
+                {
+                    "handle": handle,
+                    "text": text,
+                    "id": guid.group(1).strip() if guid else None,
+                    "created_at": date.group(1).strip() if date else None,
+                }
+            )
+        if tweets:
+            return tweets
+    return []
 
 
 def _fetch_syndication(handle: str, timeout: int = 10) -> list[dict]:
@@ -114,11 +171,13 @@ def collect(accounts: Optional[list[str]] = None) -> dict[str, Any]:
         if TWITTER_BEARER_TOKEN:
             got = _fetch_official(handle)
         else:
-            got = _fetch_syndication(handle)
+            got = _fetch_nitter(handle)
+            if not got:
+                got = _fetch_syndication(handle)
         if got:
             tweets.extend(got)
         else:
             degraded.append(handle)
-    # Newest first.
-    tweets.sort(key=lambda t: t.get("created_at") or "", reverse=True)
+    # Newest first (Nitter dates are RFC-822; syndication ISO — sort defensively).
+    tweets.sort(key=lambda t: str(t.get("created_at") or ""), reverse=True)
     return {"tweets": tweets[:15], "degraded": degraded}

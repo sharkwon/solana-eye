@@ -36,6 +36,47 @@ def _build_request(
     return urllib.request.Request(url, data=data, headers=hdrs, method=method)
 
 
+def request_raw(
+    url: str,
+    *,
+    method: str = "GET",
+    payload: Optional[dict] = None,
+    headers: Optional[dict] = None,
+    timeout: int = 20,
+    max_retries: int = 2,
+    backoff: float = 1.5,
+) -> str:
+    """Fetch a URL and return the raw text body (non-JSON endpoints).
+
+    Returns the decoded body string. Raises RuntimeError if all retries fail.
+    """
+    last_err: Optional[Exception] = None
+    for attempt in range(max_retries + 1):
+        req = _build_request(url, method=method, payload=payload, headers=headers)
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return resp.read().decode("utf-8", errors="replace")
+        except urllib.error.HTTPError as e:
+            last_err = e
+            if e.code in (408, 429, 500, 502, 503, 504) and attempt < max_retries:
+                time.sleep(backoff * (2**attempt))
+                continue
+            raise RuntimeError(f"HTTP {e.code} for {url}: {e.reason}") from e
+        except (urllib.error.URLError, TimeoutError, OSError) as e:
+            last_err = e
+            if attempt < max_retries:
+                time.sleep(backoff * (2**attempt))
+                continue
+            raise RuntimeError(f"Request failed for {url}: {e}") from e
+        except http.client.HTTPException as e:
+            last_err = e
+            if attempt < max_retries:
+                time.sleep(backoff * (2**attempt))
+                continue
+            raise RuntimeError(f"Truncated/invalid response for {url}: {e}") from e
+    raise RuntimeError(f"Request failed for {url}: {last_err}")
+
+
 def request_json(
     url: str,
     *,

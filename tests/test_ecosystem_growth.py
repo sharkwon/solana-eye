@@ -154,32 +154,75 @@ class EcosystemAnomalyTest(unittest.TestCase):
 
 class TwitterSourceTest(unittest.TestCase):
     def test_collect_degrades_gracefully(self):
-        """No bearer token + unreachable syndication -> empty tweets, degraded list."""
+        """No bearer token + unreachable nitter/syndication -> empty, degraded."""
         import solanapulse.sources.twitter as tw
 
-        original = tw._fetch_syndication
+        original_n = tw._fetch_nitter
+        original_s = tw._fetch_syndication
+        tw._fetch_nitter = lambda handle, timeout=12: []  # noqa: E731
         tw._fetch_syndication = lambda handle, timeout=10: []  # noqa: E731
         try:
             out = tw.collect(["solana", "SolanaFndn"])
             self.assertEqual(out["tweets"], [])
             self.assertEqual(sorted(out["degraded"]), ["SolanaFndn", "solana"])
         finally:
-            tw._fetch_syndication = original
+            tw._fetch_nitter = original_n
+            tw._fetch_syndication = original_s
 
     def test_collect_sorts_newest_first(self):
         import solanapulse.sources.twitter as tw
 
-        original = tw._fetch_syndication
-        tw._fetch_syndication = lambda handle, timeout=10: [  # noqa: E731
+        original_n = tw._fetch_nitter
+        original_s = tw._fetch_syndication
+        tw._fetch_nitter = lambda handle, timeout=12: [  # noqa: E731
             {"handle": handle, "text": "old", "created_at": "2026-01-01T00:00:00Z"},
             {"handle": handle, "text": "new", "created_at": "2026-08-01T00:00:00Z"},
         ]
+        tw._fetch_syndication = lambda handle, timeout=10: []  # noqa: E731
         try:
             out = tw.collect(["solana"])
             self.assertEqual(out["tweets"][0]["text"], "new")
             self.assertEqual(out["degraded"], [])
         finally:
-            tw._fetch_syndication = original
+            tw._fetch_nitter = original_n
+            tw._fetch_syndication = original_s
+
+    def test_nitter_fallback_to_syndication(self):
+        """If nitter fails for a handle, syndication is attempted."""
+        import solanapulse.sources.twitter as tw
+
+        original_n = tw._fetch_nitter
+        original_s = tw._fetch_syndication
+        tw._fetch_nitter = lambda handle, timeout=12: []  # noqa: E731
+        tw._fetch_syndication = lambda handle, timeout=10: [  # noqa: E731
+            {"handle": handle, "text": "fallback ok", "id": "1", "created_at": None},
+        ]
+        try:
+            out = tw.collect(["solana"])
+            self.assertEqual(out["tweets"][0]["text"], "fallback ok")
+            self.assertEqual(out["degraded"], [])
+        finally:
+            tw._fetch_nitter = original_n
+            tw._fetch_syndication = original_s
+
+    def test_nitter_parser(self):
+        """Parse a realistic Nitter RSS item."""
+        import solanapulse.sources.twitter as tw
+
+        xml = ("<rss><channel><item>"
+               "<title>Pinned: Hello &amp; welcome to Solana &lt;3</title>"
+               "<pubDate>Tue, 04 Aug 2026 08:41:02 GMT</pubDate>"
+               "<guid>123456789</guid>"
+               "</item></channel></rss>")
+        original = tw.http.request_raw
+        tw.http.request_raw = lambda url, **kw: xml  # noqa: E731
+        try:
+            tweets = tw._fetch_nitter("solana")
+            self.assertEqual(len(tweets), 1)
+            self.assertEqual(tweets[0]["text"], "Pinned: Hello & welcome to Solana <3")
+            self.assertEqual(tweets[0]["id"], "123456789")
+        finally:
+            tw.http.request_raw = original
 
 
 if __name__ == "__main__":

@@ -39,8 +39,8 @@ news sources. This project pulls it all into one automatically-refreshing view:
 │  ├─ defillama.py  TVL · DEX volume · stablecoins · TVL history  │
 │  ├─ coingecko.py  SOL price + 24h change                        │
 │  ├─ simd_news.py  GitHub SIMD proposals · status.solana.com     │
-│  ├─ twitter.py    X/Twitter community news (keyless syndication │
-│  │                + optional TWITTER_BEARER_TOKEN upgrade)      │
+│  ├─ twitter.py    X/Twitter community news (Nitter RSS keyless,  │
+│  │                multi-instance failover + optional bearer)     │
 │  └─ dune.py       DAU + tokenized equities (DUNE_API_KEY)       │
 │                                                                │
 │  metrics.py       raw data → computed metrics (pure functions)  │
@@ -97,7 +97,7 @@ systemctl --user list-timers solana-eye.timer
 | DeFiLlama | `api.llama.fi` · `stablecoins.llama.fi` | no | TVL (+history), DEX volume, stablecoin supply |
 | CoinGecko | `api.coingecko.com/api/v3` | no | SOL price, 24h change |
 | GitHub | `api.github.com/repos/solana-foundation/simd` | no | active SIMD proposals |
-| X / Twitter | `syndication.twitter.com` (keyless) · `api.twitter.com/2` (optional) | `TWITTER_BEARER_TOKEN` env (optional) | community news from @solana, @SolanaFndn, @SolanaFloor, … |
+| X / Twitter | Nitter RSS (`nitter.net`, keyless) · `api.twitter.com/2` (optional) | `TWITTER_BEARER_TOKEN` env (optional) | community news from @solana, @SolanaFndn, @SolanaFloor, … |
 | status.solana.com | statuspage API | no | incident status |
 | Dune (optional) | `api.dune.com/api/v1` | `DUNE_API_KEY` env | daily active addresses, tokenized equities volume/AUM |
 
