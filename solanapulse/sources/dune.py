@@ -77,6 +77,7 @@ def collect(queries: Optional[dict[str, int]] = None) -> dict[str, Any]:
             or last.get("n_signers")
             or last.get("unique_signers")
             or last.get("daily_active_addresses")
+            or last.get("daily_active_wallets")
         )
         out["dau"] = {
             "available": value is not None,

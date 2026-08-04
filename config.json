@@ -92,7 +92,7 @@
       "enabled": true,
       "api_key_env": "DUNE_API_KEY",
       "queries": {
-        "dau": 576193,
+        "dau": 5941260,
         "tokenized": 0
       }
     },
