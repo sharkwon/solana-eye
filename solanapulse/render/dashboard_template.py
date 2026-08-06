@@ -495,7 +495,14 @@ function humanize(k){
     .replace(/([a-z0-9])([A-Z])/g,'$1 $2')
     .split('_')
     .map(w=>w.charAt(0).toUpperCase()+w.slice(1))
-    .join(' ');
+    .join(' ')
+    .replace(/\\bTps\\b/g,'TPS')
+    .replace(/\\bTvl\\b/g,'TVL')
+    .replace(/\\bUsd\\b/g,'USD')
+    .replace(/\\bSol\\b/g,'SOL')
+    .replace(/\\bDex\\b/g,'DEX')
+    .replace(/\\bCpu\\b/g,'CPU')
+    .replace(/\\bRpc\\b/g,'RPC');
 }
 function renderAnoms(){
   const anoms=DATA.anomalies||[];
@@ -568,7 +575,7 @@ function renderGauge(){
   if(!hs){ $('gaugeWrap').innerHTML='<div style="color:var(--text-faint);font-size:12px">n/a</div>'; $('sideHealth').innerHTML=''; return; }
   $('gaugeWrap').innerHTML=`
     <div class="gauge">${gaugeSVG(hs.score)}<div class="gc"><div class="n">${hs.score}</div><div class="l" style="color:${gradeColor[hs.grade]}">${hs.grade}</div></div></div>
-    <div class="glist">${Object.entries(hs.components).map(([k,v])=>`<div class="grow"><span class="k">${k}</span><div class="bar"><i data-w="${v}"></i></div><span class="v">${v}</span></div>`).join('')}</div>`;
+    <div class="glist">${Object.entries(hs.components).map(([k,v])=>`<div class="grow"><span class="k">${esc(humanize(k))}</span><div class="bar"><i data-w="${v}"></i></div><span class="v">${v}</span></div>`).join('')}</div>`;
   document.querySelectorAll('.glist .bar i').forEach(el=>{const w=el.dataset.w;requestAnimationFrame(()=>setTimeout(()=>el.style.width=w+'%',80))});
   $('sideHealth').innerHTML=`${gaugeSVG(hs.score,52,6)}<div><div class="t">Health</div><div class="s">${hs.score}</div><div class="g" style="color:${gradeColor[hs.grade]}">${hs.grade}</div></div>`;
 }
@@ -598,7 +605,7 @@ function renderGrowth(){
   const holV=tok.available&&tok.holders!=null?fmt(tok.holders,0):'n/a';
   $('growthGrid').innerHTML=[
     `<div class="growth-card"><div class="gc-label">Daily Active Addresses</div><div class="gc-value ${dau.available?'':'na'}">${dauV}</div><div class="gc-sub">source: ${esc(dau.source||'dune')}</div></div>`,
-    `<div class="growth-card"><div class="gc-label">Tokenized Equities Vol (24h)</div><div class="gc-value ${tok.available?'':'na'}">${tokV}</div><div class="gc-sub">source: ${esc(tok.source||'dune')}</div></div>`,
+    `<div class="growth-card"><div class="gc-label">Tokenized Equities Vol 30d</div><div class="gc-value ${tok.available?'':'na'}">${tokV}</div><div class="gc-sub">source: ${esc(tok.source||'dune')}</div></div>`,
     `<div class="growth-card"><div class="gc-label">Tokenized Equities AUM</div><div class="gc-value ${tok.available?'':'na'}">${aumV}</div><div class="gc-sub">source: ${esc(tok.source||'dune')}</div></div>`,
     `<div class="growth-card"><div class="gc-label">Tokenized Equities Holders</div><div class="gc-value ${tok.available?'':'na'}">${holV}</div><div class="gc-sub">source: ${esc(tok.source||'dune')}</div></div>`,
   ].join('');
@@ -644,7 +651,7 @@ function renderTwitter(){
     return `<div class="news-item" ${url?`onclick="window.open('${url}','_blank')"`:''}><div class="title">@${esc(x.handle)} — ${esc(txt)}</div><div class="meta"><span class="badge teal">X</span>${relTime(x.created_at)}</div></div>`;
   }).join('');
 }
-const SRC_NAMES={rpc_health:'Solana RPC',rpc_epoch:'Solana RPC · epoch',rpc_slot:'Solana RPC · slot',rpc_block_height:'Solana RPC · height',rpc_perf:'Solana RPC · perf',rpc_votes:'Solana RPC · votes',rpc_supply:'Solana RPC · supply',rpc_fee_sampling:'RPC fee sampling',defillama_tvl:'DeFiLlama · TVL',defillama_tvl_history:'DeFiLlama · TVL history',defillama_dex:'DeFiLlama · DEX',defillama_stablecoins:'DeFiLlama · stablecoins',defillama_comparison:'DeFiLlama · multi-chain',coingecko:'CoinGecko',github_simd:'GitHub · SIMD',statuspage:'status.solana.com',dune:'Dune Analytics',twitter:'X / Twitter'};
+const SRC_NAMES={rpc_health:'Solana RPC',rpc_epoch:'Solana RPC · epoch',rpc_slot:'Solana RPC · slot',rpc_block_height:'Solana RPC · height',rpc_perf:'Solana RPC · perf',rpc_votes:'Solana RPC · votes',rpc_supply:'Solana RPC · supply',rpc_fee_sampling:'RPC fee sampling',defillama_tvl:'DeFiLlama · TVL',defillama_tvl_history:'DeFiLlama · TVL history',defillama_dex:'DeFiLlama · DEX',defillama_stablecoins:'DeFiLlama · stablecoins',defillama_comparison:'DeFiLlama · multi-chain',coingecko:'CoinGecko',github_simd:'GitHub · SIMD',statuspage:'status.solana.com',dune:'Dune Analytics',twitter:'X / Twitter',solana_news:'Solana News',upgrade_radar:'Upgrade radar'};
 function renderSources(){
   const rows=Object.entries(DATA.sources_ok||{}).map(([k,v])=>`<div class="source-row"><span class="name"><span class="status-dot ${v?'ok':'bad'}"></span>${esc(SRC_NAMES[k]||k)}</span><span class="lat">${v?'online':'failed'}</span></div>`).join('');
   $('srcList').innerHTML=rows;

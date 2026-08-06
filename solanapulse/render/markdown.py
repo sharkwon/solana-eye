@@ -35,7 +35,10 @@ def _humanize(k: Any) -> str:
         return ""
     import re
     s = re.sub(r"([a-z0-9])([A-Z])", r"\1 \2", str(k))
-    return " ".join(w.capitalize() for w in s.split("_") if w)
+    out = " ".join(w.capitalize() for w in s.split("_") if w)
+    for acr in ("TPS", "TVL", "USD", "SOL", "DEX", "CPU", "RPC"):
+        out = re.sub(rf"\b{acr.capitalize()}\b", acr, out)
+    return out
 
 
 def render_markdown(report: dict[str, Any]) -> str:
