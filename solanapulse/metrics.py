@@ -6,6 +6,7 @@ Everything here is pure computation (no I/O) so it is trivially unit-testable.
 from __future__ import annotations
 
 import statistics
+import time
 from typing import Any, Optional
 
 LAMPORTS_PER_SOL = 1_000_000_000
@@ -167,7 +168,7 @@ def compute_metrics(raw: dict[str, Any], top_validators: int = 20) -> dict[str, 
     tvl_now = raw.get("tvl")
     tvl_24h_ago = None
     if tvl_hist:
-        target = __import__("time").time() - 86400
+        target = time.time() - 86400
         nearest = min(tvl_hist, key=lambda p: abs((p.get("ts") or 0) - target))
         tvl_24h_ago = nearest.get("tvl")
     m["economics"] = {
@@ -212,6 +213,11 @@ def compute_metrics(raw: dict[str, Any], top_validators: int = 20) -> dict[str, 
     # --- ecosystem / community news (X/Twitter) --------------------------------------
     tw = raw.get("twitter") or {}
     m["twitter"] = {"tweets": tw.get("tweets") or [], "degraded": tw.get("degraded") or []}
+
+    # --- upgrade radar (Alpenglow, watched SIMDs, Agave releases) --------------------
+    m["upgrades"] = raw.get("upgrades") or {
+        "keyword_hits": [], "watchlist": [], "agave_releases": [], "available": False
+    }
 
     return m
 

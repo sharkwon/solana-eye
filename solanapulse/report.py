@@ -45,6 +45,7 @@ def build_report(
             "twitter": metrics.get("twitter") or {},
         },
         "status_page": metrics.get("status_page"),
+        "upgrades": metrics.get("upgrades") or {},
         "health_score": metrics.get("health_score"),
         "comparison": metrics.get("comparison") or {},
         "baselines": metrics.get("baselines") or {},

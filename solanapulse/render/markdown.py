@@ -46,7 +46,7 @@ def render_markdown(report: dict[str, Any]) -> str:
     if anomalies:
         lines.append("## ⚠️ Anomalies Detected")
         for a in anomalies:
-            lines.append(f"- {sev_icons.get(a['severity'], '•')} **{a['metric']}**: {a['message']}")
+            lines.append(f"- {sev_icons.get(a['severity'], '•')} {a['metric']}: {a['message']}")
         lines.append("")
     else:
         lines.append("## ✅ No Anomalies Detected")
@@ -57,7 +57,7 @@ def render_markdown(report: dict[str, Any]) -> str:
     if hs:
         lines.append("## ❤️ Solana Health Score")
         lines.append("")
-        lines.append(f"**{hs.get('score')}/100 — {str(hs.get('grade', '')).upper()}** "
+        lines.append(f"{hs.get('score')}/100 — {str(hs.get('grade', '')).upper()} "
                      "(weighted blend of TPS, slot time, validator health, TVL/price trend, status page)")
         lines.append("")
         lines.append("| Component | Score |")
@@ -85,7 +85,7 @@ def render_markdown(report: dict[str, Any]) -> str:
 
     lines.append("### Epoch")
     lines.append("")
-    lines.append(f"- **Epoch {ep.get('number')}** — {_fmt(ep.get('progress_pct'))}% complete "
+    lines.append(f"- Epoch {ep.get('number')} — {_fmt(ep.get('progress_pct'))}% complete "
                  f"({_fmt(ep.get('slot_index'), 0)}/{_fmt(ep.get('slots_in_epoch'), 0)} slots)")
     lines.append(f"- Slots remaining: {_fmt(ep.get('slots_remaining'), 0)}")
     lines.append(f"- Total transactions (all-time): {_fmt(ep.get('transaction_count'), 0)}")
@@ -102,7 +102,7 @@ def render_markdown(report: dict[str, Any]) -> str:
     lines.append(f"| Delinquent stake | {_fmt(val.get('delinquent_stake_sol'), 0)} SOL "
                  f"({_fmt(val.get('delinquent_stake_pct'))}%) |")
     lines.append(f"| Avg commission | {_fmt(val.get('avg_commission_pct'))}% |")
-    lines.append(f"| **Nakamoto coefficient** | **{_fmt(val.get('nakamoto_coefficient'), 0)}** "
+    lines.append(f"| Nakamoto coefficient | {_fmt(val.get('nakamoto_coefficient'), 0)} "
                  f"(validators controlling >33% of active stake) |")
     lines.append("")
     top = val.get("top_by_stake") or []
@@ -113,7 +113,7 @@ def render_markdown(report: dict[str, Any]) -> str:
         lines.append("|---|---|---|---|---|")
         for i, tv in enumerate(top, 1):
             pk = (tv.get("pubkey") or "")[:8] + "…"
-            lines.append(f"| {i} | `{pk}` | {_fmt(tv.get('stake_sol'), 0)} | "
+            lines.append(f"| {i} | {pk} | {_fmt(tv.get('stake_sol'), 0)} | "
                          f"{_fmt(tv.get('stake_pct'))}% | {_fmt(tv.get('commission_pct'))}% |")
         lines.append("")
 
@@ -149,10 +149,10 @@ def render_markdown(report: dict[str, Any]) -> str:
         tok_vol = f"${tok.get('volume_usd'):,.0f}" if tok.get("available") and tok.get("volume_usd") is not None else "n/a"
         tok_aum = f"${tok.get('aum_usd'):,.0f}" if tok.get("available") and tok.get("aum_usd") is not None else "n/a"
         tok_hold = f"{tok.get('holders'):,}" if tok.get("available") and tok.get("holders") is not None else "n/a"
-        lines.append(f"- **Daily Active Addresses:** {dau_val}")
-        lines.append(f"- **Tokenized Equities Volume (24h):** {tok_vol}")
-        lines.append(f"- **Tokenized Equities AUM:** {tok_aum}")
-        lines.append(f"- **Tokenized Equities Holders:** {tok_hold}")
+        lines.append(f"- Daily Active Addresses: {dau_val}")
+        lines.append(f"- Tokenized Equities Volume (24h): {tok_vol}")
+        lines.append(f"- Tokenized Equities AUM: {tok_aum}")
+        lines.append(f"- Tokenized Equities Holders: {tok_hold}")
         lines.append("")
 
     # --- cross-chain comparison ---
@@ -190,7 +190,7 @@ def render_markdown(report: dict[str, Any]) -> str:
         lines.append("")
         for s in simd[:8]:
             labels = ", ".join(s.get("labels") or []) or "—"
-            lines.append(f"- **#{s.get('number')} {s.get('title')}** (labels: {labels}) — [link]({s.get('url')})")
+            lines.append(f"- #{s.get('number')} {s.get('title')} (labels: {labels}) — [link]({s.get('url')})")
         lines.append("")
 
     # --- ecosystem / community news (X/Twitter) ---
@@ -202,17 +202,45 @@ def render_markdown(report: dict[str, Any]) -> str:
         for t in tweets[:8]:
             handle = t.get("handle") or "?"
             text = (t.get("text") or "").replace("\n", " ")[:180]
-            lines.append(f"- **@{handle}**: {text}")
+            lines.append(f"- @{handle}: {text}")
         if tw.get("degraded"):
             lines.append("")
             lines.append(f"_Degraded (no data): {', '.join(tw['degraded'])}_")
         lines.append("")
 
+    # --- upgrade radar ---
+    up = report.get("upgrades") or {}
+    if up.get("available"):
+        lines.append("## Upgrade Radar")
+        lines.append("")
+        lines.append("_Upcoming protocol upgrades tracked from the SIMD repo (keyless)._")
+        lines.append("")
+        seen: set = set()
+        items = (up.get("watchlist") or []) + (up.get("keyword_hits") or [])
+        if items:
+            for u in items[:10]:
+                if u.get("number") in seen:
+                    continue
+                seen.add(u.get("number"))
+                state = (u.get("state") or "").upper()
+                tag = f"[{u['keyword']}] " if u.get("keyword") not in (None, "watchlist") else ""
+                lines.append(f"- SIMD #{u.get('number')} — {u.get('title')} ({state}) {tag}— [link]({u.get('url')})")
+            lines.append("")
+        rel = up.get("agave_releases") or []
+        if rel:
+            lines.append("Latest Agave client releases:")
+            lines.append("")
+            for r in rel:
+                pre = " (pre-release)" if r.get("prerelease") else ""
+                date = (r.get("published_at") or "")[:10]
+                lines.append(f"- {r.get('name')}{pre} — {date} — [link]({r.get('url')})")
+            lines.append("")
+
     sp = report.get("status_page") or {}
     if sp:
         lines.append("## Network Status")
         lines.append("")
-        lines.append(f"- {sp.get('page_name')}: **{sp.get('indicator')}** — {sp.get('description')}")
+        lines.append(f"- {sp.get('page_name')}: {sp.get('indicator')} — {sp.get('description')}")
         lines.append("")
 
     # --- sources ---

@@ -70,7 +70,7 @@ def collect(cfg: dict) -> tuple[dict, dict]:
     fees: list[int] = []
     blocks = 0
     try:
-        latest = raw.get("rpc_slot") or rpc.get_slot()
+        latest = raw.get("slot") or rpc.get_slot()
         # sample every 2nd slot: adjacent blocks are near-identical, this halves
         # the chance of hitting an oversized block and the RPC load
         for s in range(latest - 2 * cfg["collect"]["fee_sample_blocks"], latest + 1, 2):
@@ -166,6 +166,18 @@ def collect(cfg: dict) -> tuple[dict, dict]:
             ok["dune"] = False
             print(f"  [!] dune failed: {e}", file=sys.stderr)
 
+    # --- official solana.com news (keyless RSS, with images) ---
+    if cfg["sources"].get("solana_news", True):
+        try:
+            from solanapulse.sources import solana_news as sn_mod
+
+            raw["solana_news"] = sn_mod.collect(cfg.get("collect", {}).get("solana_news_items", 9))
+            ok["solana_news"] = raw["solana_news"] is not None
+        except Exception as e:  # noqa: BLE001
+            raw["solana_news"] = None
+            ok["solana_news"] = False
+            print(f"  [!] solana_news failed: {e}", file=sys.stderr)
+
     # --- ecosystem/community news (X/Twitter, keyless) ---
     if cfg["sources"].get("twitter", True):
         try:
@@ -184,6 +196,18 @@ def collect(cfg: dict) -> tuple[dict, dict]:
             raw["twitter"] = {"tweets": [], "degraded": []}
             ok["twitter"] = False
             print(f"  [!] twitter failed: {e}", file=sys.stderr)
+
+    # --- upgrade radar: upcoming protocol upgrades (keyless GitHub) ---
+    if cfg["sources"].get("upgrades", True):
+        try:
+            from solanapulse.sources import upgrades as upgrades_mod
+
+            raw["upgrades"] = upgrades_mod.collect((cfg.get("sources") or {}).get("upgrades_cfg"))
+            ok["upgrade_radar"] = bool(raw["upgrades"].get("available"))
+        except Exception as e:  # noqa: BLE001
+            raw["upgrades"] = {"keyword_hits": [], "watchlist": [], "agave_releases": [], "available": False}
+            ok["upgrade_radar"] = False
+            print(f"  [!] upgrade radar failed: {e}", file=sys.stderr)
 
     raw["sources_ok"] = ok
     return raw, ok
