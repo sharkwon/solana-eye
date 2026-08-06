@@ -188,6 +188,7 @@ def compute_metrics(raw: dict[str, Any], top_validators: int = 20) -> dict[str, 
     # --- news / status ---------------------------------------------------------------
     m["status_page"] = raw.get("status") or {}
     m["simd"] = raw.get("simd") or []
+    m["solana_news"] = raw.get("solana_news") or []
     m["sources_ok"] = raw.get("sources_ok") or {}
     m["comparison"] = raw.get("comparison") or {}
 

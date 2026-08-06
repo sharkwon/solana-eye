@@ -23,6 +23,18 @@ import time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+# Load .env (keyless-style: plain KEY=VALUE lines) if present — optional keys
+# like DUNE_API_KEY / TWITTER_BEARER_TOKEN live there locally and as GH secrets in CI.
+_env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
+if os.path.exists(_env_path):
+    with open(_env_path, encoding="utf-8") as _f:
+        for _line in _f:
+            _line = _line.strip()
+            if not _line or _line.startswith("#") or "=" not in _line:
+                continue
+            _k, _v = _line.split("=", 1)
+            os.environ.setdefault(_k.strip(), _v.strip())
+
 from solanapulse import store
 from solanapulse import anomaly as anomaly_mod
 from solanapulse.metrics import compute_metrics

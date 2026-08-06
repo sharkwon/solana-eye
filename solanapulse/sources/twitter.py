@@ -57,6 +57,31 @@ def _clean_text(s: str) -> str:
     return s.strip()
 
 
+_RT_RE = re.compile(r"^(RT\b|RT by\b|Reposted by\b|Retweeted by\b|R to\b)", re.I)
+_REPLY_RE = re.compile(r"^[.·•]?\s*@[\w]+")
+_SPAM_RE = re.compile(r"(click here|sign up now|subscribe to|sponsor|full episode)", re.I)
+
+
+def _is_useful_tweet(text: str) -> bool:
+    """Keep only original news posts — drop retweets, replies, and junk."""
+    if not text:
+        return False
+    t = text.strip()
+    if len(t) < 10:
+        return False
+    if _RT_RE.match(t):
+        return False
+    # A reply is a leading @mention (but a normal post may quote-@ later)
+    if _REPLY_RE.match(t) and not re.search(r"\n", t):
+        return False
+    if _SPAM_RE.search(t):
+        return False
+    # Thread continuation (ends mid-sentence with "..." or contains "thread 🧵")
+    if re.search(r"(thread|🧵|\b1/|\.\.\.\s*$)", t, re.I):
+        return False
+    return True
+
+
 def _fetch_nitter(handle: str, timeout: int = 12) -> list[dict]:
     """Fetch the RSS timeline from the first working Nitter instance."""
     for base in NITTER_INSTANCES:
@@ -175,7 +200,7 @@ def collect(accounts: Optional[list[str]] = None) -> dict[str, Any]:
             if not got:
                 got = _fetch_syndication(handle)
         if got:
-            tweets.extend(got)
+            tweets.extend([t for t in got if _is_useful_tweet(t.get("text") or "")])
         else:
             degraded.append(handle)
     # Newest first (Nitter dates are RFC-822; syndication ISO — sort defensively).

@@ -43,6 +43,7 @@ def build_report(
         "news": {
             "simd": metrics.get("simd") or [],
             "twitter": metrics.get("twitter") or {},
+            "solana_news": metrics.get("solana_news") or [],
         },
         "status_page": metrics.get("status_page"),
         "upgrades": metrics.get("upgrades") or {},

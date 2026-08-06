@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import time
 from typing import Any
 
 
@@ -28,6 +29,15 @@ def _pct(x: Any) -> str:
     return f"{x:+.2f}%" if isinstance(x, (int, float)) else str(x)
 
 
+def _humanize(k: Any) -> str:
+    """snake_case / camelCase key -> Title Case for display."""
+    if not k:
+        return ""
+    import re
+    s = re.sub(r"([a-z0-9])([A-Z])", r"\1 \2", str(k))
+    return " ".join(w.capitalize() for w in s.split("_") if w)
+
+
 def render_markdown(report: dict[str, Any]) -> str:
     net = report["network"]
     val = report["validators"]
@@ -46,7 +56,7 @@ def render_markdown(report: dict[str, Any]) -> str:
     if anomalies:
         lines.append("## ⚠️ Anomalies Detected")
         for a in anomalies:
-            lines.append(f"- {sev_icons.get(a['severity'], '•')} {a['metric']}: {a['message']}")
+            lines.append(f"- {sev_icons.get(a['severity'], '•')} {_humanize(a['metric'])}: {a['message']}")
         lines.append("")
     else:
         lines.append("## ✅ No Anomalies Detected")
@@ -191,6 +201,17 @@ def render_markdown(report: dict[str, Any]) -> str:
         for s in simd[:8]:
             labels = ", ".join(s.get("labels") or []) or "—"
             lines.append(f"- #{s.get('number')} {s.get('title')} (labels: {labels}) — [link]({s.get('url')})")
+        lines.append("")
+
+    # --- Solana news (official, with direct links) ---
+    sol = report["news"].get("solana_news") or []
+    if sol:
+        lines.append("## Solana News")
+        lines.append("")
+        for s in sol[:8]:
+            when = f" — {time.strftime('%Y-%m-%d', time.gmtime(s['published_ts']))}" if s.get("published_ts") else ""
+            img = " 🖼️" if s.get("image") else ""
+            lines.append(f"- [{s.get('title')}]({s.get('url')}){img}{when}")
         lines.append("")
 
     # --- ecosystem / community news (X/Twitter) ---

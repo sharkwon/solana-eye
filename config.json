@@ -93,7 +93,9 @@
       "api_key_env": "DUNE_API_KEY",
       "queries": {
         "dau": 5941260,
-        "tokenized": 0
+        "tokenized_volume": 7750330,
+        "tokenized_aum": 7750327,
+        "tokenized_holders": 7750444
       }
     },
     "twitter": true,

@@ -24,11 +24,15 @@ from .. import http
 API = "https://api.dune.com/api/v1"
 
 # Canonical query ids (overridable via config `sources.dune.queries`):
-#   dau            — Solana Daily Active Addresses
-#   tokenized      — Tokenized equities (xStocks) volume / AUM on Solana
+#   dau                — Solana Daily Active Addresses
+#   tokenized_volume   — Tokenized equities 30d volume (xStocks, stocks only)
+#   tokenized_aum      — Tokenized equities total TVL/AUM (xStocks + Ondo GM)
+#   tokenized_holders  — Tokenized equities unique holders (cross-chain aggregate)
 DEFAULT_QUERIES: dict[str, int] = {
-    "dau": 576193,
-    "tokenized": 0,  # TODO: replace with a valid query id from dune.com/xstocks
+    "dau": 5941260,
+    "tokenized_volume": 7750330,
+    "tokenized_aum": 7750327,
+    "tokenized_holders": 7750444,
 }
 
 
@@ -87,19 +91,31 @@ def collect(queries: Optional[dict[str, int]] = None) -> dict[str, Any]:
     else:
         out["dau"] = {"available": False, "value": None, "raw": None}
 
-    tok_rows = _fetch_latest_result(int(q.get("tokenized") or 0))
-    if tok_rows:
-        last = tok_rows[-1]
+    # Tokenized equities come from up to three separate queries (volume,
+    # AUM/TVL, holders). Accept legacy "tokenized" (single query) too.
+    vol_rows = _fetch_latest_result(int(q.get("tokenized_volume") or q.get("tokenized") or 0))
+    aum_rows = _fetch_latest_result(int(q.get("tokenized_aum") or 0))
+    hold_rows = _fetch_latest_result(int(q.get("tokenized_holders") or 0))
+    vol = vol_rows[-1] if vol_rows else {}
+    aum = aum_rows[-1] if aum_rows else {}
+    hold = hold_rows[-1] if hold_rows else {}
+    volume_usd = (
+        vol.get("volume_usd")
+        or vol.get("total_volume")
+        or vol.get("transaction_volume")
+        or vol.get("total_volume_30d_usd")
+    )
+    aum_usd = aum.get("aum_usd") or aum.get("total_aum") or aum.get("total_tvl_usd") or aum.get("tvl_total_usd")
+    holders = hold.get("holders") or hold.get("unique_holders")
+    if vol_rows or aum_rows or hold_rows:
         out["tokenized"] = {
             "available": True,
-            "volume_usd": (
-                last.get("volume_usd")
-                or last.get("total_volume")
-                or last.get("transaction_volume")
-            ),
-            "aum_usd": last.get("aum_usd") or last.get("total_aum"),
-            "holders": last.get("holders") or last.get("unique_holders"),
-            "raw": tok_rows[-1:],
+            "volume_usd": volume_usd,
+            "aum_usd": aum_usd,
+            "holders": holders,
+            "raw": {"volume": vol_rows[-1:] if vol_rows else None,
+                    "aum": aum_rows[-1:] if aum_rows else None,
+                    "holders": hold_rows[-1:] if hold_rows else None},
         }
     else:
         out["tokenized"] = {

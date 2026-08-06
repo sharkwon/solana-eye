@@ -256,6 +256,38 @@ TEMPLATE = """<!DOCTYPE html>
   .badge{display:inline-block;font-size:9.5px;font-weight:600;letter-spacing:.06em;padding:3px 8px;border-radius:6px;background:var(--ink);color:var(--t3);margin-right:7px;text-transform:uppercase;border:1px solid var(--line)}
   .badge.teal{background:rgba(20,241,178,.09);color:var(--teal);border-color:rgba(20,241,178,.25)}
   .badge.violet{background:rgba(153,69,255,.11);color:#C79BFF;border-color:rgba(153,69,255,.3)}
+
+  /* Blockworks-style editorial news */
+  .news-editorial{display:flex;flex-direction:column;gap:18px}
+  .news-featured{display:block;cursor:pointer;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:var(--ink);transition:.2s var(--ease);text-decoration:none}
+  .news-featured:hover{transform:translateY(-2px);border-color:rgba(20,241,178,.35);box-shadow:0 14px 40px -18px rgba(20,241,178,.25)}
+  .news-featured .thumb{width:100%;aspect-ratio:16/7;object-fit:cover;display:block;background:linear-gradient(135deg,rgba(20,241,178,.12),rgba(153,69,255,.12))}
+  .news-featured .body{padding:16px 18px 18px}
+  .news-featured .kicker{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--teal);margin-bottom:8px}
+  .news-featured h4{font-size:19px;font-weight:700;line-height:1.3;color:var(--t1);margin:0 0 10px;letter-spacing:-.01em}
+  .news-featured:hover h4{color:var(--teal)}
+  .news-featured .desc{font-size:12.5px;line-height:1.55;color:var(--t3);margin-bottom:12px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .news-featured .meta{color:var(--t4);font-family:var(--font-m);font-size:10.5px;display:flex;align-items:center;gap:8px}
+  .news-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .news-card{display:flex;gap:12px;padding:11px;border:1px solid var(--line);border-radius:12px;background:var(--ink);cursor:pointer;transition:.18s var(--ease);text-decoration:none;min-width:0}
+  .news-card:hover{border-color:rgba(20,241,178,.35);background:rgba(148,163,196,.04);transform:translateY(-1px)}
+  .news-card .thumb{width:74px;height:74px;flex:none;border-radius:9px;object-fit:cover;background:linear-gradient(135deg,rgba(20,241,178,.1),rgba(153,69,255,.1))}
+  .news-card .cbody{min-width:0;display:flex;flex-direction:column;gap:5px}
+  .news-card .ctitle{font-size:12.5px;font-weight:600;line-height:1.4;color:var(--t1);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .news-card:hover .ctitle{color:var(--teal)}
+  .news-card .cmeta{font-family:var(--font-m);font-size:9.5px;color:var(--t4);letter-spacing:.03em}
+  @media(max-width:640px){.news-grid{grid-template-columns:1fr}}
+
+  /* source health — collapsed by default, expandable on demand */
+  details.src-health{margin-top:26px;border:1px dashed var(--line-2);border-radius:12px;background:rgba(148,163,196,.02)}
+  details.src-health summary{cursor:pointer;padding:12px 16px;font-size:12px;font-weight:600;color:var(--t3);letter-spacing:.05em;user-select:none;list-style:none;display:flex;align-items:center;gap:8px}
+  details.src-health summary::-webkit-details-marker{display:none}
+  details.src-health summary::before{content:'▸';color:var(--t4);font-size:11px;transition:.15s}
+  details.src-health[open] summary::before{transform:rotate(90deg)}
+  details.src-health summary:hover{color:var(--t1)}
+  details.src-health summary .mono{font-size:10px;color:var(--t4);margin-left:auto}
+  details.src-health #srcList{padding:0 16px 14px;max-height:320px;overflow:auto}
+  details.src-health .src{font-size:12px}
   .src{display:flex;align-items:center;justify-content:space-between;padding:11px 4px;border-bottom:1px solid var(--line);font-size:12.5px}
   .src:last-child{border-bottom:none}
   .src .name{display:flex;align-items:center;color:var(--t2)}
@@ -420,28 +452,8 @@ TEMPLATE = """<!DOCTYPE html>
   </div>
 
 
-  <!-- NEWS + SOURCES -->
-  <div class="sec-head rv" id="news"><h2><span class="idx">05</span>Intelligence Feed</h2><span class="note">SIMD proposals &middot; X / Twitter</span></div>
-  <div class="grid-21">
-    <div class="panel rv">
-      <div class="panel-head">
-        <h3>Ecosystem News</h3>
-        <div class="tabs" id="newsTabs">
-          <div class="tab active" data-news="simd">SIMD</div>
-          <div class="tab" data-news="twitter">X / Twitter</div>
-        </div>
-      </div>
-      <div id="newsList"></div>
-    </div>
-    <div class="panel rv" id="sources" style="--d:.06s">
-      <div class="panel-head"><h3>Data Source Health</h3></div>
-      <div id="srcList"></div>
-    </div>
-  </div>
-
-
   <!-- UPGRADE RADAR -->
-  <div class="sec-head rv" id="upgrades"><h2><span class="idx">06</span>Upgrade Radar</h2><span class="note">Alpenglow &middot; watched SIMDs &middot; Agave releases</span></div>
+  <div class="sec-head rv" id="upgrades"><h2><span class="idx">05</span>Upgrade Radar</h2><span class="note">Alpenglow &middot; watched SIMDs &middot; Agave releases</span></div>
   <div class="up-grid">
     <div class="panel rv">
       <div class="panel-head"><h3>Upcoming Protocol Upgrades</h3><span class="note" id="upNote">SIMD repo scan</span></div>
@@ -452,6 +464,26 @@ TEMPLATE = """<!DOCTYPE html>
       <div id="relList"></div>
     </div>
   </div>
+
+  <!-- COMMUNITY NEWS (Blockworks-style editorial, bottom of dashboard) -->
+  <div class="sec-head rv" id="news"><h2><span class="idx">06</span>Community News</h2><span class="note">Solana News &middot; SIMD &middot; X / Twitter</span></div>
+  <div class="panel rv">
+    <div class="panel-head">
+      <h3>Latest from Solana &amp; the ecosystem</h3>
+      <div class="tabs" id="newsTabs">
+        <div class="tab active" data-news="solana">News</div>
+        <div class="tab" data-news="simd">SIMD</div>
+        <div class="tab" data-news="twitter">X / Twitter</div>
+      </div>
+    </div>
+    <div id="newsList"></div>
+  </div>
+
+  <!-- SOURCE HEALTH (collapsed by default; expandable on demand) -->
+  <details class="rv src-health" id="sources" style="--d:.08s">
+    <summary>Data Source Health <span class="mono" id="srcCount"></span></summary>
+    <div id="srcList"></div>
+  </details>
 
 
   <footer class="rv">
@@ -589,6 +621,14 @@ function renderHealth(){
 
 
 /* ---- anomalies ---- */
+function humanize(k){
+  if(!k) return '';
+  return String(k)
+    .replace(/([a-z0-9])([A-Z])/g,'$1 $2')
+    .split('_')
+    .map(w=>w.charAt(0).toUpperCase()+w.slice(1))
+    .join(' ');
+}
 function renderAnoms(){
   const anoms=DATA.anomalies||[];
   $('anomNote').textContent=anoms.length?anoms.length+' active signal'+(anoms.length>1?'s':''):'all systems nominal';
@@ -598,7 +638,7 @@ function renderAnoms(){
   $('anoms').innerHTML=anoms.map(a=>{
     const v=a.value!=null?` <span class="mono">${esc(String(a.value))}</span>`:'';
     const z=a.z!=null?` <span class="mono" style="color:var(--violet)">z=${fmt(a.z,2)}</span>`:'';
-    return `<div class="chip ${sevMap[a.severity]||''}" title="${esc(a.message)}">${sevIcon[a.severity]||ICONS.info}<b>${esc(a.metric)}</b>&nbsp;${esc(a.message)}${v}${z}</div>`;
+    return `<div class="chip ${sevMap[a.severity]||''}" title="${esc(a.message)}">${sevIcon[a.severity]||ICONS.info}<b>${esc(humanize(a.metric))}</b>&nbsp;${esc(a.message)}${v}${z}</div>`;
   }).join('');
 }
 
@@ -656,7 +696,7 @@ function renderGrowth(){
   const eg=DATA.ecosystem_growth||{}, dau=eg.daily_active_addresses||{}, tok=eg.tokenized_equities||{};
   const cards=[
     {k:'Daily Active Addresses',v:dau.available&&dau.value!=null?fmt(dau.value,0):'n/a',na:!dau.available,s:dau.source||'dune'},
-    {k:'Tokenized Equities Vol 24h',v:tok.available&&tok.volume_usd!=null?usd(tok.volume_usd,0):'n/a',na:!tok.available,s:tok.source||'dune'},
+    {k:'Tokenized Equities Vol 30d',v:tok.available&&tok.volume_usd!=null?usd(tok.volume_usd,0):'n/a',na:!tok.available,s:tok.source||'dune'},
     {k:'Tokenized Equities AUM',v:tok.available&&tok.aum_usd!=null?usd(tok.aum_usd,0):'n/a',na:!tok.available,s:tok.source||'dune'},
     {k:'Tokenized Equities Holders',v:tok.available&&tok.holders!=null?fmt(tok.holders,0):'n/a',na:!tok.available,s:tok.source||'dune'},
   ];
@@ -689,7 +729,34 @@ function applyValView(){
 
 /* ---- news & sources ---- */
 function renderNews(){
-  const tab=(document.querySelector('#newsTabs .tab.active')||{}).dataset?.news||'simd';
+  const tab=(document.querySelector('#newsTabs .tab.active')||{}).dataset?.news||'solana';
+  if(tab==='solana'){
+    const items=DATA.news?.solana_news||[];
+    const el=$('newsList');
+    if(!items.length){ el.innerHTML='<div class="empty">No Solana news available this run.</div>'; return; }
+    const tsIso=t=>t?new Date(t*1000).toISOString():'';
+    // first item = featured (big), rest = grid
+    const f=items[0]||{};
+    const fImg=f.image||'';
+    const feat=f.title?`<a class="news-featured" href="${esc(f.url||'#')}" target="_blank" rel="noopener">
+        ${fImg?`<img class="thumb" loading="lazy" src="${esc(fImg)}" alt="" onerror="this.style.display='none'">`:`<div class="thumb"></div>`}
+        <div class="body">
+          <span class="kicker">Solana News</span>
+          <h4>${esc(f.title)}</h4>
+          ${f.description?`<div class="desc">${esc(f.description)}</div>`:''}
+          <div class="meta"><span class="badge teal">solana.com</span>${relTime(tsIso(f.published_ts))}</div>
+        </div>
+      </a>`:'';
+    const cards=items.slice(1,9).map(x=>{
+      const img=x.image||'';
+      return `<a class="news-card" href="${esc(x.url||'#')}" target="_blank" rel="noopener">
+        ${img?`<img class="thumb" loading="lazy" src="${esc(img)}" alt="" onerror="this.style.display='none'">`:`<div class="thumb"></div>`}
+        <div class="cbody"><div class="ctitle">${esc(x.title)}</div><div class="cmeta">${relTime(tsIso(x.published_ts))}</div></div>
+      </a>`;
+    }).join('');
+    el.innerHTML=`<div class="news-editorial">${feat}<div class="news-grid">${cards}</div></div>`;
+    return;
+  }
   if(tab==='twitter'){
     const tw=DATA.news?.twitter||{}, tweets=tw.tweets||[];
     if(!tweets.length){ $('newsList').innerHTML=`<div class="empty">No tweets available${tw.degraded?.length?` (degraded: ${esc(tw.degraded.join(', '))})`:''}.</div>`; return; }
@@ -718,7 +785,7 @@ function renderUpgrades(){
   } else {
     $('upList').innerHTML=items.slice(0,8).map(u=>{
       const st=(u.state||'open').toLowerCase();
-      const kw=u.keyword&&u.keyword!=='watchlist'?`<span class="badge amber">${esc(u.keyword)}</span>`:'';
+      const kw=u.keyword&&u.keyword!=='watchlist'?`<span class="badge amber">${esc(humanize(u.keyword))}</span>`:'';
       const labels=(u.labels||[]).slice(0,2).map(l=>`<span class="badge">${esc(l)}</span>`).join('');
       return `<div class="up-item" onclick="window.open('${esc(u.url)}','_blank')">
         <div style="flex:1;min-width:0"><div class="title">SIMD #${u.number} &middot; ${esc(u.title)}</div>
@@ -735,7 +802,10 @@ function renderUpgrades(){
 }
 const SRC_NAMES={rpc_health:'Solana RPC',upgrade_radar:'Upgrade radar',rpc_epoch:'Solana RPC · epoch',rpc_slot:'Solana RPC · slot',rpc_block_height:'Solana RPC · height',rpc_perf:'Solana RPC · perf',rpc_votes:'Solana RPC · votes',rpc_supply:'Solana RPC · supply',rpc_fee_sampling:'RPC fee sampling',defillama_tvl:'DeFiLlama · TVL',defillama_tvl_history:'DeFiLlama · TVL history',defillama_dex:'DeFiLlama · DEX',defillama_stablecoins:'DeFiLlama · stablecoins',defillama_comparison:'DeFiLlama · multi-chain',coingecko:'CoinGecko',github_simd:'GitHub · SIMD',statuspage:'status.solana.com',dune:'Dune Analytics',twitter:'X / Twitter'};
 function renderSources(){
-  $('srcList').innerHTML=Object.entries(DATA.sources_ok||{}).map(([k,v])=>`<div class="src"><span class="name"><span class="dot ${v?'ok':'bad'}"></span>${esc(SRC_NAMES[k]||k)}</span><span class="lat ${v?'on':'off'}">${v?'online':'failed'}</span></div>`).join('');
+  const srcs=DATA.sources_ok||{};
+  const entries=Object.entries(srcs);
+  $('srcCount').textContent=entries.length?`${entries.filter(([,v])=>v).length}/${entries.length} online`:'';
+  $('srcList').innerHTML=entries.map(([k,v])=>`<div class="src"><span class="name"><span class="dot ${v?'ok':'bad'}"></span>${esc(SRC_NAMES[k]||k)}</span><span class="lat ${v?'on':'off'}">${v?'online':'failed'}</span></div>`).join('');
 }
 
 
@@ -790,6 +860,11 @@ $('chartTabs').addEventListener('click',e=>{
   document.querySelectorAll('#chartTabs .tab').forEach(x=>x.classList.remove('active'));
   t.classList.add('active'); chartWindow=parseInt(t.dataset.w,10); renderChart();
 });
+// nav "Sources" -> auto-open the collapsed source-health details
+document.querySelectorAll('a[href="#sources"]').forEach(a=>a.addEventListener('click',()=>{
+  const d=document.getElementById('sources');
+  if(d&&d.tagName==='DETAILS') setTimeout(()=>{d.open=true; d.scrollIntoView({behavior:'smooth',block:'start'})},50);
+}));
 </script>
 </body>
 </html>"""

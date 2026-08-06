@@ -175,13 +175,13 @@ class TwitterSourceTest(unittest.TestCase):
         original_n = tw._fetch_nitter
         original_s = tw._fetch_syndication
         tw._fetch_nitter = lambda handle, timeout=12: [  # noqa: E731
-            {"handle": handle, "text": "old", "created_at": "2026-01-01T00:00:00Z"},
-            {"handle": handle, "text": "new", "created_at": "2026-08-01T00:00:00Z"},
+            {"handle": handle, "text": "older news post", "created_at": "2026-01-01T00:00:00Z"},
+            {"handle": handle, "text": "newer news post", "created_at": "2026-08-01T00:00:00Z"},
         ]
         tw._fetch_syndication = lambda handle, timeout=10: []  # noqa: E731
         try:
             out = tw.collect(["solana"])
-            self.assertEqual(out["tweets"][0]["text"], "new")
+            self.assertEqual(out["tweets"][0]["text"], "newer news post")
             self.assertEqual(out["degraded"], [])
         finally:
             tw._fetch_nitter = original_n
