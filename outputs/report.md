@@ -1,51 +1,50 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-07T11:57:12Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-07T13:17:15Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🟠 Slot Time Sec: slot time statistically low (z=-3.1)
-- 🔵 Validators Delinquent: 7 validators delinquent (0.0% of stake)
+- 🔵 Validators Delinquent: 8 validators delinquent (0.06% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume dropped 15.8% in 24h
 
 ## ❤️ Solana Health Score
 
-87.5/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+90.7/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 52.2 |
-| slot_time | 94.5 |
-| tps | 95.0 |
-| tvl_trend | 36.8 |
-| validators | 100.0 |
+| price_trend | 62.1 |
+| slot_time | 94.3 |
+| tps | 100.0 |
+| tvl_trend | 49.8 |
+| validators | 98.8 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,424.90 |
-| Peak TPS | 1,600.73 |
-| Non-vote TPS | 737.07 |
-| Avg slot time | 0.4220 s |
-| Slot | 437,783,671 |
-| Block height | 415,837,735 |
+| Avg TPS (10 samples) | 1,524.71 |
+| Peak TPS | 1,775.81 |
+| Non-vote TPS | 837.74 |
+| Avg slot time | 0.4230 s |
+| Slot | 437,795,037 |
+| Block height | 415,849,092 |
 
 ### Epoch
 
-- Epoch 1013 — 38.81% complete (167,671/432,000 slots)
-- Slots remaining: 264,329
-- Total transactions (all-time): 535,903,283,596
+- Epoch 1013 — 41.44% complete (179,037/432,000 slots)
+- Slots remaining: 252,963
+- Total transactions (all-time): 535,920,586,653
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 693 |
-| Delinquent validators | 7 |
-| Total active stake | 434,838,171 SOL |
-| Delinquent stake | 1,717 SOL (0.00%) |
-| Avg commission | 12.05% |
+| Active validators | 692 |
+| Delinquent validators | 8 |
+| Total active stake | 434,566,532 SOL |
+| Delinquent stake | 273,355 SOL (0.06%) |
+| Avg commission | 12.06% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -77,47 +76,44 @@ _Auto-generated at 2026-08-07T11:57:12Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $73.56 (+0.22% 24h) |
-| TVL | $4,726,619,210.13 (-1.32% 24h) |
+| SOL price | $73.78 (+1.21% 24h) |
+| TVL | $4,733,566,954.24 (-0.02% 24h) |
 | DEX volume 24h | $1,379,094,026.18 (-15.75%) |
-| Stablecoin supply | $15,409,156,777.48 |
+| Stablecoin supply | $15,471,912,175.93 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 6,141 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 4,381 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,051,966 SOL
+- Circulating: 582,051,918 SOL
 - Non-circulating: 49,704,620 SOL
 
 ## Ecosystem Growth
 
 - Daily Active Addresses: 1,613,386
-- Tokenized Equities Volume (30d): $944,773,451.21  
-  source: dune (xStocks)
-- Tokenized Equities AUM: $1,124,240,465.98  
-  source: dune (xStocks)
-- Tokenized Equities Holders: 382,037  
-  source: dune (xStocks)
+- Tokenized Equities Volume (24h): $944,773,451
+- Tokenized Equities AUM: $1,124,240,466
+- Tokenized Equities Holders: 382,037
 
 ## Cross-Chain Comparison
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,726,619,210.13 | $1,379,094,026.18 | $15,409,156,777.48 |
-| Ethereum | $41,710,169,923.43 | $1,082,825,640.99 | $148,001,598,501.72 |
-| Base | $4,652,235,139.08 | $695,248,688.85 | $4,832,498,645.78 |
-| Tron | $4,830,719,491.07 | $48,143,637 | $91,867,440,438.57 |
-| Arbitrum | $1,195,594,721.98 | $366,940,860.06 | $3,583,779,514.02 |
+| Solana | $4,733,566,954.24 | $1,379,094,026.18 | $15,471,912,175.93 |
+| Ethereum | $41,836,083,638.16 | $1,082,825,640.99 | $147,974,505,956.62 |
+| Base | $4,659,316,269.12 | $695,248,688.85 | $4,833,787,992.62 |
+| Tron | $4,829,543,354.22 | $48,143,637 | $91,868,811,566.84 |
+| Arbitrum | $1,200,060,647.21 | $368,781,016.06 | $3,592,640,168.69 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,424.90 | 1,335.16 | 58th |
-| Slot time (s) | 0.42 | 0.42 | 54th |
-| TVL (USD) | 4,726,619,210.13 | 4,758,684,567.82 | 15th |
-| SOL price (USD) | 73.56 | 73.41 | 60th |
-| DEX volume 24h (USD) | 1,379,094,026.18 | 1,654,777,630.91 | 25th |
+| Avg TPS | 1,524.71 | 1,346.01 | 77th |
+| Slot time (s) | 0.42 | 0.42 | 74th |
+| TVL (USD) | 4,733,566,954.24 | 4,757,054,292.52 | 30th |
+| SOL price (USD) | 73.78 | 73.45 | 72th |
+| DEX volume 24h (USD) | 1,379,094,026.18 | 1,654,777,630.91 | 26th |
 
 ## Ecosystem / Development News
 
@@ -145,14 +141,14 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Community News (X/Twitter)
 
-- @solana_daily: 🚨 Morgan Stanley launches $MSOL Solana ETP on NYSE Arca Their first crypto ETP attracted $381M in just a few months. Now, Solana joins a $14B ETP suite, with staking enabled a[...]
-- @solana_daily: 🔥 Nearly 68% of all $SOL is currently STAKED According to @Bitwise&apos;s Q3 2026 Staking Report, 67.9% of total $SOL supply is currently staked (~427.2M $SOL / $32B+ in value[...]
+- @solana_daily: 🚨 Morgan Stanley launches $MSOL Solana ETP on NYSE Arca Their first crypto ETP attracted $381M in just a few months. Now, Solana joins a $14B ETP suite, with staking enabled and 10
+- @solana_daily: 🔥 Nearly 68% of all $SOL is currently STAKED According to @Bitwise&apos;s Q3 2026 Staking Report, 67.9% of total $SOL supply is currently staked (~427.2M $SOL / $32B+ in value). 👉 
 - @solana_daily: 🚨 Most anticipated motorsport event of 2026 is now tradable on @world_xyz 🚨 Crypto market → World Cup market → @F1 market What&apos;s next? 🤔
-- @solana_daily: 🚨BIG CAPACITY UPGRADE ON SOLANA MAINNET SIMD-0286 is officially live. The compute unit (CU) block limit has been raised from 60M → 100M, unlocking +66% more execution capaci[...]
+- @solana_daily: 🚨BIG CAPACITY UPGRADE ON SOLANA MAINNET SIMD-0286 is officially live. The compute unit (CU) block limit has been raised from 60M → 100M, unlocking +66% more execution capacity per 
 - @SolanaFloor: 🎥 Trump reported more than $1.4B in crypto income last year. Is this the biggest scandal in crypto history, or no scandal at all? 👇
 - @SolanaFndn: Head of Payments @sherazshere joins @heybeluga to cover why Solana is the chain for payments Tomorrow at 4:30PM ET
-- @SolanaFloor: News: @Solana Crypto Cards Just Had Their Biggest Month Ever With $69.5M in Volume ✍️ @ideyquickvex https://solanafloor.com/news/solana-crypto-cards-just-had-their-biggest-mon[...]
-- @SolanaFndn: Frontier Traders have traded more than $1B in spot and perps volume Register at Frontier Traders to start earning rewards for your favorite Solana venues
+- @SolanaFloor: News: @Solana Crypto Cards Just Had Their Biggest Month Ever With $69.5M in Volume ✍️ @ideyquickvex https://solanafloor.com/news/solana-crypto-cards-just-had-their-biggest-month-ev
+- @SolanaFloor: 🎥 Today on tradingFloor @AndyRewNFT shares his best trade, which was selling his truck and buying $SOL at $8 in 2022 👇
 
 ## Upgrade Radar
 
