@@ -92,9 +92,12 @@ _Auto-generated at 2026-08-07T11:57:12Z UTC — refresh every 60 min_
 ## Ecosystem Growth
 
 - Daily Active Addresses: 1,613,386
-- Tokenized Equities Volume (24h): $944,773,451
-- Tokenized Equities AUM: $1,124,240,466
-- Tokenized Equities Holders: 382,037
+- Tokenized Equities Volume (30d): $944,773,451.21  
+  source: dune (xStocks)
+- Tokenized Equities AUM: $1,124,240,465.98  
+  source: dune (xStocks)
+- Tokenized Equities Holders: 382,037  
+  source: dune (xStocks)
 
 ## Cross-Chain Comparison
 
@@ -142,14 +145,14 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Community News (X/Twitter)
 
-- @solana_daily: 🚨 Morgan Stanley launches $MSOL Solana ETP on NYSE Arca Their first crypto ETP attracted $381M in just a few months. Now, Solana joins a $14B ETP suite, with staking enabled and 10
-- @solana_daily: 🔥 Nearly 68% of all $SOL is currently STAKED According to @Bitwise&apos;s Q3 2026 Staking Report, 67.9% of total $SOL supply is currently staked (~427.2M $SOL / $32B+ in value). 👉 
+- @solana_daily: 🚨 Morgan Stanley launches $MSOL Solana ETP on NYSE Arca Their first crypto ETP attracted $381M in just a few months. Now, Solana joins a $14B ETP suite, with staking enabled a[...]
+- @solana_daily: 🔥 Nearly 68% of all $SOL is currently STAKED According to @Bitwise&apos;s Q3 2026 Staking Report, 67.9% of total $SOL supply is currently staked (~427.2M $SOL / $32B+ in value[...]
 - @solana_daily: 🚨 Most anticipated motorsport event of 2026 is now tradable on @world_xyz 🚨 Crypto market → World Cup market → @F1 market What&apos;s next? 🤔
-- @solana_daily: 🚨BIG CAPACITY UPGRADE ON SOLANA MAINNET SIMD-0286 is officially live. The compute unit (CU) block limit has been raised from 60M → 100M, unlocking +66% more execution capacity per 
+- @solana_daily: 🚨BIG CAPACITY UPGRADE ON SOLANA MAINNET SIMD-0286 is officially live. The compute unit (CU) block limit has been raised from 60M → 100M, unlocking +66% more execution capaci[...]
 - @SolanaFloor: 🎥 Trump reported more than $1.4B in crypto income last year. Is this the biggest scandal in crypto history, or no scandal at all? 👇
 - @SolanaFndn: Head of Payments @sherazshere joins @heybeluga to cover why Solana is the chain for payments Tomorrow at 4:30PM ET
-- @SolanaFloor: News: @Solana Crypto Cards Just Had Their Biggest Month Ever With $69.5M in Volume ✍️ @ideyquickvex https://solanafloor.com/news/solana-crypto-cards-just-had-their-biggest-month-ev
-- @SolanaFndn: Frontier Traders have traded more than $1B in spot and perps volume Register at Frontier Traders to start earning rewards for trading on your favorite Solana venues
+- @SolanaFloor: News: @Solana Crypto Cards Just Had Their Biggest Month Ever With $69.5M in Volume ✍️ @ideyquickvex https://solanafloor.com/news/solana-crypto-cards-just-had-their-biggest-mon[...]
+- @SolanaFndn: Frontier Traders have traded more than $1B in spot and perps volume Register at Frontier Traders to start earning rewards for your favorite Solana venues
 
 ## Upgrade Radar
 
