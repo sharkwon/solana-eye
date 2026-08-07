@@ -1,5 +1,5 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-07T13:17:15Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-07T13:38:49Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 8 validators delinquent (0.06% of stake)
@@ -12,10 +12,10 @@ _Auto-generated at 2026-08-07T13:17:15Z UTC — refresh every 60 min_
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 62.1 |
-| slot_time | 94.3 |
+| price_trend | 63.9 |
+| slot_time | 93.5 |
 | tps | 100.0 |
-| tvl_trend | 49.8 |
+| tvl_trend | 49.2 |
 | validators | 98.8 |
 
 ## Network Performance
@@ -23,18 +23,18 @@ _Auto-generated at 2026-08-07T13:17:15Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,524.71 |
-| Peak TPS | 1,775.81 |
-| Non-vote TPS | 837.74 |
-| Avg slot time | 0.4230 s |
-| Slot | 437,795,037 |
-| Block height | 415,849,092 |
+| Avg TPS (10 samples) | 1,867.35 |
+| Peak TPS | 2,028.26 |
+| Non-vote TPS | 1,179.38 |
+| Avg slot time | 0.4260 s |
+| Slot | 437,798,064 |
+| Block height | 415,852,120 |
 
 ### Epoch
 
-- Epoch 1013 — 41.44% complete (179,037/432,000 slots)
-- Slots remaining: 252,963
-- Total transactions (all-time): 535,920,586,653
+- Epoch 1013 — 42.14% complete (182,063/432,000 slots)
+- Slots remaining: 249,937
+- Total transactions (all-time): 535,926,108,768
 
 ## Validators
 
@@ -76,16 +76,16 @@ _Auto-generated at 2026-08-07T13:17:15Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $73.78 (+1.21% 24h) |
-| TVL | $4,733,566,954.24 (-0.02% 24h) |
+| SOL price | $74.02 (+1.39% 24h) |
+| TVL | $4,733,566,954.24 (-0.08% 24h) |
 | DEX volume 24h | $1,379,094,026.18 (-15.75%) |
 | Stablecoin supply | $15,471,912,175.93 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 4,381 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 7,641 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,051,918 SOL
+- Circulating: 582,051,904 SOL
 - Non-circulating: 49,704,620 SOL
 
 ## Ecosystem Growth
@@ -109,11 +109,11 @@ _Auto-generated at 2026-08-07T13:17:15Z UTC — refresh every 60 min_
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,524.71 | 1,346.01 | 77th |
-| Slot time (s) | 0.42 | 0.42 | 74th |
-| TVL (USD) | 4,733,566,954.24 | 4,757,054,292.52 | 30th |
-| SOL price (USD) | 73.78 | 73.45 | 72th |
-| DEX volume 24h (USD) | 1,379,094,026.18 | 1,654,777,630.91 | 26th |
+| Avg TPS | 1,867.35 | 1,352.57 | 100th |
+| Slot time (s) | 0.43 | 0.42 | 96th |
+| TVL (USD) | 4,733,566,954.24 | 4,755,505,212.84 | 32th |
+| SOL price (USD) | 74.02 | 73.45 | 83th |
+| DEX volume 24h (USD) | 1,379,094,026.18 | 1,654,777,630.91 | 28th |
 
 ## Ecosystem / Development News
 
@@ -146,9 +146,9 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - @solana_daily: 🚨 Most anticipated motorsport event of 2026 is now tradable on @world_xyz 🚨 Crypto market → World Cup market → @F1 market What&apos;s next? 🤔
 - @solana_daily: 🚨BIG CAPACITY UPGRADE ON SOLANA MAINNET SIMD-0286 is officially live. The compute unit (CU) block limit has been raised from 60M → 100M, unlocking +66% more execution capacity per 
 - @SolanaFloor: 🎥 Trump reported more than $1.4B in crypto income last year. Is this the biggest scandal in crypto history, or no scandal at all? 👇
-- @SolanaFndn: Head of Payments @sherazshere joins @heybeluga to cover why Solana is the chain for payments Tomorrow at 4:30PM ET
 - @SolanaFloor: News: @Solana Crypto Cards Just Had Their Biggest Month Ever With $69.5M in Volume ✍️ @ideyquickvex https://solanafloor.com/news/solana-crypto-cards-just-had-their-biggest-month-ev
 - @SolanaFloor: 🎥 Today on tradingFloor @AndyRewNFT shares his best trade, which was selling his truck and buying $SOL at $8 in 2022 👇
+- @solana_daily: SOLANA LEADS THE PACK ⚡️ In July, @solana processed a massive 4.07 BILLION transactions, topping the charts as the most used blockchain by transaction volume. 👑 Unmatched throughpu
 
 ## Upgrade Radar
 
