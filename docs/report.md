@@ -1,20 +1,20 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-08T21:45:45Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-08T22:46:41Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 7 validators delinquent (0.01% of stake)
 
 ## ❤️ Solana Health Score
 
-93.0/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+92.8/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
-| network_status | 100.0 |
-| price_trend | 83.8 |
-| slot_time | 95.0 |
+| network_status | 100 |
+| price_trend | 84.3 |
+| slot_time | 93.8 |
 | tps | 100.0 |
-| tvl_trend | 50.0 |
+| tvl_trend | 49.9 |
 | validators | 99.8 |
 
 ## Network Performance
@@ -22,18 +22,18 @@ _Auto-generated at 2026-08-08T21:45:45Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,660.74 |
-| Peak TPS | 1,809.31 |
-| Non-vote TPS | 975.76 |
-| Avg slot time | 0.4200 s |
-| Slot | 438,071,566 |
-| Block height | 416,125,498 |
+| Avg TPS (10 samples) | 1,627.87 |
+| Peak TPS | 1,824.58 |
+| Non-vote TPS | 941.60 |
+| Avg slot time | 0.4250 s |
+| Slot | 438,080,261 |
+| Block height | 416,134,192 |
 
 ### Epoch
 
-- Epoch 1014 — 5.45% complete (23,565/432,000 slots)
-- Slots remaining: 408,435
-- Total transactions (all-time): 536,337,511,883
+- Epoch 1014 — 7.47% complete (32,261/432,000 slots)
+- Slots remaining: 399,739
+- Total transactions (all-time): 536,350,941,018
 
 ## Validators
 
@@ -75,17 +75,17 @@ _Auto-generated at 2026-08-08T21:45:45Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $76.20 (+3.38% 24h) |
-| TVL | $4,824,513,982.42 (+0.00% 24h) |
+| SOL price | $76.09 (+3.43% 24h) |
+| TVL | $4,821,777,547.98 (-0.01% 24h) |
 | DEX volume 24h | $1,361,289,152.02 (-1.28%) |
-| Stablecoin supply | $15,659,170,086.06 |
+| Stablecoin supply | $15,658,432,124.98 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 3,563 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 8,895 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,166,538 SOL
-- Non-circulating: 49,717,068 SOL
+- Circulating: 582,166,465 SOL
+- Non-circulating: 49,717,106 SOL
 
 ## Ecosystem Growth
 
@@ -98,21 +98,21 @@ _Auto-generated at 2026-08-08T21:45:45Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,824,513,982.42 | $1,361,289,152.02 | $15,659,170,086.06 |
-| Ethereum | $41,912,800,241.69 | $1,018,836,155.48 | $147,987,017,389.86 |
-| Base | $4,684,812,751.06 | $649,300,879.19 | $4,882,335,181.92 |
-| Tron | $4,828,359,122.43 | $32,150,590 | $91,785,248,134.72 |
-| Arbitrum | $1,201,005,545.98 | $106,187,608.39 | $3,469,574,183.65 |
+| Solana | $4,821,777,547.98 | $1,361,289,152.02 | $15,658,432,124.98 |
+| Ethereum | $41,896,706,729.88 | $1,018,836,155.48 | $147,980,258,748.80 |
+| Base | $4,687,444,723.15 | $649,300,879.19 | $4,882,245,148.64 |
+| Tron | $4,840,985,224.06 | $32,150,590 | $91,783,194,222.29 |
+| Arbitrum | $1,200,724,746.08 | $106,187,608.39 | $3,469,497,844.92 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,660.74 | 1,424.90 | 82th |
-| Slot time (s) | 0.42 | 0.42 | 24th |
-| TVL (USD) | 4,824,513,982.42 | 4,757,054,292.52 | 99th |
-| SOL price (USD) | 76.20 | 73.69 | 95th |
-| DEX volume 24h (USD) | 1,361,289,152.02 | 1,379,094,026.18 | 26th |
+| Avg TPS | 1,627.87 | 1,425.00 | 74th |
+| Slot time (s) | 0.42 | 0.42 | 84th |
+| TVL (USD) | 4,821,777,547.98 | 4,758,482,015.13 | 95th |
+| SOL price (USD) | 76.09 | 73.72 | 94th |
+| DEX volume 24h (USD) | 1,361,289,152.02 | 1,379,094,026.18 | 27th |
 
 ## Ecosystem / Development News
 
@@ -161,6 +161,10 @@ Latest Agave client releases:
 - Release v4.3.0-alpha.3 (pre-release) — 2026-08-05 — [link](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-alpha.3)
 - Release v4.2.0-rc.1 — 2026-07-31 — [link](https://github.com/anza-xyz/agave/releases/tag/v4.2.0-rc.1)
 
+## Network Status
+
+- Solana: none — All Systems Operational
+
 ## Data Sources
 
 | Source | Status |
@@ -180,7 +184,7 @@ Latest Agave client releases:
 | defillama_comparison | ✅ |
 | coingecko | ✅ |
 | github_simd | ✅ |
-| statuspage | ❌ |
+| statuspage | ✅ |
 | dune | ✅ |
 | solana_news | ✅ |
 | twitter | ✅ |
