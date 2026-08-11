@@ -1,50 +1,50 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-11T18:07:10Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-11T19:20:09Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 10 validators delinquent (0.04% of stake)
+- 🔵 Validators Delinquent: 9 validators delinquent (0.02% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 17.4% in 24h
 
 ## ❤️ Solana Health Score
 
-88.8/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+88.9/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 40.1 |
-| slot_time | 94.3 |
+| price_trend | 39.5 |
+| slot_time | 94.8 |
 | tps | 100.0 |
 | tvl_trend | 50.0 |
-| validators | 99.2 |
+| validators | 99.6 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,792.72 |
-| Peak TPS | 1,948.68 |
-| Non-vote TPS | 1,108.02 |
-| Avg slot time | 0.4230 s |
-| Slot | 438,654,423 |
-| Block height | 416,708,082 |
+| Avg TPS (10 samples) | 1,726.45 |
+| Peak TPS | 2,088.35 |
+| Non-vote TPS | 1,043.23 |
+| Avg slot time | 0.4210 s |
+| Slot | 438,664,764 |
+| Block height | 416,718,407 |
 
 ### Epoch
 
-- Epoch 1015 — 40.38% complete (174,422/432,000 slots)
-- Slots remaining: 257,578
-- Total transactions (all-time): 537,214,568,184
+- Epoch 1015 — 42.77% complete (184,763/432,000 slots)
+- Slots remaining: 247,237
+- Total transactions (all-time): 537,232,053,197
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 689 |
-| Delinquent validators | 10 |
-| Total active stake | 434,736,783 SOL |
-| Delinquent stake | 194,238 SOL (0.04%) |
-| Avg commission | 11.98% |
+| Active validators | 690 |
+| Delinquent validators | 9 |
+| Total active stake | 434,845,906 SOL |
+| Delinquent stake | 85,114 SOL (0.02%) |
+| Avg commission | 11.97% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -76,16 +76,16 @@ _Auto-generated at 2026-08-11T18:07:10Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $75.17 (-0.99% 24h) |
-| TVL | $4,803,969,150.54 (+0.00% 24h) |
+| SOL price | $75.11 (-1.05% 24h) |
+| TVL | $4,799,368,044.74 (+0.00% 24h) |
 | DEX volume 24h | $1,581,973,855.56 (+17.41%) |
-| Stablecoin supply | $15,784,000,275.94 |
+| Stablecoin supply | $15,649,516,082.05 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 5,037 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 6,133 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,481,317 SOL
+- Circulating: 582,481,271 SOL
 - Non-circulating: 49,528,059 SOL
 
 ## Ecosystem Growth
@@ -99,20 +99,20 @@ _Auto-generated at 2026-08-11T18:07:10Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,803,969,150.54 | $1,581,973,855.56 | $15,784,000,275.94 |
-| Ethereum | $41,084,930,304.61 | $971,774,457.36 | $147,244,406,534.15 |
-| Base | $4,594,768,830.40 | $565,188,556.62 | $4,935,032,924.83 |
-| Tron | $4,813,700,776.69 | $28,278,071 | $92,610,663,593.50 |
-| Arbitrum | $1,182,846,415.76 | $104,652,361.60 | $3,469,087,177.33 |
+| Solana | $4,799,368,044.74 | $1,581,973,855.56 | $15,649,516,082.05 |
+| Ethereum | $41,041,989,954.90 | $971,774,457.36 | $147,256,162,912.62 |
+| Base | $4,598,211,130.09 | $565,188,556.62 | $4,924,012,133.15 |
+| Tron | $4,818,689,608.02 | $28,278,071 | $92,598,874,701.34 |
+| Arbitrum | $1,182,392,191.41 | $104,652,361.60 | $3,483,252,089.68 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,792.72 | 1,456.62 | 88th |
-| Slot time (s) | 0.42 | 0.42 | 61th |
-| TVL (USD) | 4,803,969,150.54 | 4,795,136,012.97 | 57th |
-| SOL price (USD) | 75.17 | 74.71 | 56th |
+| Avg TPS | 1,726.45 | 1,458.38 | 83th |
+| Slot time (s) | 0.42 | 0.42 | 39th |
+| TVL (USD) | 4,799,368,044.74 | 4,795,272,187.93 | 52th |
+| SOL price (USD) | 75.11 | 74.73 | 56th |
 | DEX volume 24h (USD) | 1,581,973,855.56 | 1,399,620,137.18 | 76th |
 
 ## Ecosystem / Development News
@@ -144,11 +144,11 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - @solana_daily: SOLANA LEADS THE PACK ⚡️ In July, @solana processed a massive 4.07 BILLION transactions, topping the charts as the most used blockchain by transaction volume. 👑 Unmatched throughpu
 - @solana_daily: 🚨 BREAKING: The $2.4B AI Agent Token is Officially "DEAD" ElizaOS Founder, @shawmakesmagic, has confirmed the token&apos;s end and the imminent dissolution of its Foundation. 📉 Wha
 - @solana_daily: 📊Solana&apos;s DEX ecosystem continues to attract strong trading activity with ~$9.3B in spot trading volume in just 7 days. Top 10 Solana DEX Protocols by 7D Volume @Pumpfun : $4.
+- @SolanaEvents: Get me to Breakpoint. Make no mistakes.
+- @SolanaFndn: New Episode of Solana is Global: @afscott sits down with @avtarsehra, CEO of @stbl_official, to get into the evolution of stablecoins, the idea of Stablecoin 2.0, and where the nex
 - @SolanaFloor: 📊: Solana ETFs on Track to Record Strongest Weekly Inflows Since May ✍️: @solace_fm https://solanafloor.com/news/solana-etfs-on-track-to-record-strongest-weekly-inflows-since-may
 - @SolanaFloor: 📰NEWS: @solsticefi Launches STRC Yield Product as Season 2 $SLX Airdrop Goes Live ✍️: @ideyquickvex https://solanafloor.com/news/solstice-launches-strc-yield-product-as-season-2-sl
 - @SolanaEvents: We&apos;re going back to the mtn to close out the month is the best way we know how: elevating Solana&apos;s builders. Join us at @mtndao X in SLC or stream Demo Day right here on 
-- @solana_daily: Solana Trenches vs Robinhood Chain Trenches Robinhood Chain is making noise, but Solana is still playing in a different league. The numbers tell the story: ✅Daily volume: Solana 35
-- @SolanaFloor: Pinned: 📽️ Own a Seeker? Are you actually getting the most out of it? Shipped is LIVE on X with @beeman_nl, @web4O, and @inno_sol, breaking down the apps, rewards, and strategies e
 
 ## Upgrade Radar
 
