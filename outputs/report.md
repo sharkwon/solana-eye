@@ -1,21 +1,21 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-11T11:56:08Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-11T13:42:26Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 7 validators delinquent (0.01% of stake)
+- 🔵 Validators Delinquent: 8 validators delinquent (0.01% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 17.4% in 24h
 
 ## ❤️ Solana Health Score
 
-85.5/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+89.3/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 39.9 |
-| slot_time | 95.8 |
-| tps | 86.4 |
-| tvl_trend | 49.9 |
+| price_trend | 44.2 |
+| slot_time | 94.5 |
+| tps | 100.0 |
+| tvl_trend | 50.0 |
 | validators | 99.8 |
 
 ## Network Performance
@@ -23,28 +23,28 @@ _Auto-generated at 2026-08-11T11:56:08Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,295.82 |
-| Peak TPS | 1,470.84 |
-| Non-vote TPS | 608.98 |
-| Avg slot time | 0.4170 s |
-| Slot | 438,601,728 |
-| Block height | 416,655,410 |
+| Avg TPS (10 samples) | 1,843.54 |
+| Peak TPS | 2,049.74 |
+| Non-vote TPS | 1,156.80 |
+| Avg slot time | 0.4220 s |
+| Slot | 438,616,831 |
+| Block height | 416,670,512 |
 
 ### Epoch
 
-- Epoch 1015 — 28.18% complete (121,728/432,000 slots)
-- Slots remaining: 310,272
-- Total transactions (all-time): 537,125,123,045
+- Epoch 1015 — 31.67% complete (136,830/432,000 slots)
+- Slots remaining: 295,170
+- Total transactions (all-time): 537,148,227,387
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 692 |
-| Delinquent validators | 7 |
-| Total active stake | 434,901,138 SOL |
-| Delinquent stake | 29,882 SOL (0.01%) |
-| Avg commission | 12.08% |
+| Active validators | 691 |
+| Delinquent validators | 8 |
+| Total active stake | 434,900,999 SOL |
+| Delinquent stake | 30,021 SOL (0.01%) |
+| Avg commission | 12.10% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -76,16 +76,16 @@ _Auto-generated at 2026-08-11T11:56:08Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $76.13 (-1.01% 24h) |
-| TVL | $4,837,242,903.11 (-0.01% 24h) |
+| SOL price | $75.89 (-0.58% 24h) |
+| TVL | $4,841,857,829.22 (+0.00% 24h) |
 | DEX volume 24h | $1,581,973,855.56 (+17.41%) |
-| Stablecoin supply | $15,708,275,795.03 |
+| Stablecoin supply | $15,708,746,699.96 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 7,994 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 66,172 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,481,554 SOL
+- Circulating: 582,481,493 SOL
 - Non-circulating: 49,528,059 SOL
 
 ## Ecosystem Growth
@@ -99,20 +99,20 @@ _Auto-generated at 2026-08-11T11:56:08Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,837,242,903.11 | $1,581,973,855.56 | $15,708,275,795.03 |
-| Ethereum | $41,384,169,488.28 | $971,774,457.36 | $147,182,191,032.90 |
-| Base | $4,632,488,211.76 | $565,188,556.62 | $4,901,532,529.68 |
-| Tron | $4,817,571,540.58 | $28,278,071 | $91,769,190,145.96 |
-| Arbitrum | $1,191,203,662.07 | $104,652,361.60 | $3,457,458,592.37 |
+| Solana | $4,841,857,829.22 | $1,581,973,855.56 | $15,708,746,699.96 |
+| Ethereum | $41,493,726,243.86 | $971,774,457.36 | $147,178,245,889.59 |
+| Base | $4,645,256,832.78 | $565,188,556.62 | $4,914,497,698.73 |
+| Tron | $4,836,455,625.66 | $28,278,071 | $91,770,501,877.60 |
+| Arbitrum | $1,194,931,752.87 | $104,652,361.60 | $3,462,207,146.83 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,295.82 | 1,443.26 | 24th |
-| Slot time (s) | 0.42 | 0.42 | 3th |
-| TVL (USD) | 4,837,242,903.11 | 4,790,122,288.19 | 87th |
-| SOL price (USD) | 76.13 | 74.47 | 74th |
+| Avg TPS | 1,843.54 | 1,438.69 | 95th |
+| Slot time (s) | 0.42 | 0.42 | 48th |
+| TVL (USD) | 4,841,857,829.22 | 4,790,134,112.40 | 89th |
+| SOL price (USD) | 75.89 | 74.52 | 63th |
 | DEX volume 24h (USD) | 1,581,973,855.56 | 1,399,620,137.18 | 75th |
 
 ## Ecosystem / Development News
@@ -143,12 +143,12 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 - @solana_daily: 🚨 Morgan Stanley launches $MSOL Solana ETP on NYSE Arca Their first crypto ETP attracted $381M in just a few months. Now, Solana joins a $14B ETP suite, with staking enabled and 10
 - @solana_daily: 🔥 Nearly 68% of all $SOL is currently STAKED According to @Bitwise&apos;s Q3 2026 Staking Report, 67.9% of total $SOL supply is currently staked (~427.2M $SOL / $32B+ in value). 👉 
-- @solana_daily: 🚨 Most anticipated motorsport event of 2026 is now tradable on @world_xyz 🚨 Crypto market → World Cup market → @F1 market What&apos;s next? 🤔
 - @solana_daily: SOLANA LEADS THE PACK ⚡️ In July, @solana processed a massive 4.07 BILLION transactions, topping the charts as the most used blockchain by transaction volume. 👑 Unmatched throughpu
 - @solana_daily: 🚨 BREAKING: The $2.4B AI Agent Token is Officially "DEAD" ElizaOS Founder, @shawmakesmagic, has confirmed the token&apos;s end and the imminent dissolution of its Foundation. 📉 Wha
 - @solana_daily: 📊Solana&apos;s DEX ecosystem continues to attract strong trading activity with ~$9.3B in spot trading volume in just 7 days. Top 10 Solana DEX Protocols by 7D Volume @Pumpfun : $4.
-- @SolanaFloor: BREAKING: @Solana recorded a new all-time high of over 171 million daily non-vote transactions. Real-user TPS also surged to a new peak of nearly 2,000 transactions per second.
-- @SolanaFloor: NEW: @bw_solana, CEO of @anza_xyz, revealed that the network has officially achieved 300ms slot times on testnet. This milestone is part of a 4-phase rollout under SIMD-0525 design
+- @SolanaEvents: What do we do after the biggest Breakpoint ever? We go bigger and better in the very heart of global finance. Let&apos;s run it back!
+- @SolanaFloor: 📰: @MoneyGram Ramps Goes Live on Solana, Shoulder-Taps Rift as First Integration ✍️: @solace_fm https://solanafloor.com/news/money-gram-ramps-goes-live-on-solana-shoulder-taps-rift
+- @solana: BREAKING: @MoneyGram Ramps is live on Solana. 60M+ customers, nearly 500,000 retail locations, 170+ countries. One of the world&apos;s largest payments networks is now a single API
 
 ## Upgrade Radar
 
