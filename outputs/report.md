@@ -1,50 +1,50 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-11T15:16:17Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-11T16:12:50Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 9 validators delinquent (0.01% of stake)
+- 🔵 Validators Delinquent: 10 validators delinquent (0.06% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 17.4% in 24h
 
 ## ❤️ Solana Health Score
 
-88.6/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+88.4/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 36.9 |
-| slot_time | 94.0 |
+| price_trend | 36.8 |
+| slot_time | 93.8 |
 | tps | 100.0 |
-| tvl_trend | 49.9 |
-| validators | 99.8 |
+| tvl_trend | 50.0 |
+| validators | 98.8 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,953.75 |
-| Peak TPS | 2,282.64 |
-| Non-vote TPS | 1,269.32 |
-| Avg slot time | 0.4240 s |
-| Slot | 438,630,159 |
-| Block height | 416,683,840 |
+| Avg TPS (10 samples) | 1,719.30 |
+| Peak TPS | 1,930.04 |
+| Non-vote TPS | 1,035.96 |
+| Avg slot time | 0.4250 s |
+| Slot | 438,638,162 |
+| Block height | 416,691,844 |
 
 ### Epoch
 
-- Epoch 1015 — 34.76% complete (150,159/432,000 slots)
-- Slots remaining: 281,841
-- Total transactions (all-time): 537,172,169,185
+- Epoch 1015 — 36.61% complete (158,161/432,000 slots)
+- Slots remaining: 273,839
+- Total transactions (all-time): 537,186,275,401
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 690 |
-| Delinquent validators | 9 |
-| Total active stake | 434,897,989 SOL |
-| Delinquent stake | 33,031 SOL (0.01%) |
-| Avg commission | 11.97% |
+| Active validators | 689 |
+| Delinquent validators | 10 |
+| Total active stake | 434,654,648 SOL |
+| Delinquent stake | 276,372 SOL (0.06%) |
+| Avg commission | 11.98% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -76,16 +76,16 @@ _Auto-generated at 2026-08-11T15:16:17Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $75.09 (-1.31% 24h) |
-| TVL | $4,834,453,081.60 (-0.01% 24h) |
+| SOL price | $74.91 (-1.32% 24h) |
+| TVL | $4,829,739,435.73 (+0.00% 24h) |
 | DEX volume 24h | $1,581,973,855.56 (+17.41%) |
 | Stablecoin supply | $15,687,350,439.50 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 7,997 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 6,885 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,481,430 SOL
+- Circulating: 582,481,392 SOL
 - Non-circulating: 49,528,059 SOL
 
 ## Ecosystem Growth
@@ -99,20 +99,20 @@ _Auto-generated at 2026-08-11T15:16:17Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,834,453,081.60 | $1,581,973,855.56 | $15,687,350,439.50 |
-| Ethereum | $41,445,690,299.51 | $971,774,457.36 | $147,178,885,652.64 |
-| Base | $4,640,957,765.88 | $565,188,556.62 | $4,923,383,832.34 |
-| Tron | $4,829,548,548.20 | $28,278,071 | $91,772,117,483.96 |
-| Arbitrum | $1,194,061,033.29 | $104,652,361.60 | $3,462,641,115.93 |
+| Solana | $4,829,739,435.73 | $1,581,973,855.56 | $15,687,350,439.50 |
+| Ethereum | $41,324,251,040.68 | $971,774,457.36 | $147,178,885,652.64 |
+| Base | $4,632,145,296.08 | $565,188,556.62 | $4,923,383,832.34 |
+| Tron | $4,824,814,603.58 | $28,278,071 | $91,772,117,483.96 |
+| Arbitrum | $1,193,035,285.31 | $104,652,361.60 | $3,462,641,115.93 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,953.75 | 1,443.26 | 100th |
-| Slot time (s) | 0.42 | 0.42 | 77th |
-| TVL (USD) | 4,834,453,081.60 | 4,790,145,936.61 | 84th |
-| SOL price (USD) | 75.09 | 74.56 | 55th |
+| Avg TPS | 1,719.30 | 1,449.07 | 83th |
+| Slot time (s) | 0.42 | 0.42 | 83th |
+| TVL (USD) | 4,829,739,435.73 | 4,792,572,887.30 | 81th |
+| SOL price (USD) | 74.91 | 74.62 | 54th |
 | DEX volume 24h (USD) | 1,581,973,855.56 | 1,399,620,137.18 | 75th |
 
 ## Ecosystem / Development News
@@ -141,14 +141,14 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Community News (X/Twitter)
 
-- @solana_daily: 🚨 Morgan Stanley launches $MSOL Solana ETP on NYSE Arca Their first crypto ETP attracted $381M in just a few months. Now, Solana joins a $14B ETP suite, with staking enabled and 10
 - @solana_daily: SOLANA LEADS THE PACK ⚡️ In July, @solana processed a massive 4.07 BILLION transactions, topping the charts as the most used blockchain by transaction volume. 👑 Unmatched throughpu
 - @solana_daily: 🚨 BREAKING: The $2.4B AI Agent Token is Officially "DEAD" ElizaOS Founder, @shawmakesmagic, has confirmed the token&apos;s end and the imminent dissolution of its Foundation. 📉 Wha
 - @solana_daily: 📊Solana&apos;s DEX ecosystem continues to attract strong trading activity with ~$9.3B in spot trading volume in just 7 days. Top 10 Solana DEX Protocols by 7D Volume @Pumpfun : $4.
+- @SolanaEvents: We&apos;re going back to the mtn to close out the month is the best way we know how: elevating Solana&apos;s builders. Join us at @mtndao X in SLC or stream Demo Day right here on 
+- @solana_daily: Solana Trenches vs Robinhood Chain Trenches Robinhood Chain is making noise, but Solana is still playing in a different league. The numbers tell the story: ✅Daily volume: Solana 35
 - @SolanaFloor: Pinned: 📽️ Own a Seeker? Are you actually getting the most out of it? Shipped is LIVE on X with @beeman_nl, @web4O, and @inno_sol, breaking down the apps, rewards, and strategies e
 - @SolanaFloor: NEW: @Collector_Crypt has launched luxury watches on its platform in partnership with @watchdotfun. Users can now trade, pull, and redeem vault-backed timepieces like Rolexes direc
 - @SolanaFndn: Birdeye Data is now available on http://solana.com/data
-- @SolanaFloor: BREAKING: @MoneyGram, one of the world&apos;s largest payment networks, has launched Ramps on @Solana. Users can now send stablecoins globally and cash out at 500,000+ locations ac
 
 ## Upgrade Radar
 
