@@ -1,21 +1,21 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-10T23:51:22Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-11T02:27:13Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 7 validators delinquent (0.01% of stake)
-- 🔵 DEX Volume 24h Change Pct: DEX volume dropped 9.8% in 24h
+- 🔵 DEX Volume 24h Change Pct: DEX volume surged 14.8% in 24h
 
 ## ❤️ Solana Health Score
 
-88.0/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+88.6/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 45.7 |
-| slot_time | 95.0 |
-| tps | 94.1 |
-| tvl_trend | 50.0 |
+| price_trend | 44.1 |
+| slot_time | 93.5 |
+| tps | 99.0 |
+| tvl_trend | 47.1 |
 | validators | 99.8 |
 
 ## Network Performance
@@ -23,18 +23,18 @@ _Auto-generated at 2026-08-10T23:51:22Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,411.72 |
-| Peak TPS | 1,547.52 |
-| Non-vote TPS | 725.89 |
-| Avg slot time | 0.4200 s |
-| Slot | 438,498,450 |
-| Block height | 416,552,207 |
+| Avg TPS (10 samples) | 1,484.68 |
+| Peak TPS | 1,759.73 |
+| Non-vote TPS | 798.41 |
+| Avg slot time | 0.4260 s |
+| Slot | 438,520,720 |
+| Block height | 416,574,470 |
 
 ### Epoch
 
-- Epoch 1015 — 4.27% complete (18,448/432,000 slots)
-- Slots remaining: 413,552
-- Total transactions (all-time): 536,985,553,033
+- Epoch 1015 — 9.43% complete (40,719/432,000 slots)
+- Slots remaining: 391,281
+- Total transactions (all-time): 537,017,858,099
 
 ## Validators
 
@@ -76,17 +76,17 @@ _Auto-generated at 2026-08-10T23:51:22Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $75.98 (-0.43% 24h) |
-| TVL | $4,828,224,235.55 (+0.00% 24h) |
-| DEX volume 24h | $1,347,434,364.98 (-9.76%) |
-| Stablecoin supply | $15,524,905,552.53 |
+| SOL price | $75.98 (-0.59% 24h) |
+| TVL | $4,820,933,975.37 (-0.29% 24h) |
+| DEX volume 24h | $1,546,450,792.56 (+14.77%) |
+| Stablecoin supply | $15,525,382,448.26 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 3,927 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 5,305 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,280,377 SOL
-- Non-circulating: 49,729,604 SOL
+- Circulating: 582,481,835 SOL
+- Non-circulating: 49,528,059 SOL
 
 ## Ecosystem Growth
 
@@ -99,21 +99,21 @@ _Auto-generated at 2026-08-10T23:51:22Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,828,224,235.55 | $1,347,434,364.98 | $15,524,905,552.53 |
-| Ethereum | $41,472,031,606.50 | $422,580,662.90 | $147,178,560,542.96 |
-| Base | $4,617,044,834.57 | $297,106,302 | $4,915,078,501.29 |
-| Tron | $4,811,287,677.40 | $20,261,078 | $91,777,337,957.78 |
-| Arbitrum | $1,183,134,959.64 | $60,236,263.74 | $3,459,800,468.96 |
+| Solana | $4,820,933,975.37 | $1,546,450,792.56 | $15,525,382,448.26 |
+| Ethereum | $41,446,513,206.71 | $965,023,849.36 | $146,882,716,869.62 |
+| Base | $4,616,405,474.93 | $565,077,458.62 | $4,895,929,504.08 |
+| Tron | $4,806,166,443.68 | $28,278,071 | $91,772,906,645.57 |
+| Arbitrum | $1,182,918,448.70 | $104,608,503.60 | $3,458,250,205.06 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,411.72 | 1,471.49 | 42th |
-| Slot time (s) | 0.42 | 0.42 | 23th |
-| TVL (USD) | 4,828,224,235.55 | 4,788,968,532.73 | 85th |
-| SOL price (USD) | 75.98 | 74.14 | 68th |
-| DEX volume 24h (USD) | 1,347,434,364.98 | 1,379,094,026.18 | 20th |
+| Avg TPS | 1,484.68 | 1,464.93 | 52th |
+| Slot time (s) | 0.43 | 0.42 | 91th |
+| TVL (USD) | 4,820,933,975.37 | 4,788,968,532.73 | 75th |
+| SOL price (USD) | 75.98 | 74.16 | 68th |
+| DEX volume 24h (USD) | 1,546,450,792.56 | 1,379,094,026.18 | 73th |
 
 ## Ecosystem / Development News
 
@@ -134,10 +134,10 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - [Webinar Recap: Giving AI agents a native way to pay with x402](https://solana.com/news/webinar-recap-agentic-payments) 🖼️ — 2026-08-05
 - [Solana Ecosystem Roundup: July 2026](https://solana.com/news/solana-ecosystem-roundup-july-2026) 🖼️ — 2026-08-05
 - [Breakpoint 2026: The Token Supercycle](https://solana.com/news/the-token-supercycle) 🖼️ — 2026-08-04
+- [MoneyGram Ramps launches on Solana](https://solana.com/news/moneygram-ramps) 🖼️ — 2026-08-01
 - [Inside Solana’s Growing Market for Tokenized Cards and Physical Collectibles](https://solana.com/news/tokenized-cards-and-physical-collectibles) 🖼️ — 2026-07-31
 - [Overview of Institutional Real World Assets on Solana](https://solana.com/news/overview-of-institutional-real-world-assets-on-solana) 🖼️ — 2026-07-30
 - [Solana Changelog: Mainnet raises block limits to 100M CUs](https://solana.com/news/solana-changelog-july-30-2026) 🖼️ — 2026-07-30
-- [Solana Changelog: July 23, 2026](https://solana.com/news/solana-changelog-july-23-2026) 🖼️ — 2026-07-23
 
 ## Community News (X/Twitter)
 
