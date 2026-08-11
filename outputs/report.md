@@ -1,50 +1,50 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-11T16:12:50Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-11T17:12:07Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 10 validators delinquent (0.06% of stake)
+- 🔵 Validators Delinquent: 9 validators delinquent (0.02% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 17.4% in 24h
 
 ## ❤️ Solana Health Score
 
-88.4/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+88.7/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 36.8 |
-| slot_time | 93.8 |
+| price_trend | 36.9 |
+| slot_time | 94.8 |
 | tps | 100.0 |
 | tvl_trend | 50.0 |
-| validators | 98.8 |
+| validators | 99.6 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,719.30 |
-| Peak TPS | 1,930.04 |
-| Non-vote TPS | 1,035.96 |
-| Avg slot time | 0.4250 s |
-| Slot | 438,638,162 |
-| Block height | 416,691,844 |
+| Avg TPS (10 samples) | 1,650.07 |
+| Peak TPS | 1,762.11 |
+| Non-vote TPS | 966.59 |
+| Avg slot time | 0.4210 s |
+| Slot | 438,646,675 |
+| Block height | 416,700,346 |
 
 ### Epoch
 
-- Epoch 1015 — 36.61% complete (158,161/432,000 slots)
-- Slots remaining: 273,839
-- Total transactions (all-time): 537,186,275,401
+- Epoch 1015 — 38.58% complete (166,675/432,000 slots)
+- Slots remaining: 265,325
+- Total transactions (all-time): 537,200,792,028
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 689 |
-| Delinquent validators | 10 |
-| Total active stake | 434,654,648 SOL |
-| Delinquent stake | 276,372 SOL (0.06%) |
-| Avg commission | 11.98% |
+| Active validators | 690 |
+| Delinquent validators | 9 |
+| Total active stake | 434,845,906 SOL |
+| Delinquent stake | 85,114 SOL (0.02%) |
+| Avg commission | 11.97% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -76,22 +76,22 @@ _Auto-generated at 2026-08-11T16:12:50Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $74.91 (-1.32% 24h) |
-| TVL | $4,829,739,435.73 (+0.00% 24h) |
+| SOL price | $74.90 (-1.31% 24h) |
+| TVL | $4,829,607,491.46 (+0.00% 24h) |
 | DEX volume 24h | $1,581,973,855.56 (+17.41%) |
-| Stablecoin supply | $15,687,350,439.50 |
+| Stablecoin supply | $15,681,562,928.15 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 6,885 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 17,526 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,481,392 SOL
+- Circulating: 582,481,354 SOL
 - Non-circulating: 49,528,059 SOL
 
 ## Ecosystem Growth
 
 - Daily Active Addresses: 1,613,386
-- Tokenized Equities Volume (24h): $944,773,451
+- Tokenized Equities Volume (24h): $943,976,232
 - Tokenized Equities AUM: $1,124,240,466
 - Tokenized Equities Holders: 390,949
 
@@ -99,21 +99,21 @@ _Auto-generated at 2026-08-11T16:12:50Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,829,739,435.73 | $1,581,973,855.56 | $15,687,350,439.50 |
-| Ethereum | $41,324,251,040.68 | $971,774,457.36 | $147,178,885,652.64 |
-| Base | $4,632,145,296.08 | $565,188,556.62 | $4,923,383,832.34 |
-| Tron | $4,824,814,603.58 | $28,278,071 | $91,772,117,483.96 |
-| Arbitrum | $1,193,035,285.31 | $104,652,361.60 | $3,462,641,115.93 |
+| Solana | $4,829,607,491.46 | $1,581,973,855.56 | $15,681,562,928.15 |
+| Ethereum | $41,318,320,579.46 | $971,774,457.36 | $147,211,903,060.64 |
+| Base | $4,631,277,993.45 | $565,188,556.62 | $4,927,262,491.12 |
+| Tron | $4,824,806,715.14 | $28,278,071 | $91,784,887,652.98 |
+| Arbitrum | $1,192,994,281.53 | $104,652,361.60 | $3,467,491,097.40 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,719.30 | 1,449.07 | 83th |
-| Slot time (s) | 0.42 | 0.42 | 83th |
-| TVL (USD) | 4,829,739,435.73 | 4,792,572,887.30 | 81th |
-| SOL price (USD) | 74.91 | 74.62 | 54th |
-| DEX volume 24h (USD) | 1,581,973,855.56 | 1,399,620,137.18 | 75th |
+| Avg TPS | 1,650.07 | 1,454.87 | 73th |
+| Slot time (s) | 0.42 | 0.42 | 39th |
+| TVL (USD) | 4,829,607,491.46 | 4,794,999,838.00 | 80th |
+| SOL price (USD) | 74.90 | 74.68 | 53th |
+| DEX volume 24h (USD) | 1,581,973,855.56 | 1,399,620,137.18 | 76th |
 
 ## Ecosystem / Development News
 
@@ -144,11 +144,11 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - @solana_daily: SOLANA LEADS THE PACK ⚡️ In July, @solana processed a massive 4.07 BILLION transactions, topping the charts as the most used blockchain by transaction volume. 👑 Unmatched throughpu
 - @solana_daily: 🚨 BREAKING: The $2.4B AI Agent Token is Officially "DEAD" ElizaOS Founder, @shawmakesmagic, has confirmed the token&apos;s end and the imminent dissolution of its Foundation. 📉 Wha
 - @solana_daily: 📊Solana&apos;s DEX ecosystem continues to attract strong trading activity with ~$9.3B in spot trading volume in just 7 days. Top 10 Solana DEX Protocols by 7D Volume @Pumpfun : $4.
+- @SolanaFloor: 📊: Solana ETFs on Track to Record Strongest Weekly Inflows Since May ✍️: @solace_fm https://solanafloor.com/news/solana-etfs-on-track-to-record-strongest-weekly-inflows-since-may
+- @SolanaFloor: 📰NEWS: @solsticefi Launches STRC Yield Product as Season 2 $SLX Airdrop Goes Live ✍️: @ideyquickvex https://solanafloor.com/news/solstice-launches-strc-yield-product-as-season-2-sl
 - @SolanaEvents: We&apos;re going back to the mtn to close out the month is the best way we know how: elevating Solana&apos;s builders. Join us at @mtndao X in SLC or stream Demo Day right here on 
 - @solana_daily: Solana Trenches vs Robinhood Chain Trenches Robinhood Chain is making noise, but Solana is still playing in a different league. The numbers tell the story: ✅Daily volume: Solana 35
 - @SolanaFloor: Pinned: 📽️ Own a Seeker? Are you actually getting the most out of it? Shipped is LIVE on X with @beeman_nl, @web4O, and @inno_sol, breaking down the apps, rewards, and strategies e
-- @SolanaFloor: NEW: @Collector_Crypt has launched luxury watches on its platform in partnership with @watchdotfun. Users can now trade, pull, and redeem vault-backed timepieces like Rolexes direc
-- @SolanaFndn: Birdeye Data is now available on http://solana.com/data
 
 ## Upgrade Radar
 
