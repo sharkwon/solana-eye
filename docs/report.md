@@ -1,20 +1,20 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-12T22:02:35Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-12T23:02:27Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 10 validators delinquent (0.02% of stake)
 
 ## ❤️ Solana Health Score
 
-88.5/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+89.2/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 36.3 |
-| slot_time | 94.0 |
+| price_trend | 39.6 |
+| slot_time | 96.0 |
 | tps | 100.0 |
-| tvl_trend | 50.5 |
+| tvl_trend | 50.7 |
 | validators | 99.6 |
 
 ## Network Performance
@@ -22,18 +22,18 @@ _Auto-generated at 2026-08-12T22:02:35Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,724.03 |
-| Peak TPS | 1,861.43 |
-| Non-vote TPS | 1,040.37 |
-| Avg slot time | 0.4240 s |
-| Slot | 438,893,628 |
-| Block height | 416,945,586 |
+| Avg TPS (10 samples) | 1,556.83 |
+| Peak TPS | 1,919.36 |
+| Non-vote TPS | 872.73 |
+| Avg slot time | 0.4160 s |
+| Slot | 438,902,292 |
+| Block height | 416,954,243 |
 
 ### Epoch
 
-- Epoch 1015 — 95.75% complete (413,627/432,000 slots)
-- Slots remaining: 18,373
-- Total transactions (all-time): 537,593,898,511
+- Epoch 1015 — 97.75% complete (422,291/432,000 slots)
+- Slots remaining: 9,709
+- Total transactions (all-time): 537,607,246,932
 
 ## Validators
 
@@ -75,16 +75,16 @@ _Auto-generated at 2026-08-12T22:02:35Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $75.44 (-1.37% 24h) |
-| TVL | $4,821,891,299.69 (+0.05% 24h) |
+| SOL price | $75.46 (-1.04% 24h) |
+| TVL | $4,819,448,252.56 (+0.07% 24h) |
 | DEX volume 24h | $1,650,837,789.28 (+4.35%) |
-| Stablecoin supply | $15,536,697,350.07 |
+| Stablecoin supply | $15,487,539,596.99 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 19,303 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 4,438 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,499,318 SOL
+- Circulating: 582,499,283 SOL
 - Non-circulating: 49,509,066 SOL
 
 ## Ecosystem Growth
@@ -98,21 +98,21 @@ _Auto-generated at 2026-08-12T22:02:35Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,821,891,299.69 | $1,650,837,789.28 | $15,536,697,350.07 |
-| Ethereum | $41,235,073,174.00 | $848,261,508.83 | $147,274,430,734.57 |
-| Base | $4,682,565,089.87 | $495,045,033.82 | $4,984,260,325.07 |
-| Tron | $4,823,628,043.09 | $49,860,208 | $92,595,437,993.70 |
-| Arbitrum | $1,193,910,412.92 | $87,545,761.52 | $3,497,400,576.08 |
+| Solana | $4,819,448,252.56 | $1,650,837,789.28 | $15,487,539,596.99 |
+| Ethereum | $41,235,593,821.63 | $848,261,508.83 | $147,262,305,179.46 |
+| Base | $4,682,216,883.69 | $495,045,033.82 | $4,981,901,411.74 |
+| Tron | $4,824,326,280.30 | $49,860,208 | $92,597,399,741.99 |
+| Arbitrum | $1,193,460,289.96 | $87,545,761.52 | $3,490,190,882.24 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,724.03 | 1,484.68 | 79th |
-| Slot time (s) | 0.42 | 0.42 | 79th |
-| TVL (USD) | 4,821,891,299.69 | 4,803,100,875.73 | 65th |
-| SOL price (USD) | 75.44 | 75.17 | 52th |
-| DEX volume 24h (USD) | 1,650,837,789.28 | 1,479,321,412.54 | 77th |
+| Avg TPS | 1,556.83 | 1,488.91 | 59th |
+| Slot time (s) | 0.42 | 0.42 | 1th |
+| TVL (USD) | 4,819,448,252.56 | 4,803,219,069.51 | 61th |
+| SOL price (USD) | 75.46 | 75.18 | 53th |
+| DEX volume 24h (USD) | 1,650,837,789.28 | 1,486,232,721.04 | 78th |
 
 ## Ecosystem / Development News
 
@@ -140,6 +140,7 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Community News (X/Twitter)
 
+- @solana: Robotics szn on Solana 🤖
 - @SolanaFloor: 🎥 One thesis from tradingFloor this week: long $MET. @solquicks makes the case for @MeteoraAG, hear his breakdown of the trade 👇
 - @SolanaFloor: 🎥 "A default Android phone with crypto superpowers" - @inno_sol shares why he picks up his @solanamobile Seeker over a standard Android 👇
 - @SolanaFloor: 📰: Solana Hit 86% of Its Halt Threshold After a Teraswitch Routing Failure ✍️: @ideyquickvex https://solanafloor.com/news/solana-hit-86-of-its-halt-threshold
@@ -147,7 +148,6 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - @SolanaFloor: 📰NEWS: @Pumpfun vs. @fomo Gets Serious as Traders Question Fomo’s Fees ✍️: @ideyquickvex https://solanafloor.com/news/pump-fun-vs-fomo-gets-serious
 - @SolanaFloor: 🎥 How much is a top Solana trader worth? @Pumpfun is reportedly paying @FOMO&apos;s top traders $20k upfront and $30k a month to switch platforms. Here&apos;s the full story👇
 - @SolanaEvents: The UK brain drain is real. But in a time when many have lost faith, we&apos;re doubling down instead. We believe in the UK and want to be a part of shaping its future in tech and 
-- @SolanaFloor: 📊DATA: @Solana has recorded the largest year-to-date growth in tokenized credit funds, with market cap increasing by $476.3M. That’s more than all other chains combined, with Base 
 
 ## Upgrade Radar
 
