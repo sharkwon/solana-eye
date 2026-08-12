@@ -1,49 +1,49 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-12T16:11:02Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-12T17:17:19Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 10 validators delinquent (0.1% of stake)
+- 🔵 Validators Delinquent: 11 validators delinquent (0.09% of stake)
 
 ## ❤️ Solana Health Score
 
-90.4/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+90.9/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 59.6 |
-| slot_time | 94.3 |
+| price_trend | 59.9 |
+| slot_time | 95.3 |
 | tps | 100.0 |
-| tvl_trend | 50.0 |
-| validators | 98.0 |
+| tvl_trend | 53.1 |
+| validators | 98.2 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,991.99 |
-| Peak TPS | 2,161.14 |
-| Non-vote TPS | 1,319.01 |
-| Avg slot time | 0.4230 s |
-| Slot | 438,843,386 |
-| Block height | 416,895,511 |
+| Avg TPS (10 samples) | 1,731.11 |
+| Peak TPS | 1,811.83 |
+| Non-vote TPS | 1,045.34 |
+| Avg slot time | 0.4190 s |
+| Slot | 438,852,947 |
+| Block height | 416,905,039 |
 
 ### Epoch
 
-- Epoch 1015 — 84.12% complete (363,385/432,000 slots)
-- Slots remaining: 68,615
-- Total transactions (all-time): 537,501,559,300
+- Epoch 1015 — 86.33% complete (372,947/432,000 slots)
+- Slots remaining: 59,053
+- Total transactions (all-time): 537,518,833,092
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 689 |
-| Delinquent validators | 10 |
-| Total active stake | 434,517,803 SOL |
-| Delinquent stake | 413,217 SOL (0.10%) |
-| Avg commission | 12.28% |
+| Active validators | 688 |
+| Delinquent validators | 11 |
+| Total active stake | 434,545,902 SOL |
+| Delinquent stake | 385,118 SOL (0.09%) |
+| Avg commission | 12.15% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -75,16 +75,16 @@ _Auto-generated at 2026-08-12T16:11:02Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $75.65 (+0.96% 24h) |
-| TVL | $4,827,938,705.12 (+0.00% 24h) |
+| SOL price | $75.67 (+0.99% 24h) |
+| TVL | $4,826,955,637.28 (+0.31% 24h) |
 | DEX volume 24h | $1,650,837,789.28 (+4.35%) |
-| Stablecoin supply | $15,583,045,411.21 |
+| Stablecoin supply | $15,601,762,182.88 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 11,491 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 5,897 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,499,558 SOL
+- Circulating: 582,499,513 SOL
 - Non-circulating: 49,509,066 SOL
 
 ## Ecosystem Growth
@@ -98,20 +98,20 @@ _Auto-generated at 2026-08-12T16:11:02Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,827,938,705.12 | $1,650,837,789.28 | $15,583,045,411.21 |
-| Ethereum | $41,364,406,954.43 | $848,261,508.83 | $147,297,842,016.80 |
-| Base | $4,680,124,226.16 | $495,045,033.82 | $4,989,563,561.19 |
-| Tron | $4,823,566,025.11 | $49,860,208 | $92,604,536,186.64 |
-| Arbitrum | $1,195,887,638.32 | $87,545,761.52 | $3,506,222,367.80 |
+| Solana | $4,826,955,637.28 | $1,650,837,789.28 | $15,601,762,182.88 |
+| Ethereum | $41,364,406,827.32 | $848,261,508.83 | $147,261,401,536.41 |
+| Base | $4,680,124,092.57 | $495,045,033.82 | $4,976,329,841.21 |
+| Tron | $4,823,566,025.11 | $49,860,208 | $92,598,076,141.04 |
+| Arbitrum | $1,195,887,225.30 | $87,545,761.52 | $3,495,133,639.25 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,991.99 | 1,472.30 | 100th |
-| Slot time (s) | 0.42 | 0.42 | 64th |
-| TVL (USD) | 4,827,938,705.12 | 4,801,854,203.77 | 73th |
-| SOL price (USD) | 75.65 | 75.05 | 55th |
+| Avg TPS | 1,731.11 | 1,473.12 | 82th |
+| Slot time (s) | 0.42 | 0.42 | 15th |
+| TVL (USD) | 4,826,955,637.28 | 4,801,889,077.09 | 72th |
+| SOL price (USD) | 75.67 | 75.09 | 56th |
 | DEX volume 24h (USD) | 1,650,837,789.28 | 1,479,321,412.54 | 77th |
 
 ## Ecosystem / Development News
@@ -140,14 +140,14 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Community News (X/Twitter)
 
+- @SolanaFloor: 🎥 How much is a top Solana trader worth? @Pumpfun is reportedly paying @FOMO&apos;s top traders $20k upfront and $30k a month to switch platforms. Here&apos;s the full story👇
+- @SolanaEvents: The UK brain drain is real. But in a time when many have lost faith, we&apos;re doubling down instead. We believe in the UK and want to be a part of shaping its future in tech and 
+- @SolanaFloor: 📊DATA: @Solana has recorded the largest year-to-date growth in tokenized credit funds, with market cap increasing by $476.3M. That’s more than all other chains combined, with Base 
 - @SolanaFloor: Pinned: tradingFloor is LIVE on X with three stellar guests pitching trades: 👉 Sam Ruskin - @0xCryptoSam ​👉 Yash Agarwal - @yashhsm ​👉 Quicks - @solquicks Tune in 👇 https://x.com/i
 - @solana_daily: Most active x402 projects on Solana ⚡️ Laso Finance — @LasoFinance Syra — @syra_agent StableEnrich WURK — @WURKDOTFUN BlockRun — @BlockRunAI Truth Bear SniperX — @sniperxfun Bitref
 - @solana: Nic Cabana compares Solana to a digital Silicon Valley "There&apos;s a beautiful composability of projects and startups on Solana" "There&apos;s a huge community, essentially a dig
 - @SolanaFloor: 📰: SEC to Roll Out “Major Initiatives” to Turbocharge Crypto Industry as CLARITY Flounders ✍️: @solace_fm https://solanafloor.com/news/sec-roll-major-initiatives-turbocharge-crypto
 - @SolanaFloor: 📽️ "Seeker is available everywhere, anyone who takes their phone to any country." - @BAXUSco co-founder @web4O on shipping for the @solanamobile dApp store. The best thing about Se
-- @SolanaFloor: JUST IN: 🇺🇸 US July CPI rose 0.1% MoM and 3.4% YoY, both in line with estimates, while core CPI came in at 0.2% MoM and cooled to 2.5% YoY from 2.6%.
-- @SolanaFloor: NEWS: 🇺🇸U.S. regulator OCC has approved a path for crypto and digital asset firms to become national banks, allowing eligible companies engaged in legally permissible digital asset
-- @SolanaFloor: 🚨NEWS: @Solana came close to halting transaction finalization today after a routing failure at infrastructure provider @Teraswitch caused 28.83% of staked SOL to go delinquent. Sol
 
 ## Upgrade Radar
 
