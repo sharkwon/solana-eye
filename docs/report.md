@@ -1,20 +1,20 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-12T10:20:26Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-12T11:58:35Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 9 validators delinquent (0.02% of stake)
 
 ## ❤️ Solana Health Score
 
-89.9/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+88.6/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 62.2 |
-| slot_time | 95.3 |
-| tps | 95.0 |
-| tvl_trend | 52.3 |
+| price_trend | 57.9 |
+| slot_time | 93.5 |
+| tps | 91.8 |
+| tvl_trend | 54.6 |
 | validators | 99.6 |
 
 ## Network Performance
@@ -22,18 +22,18 @@ _Auto-generated at 2026-08-12T10:20:26Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,425.37 |
-| Peak TPS | 1,499.21 |
-| Non-vote TPS | 743.93 |
-| Avg slot time | 0.4190 s |
-| Slot | 438,793,397 |
-| Block height | 416,845,609 |
+| Avg TPS (10 samples) | 1,377.01 |
+| Peak TPS | 1,560.91 |
+| Non-vote TPS | 693.44 |
+| Avg slot time | 0.4260 s |
+| Slot | 438,807,423 |
+| Block height | 416,859,625 |
 
 ### Epoch
 
-- Epoch 1015 — 72.55% complete (313,396/432,000 slots)
-- Slots remaining: 118,604
-- Total transactions (all-time): 537,419,603,098
+- Epoch 1015 — 75.79% complete (327,423/432,000 slots)
+- Slots remaining: 104,577
+- Total transactions (all-time): 537,438,665,449
 
 ## Validators
 
@@ -75,16 +75,16 @@ _Auto-generated at 2026-08-12T10:20:26Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $76.72 (+1.22% 24h) |
-| TVL | $4,834,367,260.33 (+0.23% 24h) |
-| DEX volume 24h | $1,652,160,307.28 (+4.44%) |
-| Stablecoin supply | $15,668,340,909.51 |
+| SOL price | $76.77 (+0.79% 24h) |
+| TVL | $4,845,244,866.50 (+0.46% 24h) |
+| DEX volume 24h | $1,650,837,789.28 (+4.35%) |
+| Stablecoin supply | $15,663,407,946.91 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 6,364 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 4,360 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,499,773 SOL
+- Circulating: 582,499,723 SOL
 - Non-circulating: 49,509,066 SOL
 
 ## Ecosystem Growth
@@ -98,21 +98,21 @@ _Auto-generated at 2026-08-12T10:20:26Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,834,367,260.33 | $1,652,160,307.28 | $15,668,340,909.51 |
-| Ethereum | $41,365,068,452.61 | $853,544,025.83 | $147,298,554,682.86 |
-| Base | $4,619,705,960.32 | $495,045,043.82 | $4,898,989,350.47 |
-| Tron | $4,811,592,965.69 | $49,860,208 | $92,596,843,735.44 |
-| Arbitrum | $1,193,654,647.60 | $87,545,761.52 | $3,484,234,072.88 |
+| Solana | $4,845,244,866.50 | $1,650,837,789.28 | $15,663,407,946.91 |
+| Ethereum | $41,548,791,883.61 | $848,261,508.83 | $147,310,758,471.74 |
+| Base | $4,638,945,242.06 | $495,045,033.82 | $4,902,396,534.50 |
+| Tron | $4,821,256,792.61 | $49,860,208 | $92,603,123,275.87 |
+| Arbitrum | $1,197,642,390.02 | $87,545,761.52 | $3,484,827,189.27 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,425.37 | 1,472.30 | 45th |
-| Slot time (s) | 0.42 | 0.42 | 14th |
-| TVL (USD) | 4,834,367,260.33 | 4,800,261,627.15 | 82th |
-| SOL price (USD) | 76.72 | 74.91 | 92th |
-| DEX volume 24h (USD) | 1,652,160,307.28 | 1,478,493,275.04 | 80th |
+| Avg TPS | 1,377.01 | 1,471.49 | 38th |
+| Slot time (s) | 0.43 | 0.42 | 92th |
+| TVL (USD) | 4,845,244,866.50 | 4,800,457,225.35 | 88th |
+| SOL price (USD) | 76.77 | 74.91 | 93th |
+| DEX volume 24h (USD) | 1,650,837,789.28 | 1,479,321,412.54 | 76th |
 
 ## Ecosystem / Development News
 
@@ -140,12 +140,12 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Community News (X/Twitter)
 
+- @SolanaFloor: 📊DATA: Over $3B in stablecoins minted on @Solana last week, led by @Circle with $2.75B.
 - @solana_daily: Solana > Ethereum + Hyperliquid + BSC + Polygon + Robinhood Chain + Base + Hydration + edgeX + zkSync. That&apos;s what data tells.
 - @SolanaFloor: 📈DATA: @Solana dapps have generated more revenue in the past 24 hours than all L1s and L2s combined.
 - @SolanaFloor: UPDATE: @pumpfun continues to rank 3rd among all protocols by revenue across the crypto market.
 - @SolanaFloor: NEW: @harmonyprotocol, a Layer-1 blockchain, has confirmed an exploit involving the unauthorized minting of roughly 4B $ONE, equal to around 26% of the token’s total supply. The at
 - @SolanaFloor: NEW: An Alameda Research-linked wallet has unstaked 201,740 $SOL worth $15.27M after five years of staking. The position was originally worth just ~$352K before Alameda collapsed a
-- @SolanaEvents: 67% of success is showing up to Breakpoint.
 - @solana: Never stop clicking
 - @solana_daily: SOLANA LEADS THE PACK ⚡️ In July, @solana processed a massive 4.07 BILLION transactions, topping the charts as the most used blockchain by transaction volume. 👑 Unmatched throughpu
 
