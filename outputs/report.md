@@ -1,49 +1,49 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-12T08:39:55Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-12T10:20:26Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 10 validators delinquent (0.03% of stake)
+- 🔵 Validators Delinquent: 9 validators delinquent (0.02% of stake)
 
 ## ❤️ Solana Health Score
 
-85.8/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+89.9/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 57.8 |
+| price_trend | 62.2 |
 | slot_time | 95.3 |
-| tps | 81.4 |
-| tvl_trend | 52.1 |
-| validators | 99.4 |
+| tps | 95.0 |
+| tvl_trend | 52.3 |
+| validators | 99.6 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,220.28 |
-| Peak TPS | 1,278.09 |
-| Non-vote TPS | 536.39 |
+| Avg TPS (10 samples) | 1,425.37 |
+| Peak TPS | 1,499.21 |
+| Non-vote TPS | 743.93 |
 | Avg slot time | 0.4190 s |
-| Slot | 438,779,002 |
-| Block height | 416,831,228 |
+| Slot | 438,793,397 |
+| Block height | 416,845,609 |
 
 ### Epoch
 
-- Epoch 1015 — 69.21% complete (299,001/432,000 slots)
-- Slots remaining: 132,999
-- Total transactions (all-time): 537,400,999,705
+- Epoch 1015 — 72.55% complete (313,396/432,000 slots)
+- Slots remaining: 118,604
+- Total transactions (all-time): 537,419,603,098
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 689 |
-| Delinquent validators | 10 |
-| Total active stake | 434,808,636 SOL |
-| Delinquent stake | 122,384 SOL (0.03%) |
-| Avg commission | 12.27% |
+| Active validators | 690 |
+| Delinquent validators | 9 |
+| Total active stake | 434,845,906 SOL |
+| Delinquent stake | 85,114 SOL (0.02%) |
+| Avg commission | 12.26% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -75,16 +75,16 @@ _Auto-generated at 2026-08-12T08:39:55Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $76.27 (+0.78% 24h) |
-| TVL | $4,833,082,178.40 (+0.21% 24h) |
+| SOL price | $76.72 (+1.22% 24h) |
+| TVL | $4,834,367,260.33 (+0.23% 24h) |
 | DEX volume 24h | $1,652,160,307.28 (+4.44%) |
-| Stablecoin supply | $15,696,749,622.49 |
+| Stablecoin supply | $15,668,340,909.51 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 7,433 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 6,364 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,499,822 SOL
+- Circulating: 582,499,773 SOL
 - Non-circulating: 49,509,066 SOL
 
 ## Ecosystem Growth
@@ -98,21 +98,21 @@ _Auto-generated at 2026-08-12T08:39:55Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,833,082,178.40 | $1,652,160,307.28 | $15,696,749,622.49 |
-| Ethereum | $41,314,708,638.87 | $853,544,025.83 | $147,252,283,373.40 |
-| Base | $4,621,300,652.03 | $495,045,043.82 | $4,899,504,628.28 |
-| Tron | $4,832,025,481.00 | $49,860,208 | $92,601,303,530.87 |
-| Arbitrum | $1,189,579,365.97 | $87,545,761.52 | $3,490,318,941.50 |
+| Solana | $4,834,367,260.33 | $1,652,160,307.28 | $15,668,340,909.51 |
+| Ethereum | $41,365,068,452.61 | $853,544,025.83 | $147,298,554,682.86 |
+| Base | $4,619,705,960.32 | $495,045,043.82 | $4,898,989,350.47 |
+| Tron | $4,811,592,965.69 | $49,860,208 | $92,596,843,735.44 |
+| Arbitrum | $1,193,654,647.60 | $87,545,761.52 | $3,484,234,072.88 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,220.28 | 1,473.12 | 9th |
+| Avg TPS | 1,425.37 | 1,472.30 | 45th |
 | Slot time (s) | 0.42 | 0.42 | 14th |
-| TVL (USD) | 4,833,082,178.40 | 4,800,066,028.95 | 80th |
-| SOL price (USD) | 76.27 | 74.90 | 79th |
-| DEX volume 24h (USD) | 1,652,160,307.28 | 1,477,665,137.54 | 79th |
+| TVL (USD) | 4,834,367,260.33 | 4,800,261,627.15 | 82th |
+| SOL price (USD) | 76.72 | 74.91 | 92th |
+| DEX volume 24h (USD) | 1,652,160,307.28 | 1,478,493,275.04 | 80th |
 
 ## Ecosystem / Development News
 
@@ -140,14 +140,14 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Community News (X/Twitter)
 
+- @solana_daily: Solana > Ethereum + Hyperliquid + BSC + Polygon + Robinhood Chain + Base + Hydration + edgeX + zkSync. That&apos;s what data tells.
+- @SolanaFloor: 📈DATA: @Solana dapps have generated more revenue in the past 24 hours than all L1s and L2s combined.
+- @SolanaFloor: UPDATE: @pumpfun continues to rank 3rd among all protocols by revenue across the crypto market.
+- @SolanaFloor: NEW: @harmonyprotocol, a Layer-1 blockchain, has confirmed an exploit involving the unauthorized minting of roughly 4B $ONE, equal to around 26% of the token’s total supply. The at
 - @SolanaFloor: NEW: An Alameda Research-linked wallet has unstaked 201,740 $SOL worth $15.27M after five years of staking. The position was originally worth just ~$352K before Alameda collapsed a
 - @SolanaEvents: 67% of success is showing up to Breakpoint.
 - @solana: Never stop clicking
 - @solana_daily: SOLANA LEADS THE PACK ⚡️ In July, @solana processed a massive 4.07 BILLION transactions, topping the charts as the most used blockchain by transaction volume. 👑 Unmatched throughpu
-- @solana_daily: 🚨 BREAKING: The $2.4B AI Agent Token is Officially "DEAD" ElizaOS Founder, @shawmakesmagic, has confirmed the token&apos;s end and the imminent dissolution of its Foundation. 📉 Wha
-- @solana_daily: 📊Solana&apos;s DEX ecosystem continues to attract strong trading activity with ~$9.3B in spot trading volume in just 7 days. Top 10 Solana DEX Protocols by 7D Volume @Pumpfun : $4.
-- @SolanaFloor: 📰NEWS: Solana Summit Nigeria Put RWAs, Tokenized Stocks and Global Capital in the African Spotlight ✍️: @ideyquickvex https://solanafloor.com/news/solana-summit-nigeria-put-rwas-to
-- @SolanaFloor: tradingFloor is LIVE Wednesday at 11am ET. 👉 Sam Ruskin - @0xCryptoSam 👉 Yash Agarwal - @yashhsm 👉 Quicks - @solquicks This week&apos;s traders each pitch a ticker and a thesis, th
 
 ## Upgrade Radar
 
