@@ -1,5 +1,5 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-14T11:56:51Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-14T13:42:21Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 9 validators delinquent (0.01% of stake)
@@ -7,15 +7,15 @@ _Auto-generated at 2026-08-14T11:56:51Z UTC — refresh every 60 min_
 
 ## ❤️ Solana Health Score
 
-87.3/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+89.2/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 48.8 |
-| slot_time | 96.3 |
-| tps | 89.5 |
-| tvl_trend | 50.3 |
+| price_trend | 37.8 |
+| slot_time | 96.8 |
+| tps | 100.0 |
+| tvl_trend | 50.0 |
 | validators | 99.8 |
 
 ## Network Performance
@@ -23,18 +23,18 @@ _Auto-generated at 2026-08-14T11:56:51Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,342.96 |
-| Peak TPS | 1,444.20 |
-| Non-vote TPS | 660.83 |
-| Avg slot time | 0.4150 s |
-| Slot | 439,221,259 |
-| Block height | 417,272,633 |
+| Avg TPS (10 samples) | 2,034.10 |
+| Peak TPS | 2,175.84 |
+| Non-vote TPS | 1,351.66 |
+| Avg slot time | 0.4130 s |
+| Slot | 439,236,483 |
+| Block height | 417,287,825 |
 
 ### Epoch
 
-- Epoch 1016 — 71.59% complete (309,259/432,000 slots)
-- Slots remaining: 122,741
-- Total transactions (all-time): 538,084,992,020
+- Epoch 1016 — 75.11% complete (324,482/432,000 slots)
+- Slots remaining: 107,518
+- Total transactions (all-time): 538,107,393,255
 
 ## Validators
 
@@ -76,16 +76,16 @@ _Auto-generated at 2026-08-14T11:56:51Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $75.48 (-0.12% 24h) |
-| TVL | $4,824,575,896.90 (+0.03% 24h) |
+| SOL price | $75.26 (-1.22% 24h) |
+| TVL | $4,823,886,811.25 (+0.00% 24h) |
 | DEX volume 24h | $1,942,768,290.75 (+12.58%) |
-| Stablecoin supply | $15,504,781,132.02 |
+| Stablecoin supply | $15,476,664,820.03 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 7,691 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 7,001 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,613,466 SOL
+- Circulating: 582,613,407 SOL
 - Non-circulating: 49,521,621 SOL
 
 ## Ecosystem Growth
@@ -99,20 +99,20 @@ _Auto-generated at 2026-08-14T11:56:51Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,824,575,896.90 | $1,942,768,290.75 | $15,504,781,132.02 |
-| Ethereum | $41,005,613,791.78 | $900,613,800.68 | $147,198,354,587.19 |
-| Base | $4,601,052,015.00 | $706,708,248.70 | $4,916,083,147.44 |
-| Tron | $4,769,835,013.38 | $46,969,520 | $92,584,824,820.78 |
-| Arbitrum | $1,234,274,181.55 | $93,445,967.40 | $3,638,446,214.60 |
+| Solana | $4,823,886,811.25 | $1,942,768,290.75 | $15,476,664,820.03 |
+| Ethereum | $41,029,983,356.82 | $900,613,800.68 | $147,224,424,018.10 |
+| Base | $4,604,102,033.54 | $706,708,248.70 | $4,911,013,928.60 |
+| Tron | $4,786,106,940.18 | $46,969,520 | $92,589,675,123.13 |
+| Arbitrum | $1,233,843,242.01 | $93,445,967.40 | $3,632,021,338.65 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,342.96 | 1,483.83 | 31th |
-| Slot time (s) | 0.41 | 0.42 | 5th |
-| TVL (USD) | 4,824,575,896.90 | 4,812,562,093.49 | 64th |
-| SOL price (USD) | 75.48 | 75.60 | 47th |
+| Avg TPS | 2,034.10 | 1,482.98 | 99th |
+| Slot time (s) | 0.41 | 0.42 | 1th |
+| TVL (USD) | 4,823,886,811.25 | 4,813,047,291.82 | 63th |
+| SOL price (USD) | 75.26 | 75.60 | 44th |
 | DEX volume 24h (USD) | 1,942,768,290.75 | 1,493,144,029.54 | 97th |
 
 ## Ecosystem / Development News
