@@ -1,50 +1,50 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-14T21:40:15Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-14T22:40:25Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 11 validators delinquent (0.07% of stake)
+- 🔵 Validators Delinquent: 10 validators delinquent (0.02% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 12.6% in 24h
 
 ## ❤️ Solana Health Score
 
-88.9/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+87.6/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 37.1 |
-| slot_time | 96.8 |
-| tps | 100.0 |
-| tvl_trend | 49.9 |
-| validators | 98.6 |
+| price_trend | 33.1 |
+| slot_time | 95.0 |
+| tps | 97.3 |
+| tvl_trend | 50.0 |
+| validators | 99.6 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,564.46 |
-| Peak TPS | 1,694.24 |
-| Non-vote TPS | 881.56 |
-| Avg slot time | 0.4130 s |
-| Slot | 439,305,432 |
-| Block height | 417,356,741 |
+| Avg TPS (10 samples) | 1,459.23 |
+| Peak TPS | 1,612.83 |
+| Non-vote TPS | 777.98 |
+| Avg slot time | 0.4200 s |
+| Slot | 439,314,084 |
+| Block height | 417,365,386 |
 
 ### Epoch
 
-- Epoch 1016 — 91.07% complete (393,432/432,000 slots)
-- Slots remaining: 38,568
-- Total transactions (all-time): 538,225,072,519
+- Epoch 1016 — 93.08% complete (402,084/432,000 slots)
+- Slots remaining: 29,916
+- Total transactions (all-time): 538,237,958,286
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 687 |
-| Delinquent validators | 11 |
-| Total active stake | 434,381,709 SOL |
-| Delinquent stake | 288,207 SOL (0.07%) |
-| Avg commission | 12.31% |
+| Active validators | 688 |
+| Delinquent validators | 10 |
+| Total active stake | 434,577,593 SOL |
+| Delinquent stake | 92,323 SOL (0.02%) |
+| Avg commission | 12.30% |
 | Nakamoto coefficient | 17 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -76,16 +76,16 @@ _Auto-generated at 2026-08-14T21:40:15Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $75.10 (-1.29% 24h) |
-| TVL | $4,794,049,986.76 (-0.01% 24h) |
+| SOL price | $75.02 (-1.69% 24h) |
+| TVL | $4,799,959,418.14 (+0.00% 24h) |
 | DEX volume 24h | $1,942,768,290.75 (+12.58%) |
-| Stablecoin supply | $15,406,600,681.70 |
+| Stablecoin supply | $15,416,201,282.72 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 36,620 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 10,291 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,613,100 SOL
+- Circulating: 582,613,067 SOL
 - Non-circulating: 49,521,621 SOL
 
 ## Ecosystem Growth
@@ -99,21 +99,21 @@ _Auto-generated at 2026-08-14T21:40:15Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,794,049,986.76 | $1,942,768,290.75 | $15,406,600,681.70 |
-| Ethereum | $41,029,629,467.90 | $900,613,800.68 | $147,374,491,462.68 |
-| Base | $4,601,910,667.29 | $706,708,248.70 | $4,916,736,189.03 |
-| Tron | $4,793,800,392.35 | $46,969,520 | $92,590,945,495.96 |
-| Arbitrum | $1,232,929,785.79 | $93,445,967.40 | $3,615,541,826.30 |
+| Solana | $4,799,959,418.14 | $1,942,768,290.75 | $15,416,201,282.72 |
+| Ethereum | $41,067,126,836.78 | $900,613,800.68 | $147,458,026,320.20 |
+| Base | $4,607,518,926.50 | $706,708,248.70 | $4,923,109,906.66 |
+| Tron | $4,792,299,123.94 | $46,969,520 | $92,597,653,890.84 |
+| Arbitrum | $1,233,449,240.85 | $93,445,967.40 | $3,616,527,060.44 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,564.46 | 1,494.06 | 58th |
-| Slot time (s) | 0.41 | 0.42 | 3th |
-| TVL (USD) | 4,794,049,986.76 | 4,811,844,433.48 | 35th |
-| SOL price (USD) | 75.10 | 75.53 | 41th |
-| DEX volume 24h (USD) | 1,942,768,290.75 | 1,546,376,149.56 | 97th |
+| Avg TPS | 1,459.23 | 1,494.56 | 46th |
+| Slot time (s) | 0.42 | 0.42 | 40th |
+| TVL (USD) | 4,799,959,418.14 | 4,811,461,498.82 | 39th |
+| SOL price (USD) | 75.02 | 75.53 | 40th |
+| DEX volume 24h (USD) | 1,942,768,290.75 | 1,546,410,158.56 | 97th |
 
 ## Ecosystem / Development News
 
@@ -144,11 +144,11 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - @SolanaEvents: The UK brain drain is real. But in a time when many have lost faith, we&apos;re doubling down instead. We believe in the UK and want to be a part of shaping its future in tech and 
 - @solana_daily: Most active x402 projects on Solana ⚡️ Laso Finance — @LasoFinance Syra — @syra_agent StableEnrich WURK — @WURKDOTFUN BlockRun — @BlockRunAI Truth Bear SniperX — @sniperxfun Bitref
 - @solana_daily: Solana > Ethereum + Hyperliquid + BSC + Polygon + Robinhood Chain + Base + Hydration + edgeX + zkSync. That&apos;s what data tells.
-- @SolanaFndn: New Episode of Solana is Global: @afscott sits down with @avtarsehra, CEO of @stbl_official, to get into the evolution of stablecoins, the idea of Stablecoin 2.0, and where the nex
 - @solana_daily: Solana Trenches vs Robinhood Chain Trenches Robinhood Chain is making noise, but Solana is still playing in a different league. The numbers tell the story: ✅Daily volume: Solana 35
 - @solana_daily: 🔥HUGE: MoneyGram Ramps is Now Live on Solana. Developers can plug into MoneyGram’s global fiat on/off-ramp network through a single API, enabling: • Cash -> crypto in 25+ countries
 - @solana_daily: Top 10 Most-held Tokens on @fomo ⚡️ ▫️ANSEM— @BlackBullSol ▫️CATE — @CateonSol_ ▫️XST — @XSolutAI ▫️neet — @neet_sol ▫️TOAD — @eltoadpepe ▫️UwU — @unicornandmemes ▫️Buttcoin — @But
 - @solana_daily: 📊 Top 10 Solana DEX Protocol by 7D Volume 🥇@Pumpfun 🥈@FWDind (BisonFi) 🥉@orca_so 🏅@Raydium 🏅@MeteoraAG 🏅@humidifi 🏅@ManifestTrade 🏅#GoonFi 🏅@SolFiAMM 🏅@Tessera_PE
+- @SolanaEvents: Breakpoint is the event for people who are into: Crypto AI Finance Policy Robotics Agents Stocks Memecoins Memes Precious Metals Sports Cards Pokemon Art Music Dinosaur Bones Toys 
 
 ## Upgrade Radar
 
