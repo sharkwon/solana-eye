@@ -1,5 +1,5 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-14T16:06:17Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-14T17:11:27Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 9 validators delinquent (0.01% of stake)
@@ -7,15 +7,15 @@ _Auto-generated at 2026-08-14T16:06:17Z UTC — refresh every 60 min_
 
 ## ❤️ Solana Health Score
 
-90.4/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+89.8/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 49.4 |
-| slot_time | 96.5 |
+| price_trend | 47.3 |
+| slot_time | 95.5 |
 | tps | 100.0 |
-| tvl_trend | 52.1 |
+| tvl_trend | 50.0 |
 | validators | 99.8 |
 
 ## Network Performance
@@ -23,18 +23,18 @@ _Auto-generated at 2026-08-14T16:06:17Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,703.81 |
-| Peak TPS | 1,890.22 |
-| Non-vote TPS | 1,020.02 |
-| Avg slot time | 0.4140 s |
-| Slot | 439,257,180 |
-| Block height | 417,308,502 |
+| Avg TPS (10 samples) | 1,846.56 |
+| Peak TPS | 2,061.99 |
+| Non-vote TPS | 1,162.67 |
+| Avg slot time | 0.4180 s |
+| Slot | 439,266,594 |
+| Block height | 417,317,915 |
 
 ### Epoch
 
-- Epoch 1016 — 79.90% complete (345,179/432,000 slots)
-- Slots remaining: 86,821
-- Total transactions (all-time): 538,145,035,039
+- Epoch 1016 — 82.08% complete (354,594/432,000 slots)
+- Slots remaining: 77,406
+- Total transactions (all-time): 538,161,597,744
 
 ## Validators
 
@@ -76,16 +76,16 @@ _Auto-generated at 2026-08-14T16:06:17Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $75.60 (-0.06% 24h) |
-| TVL | $4,810,365,954.79 (+0.21% 24h) |
+| SOL price | $75.42 (-0.27% 24h) |
+| TVL | $4,800,292,027.18 (+0.00% 24h) |
 | DEX volume 24h | $1,942,768,290.75 (+12.58%) |
-| Stablecoin supply | $15,462,381,698.40 |
+| Stablecoin supply | $15,441,551,576.37 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 17,785 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 9,868 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,613,309 SOL
+- Circulating: 582,613,265 SOL
 - Non-circulating: 49,521,621 SOL
 
 ## Ecosystem Growth
@@ -99,26 +99,27 @@ _Auto-generated at 2026-08-14T16:06:17Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,810,365,954.79 | $1,942,768,290.75 | $15,462,381,698.40 |
-| Ethereum | $40,986,516,811.99 | $900,613,800.68 | $147,288,364,067.18 |
-| Base | $4,590,848,104.09 | $706,708,248.70 | $4,909,290,406.95 |
-| Tron | $4,783,733,474.63 | $46,969,520 | $92,585,640,358.74 |
-| Arbitrum | $1,231,008,717.28 | $93,445,967.40 | $3,621,634,259.27 |
+| Solana | $4,800,292,027.18 | $1,942,768,290.75 | $15,441,551,576.37 |
+| Ethereum | $40,967,556,371.17 | $900,613,800.68 | $147,373,686,339.27 |
+| Base | $4,584,995,448.54 | $706,708,248.70 | $4,905,595,427.84 |
+| Tron | $4,775,045,727.70 | $46,969,520 | $92,584,825,255.75 |
+| Arbitrum | $1,230,556,240.72 | $93,445,967.40 | $3,622,626,394.89 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,703.81 | 1,484.68 | 73th |
-| Slot time (s) | 0.41 | 0.42 | 2th |
-| TVL (USD) | 4,810,365,954.79 | 4,813,047,291.82 | 48th |
-| SOL price (USD) | 75.60 | 75.58 | 51th |
+| Avg TPS | 1,846.56 | 1,488.91 | 90th |
+| Slot time (s) | 0.42 | 0.42 | 19th |
+| TVL (USD) | 4,800,292,027.18 | 4,812,837,645.45 | 40th |
+| SOL price (USD) | 75.42 | 75.59 | 45th |
 | DEX volume 24h (USD) | 1,942,768,290.75 | 1,546,376,149.56 | 97th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #582 SIMD-0582: Early detection of instruction trace overflow (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/582)
 - #600 simd-0553 amendment: adjust inclusion fee (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/600)
 - #599 Remove inactive stakes from the stakes cache (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/599)
 - #596 Increase TxV1 Account Lock Limit to 96 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/596)
@@ -126,10 +127,10 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - #593 simd-0504: remove identical signature requirement (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/593)
 - #571 SIMD-0571: Soft Deprecation of Durable Nonce Transactions (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/571)
 - #567 SIMD-0567: CU-optimized ATA Program (`p-ATA`) (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/567)
-- #401 SIMD-0401: Stake program Pinocchio migration (`p-stake`) (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/401)
 
 ## Solana News
 
+- [Solana Changelog: August 13, 2026](https://solana.com/news/solana-changelog-august-13-2026) 🖼️ — 2026-08-13
 - [Why Asia Is Ahead on Stablecoins, According to Reap's Daren Guo](https://solana.com/news/bits-to-bricks-asia-ahead-stablecoins-daren-guo-reap) 🖼️ — 2026-08-12
 - [MoneyGram Ramps launches on Solana](https://solana.com/news/moneygram-ramps) 🖼️ — 2026-08-11
 - [Solana Changelog: August 6, 2026](https://solana.com/news/solana-changelog-august-6-2026) 🖼️ — 2026-08-06
@@ -137,7 +138,6 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - [Solana Ecosystem Roundup: July 2026](https://solana.com/news/solana-ecosystem-roundup-july-2026) 🖼️ — 2026-08-05
 - [Breakpoint 2026: The Token Supercycle](https://solana.com/news/the-token-supercycle) 🖼️ — 2026-08-04
 - [Inside Solana’s Growing Market for Tokenized Cards and Physical Collectibles](https://solana.com/news/tokenized-cards-and-physical-collectibles) 🖼️ — 2026-07-31
-- [Overview of Institutional Real World Assets on Solana](https://solana.com/news/overview-of-institutional-real-world-assets-on-solana) 🖼️ — 2026-07-30
 
 ## Community News (X/Twitter)
 
