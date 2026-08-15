@@ -1,50 +1,50 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-15T21:34:25Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-15T22:36:49Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 10 validators delinquent (0.03% of stake)
+- 🔵 Validators Delinquent: 9 validators delinquent (0.02% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume dropped 17.0% in 24h
 
 ## ❤️ Solana Health Score
 
-90.7/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+89.0/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 56.2 |
-| slot_time | 96.3 |
-| tps | 100.0 |
+| price_trend | 57.4 |
+| slot_time | 95.5 |
+| tps | 93.8 |
 | tvl_trend | 50.0 |
-| validators | 99.4 |
+| validators | 99.6 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,509.92 |
-| Peak TPS | 1,670.43 |
-| Non-vote TPS | 826.95 |
-| Avg slot time | 0.4150 s |
-| Slot | 439,512,358 |
-| Block height | 417,562,990 |
+| Avg TPS (10 samples) | 1,406.47 |
+| Peak TPS | 1,496.58 |
+| Non-vote TPS | 722.98 |
+| Avg slot time | 0.4180 s |
+| Slot | 439,521,376 |
+| Block height | 417,572,000 |
 
 ### Epoch
 
-- Epoch 1017 — 38.97% complete (168,358/432,000 slots)
-- Slots remaining: 263,642
-- Total transactions (all-time): 538,510,128,616
+- Epoch 1017 — 41.06% complete (177,376/432,000 slots)
+- Slots remaining: 254,624
+- Total transactions (all-time): 538,523,257,356
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 687 |
-| Delinquent validators | 10 |
-| Total active stake | 435,353,089 SOL |
-| Delinquent stake | 138,251 SOL (0.03%) |
-| Avg commission | 12.02% |
+| Active validators | 688 |
+| Delinquent validators | 9 |
+| Total active stake | 435,419,200 SOL |
+| Delinquent stake | 72,140 SOL (0.02%) |
+| Avg commission | 12.00% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -76,16 +76,16 @@ _Auto-generated at 2026-08-15T21:34:25Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $75.59 (+0.62% 24h) |
-| TVL | $4,818,711,989.71 (+0.00% 24h) |
+| SOL price | $75.57 (+0.74% 24h) |
+| TVL | $4,820,990,961.54 (+0.00% 24h) |
 | DEX volume 24h | $1,605,343,342.56 (-16.98%) |
-| Stablecoin supply | $15,411,831,170.49 |
+| Stablecoin supply | $15,412,246,882.50 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 3,865 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 4,187 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,727,888 SOL
+- Circulating: 582,727,854 SOL
 - Non-circulating: 49,533,985 SOL
 
 ## Ecosystem Growth
@@ -99,20 +99,20 @@ _Auto-generated at 2026-08-15T21:34:25Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,818,711,989.71 | $1,605,343,342.56 | $15,411,831,170.49 |
-| Ethereum | $41,162,846,615.59 | $889,734,045.15 | $147,372,408,993.92 |
-| Base | $4,604,012,424.04 | $514,525,073.33 | $4,934,099,461.12 |
-| Tron | $4,805,127,374.27 | $36,867,041 | $92,588,336,358.52 |
-| Arbitrum | $1,229,149,931.72 | $78,146,047.77 | $3,497,074,808.49 |
+| Solana | $4,820,990,961.54 | $1,605,343,342.56 | $15,412,246,882.50 |
+| Ethereum | $41,168,530,114.36 | $889,734,045.15 | $147,369,644,983.44 |
+| Base | $4,605,309,955.12 | $514,525,073.33 | $4,932,832,060.35 |
+| Tron | $4,803,796,729.79 | $36,867,041 | $92,589,220,739.49 |
+| Arbitrum | $1,229,351,269.78 | $78,146,047.77 | $3,497,323,294.41 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,509.92 | 1,467.15 | 56th |
-| Slot time (s) | 0.41 | 0.42 | 14th |
-| TVL (USD) | 4,818,711,989.71 | 4,812,352,447.11 | 59th |
-| SOL price (USD) | 75.59 | 75.45 | 57th |
+| Avg TPS | 1,406.47 | 1,471.49 | 38th |
+| Slot time (s) | 0.42 | 0.42 | 28th |
+| TVL (USD) | 4,820,990,961.54 | 4,812,627,999.08 | 64th |
+| SOL price (USD) | 75.57 | 75.46 | 55th |
 | DEX volume 24h (USD) | 1,605,343,342.56 | 1,581,973,855.56 | 52th |
 
 ## Ecosystem / Development News
