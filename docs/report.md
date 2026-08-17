@@ -1,5 +1,5 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-17T13:05:28Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-17T13:54:40Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 6 validators delinquent (0.01% of stake)
@@ -7,14 +7,14 @@ _Auto-generated at 2026-08-17T13:05:28Z UTC — refresh every 60 min_
 
 ## ❤️ Solana Health Score
 
-89.4/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+89.9/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 51.3 |
-| slot_time | 96.3 |
-| tps | 96.8 |
+| price_trend | 54.7 |
+| slot_time | 92.5 |
+| tps | 100.0 |
 | tvl_trend | 50.0 |
 | validators | 99.8 |
 
@@ -23,18 +23,18 @@ _Auto-generated at 2026-08-17T13:05:28Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,452.44 |
-| Peak TPS | 1,584.31 |
-| Non-vote TPS | 767.16 |
-| Avg slot time | 0.4150 s |
-| Slot | 439,854,873 |
-| Block height | 417,905,395 |
+| Avg TPS (10 samples) | 1,577.87 |
+| Peak TPS | 1,664.30 |
+| Non-vote TPS | 893.44 |
+| Avg slot time | 0.4300 s |
+| Slot | 439,861,749 |
+| Block height | 417,912,271 |
 
 ### Epoch
 
-- Epoch 1018 — 18.26% complete (78,873/432,000 slots)
-- Slots remaining: 353,127
-- Total transactions (all-time): 538,964,088,097
+- Epoch 1018 — 19.85% complete (85,749/432,000 slots)
+- Slots remaining: 346,251
+- Total transactions (all-time): 538,974,683,991
 
 ## Validators
 
@@ -76,16 +76,16 @@ _Auto-generated at 2026-08-17T13:05:28Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $75.30 (+0.13% 24h) |
-| TVL | $4,826,905,088.44 (+0.00% 24h) |
+| SOL price | $75.64 (+0.47% 24h) |
+| TVL | $4,819,240,791.54 (+0.00% 24h) |
 | DEX volume 24h | $1,055,467,633.95 (-9.71%) |
-| Stablecoin supply | $15,365,066,397.15 |
+| Stablecoin supply | $15,365,732,031.04 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 3,890 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 4,465 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,899,264 SOL
+- Circulating: 582,899,236 SOL
 - Non-circulating: 49,489,233 SOL
 
 ## Ecosystem Growth
@@ -99,21 +99,21 @@ _Auto-generated at 2026-08-17T13:05:28Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,826,905,088.44 | $1,055,467,633.95 | $15,365,066,397.15 |
-| Ethereum | $41,421,334,746.09 | $363,541,748.51 | $147,355,437,845.53 |
-| Base | $4,645,039,827.57 | $431,790,174.09 | $4,952,756,770.89 |
-| Tron | $4,805,055,391.95 | $15,302,591 | $92,499,965,424.03 |
-| Arbitrum | $1,240,874,462.23 | $37,735,020.47 | $3,620,530,146.39 |
+| Solana | $4,819,240,791.54 | $1,055,467,633.95 | $15,365,732,031.04 |
+| Ethereum | $41,422,582,413.04 | $363,541,748.51 | $147,367,911,427.96 |
+| Base | $4,641,042,514.19 | $431,790,174.09 | $4,945,513,515.47 |
+| Tron | $4,799,356,092.36 | $15,302,591 | $92,504,325,351.36 |
+| Arbitrum | $1,240,992,454.48 | $37,735,020.47 | $3,620,098,657.02 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,452.44 | 1,442.27 | 52th |
-| Slot time (s) | 0.41 | 0.42 | 20th |
-| TVL (USD) | 4,826,905,088.44 | 4,811,112,221.22 | 77th |
-| SOL price (USD) | 75.30 | 75.41 | 43th |
-| DEX volume 24h (USD) | 1,055,467,633.95 | 1,519,760,089.55 | 4th |
+| Avg TPS | 1,577.87 | 1,442.90 | 68th |
+| Slot time (s) | 0.43 | 0.42 | 100th |
+| TVL (USD) | 4,819,240,791.54 | 4,811,145,878.29 | 63th |
+| SOL price (USD) | 75.64 | 75.40 | 64th |
+| DEX volume 24h (USD) | 1,055,467,633.95 | 1,493,144,029.54 | 5th |
 
 ## Ecosystem / Development News
 
@@ -141,26 +141,20 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Community News (X/Twitter)
 
-- @solana_daily: Most active x402 projects on Solana ⚡️ Laso Finance — @LasoFinance Syra — @syra_agent StableEnrich WURK — @WURKDOTFUN BlockRun — @BlockRunAI Truth Bear SniperX — @sniperxfun Bitref
-- @solana_daily: Solana > Ethereum + Hyperliquid + BSC + Polygon + Robinhood Chain + Base + Hydration + edgeX + zkSync. That&apos;s what data tells.
-- @solana_daily: Solana Trenches vs Robinhood Chain Trenches Robinhood Chain is making noise, but Solana is still playing in a different league. The numbers tell the story: ✅Daily volume: Solana 35
-- @solana_daily: 🔥HUGE: MoneyGram Ramps is Now Live on Solana. Developers can plug into MoneyGram’s global fiat on/off-ramp network through a single API, enabling: • Cash -> crypto in 25+ countries
-- @solana_daily: Top 10 Most-held Tokens on @fomo ⚡️ ▫️ANSEM— @BlackBullSol ▫️CATE — @CateonSol_ ▫️XST — @XSolutAI ▫️neet — @neet_sol ▫️TOAD — @eltoadpepe ▫️UwU — @unicornandmemes ▫️Buttcoin — @But
-- @SolanaEvents: Breakpoint is the event for people who are into: Crypto AI Finance Policy Robotics Agents Stocks Memecoins Memes Precious Metals Sports Cards Pokemon Art Music Dinosaur Bones Toys 
-- @SolanaEvents: BIG BREAKPOINT ENERGY
-- @solana_daily: Pinned: The Time is NEAR! 🚀@ChimpxAI TGE is closer than you think. 🟢Join us in our AMA this Saturday for a $CHIMP Pre-launch Party 🗣Speaker: @superchimpX - Founder/CEO 📍 Listen her
+- @solana: Somewhere between a corner store, a silver vault, and a gacha machine, Solana had a week. Cash access hit nearly 500K retail locations, silver came onchain fully audited, and a lux
+- @solana: Solana artists are different.
+- @solana: Engagement low? Try this: SOLANA
+- @solana: Bring collectibles from Solana gachas like @Collector_Crypt and @Slabzapp into @Rosentica to battle in the Arena Only possible on Solana
+- @solana: THIS WEEK IN MEDIA - 8/7-8/14
+- @solana: internet capital markets 互联网资本市场
+- @solana: Onchain coverage lands on Solana. @NexusMutual opened protocol cover for @kamino, @JupiterExchange, @Raydium and @orca_so as their first listings outside EVM.
+- @solana: Meet @crowdbrainai, the human infrastructure layer for physical AI and @colosseum&apos;s grand champion
 
 ## Upgrade Radar
 
 _Upcoming protocol upgrades tracked from the SIMD repo (keyless)._
 
 - SIMD #525 — SIMD-0525: Shorter slot times (MERGED) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/525)
-
-Latest Agave client releases:
-
-- Release v4.2.1 — 2026-08-13 — [link](https://github.com/anza-xyz/agave/releases/tag/v4.2.1)
-- Release v4.3.0-beta.0 (pre-release) — 2026-08-14 — [link](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-beta.0)
-- Release v4.2.0 — 2026-08-07 — [link](https://github.com/anza-xyz/agave/releases/tag/v4.2.0)
 
 ## Network Status
 
