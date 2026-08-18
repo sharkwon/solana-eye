@@ -1,49 +1,49 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-18T18:56:05Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-18T20:45:30Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 7 validators delinquent (0.01% of stake)
+- 🔵 Validators Delinquent: 8 validators delinquent (0.06% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 39.8% in 24h
 
 ## ❤️ Solana Health Score
 
-91.7/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+91.1/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 67.7 |
-| slot_time | 95.5 |
+| price_trend | 62.9 |
+| slot_time | 96.0 |
 | tps | 100.0 |
 | tvl_trend | 50.0 |
-| validators | 99.8 |
+| validators | 98.8 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,883.89 |
-| Peak TPS | 2,061.47 |
-| Non-vote TPS | 1,199.35 |
-| Avg slot time | 0.4180 s |
-| Slot | 440,113,411 |
-| Block height | 418,163,692 |
+| Avg TPS (10 samples) | 1,672.34 |
+| Peak TPS | 2,202.39 |
+| Non-vote TPS | 989.28 |
+| Avg slot time | 0.4160 s |
+| Slot | 440,128,410 |
+| Block height | 418,178,687 |
 
 ### Epoch
 
-- Epoch 1018 — 78.10% complete (337,410/432,000 slots)
-- Slots remaining: 94,590
-- Total transactions (all-time): 539,370,651,676
+- Epoch 1018 — 81.58% complete (352,409/432,000 slots)
+- Slots remaining: 79,591
+- Total transactions (all-time): 539,396,548,027
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 688 |
-| Delinquent validators | 7 |
-| Total active stake | 435,626,689 SOL |
-| Delinquent stake | 50,106 SOL (0.01%) |
+| Active validators | 687 |
+| Delinquent validators | 8 |
+| Total active stake | 435,397,174 SOL |
+| Delinquent stake | 279,622 SOL (0.06%) |
 | Avg commission | 12.30% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
@@ -76,17 +76,17 @@ _Auto-generated at 2026-08-18T18:56:05Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $77.18 (+1.77% 24h) |
-| TVL | $4,895,913,563.93 (+0.00% 24h) |
-| DEX volume 24h | $1,474,970,358.36 (+39.75%) |
-| Stablecoin supply | $15,424,454,265.98 |
+| SOL price | $76.94 (+1.29% 24h) |
+| TVL | $4,902,061,493.69 (+0.00% 24h) |
+| DEX volume 24h | $1,474,994,437.36 (+39.75%) |
+| Stablecoin supply | $15,421,654,371.24 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 5,927 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 8,063 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,892,252 SOL
-- Non-circulating: 49,495,185 SOL
+- Circulating: 0 SOL
+- Non-circulating: 0 SOL
 
 ## Ecosystem Growth
 
@@ -99,21 +99,21 @@ _Auto-generated at 2026-08-18T18:56:05Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,895,913,563.93 | $1,474,970,358.36 | $15,424,454,265.98 |
-| Ethereum | $41,819,795,712.74 | $702,707,334.89 | $147,459,046,807.99 |
-| Base | $4,764,681,512.51 | $628,843,954.89 | $4,978,256,871.96 |
-| Tron | $4,825,919,916.63 | $45,274,924 | $92,431,300,074.72 |
-| Arbitrum | $1,243,533,459.90 | $89,805,856.74 | $3,487,988,882.82 |
+| Solana | $4,902,061,493.69 | $1,474,994,437.36 | $15,421,654,371.24 |
+| Ethereum | $41,820,153,445.55 | $702,707,334.89 | $147,452,948,079.99 |
+| Base | $4,765,933,846.21 | $628,843,954.89 | $4,987,708,760.54 |
+| Tron | $4,822,273,572.45 | $45,274,924 | $92,428,689,148.58 |
+| Arbitrum | $1,243,062,643.97 | $89,805,856.74 | $3,496,852,461.49 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,883.89 | 1,445.30 | 94th |
-| Slot time (s) | 0.42 | 0.42 | 41th |
-| TVL (USD) | 4,895,913,563.93 | 4,814,109,713.86 | 100th |
-| SOL price (USD) | 77.18 | 75.48 | 98th |
-| DEX volume 24h (USD) | 1,474,970,358.36 | 1,486,232,721.04 | 47th |
+| Avg TPS | 1,672.34 | 1,446.50 | 74th |
+| Slot time (s) | 0.42 | 0.42 | 28th |
+| TVL (USD) | 4,902,061,493.69 | 4,814,109,713.86 | 100th |
+| SOL price (USD) | 76.94 | 75.48 | 96th |
+| DEX volume 24h (USD) | 1,474,994,437.36 | 1,479,321,412.54 | 47th |
 
 ## Ecosystem / Development News
 
@@ -141,14 +141,14 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Community News (X/Twitter)
 
-- @solana_daily: Most active x402 projects on Solana ⚡️ Laso Finance — @LasoFinance Syra — @syra_agent StableEnrich WURK — @WURKDOTFUN BlockRun — @BlockRunAI Truth Bear SniperX — @sniperxfun Bitref
-- @solana_daily: Solana > Ethereum + Hyperliquid + BSC + Polygon + Robinhood Chain + Base + Hydration + edgeX + zkSync. That&apos;s what data tells.
+- @SolanaFloor: 🇺🇸NEWS: @SECGov’s proposal for “Regulation Crypto Assets” has passed via “seriatim” votes, meaning commissioners voted individually outside a public meeting. The proposal would cre
+- @SolanaFloor: 📰NEWS: @JurassicFi Brings Museum-Grade Triceratops Skull to Solana ✍️:@ideyquickvex https://solanafloor.com/news/jurassic-finance-brings-museum-grade-triceratops-skull-to-solana
 - @SolanaFloor: 📰NEWS: $PUMP Buyback Position Back in Profit After 9 Months Underwater ✍️@solace_fm https://solanafloor.com/news/pump-buyback-position-back-in-profit-after-9-months-underwater
 - @SolanaEvents: How it feels to have your tickets and travel all sorted out for Breakpoint.
-- @SolanaFndn: Dubai and the UAE moved faster on digital asset regulation than most, and the capital and builders followed. Zain Umer, Managing Director of CFC MENA, joins @afscott on Solana is G
 - @SolanaFloor: 🎥 How has @FOMO captured so much attention and growth? 👇
 - @SolanaFloor: 📰NEWS: Nasdaq To Add a 7-Hour Night Shift as Wall Street Chases Crypto&apos;s 24/7 Edge @ideyquickvex https://solanafloor.com/news/nasdaq-to-add-a-7-hour-night-shift
 - @SolanaFloor: JUST IN: $BTC breaks $65,000.
+- @SolanaEvents: Less than 90 Great British Leg Days until Breakpoint. Lock in.
 
 ## Upgrade Radar
 
@@ -176,7 +176,7 @@ Latest Agave client releases:
 | rpc_block_height | ✅ |
 | rpc_perf | ✅ |
 | rpc_votes | ✅ |
-| rpc_supply | ✅ |
+| rpc_supply | ❌ |
 | rpc_fee_sampling | ✅ |
 | defillama_tvl | ✅ |
 | defillama_tvl_history | ✅ |
