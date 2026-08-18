@@ -1,50 +1,50 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-18T13:56:44Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-18T14:52:27Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 11 validators delinquent (0.21% of stake)
+- 🔵 Validators Delinquent: 7 validators delinquent (0.08% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 39.8% in 24h
 
 ## ❤️ Solana Health Score
 
-89.9/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+91.2/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 56.3 |
-| slot_time | 95.5 |
+| price_trend | 63.2 |
+| slot_time | 96.8 |
 | tps | 100.0 |
 | tvl_trend | 50.0 |
-| validators | 95.8 |
+| validators | 98.4 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,989.09 |
-| Peak TPS | 2,164.29 |
-| Non-vote TPS | 1,312.14 |
-| Avg slot time | 0.4180 s |
-| Slot | 440,070,255 |
-| Block height | 418,120,564 |
+| Avg TPS (10 samples) | 1,918.07 |
+| Peak TPS | 2,164.16 |
+| Non-vote TPS | 1,236.96 |
+| Avg slot time | 0.4130 s |
+| Slot | 440,078,293 |
+| Block height | 418,128,590 |
 
 ### Epoch
 
-- Epoch 1018 — 68.11% complete (294,255/432,000 slots)
-- Slots remaining: 137,745
-- Total transactions (all-time): 539,289,253,957
+- Epoch 1018 — 69.98% complete (302,293/432,000 slots)
+- Slots remaining: 129,707
+- Total transactions (all-time): 539,305,503,133
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 684 |
-| Delinquent validators | 11 |
-| Total active stake | 434,766,116 SOL |
-| Delinquent stake | 910,680 SOL (0.21%) |
-| Avg commission | 12.21% |
+| Active validators | 688 |
+| Delinquent validators | 7 |
+| Total active stake | 435,325,573 SOL |
+| Delinquent stake | 351,222 SOL (0.08%) |
+| Avg commission | 12.30% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -76,16 +76,16 @@ _Auto-generated at 2026-08-18T13:56:44Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $76.00 (+0.63% 24h) |
-| TVL | $4,862,971,825.34 (+0.00% 24h) |
+| SOL price | $76.79 (+1.32% 24h) |
+| TVL | $4,863,983,425.90 (+0.00% 24h) |
 | DEX volume 24h | $1,474,970,358.36 (+39.75%) |
-| Stablecoin supply | $15,377,550,789.41 |
+| Stablecoin supply | $15,395,518,836.91 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 10,683 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 7,835 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,895,389 SOL
+- Circulating: 582,895,346 SOL
 - Non-circulating: 49,492,259 SOL
 
 ## Ecosystem Growth
@@ -99,20 +99,20 @@ _Auto-generated at 2026-08-18T13:56:44Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,862,971,825.34 | $1,474,970,358.36 | $15,377,550,789.41 |
-| Ethereum | $41,572,351,462.61 | $702,707,334.89 | $147,510,963,388.17 |
-| Base | $4,734,657,122.65 | $628,843,954.89 | $4,966,173,345.99 |
-| Tron | $4,799,770,764.49 | $45,274,924 | $92,412,901,089.67 |
-| Arbitrum | $1,244,483,082.15 | $89,805,856.74 | $3,482,918,383.75 |
+| Solana | $4,863,983,425.90 | $1,474,970,358.36 | $15,395,518,836.91 |
+| Ethereum | $41,553,148,422.29 | $702,707,334.89 | $147,503,957,635.05 |
+| Base | $4,735,311,963.20 | $628,843,954.89 | $4,970,440,552.48 |
+| Tron | $4,797,483,322.57 | $45,274,924 | $92,408,023,589.50 |
+| Arbitrum | $1,243,345,450.30 | $89,805,856.74 | $3,484,317,075.17 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,989.09 | 1,443.25 | 98th |
-| Slot time (s) | 0.42 | 0.42 | 40th |
-| TVL (USD) | 4,862,971,825.34 | 4,813,775,013.49 | 98th |
-| SOL price (USD) | 76.00 | 75.47 | 76th |
+| Avg TPS | 1,918.07 | 1,443.25 | 96th |
+| Slot time (s) | 0.41 | 0.42 | 6th |
+| TVL (USD) | 4,863,983,425.90 | 4,813,775,013.49 | 99th |
+| SOL price (USD) | 76.79 | 75.47 | 96th |
 | DEX volume 24h (USD) | 1,474,970,358.36 | 1,493,144,029.54 | 46th |
 
 ## Ecosystem / Development News
@@ -143,12 +143,12 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 - @solana_daily: Most active x402 projects on Solana ⚡️ Laso Finance — @LasoFinance Syra — @syra_agent StableEnrich WURK — @WURKDOTFUN BlockRun — @BlockRunAI Truth Bear SniperX — @sniperxfun Bitref
 - @solana_daily: Solana > Ethereum + Hyperliquid + BSC + Polygon + Robinhood Chain + Base + Hydration + edgeX + zkSync. That&apos;s what data tells.
+- @solana: everywhere
+- @solana_daily: 🆙Most Impressive Risers on #Solana (last 7D) 👉TVL 7D Growth @keepdotcoffee - +12,395% @crediblefin - +426% @zinc_cash - +351% @etherfuse - +41.51% @Byzanlink - +39.76% @world_xyz -
+- @SolanaEvents: Who will we see in LA?
+- @SolanaFloor: 🎥 Every 2026 $SOL price target was lowered this year. Here are five reasons indicating the macro got harder, not the bull case 👇
 - @solana: BREAKING: @Securitize and Neuberger launch a tokenized fixed income fund on Solana. High yield bonds, CLOs, and leveraged loans from a $230B fixed income platform, now onchain.
 - @SolanaFloor: NEW: @JurassicFi has announced plans to tokenize Deaton, a museum-grade Triceratops dinosaur skull, on @Solana. The project is raising 660,000 USDC to purchase the fossil, with $36
-- @SolanaFloor: NEWS: Japanese Bitcoin treasury company @Metaplanet launches its U.S. treasury arm, Superplanet, seeded with 2,100 $BTC. Metaplanet currently holds 43,000 BTC, making it the third-
-- @SolanaFndn: Solana Foundation joins the Agentic Payments Alliance by @raincards. Agents are becoming economic actors, and how they pay for things needs to be on a global money layer that stays
-- @SolanaFloor: 🇺🇸NEW: @MoonPay launches support for @CashApp in the United States. Users can now buy tokens, memecoins and other digital assets directly with their Cash App balance.
-- @SolanaFloor: NEWS: Solana’s DEX aggregator market is becoming more competitive as @okx surpasses 30% of daily volume for the first time, while longtime leader @JupiterExchange drops below 50%. 
 
 ## Upgrade Radar
 
