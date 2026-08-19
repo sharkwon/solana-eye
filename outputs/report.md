@@ -1,24 +1,24 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-19T22:42:03Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-19T23:36:18Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🟠 TVL USD: TVL statistically high (z=5.2)
-- 🟠 SOL Price USD: SOL price statistically high (z=7.2)
+- 🟠 TVL USD: TVL statistically high (z=6.1)
+- 🟠 SOL Price USD: SOL price statistically high (z=6.0)
 - 🔵 Validators Delinquent: 8 validators delinquent (0.02% of stake)
-- 🔵 SOL Price 24h Change Pct: SOL price surged 10.9% in 24h
+- 🔵 SOL Price 24h Change Pct: SOL price surged 10.5% in 24h
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 24.6% in 24h
 
 ## ❤️ Solana Health Score
 
-95.4/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+94.5/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
 | price_trend | 100.0 |
-| slot_time | 94.0 |
+| slot_time | 95.3 |
 | tps | 100.0 |
-| tvl_trend | 62.7 |
+| tvl_trend | 49.7 |
 | validators | 99.6 |
 
 ## Network Performance
@@ -26,18 +26,18 @@ _Auto-generated at 2026-08-19T22:42:03Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 2,091.31 |
-| Peak TPS | 2,338.29 |
-| Non-vote TPS | 1,407.19 |
-| Avg slot time | 0.4240 s |
-| Slot | 440,353,411 |
-| Block height | 418,403,351 |
+| Avg TPS (10 samples) | 1,829.71 |
+| Peak TPS | 2,137.80 |
+| Non-vote TPS | 1,146.00 |
+| Avg slot time | 0.4190 s |
+| Slot | 440,361,300 |
+| Block height | 418,411,236 |
 
 ### Epoch
 
-- Epoch 1019 — 33.66% complete (145,409/432,000 slots)
-- Slots remaining: 286,591
-- Total transactions (all-time): 539,779,743,816
+- Epoch 1019 — 35.49% complete (153,300/432,000 slots)
+- Slots remaining: 278,700
+- Total transactions (all-time): 539,794,451,789
 
 ## Validators
 
@@ -79,16 +79,16 @@ _Auto-generated at 2026-08-19T22:42:03Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $85.47 (+10.87% 24h) |
-| TVL | $5,168,207,471.80 (+1.27% 24h) |
+| SOL price | $85.22 (+10.49% 24h) |
+| TVL | $5,204,306,064.39 (-0.03% 24h) |
 | DEX volume 24h | $1,838,194,723.04 (+24.62%) |
-| Stablecoin supply | $15,679,617,487.53 |
+| Stablecoin supply | $15,768,590,978.67 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 7,849 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 9,422 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 583,006,552 SOL
+- Circulating: 583,006,514 SOL
 - Non-circulating: 49,507,543 SOL
 
 ## Ecosystem Growth
@@ -102,20 +102,20 @@ _Auto-generated at 2026-08-19T22:42:03Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,168,207,471.80 | $1,838,194,723.04 | $15,679,617,487.53 |
-| Ethereum | $45,411,769,512.71 | $684,441,486.49 | $147,749,241,987.08 |
-| Base | $5,020,105,636.12 | $541,411,052.02 | $4,986,424,346.72 |
-| Tron | $5,011,293,925.25 | $43,932,001 | $92,452,419,118.06 |
-| Arbitrum | $1,332,831,487.17 | $56,352,847.26 | $3,392,891,545.89 |
+| Solana | $5,204,306,064.39 | $1,838,194,723.04 | $15,768,590,978.67 |
+| Ethereum | $45,472,687,001.31 | $684,441,486.49 | $147,685,734,514.54 |
+| Base | $5,028,841,897.02 | $541,411,052.02 | $4,989,329,360.98 |
+| Tron | $5,011,310,461.71 | $43,932,001 | $92,444,610,232.27 |
+| Arbitrum | $1,338,253,115.14 | $56,352,847.26 | $3,375,354,275.80 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 2,091.31 | 1,455.60 | 99th |
-| Slot time (s) | 0.42 | 0.42 | 88th |
-| TVL (USD) | 5,168,207,471.80 | 4,817,303,118.16 | 100th |
-| SOL price (USD) | 85.47 | 75.57 | 100th |
+| Avg TPS | 1,829.71 | 1,456.87 | 86th |
+| Slot time (s) | 0.42 | 0.42 | 52th |
+| TVL (USD) | 5,204,306,064.39 | 4,817,498,164.60 | 100th |
+| SOL price (USD) | 85.22 | 75.57 | 99th |
 | DEX volume 24h (USD) | 1,838,194,723.04 | 1,493,144,029.54 | 94th |
 
 ## Ecosystem / Development News
@@ -144,16 +144,16 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Community News (X/Twitter)
 
+- @SolanaFloor: JUST IN: $JitoSOL holders have reached the required governance quorum, triggering the Jito Stake Pool’s roughly 10 million $SOL to vote YES on all three active @Solana Governance P
+- @SolanaFloor: JUST IN: @Solanamobile has launched a USDC Earn Vault in Seed Vault Wallet powered by @Kamino, allowing Seeker users to earn variable yield on USDC with automatic compounding and n
+- @SolanaFloor: News: @JupiterExchange Loses Grip on Solana DEX Aggregator Volume as Market Share Falls Below 50% ✍️ @ideyquickvex https://solanafloor.com/news/jupiter-loses-grip-on-solana-dex-agg
+- @SolanaFndn: We&apos;re looking for a creator to bring cyberpunk to life for Solana&apos;s AI experience in November 👀 Apply as a creator:
+- @SolanaFloor: BREAKING: Crypto short liquidations have surged to $2.47 billion over the past 24 hours, the highest level ever recorded.
+- @SolanaFloor: NEW: @nfwdotfun has launched OpenGacha on @Solana, a pull shop protocol that lets anyone create customizable gacha pools stocked with verified TCGs, NFTs, and other assets, while e
 - @solana: BREAKING: $MRNA from Moderna is live on Solana via @sunrise, issued by @Backpack Securities Moderna announced the first ever positive Phase 3 results for a personalized cancer vacc
 - @solana: hey @doodles... we&apos;ve got a sweet idea for a toy
-- @solana: Don&apos;t wait for the bull, build it
-- @solana: Directly from the source on @fomo
-- @SolanaEvents: The mtn looks good here.
-- @solana: Our time is now
-- @SolanaEvents: Need help finalizing your travel plans to Breakpoint? Visit the travel page on our site to find all the resources you need including: • Airport information • Hotel discounts powere
-- @solana: We&apos;re live with @onrefinance, @exponent, @FWDind, @onrefinance, and @RockawayX to chat the growth of OnRe on Solana. https://x.com/i/broadcasts/1lJQRWlnBgWxE
 
-_Degraded (no data): SolanaFndn, SolanaFloor_
+_Degraded (no data): SolanaEvents_
 
 ## Upgrade Radar
 
