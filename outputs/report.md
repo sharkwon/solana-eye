@@ -1,54 +1,53 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-19T17:40:17Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-19T18:53:22Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🟠 TPS: TPS statistically high (z=3.5)
-- 🟠 TVL USD: TVL statistically high (z=5.3)
-- 🟠 SOL Price USD: SOL price statistically high (z=5.0)
-- 🔵 Validators Delinquent: 9 validators delinquent (0.1% of stake)
-- 🔵 SOL Price 24h Change Pct: SOL price surged 5.5% in 24h
+- 🟠 TVL USD: TVL statistically high (z=5.1)
+- 🟠 SOL Price USD: SOL price statistically high (z=4.3)
+- 🔵 Validators Delinquent: 8 validators delinquent (0.02% of stake)
+- 🔵 SOL Price 24h Change Pct: SOL price surged 6.4% in 24h
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 24.6% in 24h
 
 ## ❤️ Solana Health Score
 
-94.3/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+94.6/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
 | price_trend | 100.0 |
-| slot_time | 96.0 |
+| slot_time | 95.8 |
 | tps | 100.0 |
-| tvl_trend | 49.5 |
-| validators | 98.0 |
+| tvl_trend | 50.0 |
+| validators | 99.6 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 2,089.28 |
-| Peak TPS | 2,396.74 |
-| Non-vote TPS | 1,412.56 |
-| Avg slot time | 0.4160 s |
-| Slot | 440,310,129 |
-| Block height | 418,360,140 |
+| Avg TPS (10 samples) | 2,041.63 |
+| Peak TPS | 2,350.76 |
+| Non-vote TPS | 1,359.01 |
+| Avg slot time | 0.4170 s |
+| Slot | 440,320,653 |
+| Block height | 418,370,656 |
 
 ### Epoch
 
-- Epoch 1019 — 23.64% complete (102,128/432,000 slots)
-- Slots remaining: 329,872
-- Total transactions (all-time): 539,689,923,483
+- Epoch 1019 — 26.08% complete (112,652/432,000 slots)
+- Slots remaining: 319,348
+- Total transactions (all-time): 539,711,658,505
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 686 |
-| Delinquent validators | 9 |
-| Total active stake | 434,812,195 SOL |
-| Delinquent stake | 429,073 SOL (0.10%) |
-| Avg commission | 11.90% |
+| Active validators | 687 |
+| Delinquent validators | 8 |
+| Total active stake | 435,141,193 SOL |
+| Delinquent stake | 100,074 SOL (0.02%) |
+| Avg commission | 11.89% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -80,17 +79,17 @@ _Auto-generated at 2026-08-19T17:40:17Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $81.15 (+5.47% 24h) |
-| TVL | $5,051,590,782.17 (-0.05% 24h) |
+| SOL price | $82.15 (+6.44% 24h) |
+| TVL | $5,073,615,846.06 (+0.00% 24h) |
 | DEX volume 24h | $1,838,194,723.04 (+24.62%) |
-| Stablecoin supply | $15,502,036,387.46 |
+| Stablecoin supply | $15,581,946,540.99 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 7,468 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 7,258 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 583,007,076 SOL
-- Non-circulating: 49,507,253 SOL
+- Circulating: 583,006,985 SOL
+- Non-circulating: 49,507,286 SOL
 
 ## Ecosystem Growth
 
@@ -103,20 +102,20 @@ _Auto-generated at 2026-08-19T17:40:17Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,051,590,782.17 | $1,838,194,723.04 | $15,502,036,387.46 |
-| Ethereum | $43,457,874,075.80 | $684,441,486.49 | $147,668,275,731.06 |
-| Base | $4,899,847,531.32 | $541,411,052.02 | $4,952,608,945.05 |
-| Tron | $4,892,384,921.07 | $43,932,001 | $92,448,400,888.88 |
-| Arbitrum | $1,283,519,908.91 | $56,352,847.26 | $3,590,418,044.23 |
+| Solana | $5,073,615,846.06 | $1,838,194,723.04 | $15,581,946,540.99 |
+| Ethereum | $43,917,034,988.98 | $684,441,486.49 | $147,663,137,239.39 |
+| Base | $4,910,146,931.96 | $541,411,052.02 | $4,971,590,600.79 |
+| Tron | $4,903,543,349.44 | $43,932,001 | $92,448,023,676.17 |
+| Arbitrum | $1,297,012,016.49 | $56,352,847.26 | $3,437,879,952.66 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 2,089.28 | 1,453.46 | 99th |
-| Slot time (s) | 0.42 | 0.42 | 29th |
-| TVL (USD) | 5,051,590,782.17 | 4,816,686,206.78 | 100th |
-| SOL price (USD) | 81.15 | 75.53 | 99th |
+| Avg TPS | 2,041.63 | 1,454.48 | 99th |
+| Slot time (s) | 0.42 | 0.42 | 37th |
+| TVL (USD) | 5,073,615,846.06 | 4,816,943,044.75 | 100th |
+| SOL price (USD) | 82.15 | 75.53 | 100th |
 | DEX volume 24h (USD) | 1,838,194,723.04 | 1,493,144,029.54 | 94th |
 
 ## Ecosystem / Development News
@@ -124,8 +123,8 @@ _Auto-generated at 2026-08-19T17:40:17Z UTC — refresh every 60 min_
 Recently updated SIMD proposals (solana-foundation/simd):
 
 - #602 SIMD-0602: Disallow Nonce Account as Program ID (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/602)
-- #599 Remove inactive stakes from the stakes cache (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/599)
 - #571 SIMD-0571: Soft Deprecation of Durable Nonce Transactions (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/571)
+- #599 Remove inactive stakes from the stakes cache (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/599)
 - #596 Increase TxV1 Account Lock Limit to 96 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/596)
 - #600 simd-0553 amendment: adjust inclusion fee (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/600)
 - #582 SIMD-0582: Early detection of instruction trace overflow (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/582)
@@ -145,14 +144,14 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Community News (X/Twitter)
 
+- @SolanaFloor: The @Solanamobile Seeker Dashboard has been updated, featuring new Seeker Summer Round 4 quests from Solana based crypto MMORPG @bakelandxyz. Complete “Ramen Run” and “Through the 
+- @SolanaEvents: The mtn looks good here.
 - @solana: Our time is now
-- @SolanaFndn: Bear markets clear out everyone who showed up for one trade and leave the people who wanted to build something. @muneeb, co-founder of @Stacks, joins @EmonMotamedi on The Understor
-- @SolanaFndn: Drip by @blauyourmind is now live on http://pay.sh You can now reach premium financial research on demand, no subscriptions required. Search top newsletters, blogs, and podcasts, u
+- @SolanaEvents: Need help finalizing your travel plans to Breakpoint? Visit the travel page on our site to find all the resources you need including: • Airport information • Hotel discounts powere
 - @SolanaFloor: $SOL LIQUIDATIONS: Nearly $40 million worth of short positions have been liquidated in the last hour as $SOL surged back above $80. The single largest short liquidation was $1 mill
 - @SolanaFloor: 🚨SHORT LIQUIDATIONS: Over $1.12 billion in short positions have been liquidated in less than 60 minutes as $BTC surged to $69K before retracing to $68K. $BTC: $640M liquidated $ETH
 - @SolanaFloor: JUST IN: $BTC breaks $69,000.
 - @SolanaFloor: 🚨JUST IN: @solanaidentity says it will shut down its Hub, API, and Display Network by the end of September. The team has burned 73.78% of $SOLID supply held in its treasury and is 
-- @solana: We&apos;re live with @onrefinance, @exponent, @FWDind, @onrefinance, and @RockawayX to chat the growth of OnRe on Solana. https://x.com/i/broadcasts/1lJQRWlnBgWxE
 
 ## Upgrade Radar
 
