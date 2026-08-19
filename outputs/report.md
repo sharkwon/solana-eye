@@ -1,50 +1,50 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-19T01:55:01Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-19T03:13:32Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 8 validators delinquent (0.66% of stake)
+- 🔵 Validators Delinquent: 7 validators delinquent (0.01% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 23.4% in 24h
 
 ## ❤️ Solana Health Score
 
-89.2/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+92.5/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 64.0 |
-| slot_time | 94.3 |
+| price_trend | 68.5 |
+| slot_time | 95.5 |
 | tps | 100.0 |
-| tvl_trend | 55.2 |
-| validators | 86.8 |
+| tvl_trend | 58.6 |
+| validators | 99.8 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,710.71 |
-| Peak TPS | 1,992.32 |
-| Non-vote TPS | 1,032.58 |
-| Avg slot time | 0.4230 s |
-| Slot | 440,173,527 |
-| Block height | 418,223,776 |
+| Avg TPS (10 samples) | 1,499.88 |
+| Peak TPS | 1,682.85 |
+| Non-vote TPS | 816.04 |
+| Avg slot time | 0.4180 s |
+| Slot | 440,184,805 |
+| Block height | 418,235,031 |
 
 ### Epoch
 
-- Epoch 1018 — 92.02% complete (397,526/432,000 slots)
-- Slots remaining: 34,474
-- Total transactions (all-time): 539,468,805,097
+- Epoch 1018 — 94.63% complete (408,804/432,000 slots)
+- Slots remaining: 23,196
+- Total transactions (all-time): 539,487,159,614
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 687 |
-| Delinquent validators | 8 |
-| Total active stake | 432,783,057 SOL |
-| Delinquent stake | 2,893,739 SOL (0.66%) |
-| Avg commission | 12.32% |
+| Active validators | 688 |
+| Delinquent validators | 7 |
+| Total active stake | 435,626,689 SOL |
+| Delinquent stake | 50,106 SOL (0.01%) |
+| Avg commission | 12.30% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -76,44 +76,44 @@ _Auto-generated at 2026-08-19T01:55:01Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $76.69 (+1.40% 24h) |
-| TVL | $4,899,670,690.80 (+0.52% 24h) |
-| DEX volume 24h | $1,820,196,190.04 (+23.40%) |
-| Stablecoin supply | $15,422,837,758.82 |
+| SOL price | $76.68 (+1.85% 24h) |
+| TVL | $4,895,840,845.64 (+0.86% 24h) |
+| DEX volume 24h | $1,820,756,097.04 (+23.44%) |
+| Stablecoin supply | $15,435,714,452.77 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 11,056 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 5,437 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 582,891,995 SOL
+- Circulating: 582,891,947 SOL
 - Non-circulating: 49,495,185 SOL
 
 ## Cross-Chain Comparison
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,899,670,690.80 | $1,820,196,190.04 | $15,422,837,758.82 |
-| Ethereum | $41,785,484,191.45 | $694,269,031.49 | $147,176,591,690.46 |
-| Base | $4,751,386,578.98 | $544,966,605.02 | $4,982,797,009.53 |
-| Tron | $4,812,886,519.32 | $43,932,001 | $92,434,638,283.70 |
-| Arbitrum | $1,241,478,288.56 | $58,884,117.26 | $3,488,743,002.97 |
+| Solana | $4,895,840,845.64 | $1,820,756,097.04 | $15,435,714,452.77 |
+| Ethereum | $41,735,857,598.60 | $686,836,286.49 | $147,454,836,008.98 |
+| Base | $4,739,899,019.90 | $541,413,134.02 | $4,978,545,740.58 |
+| Tron | $4,810,327,167.88 | $43,932,001 | $92,428,602,681.61 |
+| Arbitrum | $1,239,761,646.33 | $56,393,636.26 | $3,485,128,842.35 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,710.71 | 1,454.48 | 78th |
-| Slot time (s) | 0.42 | 0.42 | 79th |
-| TVL (USD) | 4,899,670,690.80 | 4,814,288,039.21 | 100th |
-| SOL price (USD) | 76.69 | 75.49 | 92th |
-| DEX volume 24h (USD) | 1,820,196,190.04 | 1,479,321,412.54 | 94th |
+| Avg TPS | 1,499.88 | 1,454.68 | 56th |
+| Slot time (s) | 0.42 | 0.42 | 42th |
+| TVL (USD) | 4,895,840,845.64 | 4,814,524,038.27 | 98th |
+| SOL price (USD) | 76.68 | 75.50 | 92th |
+| DEX volume 24h (USD) | 1,820,756,097.04 | 1,479,321,412.54 | 94th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
-- #571 SIMD-0571: Soft Deprecation of Durable Nonce Transactions (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/571)
 - #602 SIMD-0602: Disallow Nonce Account as Program ID (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/602)
+- #571 SIMD-0571: Soft Deprecation of Durable Nonce Transactions (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/571)
 - #596 Increase TxV1 Account Lock Limit to 96 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/596)
 - #600 simd-0553 amendment: adjust inclusion fee (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/600)
 - #582 SIMD-0582: Early detection of instruction trace overflow (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/582)
@@ -125,23 +125,23 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 - [Transaction v1 and the ALT Trade-off](https://solana.com/news/transaction-v1-and-the-alt-trade-off) — 2026-08-17
 - [Solana Changelog: August 13, 2026](https://solana.com/news/solana-changelog-august-13-2026) 🖼️ — 2026-08-13
+- [How Meow Built Agentic Banking and Agent Payment Rails, with Brandon Arvanaghi](https://solana.com/news/how-meow-built-agentic-banking-and-agent-payment-rails-with-brandon-arvanaghi) 🖼️ — 2026-08-13
 - [Why Asia Is Ahead on Stablecoins, According to Reap's Daren Guo](https://solana.com/news/bits-to-bricks-asia-ahead-stablecoins-daren-guo-reap) 🖼️ — 2026-08-12
 - [MoneyGram Ramps launches on Solana](https://solana.com/news/moneygram-ramps) 🖼️ — 2026-08-11
 - [Solana Changelog: August 6, 2026](https://solana.com/news/solana-changelog-august-6-2026) 🖼️ — 2026-08-06
 - [Webinar Recap: Giving AI agents a native way to pay with x402](https://solana.com/news/webinar-recap-agentic-payments) 🖼️ — 2026-08-05
 - [Solana Ecosystem Roundup: July 2026](https://solana.com/news/solana-ecosystem-roundup-july-2026) 🖼️ — 2026-08-05
-- [Breakpoint 2026: The Token Supercycle](https://solana.com/news/the-token-supercycle) 🖼️ — 2026-08-04
 
 ## Community News (X/Twitter)
 
+- @solana_daily: Most active x402 projects on Solana ⚡️ Laso Finance — @LasoFinance Syra — @syra_agent StableEnrich WURK — @WURKDOTFUN BlockRun — @BlockRunAI Truth Bear SniperX — @sniperxfun Bitref
+- @solana_daily: Solana > Ethereum + Hyperliquid + BSC + Polygon + Robinhood Chain + Base + Hydration + edgeX + zkSync. That&apos;s what data tells.
+- @SolanaFloor: 🎥Here&apos;s @solana in just four charts. How will they impact the bull case for 2027 and beyond?👇
+- @SolanaFloor: 🇺🇸NEWS: @SECGov’s proposal for “Regulation Crypto Assets” has passed via “seriatim” votes, meaning commissioners voted individually outside a public meeting. The proposal would cre
+- @SolanaFloor: 📰NEWS: @JurassicFi Brings Museum-Grade Triceratops Skull to Solana ✍️:@ideyquickvex https://solanafloor.com/news/jurassic-finance-brings-museum-grade-triceratops-skull-to-solana
+- @SolanaFloor: 📰NEWS: $PUMP Buyback Position Back in Profit After 9 Months Underwater ✍️@solace_fm https://solanafloor.com/news/pump-buyback-position-back-in-profit-after-9-months-underwater
 - @SolanaEvents: How it feels to have your tickets and travel all sorted out for Breakpoint.
 - @SolanaFndn: Dubai and the UAE moved faster on digital asset regulation than most, and the capital and builders followed. Zain Umer, Managing Director of CFC MENA, joins @afscott on Solana is G
-- @SolanaEvents: Less than 90 Great British Leg Days until Breakpoint. Lock in.
-- @solana: everywhere
-- @SolanaEvents: Who will we see in LA?
-- @solana: BREAKING: @Securitize and Neuberger launch a tokenized fixed income fund on Solana. High yield bonds, CLOs, and leveraged loans from a $230B fixed income platform, now onchain.
-- @SolanaFndn: Solana Foundation joins the Agentic Payments Alliance by @raincards. Agents are becoming economic actors, and how they pay for things needs to be on a global money layer that stays
-- @solana: BREAKING: Buy any token on Solana straight from your @CashApp balance using @moonpay
 
 ## Upgrade Radar
 
