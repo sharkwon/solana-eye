@@ -1,53 +1,53 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-19T19:38:52Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-19T20:45:30Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🟠 TVL USD: TVL statistically high (z=5.3)
-- 🟠 SOL Price USD: SOL price statistically high (z=4.9)
-- 🔵 Validators Delinquent: 9 validators delinquent (0.05% of stake)
-- 🔵 SOL Price 24h Change Pct: SOL price surged 6.5% in 24h
+- 🟠 TVL USD: TVL statistically high (z=5.2)
+- 🟠 SOL Price USD: SOL price statistically high (z=4.7)
+- 🔵 Validators Delinquent: 8 validators delinquent (0.02% of stake)
+- 🔵 SOL Price 24h Change Pct: SOL price surged 7.5% in 24h
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 24.6% in 24h
 
 ## ❤️ Solana Health Score
 
-94.7/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+94.5/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
 | price_trend | 100.0 |
-| slot_time | 97.0 |
+| slot_time | 95.0 |
 | tps | 100.0 |
 | tvl_trend | 50.0 |
-| validators | 99.0 |
+| validators | 99.6 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,886.22 |
-| Peak TPS | 2,037.86 |
-| Non-vote TPS | 1,205.92 |
-| Avg slot time | 0.4120 s |
-| Slot | 440,327,247 |
-| Block height | 418,377,247 |
+| Avg TPS (10 samples) | 1,817.38 |
+| Peak TPS | 2,070.67 |
+| Non-vote TPS | 1,133.39 |
+| Avg slot time | 0.4200 s |
+| Slot | 440,336,765 |
+| Block height | 418,386,709 |
 
 ### Epoch
 
-- Epoch 1019 — 27.60% complete (119,247/432,000 slots)
-- Slots remaining: 312,753
-- Total transactions (all-time): 539,725,263,769
+- Epoch 1019 — 29.81% complete (128,764/432,000 slots)
+- Slots remaining: 303,236
+- Total transactions (all-time): 539,743,857,062
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 686 |
-| Delinquent validators | 9 |
-| Total active stake | 435,028,149 SOL |
-| Delinquent stake | 213,119 SOL (0.05%) |
-| Avg commission | 11.90% |
+| Active validators | 688 |
+| Delinquent validators | 8 |
+| Total active stake | 435,141,193 SOL |
+| Delinquent stake | 100,074 SOL (0.02%) |
+| Avg commission | 11.87% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -79,17 +79,17 @@ _Auto-generated at 2026-08-19T19:38:52Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $82.20 (+6.47% 24h) |
-| TVL | $5,079,072,644.72 (+0.00% 24h) |
+| SOL price | $82.61 (+7.46% 24h) |
+| TVL | $5,085,999,626.64 (+0.00% 24h) |
 | DEX volume 24h | $1,838,194,723.04 (+24.62%) |
-| Stablecoin supply | $15,693,100,470.86 |
+| Stablecoin supply | $15,660,463,393.89 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 5,655 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 9,908 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 583,006,837 SOL
-- Non-circulating: 49,507,400 SOL
+- Circulating: 583,006,685 SOL
+- Non-circulating: 49,507,503 SOL
 
 ## Ecosystem Growth
 
@@ -102,20 +102,20 @@ _Auto-generated at 2026-08-19T19:38:52Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,079,072,644.72 | $1,838,194,723.04 | $15,693,100,470.86 |
-| Ethereum | $43,917,404,987.39 | $684,441,486.49 | $147,661,556,665.18 |
-| Base | $4,910,161,190.82 | $541,411,052.02 | $4,979,310,815.02 |
-| Tron | $4,903,543,349.44 | $43,932,001 | $92,452,098,792.11 |
-| Arbitrum | $1,295,989,676.60 | $56,352,847.26 | $3,417,421,921.60 |
+| Solana | $5,085,999,626.64 | $1,838,194,723.04 | $15,660,463,393.89 |
+| Ethereum | $43,970,460,046.50 | $684,441,486.49 | $147,699,709,110.43 |
+| Base | $4,910,419,853.45 | $541,411,052.02 | $4,980,344,294.72 |
+| Tron | $4,901,463,254.84 | $43,932,001 | $92,453,843,464.85 |
+| Arbitrum | $1,298,121,150.46 | $56,352,847.26 | $3,420,656,633.43 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,886.22 | 1,454.68 | 92th |
-| Slot time (s) | 0.41 | 0.42 | 4th |
-| TVL (USD) | 5,079,072,644.72 | 4,817,055,424.76 | 100th |
-| SOL price (USD) | 82.20 | 75.54 | 100th |
+| Avg TPS | 1,817.38 | 1,454.87 | 86th |
+| Slot time (s) | 0.42 | 0.42 | 59th |
+| TVL (USD) | 5,085,999,626.64 | 4,817,167,804.77 | 100th |
+| SOL price (USD) | 82.61 | 75.55 | 100th |
 | DEX volume 24h (USD) | 1,838,194,723.04 | 1,493,144,029.54 | 94th |
 
 ## Ecosystem / Development News
@@ -144,14 +144,14 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Community News (X/Twitter)
 
+- @solana: hey @doodles... we&apos;ve got a sweet idea for a toy
+- @SolanaFloor: 🎥 @fxnction joins tradingFloor and shares his best advice for anyone entering the trenches 👇
+- @SolanaFndn: Will the leverage slider be in their favor? Frontier Traders and @PhoenixTrade bring you eight traders live at @SuperteamBLKN Solana Summit Serbia for the ultimate showdown
+- @solana: Don&apos;t wait for the bull, build it
 - @solana: Directly from the source on @fomo
 - @SolanaFloor: The @Solanamobile Seeker Dashboard has been updated, featuring new Seeker Summer Round 4 quests from Solana based crypto MMORPG @bakelandxyz. Complete “Ramen Run” and “Through the 
 - @solana: Our time is now
 - @SolanaFndn: Bear markets clear out everyone who showed up for one trade and leave the people who wanted to build something. @muneeb, co-founder of @Stacks, joins @EmonMotamedi on The Understor
-- @SolanaFndn: Drip by @blauyourmind is now live on http://pay.sh You can now reach premium financial research on demand, no subscriptions required. Search top newsletters, blogs, and podcasts, u
-- @SolanaFloor: $SOL LIQUIDATIONS: Nearly $40 million worth of short positions have been liquidated in the last hour as $SOL surged back above $80. The single largest short liquidation was $1 mill
-- @SolanaFloor: 🚨SHORT LIQUIDATIONS: Over $1.12 billion in short positions have been liquidated in less than 60 minutes as $BTC surged to $69K before retracing to $68K. $BTC: $640M liquidated $ETH
-- @SolanaFloor: JUST IN: $BTC breaks $69,000.
 
 ## Upgrade Radar
 
