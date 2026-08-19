@@ -1,21 +1,23 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-19T14:53:40Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-19T15:46:01Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
+- 🟠 SOL Price USD: SOL price statistically high (z=3.3)
 - 🔵 Validators Delinquent: 9 validators delinquent (0.1% of stake)
+- 🔵 SOL Price 24h Change Pct: SOL price surged 6.9% in 24h
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 24.6% in 24h
 
 ## ❤️ Solana Health Score
 
-92.6/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+94.0/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 81.2 |
-| slot_time | 95.8 |
+| price_trend | 100.0 |
+| slot_time | 94.5 |
 | tps | 100.0 |
-| tvl_trend | 50.0 |
+| tvl_trend | 49.1 |
 | validators | 98.0 |
 
 ## Network Performance
@@ -23,18 +25,18 @@ _Auto-generated at 2026-08-19T14:53:40Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,960.76 |
-| Peak TPS | 2,258.94 |
-| Non-vote TPS | 1,277.95 |
-| Avg slot time | 0.4170 s |
-| Slot | 440,286,155 |
-| Block height | 418,336,214 |
+| Avg TPS (10 samples) | 2,680.20 |
+| Peak TPS | 2,884.60 |
+| Non-vote TPS | 1,998.72 |
+| Avg slot time | 0.4220 s |
+| Slot | 440,293,726 |
+| Block height | 418,343,777 |
 
 ### Epoch
 
-- Epoch 1019 — 18.09% complete (78,154/432,000 slots)
-- Slots remaining: 353,846
-- Total transactions (all-time): 539,633,335,680
+- Epoch 1019 — 19.84% complete (85,725/432,000 slots)
+- Slots remaining: 346,275
+- Total transactions (all-time): 539,652,085,411
 
 ## Validators
 
@@ -76,16 +78,16 @@ _Auto-generated at 2026-08-19T14:53:40Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $79.26 (+3.12% 24h) |
-| TVL | $4,926,145,239.44 (+0.00% 24h) |
+| SOL price | $82.31 (+6.89% 24h) |
+| TVL | $4,929,394,288.36 (-0.09% 24h) |
 | DEX volume 24h | $1,838,194,723.04 (+24.62%) |
-| Stablecoin supply | $15,408,583,438.35 |
+| Stablecoin supply | $15,438,439,856.95 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 5,649 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 16,368 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 583,007,222 SOL
+- Circulating: 583,007,173 SOL
 - Non-circulating: 49,507,253 SOL
 
 ## Ecosystem Growth
@@ -99,20 +101,20 @@ _Auto-generated at 2026-08-19T14:53:40Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,926,145,239.44 | $1,838,194,723.04 | $15,408,583,438.35 |
-| Ethereum | $41,944,764,182.44 | $684,441,486.49 | $147,615,064,311.50 |
-| Base | $4,709,941,919.62 | $541,411,052.02 | $4,938,461,792.50 |
-| Tron | $4,806,567,257.67 | $43,932,001 | $92,423,987,012.32 |
-| Arbitrum | $1,247,324,971.84 | $56,352,847.26 | $3,594,497,233.64 |
+| Solana | $4,929,394,288.36 | $1,838,194,723.04 | $15,438,439,856.95 |
+| Ethereum | $42,025,058,417.43 | $684,441,486.49 | $147,613,303,202.23 |
+| Base | $4,726,283,550.99 | $541,411,052.02 | $4,934,781,119.34 |
+| Tron | $4,809,431,443.22 | $43,932,001 | $92,425,663,115.83 |
+| Arbitrum | $1,249,253,911.37 | $56,352,847.26 | $3,587,350,078.74 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,960.76 | 1,446.50 | 97th |
-| Slot time (s) | 0.42 | 0.42 | 36th |
-| TVL (USD) | 4,926,145,239.44 | 4,816,143,410.67 | 100th |
-| SOL price (USD) | 79.26 | 75.52 | 100th |
+| Avg TPS | 2,680.20 | 1,449.47 | 100th |
+| Slot time (s) | 0.42 | 0.42 | 73th |
+| TVL (USD) | 4,929,394,288.36 | 4,816,286,389.74 | 100th |
+| SOL price (USD) | 82.31 | 75.53 | 100th |
 | DEX volume 24h (USD) | 1,838,194,723.04 | 1,493,144,029.54 | 94th |
 
 ## Ecosystem / Development News
@@ -141,14 +143,14 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Community News (X/Twitter)
 
+- @SolanaFloor: 🚨SHORT LIQUIDATIONS: Over $1.12 billion in short positions have been liquidated in less than 60 minutes as $BTC surged to $69K before retracing to $68K. $BTC: $640M liquidated $ETH
+- @SolanaFloor: JUST IN: $BTC breaks $69,000.
+- @SolanaFloor: 🚨JUST IN: @solanaidentity says it will shut down its Hub, API, and Display Network by the end of September. The team has burned 73.78% of $SOLID supply held in its treasury and is 
+- @solana: We&apos;re live with @onrefinance, @exponent, @FWDind, @onrefinance, and @RockawayX to chat the growth of OnRe on Solana. https://x.com/i/broadcasts/1lJQRWlnBgWxE
+- @solana: Live now: Privacy Show Workshop Watch @tilo_cpn from @Helius guide @catmcgee and her AI agent through building an app on Helius&apos; new privacy protocol. https://x.com/i/broadcas
+- @SolanaFloor: Pinned: We are LIVE on X with tradingFloor Episode 5 with two stellar traders: ​👉 The White Whale - @WhiteWhaleLabs ​👉 fxnction - @fxnction https://x.com/i/broadcasts/1MJgNbzbrPOGL
 - @SolanaFloor: BREAKING: @Solana continues to see rapid growth in onchain equity markets. Tokenized equities supply on @Solana has reached a new weekly all-time high of nearly $470 million.
 - @SolanaFloor: 📊DATA: @Circle minted another ~1.50 billion $USDC on @solana last week.
-- @SolanaFloor: News: @Solana Embraces 12.5% Speed Boost with Slot Times Dropping in Next 48 Hours ✍️ @solace_fm https://solanafloor.com/news/solana-embraces-12-speed-boost-slot-times-dropping-nex
-- @solana_daily: PumpKings BETA is live. New beta testers can join the platform, create an account, and follow the Bonus section to claim the $5 tester bonus. The campaign also includes rewards of 
-- @SolanaFloor: News: SEC Unveils ‘Regulation Crypto Assets’ Framework for Crypto Startups to Raise Money ✍️ @ideyquickvex https://solanafloor.com/news/sec-unveils-regulation-crypto-assets-framewo
-- @SolanaFloor: 📈Report: Will history repeat itself? Returning traders now make up 61% of weekly @Solana traders, the highest share since June 2024, when Solana’s historic memecoin cycle was accel
-- @solana: Pinned: MoneyGram CEO Anthony Soohoo on connecting cash to Solana: "The biggest announcement we&apos;ve made with Solana is about access, providing all their developers the ability
-- @solana_daily: ⚡️ Hottest Memecoins on Solana in the Last 24H ▫️CYBERLEEK — @cyberleek_ar_io ▫️NIUNAI — @niunai_cow ▫️BULLSHIT — @BULLSHIT_ANSEM ▫️EYE — @BullssEyeFan ▫️Z — @YouShallObeyZ ▫️Dildo
 
 ## Upgrade Radar
 
