@@ -1,25 +1,25 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-20T03:58:59Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-20T04:54:42Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🟠 TVL USD: TVL statistically high (z=5.7)
+- 🟠 TVL USD: TVL statistically high (z=5.4)
 - 🟠 SOL Price USD: SOL price statistically high (z=4.5)
-- 🟠 DEX Volume 24h USD: DEX volume statistically high (z=5.2)
+- 🟠 DEX Volume 24h USD: DEX volume statistically high (z=5.0)
 - 🔵 Validators Delinquent: 8 validators delinquent (0.02% of stake)
-- 🔵 TVL 24h Change Pct: TVL surged 6.4% in 24h
-- 🔵 SOL Price 24h Change Pct: SOL price surged 9.8% in 24h
+- 🔵 TVL 24h Change Pct: TVL surged 6.2% in 24h
+- 🔵 SOL Price 24h Change Pct: SOL price surged 10.3% in 24h
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 51.8% in 24h
 
 ## ❤️ Solana Health Score
 
-97.3/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+96.1/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
 | price_trend | 100.0 |
-| slot_time | 95.0 |
-| tps | 93.5 |
+| slot_time | 96.8 |
+| tps | 88.1 |
 | tvl_trend | 100.0 |
 | validators | 99.6 |
 
@@ -28,18 +28,18 @@ _Auto-generated at 2026-08-20T03:58:59Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,403.22 |
-| Peak TPS | 1,526.01 |
-| Non-vote TPS | 719.92 |
-| Avg slot time | 0.4200 s |
-| Slot | 440,399,219 |
-| Block height | 418,449,140 |
+| Avg TPS (10 samples) | 1,320.86 |
+| Peak TPS | 1,401.47 |
+| Non-vote TPS | 637.72 |
+| Avg slot time | 0.4130 s |
+| Slot | 440,407,070 |
+| Block height | 418,456,977 |
 
 ### Epoch
 
-- Epoch 1019 — 44.26% complete (191,218/432,000 slots)
-- Slots remaining: 240,782
-- Total transactions (all-time): 539,854,802,446
+- Epoch 1019 — 46.08% complete (199,069/432,000 slots)
+- Slots remaining: 232,931
+- Total transactions (all-time): 539,865,494,355
 
 ## Validators
 
@@ -81,16 +81,16 @@ _Auto-generated at 2026-08-20T03:58:59Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $84.49 (+9.81% 24h) |
-| TVL | $5,212,442,009.78 (+6.40% 24h) |
+| SOL price | $84.71 (+10.26% 24h) |
+| TVL | $5,200,716,681.49 (+6.18% 24h) |
 | DEX volume 24h | $2,789,524,387.95 (+51.75%) |
-| Stablecoin supply | $15,758,025,202.18 |
+| Stablecoin supply | $15,782,573,202.58 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 3,339 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 2,987 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 583,006,355 SOL
+- Circulating: 583,006,327 SOL
 - Non-circulating: 49,507,544 SOL
 
 ## Ecosystem Growth
@@ -104,20 +104,20 @@ _Auto-generated at 2026-08-20T03:58:59Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,212,442,009.78 | $2,789,524,387.95 | $15,758,025,202.18 |
-| Ethereum | $45,850,656,138.66 | $2,088,370,779.73 | $147,599,191,958.94 |
-| Base | $5,032,072,469.66 | $1,255,183,194.33 | $4,993,032,242.05 |
-| Tron | $5,010,894,185.11 | $37,554,445 | $92,340,596,362.15 |
-| Arbitrum | $1,335,725,926.14 | $397,933,397.24 | $3,414,970,242.04 |
+| Solana | $5,200,716,681.49 | $2,789,524,387.95 | $15,782,573,202.58 |
+| Ethereum | $45,670,159,492.55 | $2,088,370,779.73 | $147,584,762,531.40 |
+| Base | $5,005,162,700.08 | $1,255,183,194.33 | $4,992,236,636.92 |
+| Tron | $4,998,759,906.52 | $37,554,445 | $92,336,627,391.92 |
+| Arbitrum | $1,328,241,915.95 | $397,933,397.24 | $3,414,165,119.47 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,403.22 | 1,458.14 | 40th |
-| Slot time (s) | 0.42 | 0.42 | 59th |
-| TVL (USD) | 5,212,442,009.78 | 4,817,857,848.63 | 100th |
-| SOL price (USD) | 84.49 | 75.58 | 99th |
+| Avg TPS | 1,320.86 | 1,456.87 | 30th |
+| Slot time (s) | 0.41 | 0.42 | 8th |
+| TVL (USD) | 5,200,716,681.49 | 4,817,880,858.68 | 99th |
+| SOL price (USD) | 84.71 | 75.58 | 99th |
 | DEX volume 24h (USD) | 2,789,524,387.95 | 1,493,144,029.54 | 100th |
 
 ## Ecosystem / Development News
@@ -146,22 +146,18 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Community News (X/Twitter)
 
-- @SolanaFloor: JUST IN: $JitoSOL holders have reached the required governance quorum, triggering the Jito Stake Pool’s roughly 10 million $SOL to vote YES on all three active @Solana Governance P
-- @SolanaFloor: JUST IN: @Solanamobile has launched a USDC Earn Vault in Seed Vault Wallet powered by @Kamino, allowing Seeker users to earn variable yield on USDC with automatic compounding and n
-- @SolanaFloor: News: @JupiterExchange Loses Grip on Solana DEX Aggregator Volume as Market Share Falls Below 50% ✍️ @ideyquickvex https://solanafloor.com/news/jupiter-loses-grip-on-solana-dex-agg
-- @SolanaFndn: We&apos;re looking for a creator to bring cyberpunk to life for Solana&apos;s AI experience in November 👀 Apply as a creator:
-- @SolanaFloor: BREAKING: Crypto short liquidations have surged to $2.47 billion over the past 24 hours, the highest level ever recorded.
-- @SolanaFloor: NEW: @nfwdotfun has launched OpenGacha on @Solana, a pull shop protocol that lets anyone create customizable gacha pools stocked with verified TCGs, NFTs, and other assets, while e
-- @SolanaFloor: 🎥 @fxnction joins tradingFloor and shares his best advice for anyone entering the trenches 👇
-- @SolanaFndn: Will the leverage slider be in their favor? Frontier Traders and @PhoenixTrade bring you eight traders live at @SuperteamBLKN Solana Summit Serbia for the ultimate showdown
+- @solana: BREAKING: $MRNA from Moderna is live on Solana via @sunrise, issued by @Backpack Securities Moderna announced the first ever positive Phase 3 results for a personalized cancer vacc
+- @solana: hey @doodles... we&apos;ve got a sweet idea for a toy
+- @solana: Don&apos;t wait for the bull, build it
+- @solana: Directly from the source on @fomo
+- @solana: Our time is now
+- @solana: We&apos;re live with @onrefinance, @exponent, @FWDind, @onrefinance, and @RockawayX to chat the growth of OnRe on Solana. https://x.com/i/broadcasts/1lJQRWlnBgWxE
 
-_Degraded (no data): solana, solana_daily_
+_Degraded (no data): SolanaFndn, SolanaFloor, solana_daily, SolanaEvents_
 
 ## Upgrade Radar
 
 _Upcoming protocol upgrades tracked from the SIMD repo (keyless)._
-
-- SIMD #525 — SIMD-0525: Shorter slot times (MERGED) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/525)
 
 Latest Agave client releases:
 
