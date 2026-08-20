@@ -1,55 +1,54 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-20T11:42:24Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-20T13:11:24Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🟠 TVL USD: TVL statistically high (z=4.7)
-- 🟠 SOL Price USD: SOL price statistically high (z=4.5)
-- 🟠 DEX Volume 24h USD: DEX volume statistically high (z=3.9)
-- 🔵 Validators Delinquent: 8 validators delinquent (0.09% of stake)
-- 🔵 TVL 24h Change Pct: TVL surged 8.3% in 24h
-- 🔵 SOL Price 24h Change Pct: SOL price surged 13.6% in 24h
+- 🟠 TVL USD: TVL statistically high (z=5.0)
+- 🟠 SOL Price USD: SOL price statistically high (z=4.7)
+- 🟠 DEX Volume 24h USD: DEX volume statistically high (z=4.5)
+- 🔵 Validators Delinquent: 6 validators delinquent (0.0% of stake)
+- 🔵 SOL Price 24h Change Pct: SOL price surged 11.5% in 24h
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 63.7% in 24h
 
 ## ❤️ Solana Health Score
 
-99.0/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+94.7/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
 | price_trend | 100.0 |
-| slot_time | 96.5 |
+| slot_time | 95.8 |
 | tps | 100.0 |
-| tvl_trend | 100.0 |
-| validators | 98.2 |
+| tvl_trend | 50.4 |
+| validators | 100.0 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,574.05 |
-| Peak TPS | 1,767.40 |
-| Non-vote TPS | 888.50 |
-| Avg slot time | 0.4140 s |
-| Slot | 440,466,207 |
-| Block height | 418,516,038 |
+| Avg TPS (10 samples) | 1,726.79 |
+| Peak TPS | 1,856.30 |
+| Non-vote TPS | 1,041.23 |
+| Avg slot time | 0.4170 s |
+| Slot | 440,479,018 |
+| Block height | 418,528,845 |
 
 ### Epoch
 
-- Epoch 1019 — 59.77% complete (258,207/432,000 slots)
-- Slots remaining: 173,793
-- Total transactions (all-time): 539,947,468,173
+- Epoch 1019 — 62.74% complete (271,016/432,000 slots)
+- Slots remaining: 160,984
+- Total transactions (all-time): 539,968,714,754
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 688 |
-| Delinquent validators | 8 |
-| Total active stake | 434,845,768 SOL |
-| Delinquent stake | 395,500 SOL (0.09%) |
-| Avg commission | 12.30% |
+| Active validators | 690 |
+| Delinquent validators | 6 |
+| Total active stake | 435,235,713 SOL |
+| Delinquent stake | 5,555 SOL (0.00%) |
+| Avg commission | 12.27% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -81,16 +80,16 @@ _Auto-generated at 2026-08-20T11:42:24Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $87.95 (+13.57% 24h) |
-| TVL | $5,303,570,607.47 (+8.31% 24h) |
+| SOL price | $87.25 (+11.55% 24h) |
+| TVL | $5,301,623,833.44 (+0.04% 24h) |
 | DEX volume 24h | $3,009,837,694.95 (+63.74%) |
-| Stablecoin supply | $15,759,962,266.64 |
+| Stablecoin supply | $15,740,449,179.54 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 5,932 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 4,941 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 583,006,112 SOL
+- Circulating: 583,006,057 SOL
 - Non-circulating: 49,507,544 SOL
 
 ## Ecosystem Growth
@@ -104,20 +103,20 @@ _Auto-generated at 2026-08-20T11:42:24Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,303,570,607.47 | $3,009,837,694.95 | $15,759,962,266.64 |
-| Ethereum | $46,511,138,195.41 | $2,086,516,520.73 | $147,518,206,590.00 |
-| Base | $5,137,935,234.47 | $1,255,183,523.33 | $5,001,223,371.78 |
-| Tron | $5,038,573,870.70 | $37,554,445 | $92,324,425,714.06 |
-| Arbitrum | $1,348,833,942.76 | $397,933,397.24 | $3,409,757,009.42 |
+| Solana | $5,301,623,833.44 | $3,009,837,694.95 | $15,740,449,179.54 |
+| Ethereum | $46,495,815,801.81 | $2,086,516,520.73 | $147,485,370,171.49 |
+| Base | $5,120,102,527.65 | $1,255,183,523.33 | $4,996,591,900.37 |
+| Tron | $5,060,090,782.87 | $37,554,445 | $92,334,493,602.70 |
+| Arbitrum | $1,347,170,018.72 | $397,933,397.24 | $3,425,445,212.66 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,574.05 | 1,452.44 | 64th |
-| Slot time (s) | 0.41 | 0.42 | 15th |
-| TVL (USD) | 5,303,570,607.47 | 4,818,711,989.71 | 100th |
-| SOL price (USD) | 87.95 | 75.59 | 100th |
+| Avg TPS | 1,726.79 | 1,453.46 | 79th |
+| Slot time (s) | 0.42 | 0.42 | 38th |
+| TVL (USD) | 5,301,623,833.44 | 4,818,976,390.63 | 100th |
+| SOL price (USD) | 87.25 | 75.59 | 99th |
 | DEX volume 24h (USD) | 3,009,837,694.95 | 1,546,376,149.56 | 100th |
 
 ## Ecosystem / Development News
@@ -146,11 +145,14 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Community News (X/Twitter)
 
-- @solana: RSS reader not yet whitelisted!
-- @SolanaFndn: RSS reader not yet whitelisted!
-- @SolanaFloor: RSS reader not yet whitelisted!
-- @solana_daily: RSS reader not yet whitelisted!
-- @SolanaEvents: RSS reader not yet whitelisted!
+- @solana_daily: PumpKings BETA is live. New beta testers can join the platform, create an account, and follow the Bonus section to claim the $5 tester bonus. The campaign also includes rewards of 
+- @solana_daily: ⚡️ Hottest Memecoins on Solana in the Last 24H ▫️CYBERLEEK — @cyberleek_ar_io ▫️NIUNAI — @niunai_cow ▫️BULLSHIT — @BULLSHIT_ANSEM ▫️EYE — @BullssEyeFan ▫️Z — @YouShallObeyZ ▫️Dildo
+- @solana_daily: 🆙Most Impressive Risers on #Solana (last 7D) 👉TVL 7D Growth @keepdotcoffee - +12,395% @crediblefin - +426% @zinc_cash - +351% @etherfuse - +41.51% @Byzanlink - +39.76% @world_xyz -
+- @solana_daily: 🔥Most Trending Solana Tokens Last 24H $ANSEM - @BlackBullSol $EYE - @BullssEyeFan $PUMP - @Pumpfun $CTM - @c8ntinuum $BULLSHIT - @bullshit_ansem $MANLET - @_manlet $ANTFUN - @ant_f
+- @solana_daily: 📊 Top 10 Most-Traded Solana Tokens Last 24H ▫️HYPE | @HyperliquidX ▫️PUMP | @Pumpfun ▫️TRUMP | @GetTrumpMemes ▫️BOME | @Darkfarms1 ▫️ANSEM | @BlackBullSol ▫️ZEC | @Zcash ▫️CRCLx| @
+- @solana_daily: GM #SOL☀️ GM green candles 🆙 Also, Fear and Greed index turned from Extreme Fear last month to GREED today. Uptrend?
+- @solana_daily: Pinned: The Time is NEAR! 🚀@ChimpxAI TGE is closer than you think. 🟢Join us in our AMA this Saturday for a $CHIMP Pre-launch Party 🗣Speaker: @superchimpX - Founder/CEO 📍 Listen her
+- @solana_daily: Mapping out Solana Stablecoin 📸 🔸Stablecoin Issuers: @circle, @tether, @Paxos, @ethena, @FirstDigitalHQ, @worldlibertyfi, @global_dollar, @SkyEcosystem, @SoFi, @WesternUnion, @Stra
 
 ## Upgrade Radar
 
