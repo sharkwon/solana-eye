@@ -1,12 +1,12 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-20T13:11:24Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-20T14:00:03Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🟠 TVL USD: TVL statistically high (z=5.0)
-- 🟠 SOL Price USD: SOL price statistically high (z=4.7)
-- 🟠 DEX Volume 24h USD: DEX volume statistically high (z=4.5)
+- 🟠 TVL USD: TVL statistically high (z=4.8)
+- 🟠 SOL Price USD: SOL price statistically high (z=4.3)
+- 🟠 DEX Volume 24h USD: DEX volume statistically high (z=4.4)
 - 🔵 Validators Delinquent: 6 validators delinquent (0.0% of stake)
-- 🔵 SOL Price 24h Change Pct: SOL price surged 11.5% in 24h
+- 🔵 SOL Price 24h Change Pct: SOL price surged 10.5% in 24h
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 63.7% in 24h
 
 ## ❤️ Solana Health Score
@@ -19,7 +19,7 @@ _Auto-generated at 2026-08-20T13:11:24Z UTC — refresh every 60 min_
 | price_trend | 100.0 |
 | slot_time | 95.8 |
 | tps | 100.0 |
-| tvl_trend | 50.4 |
+| tvl_trend | 50.0 |
 | validators | 100.0 |
 
 ## Network Performance
@@ -27,18 +27,18 @@ _Auto-generated at 2026-08-20T13:11:24Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,726.79 |
-| Peak TPS | 1,856.30 |
-| Non-vote TPS | 1,041.23 |
+| Avg TPS (10 samples) | 1,923.07 |
+| Peak TPS | 2,139.66 |
+| Non-vote TPS | 1,237.89 |
 | Avg slot time | 0.4170 s |
-| Slot | 440,479,018 |
-| Block height | 418,528,845 |
+| Slot | 440,485,980 |
+| Block height | 418,535,807 |
 
 ### Epoch
 
-- Epoch 1019 — 62.74% complete (271,016/432,000 slots)
-- Slots remaining: 160,984
-- Total transactions (all-time): 539,968,714,754
+- Epoch 1019 — 64.35% complete (277,979/432,000 slots)
+- Slots remaining: 154,021
+- Total transactions (all-time): 539,982,001,296
 
 ## Validators
 
@@ -80,16 +80,16 @@ _Auto-generated at 2026-08-20T13:11:24Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $87.25 (+11.55% 24h) |
-| TVL | $5,301,623,833.44 (+0.04% 24h) |
+| SOL price | $86.59 (+10.48% 24h) |
+| TVL | $5,290,562,622.33 (+0.00% 24h) |
 | DEX volume 24h | $3,009,837,694.95 (+63.74%) |
-| Stablecoin supply | $15,740,449,179.54 |
+| Stablecoin supply | $15,654,443,566.30 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 4,941 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 5,383 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 583,006,057 SOL
+- Circulating: 583,006,022 SOL
 - Non-circulating: 49,507,544 SOL
 
 ## Ecosystem Growth
@@ -103,34 +103,34 @@ _Auto-generated at 2026-08-20T13:11:24Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,301,623,833.44 | $3,009,837,694.95 | $15,740,449,179.54 |
-| Ethereum | $46,495,815,801.81 | $2,086,516,520.73 | $147,485,370,171.49 |
-| Base | $5,120,102,527.65 | $1,255,183,523.33 | $4,996,591,900.37 |
-| Tron | $5,060,090,782.87 | $37,554,445 | $92,334,493,602.70 |
-| Arbitrum | $1,347,170,018.72 | $397,933,397.24 | $3,425,445,212.66 |
+| Solana | $5,290,562,622.33 | $3,009,837,694.95 | $15,654,443,566.30 |
+| Ethereum | $46,365,471,502.83 | $2,086,516,520.73 | $147,557,584,111.05 |
+| Base | $5,106,698,216.26 | $1,255,183,523.33 | $4,988,133,020.74 |
+| Tron | $5,060,339,197.79 | $37,554,445 | $92,329,820,014.53 |
+| Arbitrum | $1,343,599,446.48 | $397,933,397.24 | $3,427,479,159.92 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,726.79 | 1,453.46 | 79th |
-| Slot time (s) | 0.42 | 0.42 | 38th |
-| TVL (USD) | 5,301,623,833.44 | 4,818,976,390.63 | 100th |
-| SOL price (USD) | 87.25 | 75.59 | 99th |
+| Avg TPS | 1,923.07 | 1,454.48 | 94th |
+| Slot time (s) | 0.42 | 0.42 | 39th |
+| TVL (USD) | 5,290,562,622.33 | 4,819,240,791.54 | 99th |
+| SOL price (USD) | 86.59 | 75.60 | 98th |
 | DEX volume 24h (USD) | 3,009,837,694.95 | 1,546,376,149.56 | 100th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #604 Correct bank hash components in SIMD-0298 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/604)
+- #603 SIMD-0286's feature gate also raises Max Writable Account Units to 40M, which SIMD-0286 states is unchanged (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/603)
 - #602 SIMD-0602: Disallow Nonce Account as Program ID (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/602)
 - #571 SIMD-0571: Soft Deprecation of Durable Nonce Transactions (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/571)
 - #599 Remove inactive stakes from the stakes cache (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/599)
 - #596 Increase TxV1 Account Lock Limit to 96 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/596)
 - #600 simd-0553 amendment: adjust inclusion fee (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/600)
 - #582 SIMD-0582: Early detection of instruction trace overflow (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/582)
-- #585 Amend 0529 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/585)
-- #593 simd-0504: remove identical signature requirement (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/593)
 
 ## Solana News
 
@@ -145,14 +145,11 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Community News (X/Twitter)
 
-- @solana_daily: PumpKings BETA is live. New beta testers can join the platform, create an account, and follow the Bonus section to claim the $5 tester bonus. The campaign also includes rewards of 
-- @solana_daily: ⚡️ Hottest Memecoins on Solana in the Last 24H ▫️CYBERLEEK — @cyberleek_ar_io ▫️NIUNAI — @niunai_cow ▫️BULLSHIT — @BULLSHIT_ANSEM ▫️EYE — @BullssEyeFan ▫️Z — @YouShallObeyZ ▫️Dildo
-- @solana_daily: 🆙Most Impressive Risers on #Solana (last 7D) 👉TVL 7D Growth @keepdotcoffee - +12,395% @crediblefin - +426% @zinc_cash - +351% @etherfuse - +41.51% @Byzanlink - +39.76% @world_xyz -
-- @solana_daily: 🔥Most Trending Solana Tokens Last 24H $ANSEM - @BlackBullSol $EYE - @BullssEyeFan $PUMP - @Pumpfun $CTM - @c8ntinuum $BULLSHIT - @bullshit_ansem $MANLET - @_manlet $ANTFUN - @ant_f
-- @solana_daily: 📊 Top 10 Most-Traded Solana Tokens Last 24H ▫️HYPE | @HyperliquidX ▫️PUMP | @Pumpfun ▫️TRUMP | @GetTrumpMemes ▫️BOME | @Darkfarms1 ▫️ANSEM | @BlackBullSol ▫️ZEC | @Zcash ▫️CRCLx| @
-- @solana_daily: GM #SOL☀️ GM green candles 🆙 Also, Fear and Greed index turned from Extreme Fear last month to GREED today. Uptrend?
-- @solana_daily: Pinned: The Time is NEAR! 🚀@ChimpxAI TGE is closer than you think. 🟢Join us in our AMA this Saturday for a $CHIMP Pre-launch Party 🗣Speaker: @superchimpX - Founder/CEO 📍 Listen her
-- @solana_daily: Mapping out Solana Stablecoin 📸 🔸Stablecoin Issuers: @circle, @tether, @Paxos, @ethena, @FirstDigitalHQ, @worldlibertyfi, @global_dollar, @SkyEcosystem, @SoFi, @WesternUnion, @Stra
+- @solana: RSS reader not yet whitelisted!
+- @SolanaFndn: RSS reader not yet whitelisted!
+- @SolanaFloor: RSS reader not yet whitelisted!
+- @solana_daily: RSS reader not yet whitelisted!
+- @SolanaEvents: RSS reader not yet whitelisted!
 
 ## Upgrade Radar
 
