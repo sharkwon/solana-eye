@@ -1,25 +1,25 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-20T04:54:42Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-20T05:46:32Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🟠 TVL USD: TVL statistically high (z=5.4)
-- 🟠 SOL Price USD: SOL price statistically high (z=4.5)
-- 🟠 DEX Volume 24h USD: DEX volume statistically high (z=5.0)
+- 🟠 TVL USD: TVL statistically high (z=5.0)
+- 🟠 SOL Price USD: SOL price statistically high (z=4.4)
+- 🟠 DEX Volume 24h USD: DEX volume statistically high (z=4.8)
 - 🔵 Validators Delinquent: 8 validators delinquent (0.02% of stake)
-- 🔵 TVL 24h Change Pct: TVL surged 6.2% in 24h
-- 🔵 SOL Price 24h Change Pct: SOL price surged 10.3% in 24h
+- 🔵 TVL 24h Change Pct: TVL surged 6.1% in 24h
+- 🔵 SOL Price 24h Change Pct: SOL price surged 10.6% in 24h
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 51.8% in 24h
 
 ## ❤️ Solana Health Score
 
-96.1/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+93.3/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
 | price_trend | 100.0 |
-| slot_time | 96.8 |
-| tps | 88.1 |
+| slot_time | 95.8 |
+| tps | 78.5 |
 | tvl_trend | 100.0 |
 | validators | 99.6 |
 
@@ -28,18 +28,18 @@ _Auto-generated at 2026-08-20T04:54:42Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,320.86 |
-| Peak TPS | 1,401.47 |
-| Non-vote TPS | 637.72 |
-| Avg slot time | 0.4130 s |
-| Slot | 440,407,070 |
-| Block height | 418,456,977 |
+| Avg TPS (10 samples) | 1,177.91 |
+| Peak TPS | 1,226.21 |
+| Non-vote TPS | 494.10 |
+| Avg slot time | 0.4170 s |
+| Slot | 440,414,727 |
+| Block height | 418,464,634 |
 
 ### Epoch
 
-- Epoch 1019 — 46.08% complete (199,069/432,000 slots)
-- Slots remaining: 232,931
-- Total transactions (all-time): 539,865,494,355
+- Epoch 1019 — 47.85% complete (206,727/432,000 slots)
+- Slots remaining: 225,273
+- Total transactions (all-time): 539,875,040,179
 
 ## Validators
 
@@ -81,16 +81,16 @@ _Auto-generated at 2026-08-20T04:54:42Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $84.71 (+10.26% 24h) |
-| TVL | $5,200,716,681.49 (+6.18% 24h) |
+| SOL price | $84.93 (+10.57% 24h) |
+| TVL | $5,196,485,566.61 (+6.12% 24h) |
 | DEX volume 24h | $2,789,524,387.95 (+51.75%) |
-| Stablecoin supply | $15,782,573,202.58 |
+| Stablecoin supply | $15,818,580,490.17 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 2,987 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 3,089 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 583,006,327 SOL
+- Circulating: 583,006,302 SOL
 - Non-circulating: 49,507,544 SOL
 
 ## Ecosystem Growth
@@ -104,20 +104,20 @@ _Auto-generated at 2026-08-20T04:54:42Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,200,716,681.49 | $2,789,524,387.95 | $15,782,573,202.58 |
-| Ethereum | $45,670,159,492.55 | $2,088,370,779.73 | $147,584,762,531.40 |
-| Base | $5,005,162,700.08 | $1,255,183,194.33 | $4,992,236,636.92 |
-| Tron | $4,998,759,906.52 | $37,554,445 | $92,336,627,391.92 |
-| Arbitrum | $1,328,241,915.95 | $397,933,397.24 | $3,414,165,119.47 |
+| Solana | $5,196,485,566.61 | $2,789,524,387.95 | $15,818,580,490.17 |
+| Ethereum | $45,546,071,123.66 | $2,088,370,779.73 | $147,568,911,539.16 |
+| Base | $5,004,742,494.70 | $1,255,183,194.33 | $4,992,513,677.66 |
+| Tron | $4,995,487,904.83 | $37,554,445 | $92,329,860,270.66 |
+| Arbitrum | $1,327,813,796.15 | $397,933,397.24 | $3,414,132,134.20 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,320.86 | 1,456.87 | 30th |
-| Slot time (s) | 0.41 | 0.42 | 8th |
-| TVL (USD) | 5,200,716,681.49 | 4,817,880,858.68 | 99th |
-| SOL price (USD) | 84.71 | 75.58 | 99th |
+| Avg TPS | 1,177.91 | 1,455.60 | 7th |
+| Slot time (s) | 0.42 | 0.42 | 37th |
+| TVL (USD) | 5,196,485,566.61 | 4,817,903,868.72 | 98th |
+| SOL price (USD) | 84.93 | 75.58 | 99th |
 | DEX volume 24h (USD) | 2,789,524,387.95 | 1,493,144,029.54 | 100th |
 
 ## Ecosystem / Development News
@@ -146,18 +146,20 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Community News (X/Twitter)
 
-- @solana: BREAKING: $MRNA from Moderna is live on Solana via @sunrise, issued by @Backpack Securities Moderna announced the first ever positive Phase 3 results for a personalized cancer vacc
-- @solana: hey @doodles... we&apos;ve got a sweet idea for a toy
-- @solana: Don&apos;t wait for the bull, build it
-- @solana: Directly from the source on @fomo
-- @solana: Our time is now
-- @solana: We&apos;re live with @onrefinance, @exponent, @FWDind, @onrefinance, and @RockawayX to chat the growth of OnRe on Solana. https://x.com/i/broadcasts/1lJQRWlnBgWxE
+- @SolanaFndn: We&apos;re looking for a creator to bring cyberpunk to life for Solana&apos;s AI experience in November 👀 Apply as a creator:
+- @SolanaFndn: Will the leverage slider be in their favor? Frontier Traders and @PhoenixTrade bring you eight traders live at @SuperteamBLKN Solana Summit Serbia for the ultimate showdown
+- @SolanaFndn: Bear markets clear out everyone who showed up for one trade and leave the people who wanted to build something. @muneeb, co-founder of @Stacks, joins @EmonMotamedi on The Understor
+- @SolanaFndn: Drip by @blauyourmind is now live on http://pay.sh You can now reach premium financial research on demand, no subscriptions required. Search top newsletters, blogs, and podcasts, u
+- @SolanaFndn: Dubai and the UAE moved faster on digital asset regulation than most, and the capital and builders followed. Zain Umer, Managing Director of CFC MENA, joins @afscott on Solana is G
+- @SolanaFndn: Solana Foundation joins the Agentic Payments Alliance by @raincards. Agents are becoming economic actors, and how they pay for things needs to be on a global money layer that stays
 
-_Degraded (no data): SolanaFndn, SolanaFloor, solana_daily, SolanaEvents_
+_Degraded (no data): solana, SolanaFloor, solana_daily, SolanaEvents_
 
 ## Upgrade Radar
 
 _Upcoming protocol upgrades tracked from the SIMD repo (keyless)._
+
+- SIMD #525 — SIMD-0525: Shorter slot times (MERGED) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/525)
 
 Latest Agave client releases:
 
