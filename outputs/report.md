@@ -1,21 +1,21 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-21T18:56:30Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-21T19:36:31Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🟠 Slot Time Sec: slot time statistically low (z=-5.4)
-- 🟠 TVL USD: TVL statistically high (z=3.3)
-- 🟠 SOL Price USD: SOL price statistically high (z=3.2)
+- 🟠 Slot Time Sec: slot time statistically low (z=-5.2)
+- 🟠 TVL USD: TVL statistically high (z=3.2)
+- 🟠 SOL Price USD: SOL price statistically high (z=3.1)
 - 🔵 Validators Delinquent: 9 validators delinquent (0.02% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume dropped 8.0% in 24h
 
 ## ❤️ Solana Health Score
 
-95.3/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+94.9/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 99.2 |
+| price_trend | 94.3 |
 | slot_time | 100.0 |
 | tps | 100.0 |
 | tvl_trend | 50.0 |
@@ -26,18 +26,18 @@ _Auto-generated at 2026-08-21T18:56:30Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,607.40 |
-| Peak TPS | 1,783.30 |
-| Non-vote TPS | 926.45 |
-| Avg slot time | 0.3650 s |
-| Slot | 440,749,626 |
-| Block height | 418,799,214 |
+| Avg TPS (10 samples) | 1,624.23 |
+| Peak TPS | 1,952.59 |
+| Non-vote TPS | 943.32 |
+| Avg slot time | 0.3670 s |
+| Slot | 440,756,269 |
+| Block height | 418,805,847 |
 
 ### Epoch
 
-- Epoch 1020 — 25.38% complete (109,625/432,000 slots)
-- Slots remaining: 322,375
-- Total transactions (all-time): 540,434,526,311
+- Epoch 1020 — 26.91% complete (116,269/432,000 slots)
+- Slots remaining: 315,731
+- Total transactions (all-time): 540,445,057,252
 
 ## Validators
 
@@ -79,17 +79,17 @@ _Auto-generated at 2026-08-21T18:56:30Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $91.26 (+4.92% 24h) |
-| TVL | $5,443,501,136.35 (+0.00% 24h) |
+| SOL price | $91.10 (+4.43% 24h) |
+| TVL | $5,443,511,090.79 (+0.00% 24h) |
 | DEX volume 24h | $2,770,509,439.33 (-7.95%) |
-| Stablecoin supply | $15,751,889,171.58 |
+| Stablecoin supply | $15,826,168,663.16 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 6,334 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 5,993 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 583,178,064 SOL
-- Non-circulating: 49,461,961 SOL
+- Circulating: 583,177,996 SOL
+- Non-circulating: 49,462,002 SOL
 
 ## Ecosystem Growth
 
@@ -102,20 +102,20 @@ _Auto-generated at 2026-08-21T18:56:30Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,443,501,136.35 | $2,770,509,439.33 | $15,751,889,171.58 |
-| Ethereum | $48,488,574,308.10 | $1,837,703,354.38 | $147,073,486,923.61 |
-| Base | $5,431,513,403.14 | $1,200,458,447.35 | $5,057,633,886.02 |
-| Tron | $5,184,281,570.89 | $69,329,559 | $92,368,630,542.52 |
-| Arbitrum | $1,384,906,989.26 | $252,220,988.66 | $3,483,730,080.65 |
+| Solana | $5,443,511,090.79 | $2,770,509,439.33 | $15,826,168,663.16 |
+| Ethereum | $48,493,720,685.11 | $1,837,703,354.38 | $147,121,853,212.78 |
+| Base | $5,432,055,634.58 | $1,200,458,447.35 | $5,030,855,208.17 |
+| Tron | $5,184,418,686.42 | $69,329,559 | $92,372,581,397.16 |
+| Arbitrum | $1,385,480,954.85 | $252,220,988.66 | $3,466,040,121.91 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,607.40 | 1,471.49 | 64th |
-| Slot time (s) | 0.36 | 0.42 | 1th |
-| TVL (USD) | 5,443,501,136.35 | 4,820,990,961.54 | 98th |
-| SOL price (USD) | 91.26 | 75.73 | 98th |
+| Avg TPS | 1,624.23 | 1,472.30 | 66th |
+| Slot time (s) | 0.37 | 0.42 | 2th |
+| TVL (USD) | 5,443,511,090.79 | 4,821,044,257.46 | 98th |
+| SOL price (USD) | 91.10 | 75.73 | 98th |
 | DEX volume 24h (USD) | 2,770,509,439.33 | 1,581,973,855.56 | 90th |
 
 ## Ecosystem / Development News
