@@ -1,8 +1,8 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-24T17:47:22Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-24T18:59:31Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 9 validators delinquent (0.02% of stake)
+- 🔵 Validators Delinquent: 10 validators delinquent (0.16% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume dropped 21.3% in 24h
 
 ## ❤️ Solana Health Score
@@ -12,39 +12,39 @@ _Auto-generated at 2026-08-24T17:47:22Z UTC — refresh every 60 min_
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 47.4 |
+| price_trend | 57.3 |
 | slot_time | 100.0 |
 | tps | 100.0 |
-| tvl_trend | 50.0 |
-| validators | 99.6 |
+| tvl_trend | 45.4 |
+| validators | 96.8 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,728.76 |
-| Peak TPS | 1,832.57 |
-| Non-vote TPS | 1,048.80 |
-| Avg slot time | 0.3670 s |
-| Slot | 441,446,407 |
-| Block height | 419,495,340 |
+| Avg TPS (10 samples) | 1,650.99 |
+| Peak TPS | 1,877.40 |
+| Non-vote TPS | 971.33 |
+| Avg slot time | 0.3710 s |
+| Slot | 441,458,152 |
+| Block height | 419,507,085 |
 
 ### Epoch
 
-- Epoch 1021 — 86.67% complete (374,406/432,000 slots)
-- Slots remaining: 57,594
-- Total transactions (all-time): 541,422,366,778
+- Epoch 1021 — 89.39% complete (386,151/432,000 slots)
+- Slots remaining: 45,849
+- Total transactions (all-time): 541,441,335,241
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 686 |
-| Delinquent validators | 9 |
-| Total active stake | 433,362,371 SOL |
-| Delinquent stake | 73,942 SOL (0.02%) |
-| Avg commission | 12.18% |
+| Active validators | 685 |
+| Delinquent validators | 10 |
+| Total active stake | 432,721,631 SOL |
+| Delinquent stake | 714,681 SOL (0.16%) |
+| Avg commission | 12.20% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -76,16 +76,16 @@ _Auto-generated at 2026-08-24T17:47:22Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $94.99 (-0.26% 24h) |
-| TVL | $5,623,459,557.13 (+0.00% 24h) |
+| SOL price | $95.89 (+0.73% 24h) |
+| TVL | $5,582,075,870.52 (-0.46% 24h) |
 | DEX volume 24h | $2,938,613,605.25 (-21.27%) |
-| Stablecoin supply | $15,798,310,483.80 |
+| Stablecoin supply | $15,779,853,709.57 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 4,581 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 6,222 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 583,275,941 SOL
+- Circulating: 583,275,887 SOL
 - Non-circulating: 49,473,109 SOL
 
 ## Ecosystem Growth
@@ -99,20 +99,20 @@ _Auto-generated at 2026-08-24T17:47:22Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,623,459,557.13 | $2,938,613,605.25 | $15,798,310,483.80 |
-| Ethereum | $49,379,968,327.02 | $1,222,359,219.89 | $147,729,901,368.04 |
-| Base | $5,562,794,712.86 | $1,173,202,172.64 | $5,046,716,408.99 |
-| Tron | $5,230,527,113.23 | $23,556,455 | $93,431,848,102.02 |
-| Arbitrum | $1,429,684,977.66 | $272,263,198.30 | $3,487,617,665.51 |
+| Solana | $5,582,075,870.52 | $2,938,613,605.25 | $15,779,853,709.57 |
+| Ethereum | $48,920,985,711.19 | $1,222,359,219.89 | $147,710,913,767.71 |
+| Base | $5,501,848,926.62 | $1,173,202,172.64 | $5,046,491,475.15 |
+| Tron | $5,179,429,650.32 | $23,556,455 | $93,431,036,751.12 |
+| Arbitrum | $1,418,008,259.92 | $272,263,198.30 | $3,474,215,006.20 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,728.76 | 1,459.61 | 80th |
-| Slot time (s) | 0.37 | 0.42 | 14th |
-| TVL (USD) | 5,623,459,557.13 | 4,831,153,666.10 | 100th |
-| SOL price (USD) | 94.99 | 76.00 | 95th |
+| Avg TPS | 1,650.99 | 1,459.99 | 71th |
+| Slot time (s) | 0.37 | 0.42 | 19th |
+| TVL (USD) | 5,582,075,870.52 | 4,831,232,739.50 | 97th |
+| SOL price (USD) | 95.89 | 76.00 | 98th |
 | DEX volume 24h (USD) | 2,938,613,605.25 | 1,650,837,789.28 | 83th |
 
 ## Ecosystem / Development News
