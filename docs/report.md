@@ -1,21 +1,21 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-25T09:51:28Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-25T10:50:12Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 10 validators delinquent (0.04% of stake)
-- 🔵 SOL Price 24h Change Pct: SOL price surged 6.0% in 24h
+- 🔵 SOL Price 24h Change Pct: SOL price surged 5.2% in 24h
 
 ## ❤️ Solana Health Score
 
-93.2/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+93.7/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
 | price_trend | 100.0 |
 | slot_time | 100.0 |
-| tps | 78.1 |
-| tvl_trend | 92.1 |
+| tps | 80.9 |
+| tvl_trend | 89.1 |
 | validators | 99.2 |
 
 ## Network Performance
@@ -23,18 +23,18 @@ _Auto-generated at 2026-08-25T09:51:28Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,170.85 |
-| Peak TPS | 1,279.29 |
-| Non-vote TPS | 493.40 |
-| Avg slot time | 0.3630 s |
-| Slot | 441,604,522 |
-| Block height | 419,653,304 |
+| Avg TPS (10 samples) | 1,213.85 |
+| Peak TPS | 1,356.04 |
+| Non-vote TPS | 533.88 |
+| Avg slot time | 0.3660 s |
+| Slot | 441,614,118 |
+| Block height | 419,662,896 |
 
 ### Epoch
 
-- Epoch 1022 — 23.27% complete (100,522/432,000 slots)
-- Slots remaining: 331,478
-- Total transactions (all-time): 541,647,980,640
+- Epoch 1022 — 25.49% complete (110,117/432,000 slots)
+- Slots remaining: 321,883
+- Total transactions (all-time): 541,660,083,514
 
 ## Validators
 
@@ -76,16 +76,16 @@ _Auto-generated at 2026-08-25T09:51:28Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $100.38 (+5.98% 24h) |
-| TVL | $5,795,770,041.10 (+4.21% 24h) |
+| SOL price | $99.75 (+5.21% 24h) |
+| TVL | $5,779,121,171.57 (+3.91% 24h) |
 | DEX volume 24h | $2,987,931,793.43 (+1.68%) |
-| Stablecoin supply | $15,860,419,217.22 |
+| Stablecoin supply | $15,853,721,837.03 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 4,110 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 4,875 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 583,376,141 SOL
+- Circulating: 583,376,109 SOL
 - Non-circulating: 49,483,860 SOL
 
 ## Ecosystem Growth
@@ -99,26 +99,27 @@ _Auto-generated at 2026-08-25T09:51:28Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,795,770,041.10 | $2,987,931,793.43 | $15,860,419,217.22 |
-| Ethereum | $49,622,171,953.42 | $1,623,611,313.38 | $147,671,357,860.54 |
-| Base | $5,579,464,128.07 | $1,391,487,250.44 | $5,051,727,277.11 |
-| Tron | $5,227,887,015.81 | $40,949,993 | $93,410,915,796.39 |
-| Arbitrum | $1,442,633,323.90 | $303,883,533.05 | $3,637,874,671.32 |
+| Solana | $5,779,121,171.57 | $2,987,931,793.43 | $15,853,721,837.03 |
+| Ethereum | $49,464,952,456.61 | $1,623,611,313.38 | $147,648,774,089.25 |
+| Base | $5,570,136,082.85 | $1,391,487,250.44 | $5,050,695,367.34 |
+| Tron | $5,220,650,323.99 | $40,949,993 | $93,419,322,212.77 |
+| Arbitrum | $1,440,455,490.71 | $303,883,533.05 | $3,630,449,224.45 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,170.85 | 1,458.38 | 4th |
-| Slot time (s) | 0.36 | 0.42 | 1th |
-| TVL (USD) | 5,795,770,041.10 | 4,834,013,908.39 | 99th |
-| SOL price (USD) | 100.38 | 76.05 | 99th |
+| Avg TPS | 1,213.85 | 1,458.26 | 10th |
+| Slot time (s) | 0.37 | 0.42 | 12th |
+| TVL (USD) | 5,779,121,171.57 | 4,834,055,265.34 | 98th |
+| SOL price (USD) | 99.75 | 76.05 | 98th |
 | DEX volume 24h (USD) | 2,987,931,793.43 | 1,650,912,679.28 | 84th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #610 SIMD-0610: Prohibit Nonce Account Self-Withdrawals (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/610)
 - #609 SIMD-0609: Prohibit Vote Account Self-Withdrawals (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/609)
 - #608 SIMD-0608: `DeactivateDelinquent` for Closed Vote Accounts (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/608)
 - #571 SIMD-0571: Soft Deprecation of Durable Nonce Transactions (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/571)
@@ -126,7 +127,6 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - #607 Remove floating point arithmetic from Runtime critical inflation and rent path (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/607)
 - #582 SIMD-0582: Early detection of instruction trace overflow (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/582)
 - #568 SIMD-0568: Deprecate Precompiles (labels: stale) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/568)
-- #602 SIMD-0602: Disallow Nonce Account as Program ID (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/602)
 
 ## Solana News
 
@@ -138,14 +138,6 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - [Why Asia Is Ahead on Stablecoins, According to Reap's Daren Guo](https://solana.com/news/bits-to-bricks-asia-ahead-stablecoins-daren-guo-reap) 🖼️ — 2026-08-12
 - [MoneyGram Ramps launches on Solana](https://solana.com/news/moneygram-ramps) 🖼️ — 2026-08-11
 - [Solana Changelog: August 6, 2026](https://solana.com/news/solana-changelog-august-6-2026) 🖼️ — 2026-08-06
-
-## Community News (X/Twitter)
-
-- @solana: RSS reader not yet whitelisted!
-- @SolanaFndn: RSS reader not yet whitelisted!
-- @SolanaFloor: RSS reader not yet whitelisted!
-- @solana_daily: RSS reader not yet whitelisted!
-- @SolanaEvents: RSS reader not yet whitelisted!
 
 ## Upgrade Radar
 
@@ -185,7 +177,7 @@ Latest Agave client releases:
 | statuspage | ✅ |
 | dune | ✅ |
 | solana_news | ✅ |
-| twitter | ✅ |
+| twitter | ❌ |
 | upgrade_radar | ✅ |
 
 _Generated by [Solana Eye](https://github.com/sharkwon/solana-eye) — keyless, stdlib-only, reproducible._
