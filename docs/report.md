@@ -1,51 +1,51 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-27T09:47:41Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-27T20:30:38Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 10 validators delinquent (0.02% of stake)
-- 🔵 SOL Price 24h Change Pct: SOL price surged 9.3% in 24h
-- 🔵 DEX Volume 24h Change Pct: DEX volume dropped 15.5% in 24h
+- 🔵 Validators Delinquent: 11 validators delinquent (0.91% of stake)
+- 🔵 SOL Price 24h Change Pct: SOL price surged 12.9% in 24h
+- 🔵 DEX Volume 24h Change Pct: DEX volume dropped 19.9% in 24h
 
 ## ❤️ Solana Health Score
 
-93.8/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+92.7/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
 | price_trend | 100.0 |
 | slot_time | 100.0 |
-| tps | 83.8 |
-| tvl_trend | 81.4 |
-| validators | 99.6 |
+| tps | 100.0 |
+| tvl_trend | 56.3 |
+| validators | 81.8 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,256.56 |
-| Peak TPS | 1,343.18 |
-| Non-vote TPS | 572.07 |
-| Avg slot time | 0.3650 s |
-| Slot | 442,076,544 |
-| Block height | 420,124,817 |
+| Avg TPS (10 samples) | 1,624.37 |
+| Peak TPS | 1,833.62 |
+| Non-vote TPS | 940.62 |
+| Avg slot time | 0.3660 s |
+| Slot | 442,181,826 |
+| Block height | 420,230,051 |
 
 ### Epoch
 
-- Epoch 1023 — 32.53% complete (140,543/432,000 slots)
-- Slots remaining: 291,457
-- Total transactions (all-time): 542,339,342,218
+- Epoch 1023 — 56.90% complete (245,825/432,000 slots)
+- Slots remaining: 186,175
+- Total transactions (all-time): 542,508,461,316
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 687 |
-| Delinquent validators | 10 |
-| Total active stake | 436,810,849 SOL |
-| Delinquent stake | 73,988 SOL (0.02%) |
-| Avg commission | 11.88% |
+| Active validators | 686 |
+| Delinquent validators | 11 |
+| Total active stake | 432,914,100 SOL |
+| Delinquent stake | 3,970,736 SOL (0.91%) |
+| Avg commission | 13.21% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -77,17 +77,17 @@ _Auto-generated at 2026-08-27T09:47:41Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $104.89 (+9.26% 24h) |
-| TVL | $5,782,711,174.99 (+3.14% 24h) |
-| DEX volume 24h | $2,481,205,722 (-15.46%) |
-| Stablecoin supply | $15,876,739,624.30 |
+| SOL price | $109.17 (+12.89% 24h) |
+| TVL | $5,981,942,669.84 (+0.63% 24h) |
+| DEX volume 24h | $2,351,677,355 (-19.87%) |
+| Stablecoin supply | $15,891,311,820.32 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 2,420 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 6,847 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 584,062,842 SOL
-- Non-circulating: 48,906,816 SOL
+- Circulating: 584,062,403 SOL
+- Non-circulating: 48,906,811 SOL
 
 ## Ecosystem Growth
 
@@ -100,34 +100,34 @@ _Auto-generated at 2026-08-27T09:47:41Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,782,711,174.99 | $2,481,205,722 | $15,876,739,624.30 |
-| Ethereum | $49,593,445,067.49 | $1,180,044,390.92 | $148,274,754,615.45 |
-| Base | $5,490,232,429.94 | $834,773,632.00 | $5,001,192,837.65 |
-| Tron | $5,174,982,316.51 | $47,716,888 | $93,813,574,447.23 |
-| Arbitrum | $1,452,775,774.09 | $162,154,795.56 | $3,614,454,937.78 |
+| Solana | $5,981,942,669.84 | $2,351,677,355 | $15,891,311,820.32 |
+| Ethereum | $49,771,014,598.92 | $1,179,297,208.92 | $148,138,767,982.74 |
+| Base | $5,490,903,890.09 | $834,769,840.00 | $5,014,919,815.32 |
+| Tron | $5,192,963,724.59 | $47,716,888 | $93,827,961,228.24 |
+| Arbitrum | $1,456,762,033.32 | $162,154,795.56 | $3,551,616,430.25 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,256.56 | 1,456.87 | 17th |
-| Slot time (s) | 0.36 | 0.42 | 12th |
-| TVL (USD) | 5,782,711,174.99 | 4,840,604,057.71 | 98th |
-| SOL price (USD) | 104.89 | 76.20 | 100th |
-| DEX volume 24h (USD) | 2,481,205,722.00 | 1,680,260,565.88 | 66th |
+| Avg TPS | 1,624.37 | 1,455.60 | 70th |
+| Slot time (s) | 0.37 | 0.42 | 16th |
+| TVL (USD) | 5,981,942,669.84 | 4,841,299,119.43 | 100th |
+| SOL price (USD) | 109.17 | 76.21 | 100th |
+| DEX volume 24h (USD) | 2,351,677,355.00 | 1,680,260,565.88 | 66th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #613 SIMD-0613: CU-Scaled Base Fee (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/613)
+- #602 SIMD-0602: Disallow Nonce Account as Program ID (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/602)
 - #579 SIMD-0579: Keccak-p1600 syscall (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/579)
 - #607 Remove floating point arithmetic from Runtime critical inflation and rent path (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/607)
-- #599 SIMD-0599: Remove inactive stakes from partitioned epoch rewards (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/599)
 - #612 SIMD-0612: Two-Phase Leader Schedule (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/612)
 - #608 SIMD-0608: `DeactivateDelinquent` for Closed Vote Accounts (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/608)
 - #610 SIMD-0610: Prohibit Nonce Account Self-Withdrawals (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/610)
 - #611 SIMD-0161 - mentioned across SIMDs but missing in the repo (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/611)
-- #609 SIMD-0609: Prohibit Vote Account Self-Withdrawals (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/609)
 
 ## Solana News
 
