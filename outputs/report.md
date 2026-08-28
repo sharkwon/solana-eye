@@ -1,23 +1,21 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-08-28T05:24:17Z UTC — refresh every 60 min_
+_Auto-generated at 2026-08-28T18:41:12Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🟠 Delinquent Stake Pct: delinquent stake % statistically high (z=3.8)
 - 🔵 Validators Delinquent: 9 validators delinquent (0.01% of stake)
-- 🔵 SOL Price 24h Change Pct: SOL price surged 5.8% in 24h
-- 🔵 DEX Volume 24h Change Pct: DEX volume surged 54.5% in 24h
+- 🔵 DEX Volume 24h Change Pct: DEX volume surged 57.3% in 24h
 
 ## ❤️ Solana Health Score
 
-92.8/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+87.1/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 100.0 |
+| price_trend | 8.5 |
 | slot_time | 100.0 |
-| tps | 79.6 |
-| tvl_trend | 82.1 |
+| tps | 100.0 |
+| tvl_trend | 50.0 |
 | validators | 99.8 |
 
 ## Network Performance
@@ -25,70 +23,70 @@ _Auto-generated at 2026-08-28T05:24:17Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,194.37 |
-| Peak TPS | 1,278.34 |
-| Non-vote TPS | 507.68 |
-| Avg slot time | 0.3630 s |
-| Slot | 442,269,351 |
-| Block height | 420,317,527 |
+| Avg TPS (10 samples) | 1,578.98 |
+| Peak TPS | 1,653.05 |
+| Non-vote TPS | 895.08 |
+| Avg slot time | 0.3150 s |
+| Slot | 442,404,563 |
+| Block height | 420,452,658 |
 
 ### Epoch
 
-- Epoch 1023 — 77.16% complete (333,350/432,000 slots)
-- Slots remaining: 98,650
-- Total transactions (all-time): 542,634,675,644
+- Epoch 1024 — 8.46% complete (36,563/432,000 slots)
+- Slots remaining: 395,437
+- Total transactions (all-time): 542,829,824,514
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 689 |
+| Active validators | 688 |
 | Delinquent validators | 9 |
-| Total active stake | 436,840,782 SOL |
-| Delinquent stake | 44,055 SOL (0.01%) |
-| Avg commission | 13.16% |
+| Total active stake | 436,095,791 SOL |
+| Delinquent stake | 38,498 SOL (0.01%) |
+| Avg commission | 12.89% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
 
 | Rank | Vote Account (prefix) | Stake (SOL) | Stake % | Commission |
 |---|---|---|---|---|
-| 1 | CcaHc2L4… | 17,062,869 | 3.91% | 7% |
-| 2 | he1iusun… | 16,029,433 | 3.67% | 0% |
-| 3 | 3N7s9zXM… | 12,314,379 | 2.82% | 0% |
-| 4 | CatzoSMU… | 11,751,683 | 2.69% | 5% |
-| 5 | 26pV97Ce… | 9,216,852 | 2.11% | 7% |
-| 6 | 8GbwASqd… | 9,051,084 | 2.07% | 0% |
-| 7 | 51JBzSTU… | 8,904,595 | 2.04% | 10% |
-| 8 | 9QU2QSxh… | 7,849,682 | 1.80% | 7% |
-| 9 | CvSb7wdQ… | 7,301,740 | 1.67% | 5% |
-| 10 | DumiCKHV… | 6,578,261 | 1.51% | 0% |
+| 1 | CcaHc2L4… | 16,991,835 | 3.90% | 7% |
+| 2 | he1iusun… | 16,035,737 | 3.68% | 0% |
+| 3 | 3N7s9zXM… | 12,393,242 | 2.84% | 0% |
+| 4 | CatzoSMU… | 11,460,007 | 2.63% | 5% |
+| 5 | 26pV97Ce… | 9,292,131 | 2.13% | 7% |
+| 6 | 8GbwASqd… | 9,081,213 | 2.08% | 0% |
+| 7 | 51JBzSTU… | 9,001,204 | 2.06% | 10% |
+| 8 | CvSb7wdQ… | 7,294,487 | 1.67% | 5% |
+| 9 | 9QU2QSxh… | 7,192,557 | 1.65% | 7% |
+| 10 | DumiCKHV… | 6,585,996 | 1.51% | 0% |
 | 11 | HZKopZYv… | 6,122,617 | 1.40% | 100% |
-| 12 | 3JD3jMmn… | 6,055,913 | 1.39% | 0% |
-| 13 | DdCNGDpP… | 5,925,953 | 1.36% | 5% |
-| 14 | GHViLgbr… | 5,640,480 | 1.29% | 100% |
-| 15 | FKsC411d… | 4,820,550 | 1.10% | 7% |
-| 16 | HimWQUK6… | 4,667,021 | 1.07% | 8% |
-| 17 | 3ZYJxzCe… | 4,097,794 | 0.94% | 100% |
-| 18 | G9x1mqew… | 4,032,672 | 0.92% | 100% |
-| 19 | AZoCYB4V… | 4,010,033 | 0.92% | 100% |
-| 20 | EcEowA4G… | 3,969,747 | 0.91% | 100% |
+| 12 | 3JD3jMmn… | 6,099,133 | 1.40% | 0% |
+| 13 | DdCNGDpP… | 5,942,389 | 1.36% | 5% |
+| 14 | GHViLgbr… | 5,597,980 | 1.28% | 100% |
+| 15 | FKsC411d… | 4,822,304 | 1.11% | 7% |
+| 16 | HimWQUK6… | 4,668,121 | 1.07% | 8% |
+| 17 | 3ZYJxzCe… | 4,082,806 | 0.94% | 100% |
+| 18 | G9x1mqew… | 4,035,950 | 0.93% | 100% |
+| 19 | AZoCYB4V… | 4,009,787 | 0.92% | 100% |
+| 20 | EcEowA4G… | 3,964,901 | 0.91% | 100% |
 
 ## Economics
 
 | Metric | Value |
 |---|---|
-| SOL price | $106.85 (+5.79% 24h) |
-| TVL | $5,961,491,747.29 (+3.21% 24h) |
-| DEX volume 24h | $3,632,065,011.54 (+54.45%) |
-| Stablecoin supply | $16,041,087,137.98 |
+| SOL price | $103.13 (-4.15% 24h) |
+| TVL | $5,852,854,611.22 (+0.00% 24h) |
+| DEX volume 24h | $3,700,129,857.54 (+57.34%) |
+| Stablecoin supply | $15,884,694,767.20 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 3,519 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 4,216 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 584,062,070 SOL
-- Non-circulating: 48,906,810 SOL
+- Circulating: 584,162,262 SOL
+- Non-circulating: 48,917,518 SOL
 
 ## Ecosystem Growth
 
@@ -101,26 +99,27 @@ _Auto-generated at 2026-08-28T05:24:17Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,961,491,747.29 | $3,632,065,011.54 | $16,041,087,137.98 |
-| Ethereum | $49,720,937,741.47 | $1,912,307,078.24 | $148,078,235,633.86 |
-| Base | $5,480,592,389.08 | $1,011,985,098.74 | $5,051,322,111.90 |
-| Tron | $5,074,945,039.45 | $61,227,365 | $93,824,120,176.98 |
-| Arbitrum | $1,425,358,407.84 | $258,438,837.75 | $3,550,767,537.45 |
+| Solana | $5,852,854,611.22 | $3,700,129,857.54 | $15,884,694,767.20 |
+| Ethereum | $48,894,990,971.71 | $1,916,899,549.85 | $148,083,247,968.58 |
+| Base | $5,482,330,487.08 | $1,011,992,908.49 | $5,030,445,487.22 |
+| Tron | $5,182,862,493.87 | $61,227,365 | $93,828,357,526.95 |
+| Arbitrum | $1,407,023,092.56 | $258,438,966.30 | $3,683,582,756.71 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,194.37 | 1,456.87 | 8th |
-| Slot time (s) | 0.36 | 0.42 | 2th |
-| TVL (USD) | 5,961,491,747.29 | 4,841,578,474.33 | 100th |
-| SOL price (USD) | 106.85 | 76.21 | 100th |
-| DEX volume 24h (USD) | 3,632,065,011.54 | 1,680,260,565.88 | 95th |
+| Avg TPS | 1,578.98 | 1,455.60 | 65th |
+| Slot time (s) | 0.32 | 0.42 | 0th |
+| TVL (USD) | 5,852,854,611.22 | 4,841,857,829.22 | 100th |
+| SOL price (USD) | 103.13 | 76.21 | 99th |
+| DEX volume 24h (USD) | 3,700,129,857.54 | 1,680,260,565.88 | 97th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #568 SIMD-0568: Deprecate Precompiles (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/568)
 - #602 SIMD-0602: Disallow Nonce Account as Program ID (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/602)
 - #579 SIMD-0579: Keccak-p1600 syscall (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/579)
 - #607 Remove floating point arithmetic from Runtime critical inflation and rent path (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/607)
@@ -128,7 +127,6 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - #608 SIMD-0608: `DeactivateDelinquent` for Closed Vote Accounts (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/608)
 - #610 SIMD-0610: Prohibit Nonce Account Self-Withdrawals (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/610)
 - #611 SIMD-0161 - mentioned across SIMDs but missing in the repo (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/611)
-- #609 SIMD-0609: Prohibit Vote Account Self-Withdrawals (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/609)
 
 ## Solana News
 
@@ -157,9 +155,9 @@ _Upcoming protocol upgrades tracked from the SIMD repo (keyless)._
 
 Latest Agave client releases:
 
+- Release v4.4.0-alpha.2 (pre-release) — 2026-08-28 — [link](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-alpha.2)
 - Release v4.3.0-beta.2 (pre-release) — 2026-08-21 — [link](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-beta.2)
 - Release v4.3.0-beta.1 (pre-release) — 2026-08-21 — [link](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-beta.1)
-- Release v4.2.1 — 2026-08-13 — [link](https://github.com/anza-xyz/agave/releases/tag/v4.2.1)
 
 ## Network Status
 
