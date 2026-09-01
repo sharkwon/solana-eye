@@ -1,50 +1,50 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-09-01T18:29:49Z UTC — refresh every 60 min_
+_Auto-generated at 2026-09-01T21:46:30Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 16 validators delinquent (0.04% of stake)
+- 🔵 Validators Delinquent: 15 validators delinquent (0.03% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 29.6% in 24h
 
 ## ❤️ Solana Health Score
 
-87.0/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+84.2/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 8.5 |
+| price_trend | 6.7 |
 | slot_time | 100.0 |
-| tps | 100.0 |
+| tps | 90.4 |
 | tvl_trend | 50.0 |
-| validators | 99.2 |
+| validators | 99.4 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,536.37 |
-| Peak TPS | 1,728.88 |
-| Non-vote TPS | 863.86 |
-| Avg slot time | 0.3160 s |
-| Slot | 443,491,536 |
-| Block height | 421,539,088 |
+| Avg TPS (10 samples) | 1,355.70 |
+| Peak TPS | 1,473.34 |
+| Non-vote TPS | 679.47 |
+| Avg slot time | 0.3170 s |
+| Slot | 443,528,716 |
+| Block height | 421,576,228 |
 
 ### Epoch
 
-- Epoch 1026 — 60.08% complete (259,536/432,000 slots)
-- Slots remaining: 172,464
-- Total transactions (all-time): 544,194,878,813
+- Epoch 1026 — 68.68% complete (296,716/432,000 slots)
+- Slots remaining: 135,284
+- Total transactions (all-time): 544,247,699,716
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 678 |
-| Delinquent validators | 16 |
-| Total active stake | 438,032,301 SOL |
-| Delinquent stake | 169,518 SOL (0.04%) |
-| Avg commission | 12.49% |
+| Active validators | 679 |
+| Delinquent validators | 15 |
+| Total active stake | 438,052,637 SOL |
+| Delinquent stake | 149,183 SOL (0.03%) |
+| Avg commission | 12.47% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -76,16 +76,16 @@ _Auto-generated at 2026-09-01T18:29:49Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $99.45 (-4.15% 24h) |
-| TVL | $5,781,050,385.45 (+0.00% 24h) |
+| SOL price | $99.32 (-4.33% 24h) |
+| TVL | $5,713,595,774.51 (+0.00% 24h) |
 | DEX volume 24h | $2,501,465,620.05 (+29.63%) |
-| Stablecoin supply | $15,674,614,233.67 |
+| Stablecoin supply | $15,632,535,555.16 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 3,709 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 5,423 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 585,206,616 SOL
+- Circulating: 585,206,474 SOL
 - Non-circulating: 48,060,430 SOL
 
 ## Ecosystem Growth
@@ -99,29 +99,29 @@ _Auto-generated at 2026-09-01T18:29:49Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,781,050,385.45 | $2,501,465,620.05 | $15,674,614,233.67 |
-| Ethereum | $48,798,491,415.25 | $1,301,508,660.80 | $147,872,329,470.88 |
-| Base | $5,507,351,649.20 | $878,841,281.44 | $5,004,251,601.66 |
-| Tron | $5,087,266,426.61 | $46,122,911 | $93,709,103,611.77 |
-| Arbitrum | $1,399,554,404.27 | $212,569,209.93 | $3,627,675,653.16 |
+| Solana | $5,713,595,774.51 | $2,501,465,620.05 | $15,632,535,555.16 |
+| Ethereum | $48,323,426,753.74 | $1,301,508,660.80 | $147,768,606,835.46 |
+| Base | $5,452,860,126.21 | $878,841,281.44 | $4,989,041,157.12 |
+| Tron | $5,282,520,689.87 | $46,122,911 | $93,699,653,685.32 |
+| Arbitrum | $1,385,711,020.59 | $212,569,209.93 | $3,623,798,409.83 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,536.37 | 1,446.53 | 62th |
-| Slot time (s) | 0.32 | 0.42 | 2th |
-| TVL (USD) | 5,781,050,385.45 | 4,846,379,225.25 | 94th |
-| SOL price (USD) | 99.45 | 76.30 | 93th |
-| DEX volume 24h (USD) | 2,501,465,620.05 | 1,693,504,317.41 | 66th |
+| Avg TPS | 1,355.70 | 1,446.56 | 36th |
+| Slot time (s) | 0.32 | 0.42 | 3th |
+| TVL (USD) | 5,713,595,774.51 | 4,846,627,783.21 | 93th |
+| SOL price (USD) | 99.32 | 76.30 | 93th |
+| DEX volume 24h (USD) | 2,501,465,620.05 | 1,703,017,064.88 | 66th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #608 SIMD-0608: `DeactivateDelinquent` for Closed Vote Accounts (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/608)
 - #616 Amend simd 0376 ed25519-zebra verification (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/616)
 - #596 Increase TxV1 Account Lock Limit to 96 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/596)
-- #608 SIMD-0608: `DeactivateDelinquent` for Closed Vote Accounts (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/608)
 - #610 SIMD-0610: Prohibit Nonce Account Self-Withdrawals (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/610)
 - #609 SIMD-0609: Prohibit Vote Account Self-Withdrawals (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/609)
 - #571 SIMD-0571: Soft Deprecation of Durable Nonce Transactions (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/571)
