@@ -1,21 +1,22 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-09-03T14:34:26Z UTC — refresh every 60 min_
+_Auto-generated at 2026-09-03T18:38:30Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 19 validators delinquent (0.05% of stake)
+- 🔵 SOL Price 24h Change Pct: SOL price surged 5.5% in 24h
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 5.4% in 24h
 
 ## ❤️ Solana Health Score
 
-91.0/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+90.0/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 89.4 |
+| price_trend | 100.0 |
 | slot_time | 100.0 |
-| tps | 87.7 |
-| tvl_trend | 50.0 |
+| tps | 81.5 |
+| tvl_trend | 47.7 |
 | validators | 99.0 |
 
 ## Network Performance
@@ -23,18 +24,18 @@ _Auto-generated at 2026-09-03T14:34:26Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,315.92 |
-| Peak TPS | 1,395.32 |
-| Non-vote TPS | 643.29 |
-| Avg slot time | 0.3170 s |
-| Slot | 443,995,090 |
-| Block height | 422,042,104 |
+| Avg TPS (10 samples) | 1,221.89 |
+| Peak TPS | 1,383.74 |
+| Non-vote TPS | 552.87 |
+| Avg slot time | 0.3140 s |
+| Slot | 444,041,454 |
+| Block height | 422,088,263 |
 
 ### Epoch
 
-- Epoch 1027 — 76.64% complete (331,090/432,000 slots)
-- Slots remaining: 100,910
-- Total transactions (all-time): 544,790,084,545
+- Epoch 1027 — 87.37% complete (377,454/432,000 slots)
+- Slots remaining: 54,546
+- Total transactions (all-time): 544,853,075,275
 
 ## Validators
 
@@ -76,16 +77,16 @@ _Auto-generated at 2026-09-03T14:34:26Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $102.92 (+3.94% 24h) |
-| TVL | $5,778,278,666.76 (+0.00% 24h) |
+| SOL price | $104.82 (+5.49% 24h) |
+| TVL | $5,892,405,412.90 (-0.23% 24h) |
 | DEX volume 24h | $2,289,285,889.32 (+5.42%) |
-| Stablecoin supply | $15,950,842,044.16 |
+| Stablecoin supply | $16,092,730,678.58 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 3,623 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 4,665 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 585,274,789 SOL
+- Circulating: 585,274,623 SOL
 - Non-circulating: 48,086,036 SOL
 
 ## Ecosystem Growth
@@ -99,26 +100,27 @@ _Auto-generated at 2026-09-03T14:34:26Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,778,278,666.76 | $2,289,285,889.32 | $15,950,842,044.16 |
-| Ethereum | $48,292,464,211.17 | $1,315,952,749.67 | $147,694,309,739.41 |
-| Base | $5,503,121,018.80 | $792,083,678.15 | $4,944,925,092.53 |
-| Tron | $5,174,881,100.71 | $43,037,128 | $93,630,943,065.53 |
-| Arbitrum | $1,389,450,140.49 | $115,546,231.89 | $3,552,422,973.47 |
+| Solana | $5,892,405,412.90 | $2,289,285,889.32 | $16,092,730,678.58 |
+| Ethereum | $49,498,780,520.58 | $1,315,952,749.67 | $147,680,764,161.17 |
+| Base | $5,657,572,886.96 | $792,083,678.15 | $5,005,977,935.60 |
+| Tron | $5,421,443,975.34 | $43,037,128 | $93,651,257,401.12 |
+| Arbitrum | $1,420,554,741.07 | $115,546,231.89 | $3,503,321,515.10 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,315.92 | 1,443.79 | 30th |
-| Slot time (s) | 0.32 | 0.42 | 5th |
-| TVL (USD) | 5,778,278,666.76 | 4,849,288,953.91 | 94th |
-| SOL price (USD) | 102.92 | 76.35 | 96th |
-| DEX volume 24h (USD) | 2,289,285,889.32 | 1,712,543,781.88 | 65th |
+| Avg TPS | 1,221.89 | 1,443.53 | 14th |
+| Slot time (s) | 0.31 | 0.42 | 2th |
+| TVL (USD) | 5,892,405,412.90 | 4,849,540,147.18 | 98th |
+| SOL price (USD) | 104.82 | 76.35 | 98th |
+| DEX volume 24h (USD) | 2,289,285,889.32 | 1,719,087,791.41 | 65th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #621 SIMD-0558 - Current Leader Sysvar (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/621)
 - #618 amend SIMD-0464: clarify aliasing rules (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/618)
 - #608 SIMD-0608: `DeactivateDelinquent` for Closed Vote Accounts (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/608)
 - #609 SIMD-0609: Prohibit Vote Account Self-Withdrawals (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/609)
@@ -126,10 +128,10 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - #616 Amend simd 0376 ed25519-zebra verification (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/616)
 - #596 Increase TxV1 Account Lock Limit to 96 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/596)
 - #571 SIMD-0571: Soft Deprecation of Durable Nonce Transactions (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/571)
-- #568 SIMD-0568: Deprecate Precompiles (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/568)
 
 ## Solana News
 
+- [Payment Channels: 1 Million Payments Per Second](https://solana.com/news/payment-channels-1-million-payments-per-second) 🖼️ — 2026-09-03
 - [The Token Supercycle: Everything of Value is Becoming Programmable](https://solana.com/news/the-token-supercycle-oped) 🖼️ — 2026-09-02
 - [Webinar Recap: Cross-Border Payments in Latin America](https://solana.com/news/webinar-recap-cross-border-payments-in-latin-america) 🖼️ — 2026-09-01
 - [Solana Changelog: August 27, 2026](https://solana.com/news/solana-changelog-august-27-2026) 🖼️ — 2026-08-28
@@ -137,7 +139,6 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - [Solana Changelog: August 20, 2026](https://solana.com/news/solana-changelog-august-20-2026) 🖼️ — 2026-08-24
 - [Lowering Slot Time and Validator Economics](https://solana.com/news/lowering-slot-time-and-validators-economic) 🖼️ — 2026-08-19
 - [v1 Transactions and the ALT Trade-off](https://solana.com/news/transaction-v1-and-the-alt-trade-off) 🖼️ — 2026-08-17
-- [Solana Changelog: August 13, 2026](https://solana.com/news/solana-changelog-august-13-2026) 🖼️ — 2026-08-13
 
 ## Community News (X/Twitter)
 
