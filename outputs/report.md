@@ -1,20 +1,21 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-09-04T09:38:41Z UTC — refresh every 60 min_
+_Auto-generated at 2026-09-04T14:21:56Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 18 validators delinquent (0.03% of stake)
+- 🔵 DEX Volume 24h Change Pct: DEX volume surged 7.4% in 24h
 
 ## ❤️ Solana Health Score
 
-90.0/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+88.6/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 90.1 |
+| price_trend | 41.7 |
 | slot_time | 100.0 |
-| tps | 71.3 |
-| tvl_trend | 87.2 |
+| tps | 94.3 |
+| tvl_trend | 51.1 |
 | validators | 99.4 |
 
 ## Network Performance
@@ -22,18 +23,18 @@ _Auto-generated at 2026-09-04T09:38:41Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,069.67 |
-| Peak TPS | 1,156.12 |
-| Non-vote TPS | 397.48 |
-| Avg slot time | 0.3160 s |
-| Slot | 444,212,737 |
-| Block height | 422,258,772 |
+| Avg TPS (10 samples) | 1,413.81 |
+| Peak TPS | 1,493.12 |
+| Non-vote TPS | 747.56 |
+| Avg slot time | 0.3170 s |
+| Slot | 444,266,519 |
+| Block height | 422,312,322 |
 
 ### Epoch
 
-- Epoch 1028 — 27.02% complete (116,736/432,000 slots)
-- Slots remaining: 315,264
-- Total transactions (all-time): 545,044,700,492
+- Epoch 1028 — 39.47% complete (170,518/432,000 slots)
+- Slots remaining: 261,482
+- Total transactions (all-time): 545,108,899,072
 
 ## Validators
 
@@ -75,16 +76,16 @@ _Auto-generated at 2026-09-04T09:38:41Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $104.33 (+4.01% 24h) |
-| TVL | $5,913,237,547.33 (+3.72% 24h) |
-| DEX volume 24h | $2,373,588,819.80 (+3.68%) |
-| Stablecoin supply | $16,299,448,110.31 |
+| SOL price | $101.14 (-0.83% 24h) |
+| TVL | $5,892,160,567.50 (+0.11% 24h) |
+| DEX volume 24h | $2,459,540,363.80 (+7.44%) |
+| Stablecoin supply | $16,319,376,061.40 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 1,882 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 3,267 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 585,360,432 SOL
+- Circulating: 585,360,263 SOL
 - Non-circulating: 48,095,025 SOL
 
 ## Ecosystem Growth
@@ -98,34 +99,34 @@ _Auto-generated at 2026-09-04T09:38:41Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,913,237,547.33 | $2,373,588,819.80 | $16,299,448,110.31 |
-| Ethereum | $49,905,355,509.84 | $1,569,246,309.69 | $147,874,539,304.74 |
-| Base | $5,669,853,623.30 | $921,160,048.61 | $4,983,165,988.30 |
-| Tron | $5,408,024,103.25 | $57,327,090 | $94,148,207,847.30 |
-| Arbitrum | $1,421,680,884.98 | $231,828,167.56 | $3,603,471,976.97 |
+| Solana | $5,892,160,567.50 | $2,459,540,363.80 | $16,319,376,061.40 |
+| Ethereum | $49,897,975,825.84 | $1,577,940,785.69 | $147,814,806,853.32 |
+| Base | $5,614,955,477.36 | $921,158,538.61 | $5,009,634,470.62 |
+| Tron | $5,421,542,663.66 | $57,327,090 | $94,158,718,483.59 |
+| Arbitrum | $1,425,690,221.91 | $231,828,167.56 | $3,627,755,309.83 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,069.67 | 1,443.07 | 1th |
-| Slot time (s) | 0.32 | 0.42 | 4th |
-| TVL (USD) | 5,913,237,547.33 | 4,849,819,209.44 | 98th |
-| SOL price (USD) | 104.33 | 76.37 | 98th |
-| DEX volume 24h (USD) | 2,373,588,819.80 | 1,725,631,800.93 | 66th |
+| Avg TPS | 1,413.81 | 1,442.90 | 44th |
+| Slot time (s) | 0.32 | 0.42 | 6th |
+| TVL (USD) | 5,892,160,567.50 | 4,849,829,560.84 | 97th |
+| SOL price (USD) | 101.14 | 76.37 | 94th |
+| DEX volume 24h (USD) | 2,459,540,363.80 | 1,725,631,800.93 | 66th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #629 Request Access (Level [X]) for [rewalwer89] (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/629)
+- #628 Request Access (Level [X]) for [Username] (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/628)
+- #627 Request Access (Level [X]) for [Shoha] (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/627)
 - #626 Request Access (Level [X]) for [Username] (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/626)
 - #625 Request Access (Level [X]) for [Username] (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/625)
 - #624 Request Access (Level [X]) for [Username] (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/624)
 - #623 Request Access (Level [X]) for [Username] (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/623)
 - #621 SIMD-0558 - Current Leader Sysvar (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/621)
-- #618 amend SIMD-0464: clarify aliasing rules (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/618)
-- #608 SIMD-0608: `DeactivateDelinquent` for Closed Vote Accounts (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/608)
-- #609 SIMD-0609: Prohibit Vote Account Self-Withdrawals (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/609)
 
 ## Solana News
 
@@ -136,7 +137,7 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - [Solana Changelog: August 27, 2026](https://solana.com/news/solana-changelog-august-27-2026) 🖼️ — 2026-08-28
 - [The Token Supercycle Is Here: Solana Brings Breakpoint 2026 to London](https://solana.com/news/breakpoint-2026-london-speakers) 🖼️ — 2026-08-27
 - [Solana Changelog: August 20, 2026](https://solana.com/news/solana-changelog-august-20-2026) 🖼️ — 2026-08-24
-- [Lowering Slot Time and Validator Economics](https://solana.com/news/lowering-slot-time-and-validators-economic) 🖼️ — 2026-08-19
+- [Resource and Inclusion Fee: Digging into Data](https://solana.com/news/resource-and-inclusion-fee-digging-into-data) — 2026-08-21
 
 ## Community News (X/Twitter)
 
