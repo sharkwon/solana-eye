@@ -1,92 +1,92 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-09-05T12:43:17Z UTC — refresh every 60 min_
+_Auto-generated at 2026-09-05T16:04:43Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 18 validators delinquent (0.03% of stake)
+- 🔵 Validators Delinquent: 18 validators delinquent (0.09% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume dropped 23.5% in 24h
 
 ## ❤️ Solana Health Score
 
-82.9/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+84.7/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 59.2 |
+| price_trend | 64.7 |
 | slot_time | 100.0 |
-| tps | 68.0 |
-| tvl_trend | 50.0 |
-| validators | 99.4 |
+| tps | 73.3 |
+| tvl_trend | 51.2 |
+| validators | 98.2 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,019.78 |
-| Peak TPS | 1,053.13 |
-| Non-vote TPS | 348.69 |
-| Avg slot time | 0.3160 s |
-| Slot | 444,521,985 |
-| Block height | 422,566,493 |
+| Avg TPS (10 samples) | 1,099.32 |
+| Peak TPS | 1,217.37 |
+| Non-vote TPS | 428.99 |
+| Avg slot time | 0.3180 s |
+| Slot | 444,560,331 |
+| Block height | 422,604,777 |
 
 ### Epoch
 
-- Epoch 1028 — 98.61% complete (425,985/432,000 slots)
-- Slots remaining: 6,015
-- Total transactions (all-time): 545,382,154,783
+- Epoch 1029 — 7.48% complete (32,330/432,000 slots)
+- Slots remaining: 399,670
+- Total transactions (all-time): 545,422,674,489
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 677 |
+| Active validators | 675 |
 | Delinquent validators | 18 |
-| Total active stake | 436,757,852 SOL |
-| Delinquent stake | 141,013 SOL (0.03%) |
-| Avg commission | 12.78% |
+| Total active stake | 438,863,205 SOL |
+| Delinquent stake | 385,615 SOL (0.09%) |
+| Avg commission | 12.51% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
 
 | Rank | Vote Account (prefix) | Stake (SOL) | Stake % | Commission |
 |---|---|---|---|---|
-| 1 | CcaHc2L4… | 17,393,318 | 3.98% | 7% |
-| 2 | he1iusun… | 16,324,259 | 3.74% | 0% |
-| 3 | 3N7s9zXM… | 12,459,602 | 2.85% | 0% |
-| 4 | CatzoSMU… | 11,379,843 | 2.60% | 5% |
-| 5 | 8GbwASqd… | 9,567,623 | 2.19% | 0% |
-| 6 | 26pV97Ce… | 9,278,151 | 2.12% | 7% |
-| 7 | 51JBzSTU… | 9,042,760 | 2.07% | 10% |
-| 8 | 9QU2QSxh… | 7,376,879 | 1.69% | 7% |
-| 9 | CvSb7wdQ… | 7,127,366 | 1.63% | 5% |
-| 10 | DumiCKHV… | 6,593,517 | 1.51% | 0% |
-| 11 | HZKopZYv… | 6,122,617 | 1.40% | 100% |
-| 12 | 3JD3jMmn… | 6,118,664 | 1.40% | 0% |
-| 13 | DdCNGDpP… | 5,959,400 | 1.36% | 5% |
-| 14 | GHViLgbr… | 5,629,480 | 1.29% | 100% |
-| 15 | FKsC411d… | 4,836,787 | 1.11% | 7% |
-| 16 | HimWQUK6… | 4,644,678 | 1.06% | 8% |
-| 17 | 3ZYJxzCe… | 4,088,365 | 0.94% | 100% |
-| 18 | AZoCYB4V… | 4,020,456 | 0.92% | 100% |
-| 19 | G9x1mqew… | 4,012,683 | 0.92% | 100% |
-| 20 | EcEowA4G… | 4,001,202 | 0.92% | 100% |
+| 1 | CcaHc2L4… | 17,421,941 | 3.97% | 7% |
+| 2 | he1iusun… | 16,321,581 | 3.72% | 0% |
+| 3 | 3N7s9zXM… | 12,507,097 | 2.85% | 0% |
+| 4 | CatzoSMU… | 11,374,756 | 2.59% | 5% |
+| 5 | 8GbwASqd… | 9,561,892 | 2.18% | 0% |
+| 6 | 26pV97Ce… | 9,268,042 | 2.11% | 7% |
+| 7 | 51JBzSTU… | 9,037,668 | 2.06% | 10% |
+| 8 | 9QU2QSxh… | 7,352,604 | 1.67% | 7% |
+| 9 | CvSb7wdQ… | 7,128,761 | 1.62% | 5% |
+| 10 | DumiCKHV… | 6,594,606 | 1.50% | 0% |
+| 11 | HZKopZYv… | 6,122,617 | 1.39% | 100% |
+| 12 | 3JD3jMmn… | 6,120,563 | 1.39% | 0% |
+| 13 | DdCNGDpP… | 5,959,851 | 1.36% | 5% |
+| 14 | GHViLgbr… | 5,635,980 | 1.28% | 100% |
+| 15 | FKsC411d… | 4,846,554 | 1.10% | 7% |
+| 16 | HimWQUK6… | 4,660,268 | 1.06% | 8% |
+| 17 | 3ZYJxzCe… | 4,090,600 | 0.93% | 100% |
+| 18 | G9x1mqew… | 4,030,820 | 0.92% | 100% |
+| 19 | AZoCYB4V… | 4,028,077 | 0.92% | 100% |
+| 20 | EcEowA4G… | 3,990,529 | 0.91% | 100% |
 
 ## Economics
 
 | Metric | Value |
 |---|---|
-| SOL price | $102.86 (+0.92% 24h) |
-| TVL | $5,877,971,682.42 (+0.00% 24h) |
+| SOL price | $102.97 (+1.47% 24h) |
+| TVL | $5,893,771,956.03 (+0.12% 24h) |
 | DEX volume 24h | $1,881,639,252 (-23.50%) |
-| Stablecoin supply | $16,342,441,319.94 |
+| Stablecoin supply | $16,341,574,345.79 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 2,587 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 1,652 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 585,359,541 SOL
-- Non-circulating: 48,095,025 SOL
+- Circulating: 585,445,844 SOL
+- Non-circulating: 48,103,868 SOL
 
 ## Ecosystem Growth
 
@@ -99,20 +99,20 @@ _Auto-generated at 2026-09-05T12:43:17Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,877,971,682.42 | $1,881,639,252 | $16,342,441,319.94 |
-| Ethereum | $49,123,589,699.91 | $1,596,859,448.78 | $148,083,406,836.94 |
-| Base | $5,649,499,180.98 | $997,930,748.42 | $4,982,287,868.38 |
-| Tron | $5,416,040,357.07 | $47,363,855 | $94,237,626,555.82 |
-| Arbitrum | $1,403,385,757.99 | $227,300,601.08 | $3,651,460,466.77 |
+| Solana | $5,893,771,956.03 | $1,881,639,252 | $16,341,574,345.79 |
+| Ethereum | $49,151,235,788.13 | $1,596,859,448.78 | $148,076,542,147.53 |
+| Base | $5,651,833,998.39 | $997,930,748.42 | $4,984,350,564.91 |
+| Tron | $5,422,474,291.56 | $47,363,855 | $94,238,676,394.88 |
+| Arbitrum | $1,403,900,103.10 | $227,300,601.08 | $3,644,442,216.63 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,019.78 | 1,440.27 | 1th |
-| Slot time (s) | 0.32 | 0.41 | 5th |
-| TVL (USD) | 5,877,971,682.42 | 4,850,803,231.12 | 97th |
-| SOL price (USD) | 102.86 | 76.42 | 95th |
+| Avg TPS | 1,099.32 | 1,440.09 | 3th |
+| Slot time (s) | 0.32 | 0.41 | 8th |
+| TVL (USD) | 5,893,771,956.03 | 4,851,059,124.29 | 97th |
+| SOL price (USD) | 102.97 | 76.47 | 96th |
 | DEX volume 24h (USD) | 1,881,639,252.00 | 1,725,631,800.93 | 58th |
 
 ## Ecosystem / Development News
