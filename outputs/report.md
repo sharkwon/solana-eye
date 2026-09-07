@@ -1,39 +1,40 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-09-07T15:54:30Z UTC — refresh every 60 min_
+_Auto-generated at 2026-09-07T19:57:57Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 13 validators delinquent (0.04% of stake)
+- 🔵 Validators Delinquent: 13 validators delinquent (0.03% of stake)
+- 🔵 DEX Volume 24h Change Pct: DEX volume surged 55.8% in 24h
 
 ## ❤️ Solana Health Score
 
-87.2/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+86.3/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 25.8 |
+| price_trend | 39.2 |
 | slot_time | 100.0 |
-| tps | 95.2 |
+| tps | 87.2 |
 | tvl_trend | 50.0 |
-| validators | 99.2 |
+| validators | 99.4 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,427.64 |
-| Peak TPS | 1,498.54 |
-| Non-vote TPS | 756.57 |
+| Avg TPS (10 samples) | 1,308.24 |
+| Peak TPS | 1,488.85 |
+| Non-vote TPS | 639.20 |
 | Avg slot time | 0.3170 s |
-| Slot | 445,104,089 |
-| Block height | 423,148,322 |
+| Slot | 445,150,262 |
+| Block height | 423,194,446 |
 
 ### Epoch
 
-- Epoch 1030 — 33.35% complete (144,087/432,000 slots)
-- Slots remaining: 287,913
-- Total transactions (all-time): 546,050,404,186
+- Epoch 1030 — 44.04% complete (190,262/432,000 slots)
+- Slots remaining: 241,738
+- Total transactions (all-time): 546,109,845,387
 
 ## Validators
 
@@ -41,8 +42,8 @@ _Auto-generated at 2026-09-07T15:54:30Z UTC — refresh every 60 min_
 |---|---|
 | Active validators | 675 |
 | Delinquent validators | 13 |
-| Total active stake | 439,299,103 SOL |
-| Delinquent stake | 178,885 SOL (0.04%) |
+| Total active stake | 439,328,151 SOL |
+| Delinquent stake | 149,837 SOL (0.03%) |
 | Avg commission | 12.51% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
@@ -75,16 +76,16 @@ _Auto-generated at 2026-09-07T15:54:30Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $103.31 (-2.42% 24h) |
-| TVL | $5,924,761,772.53 (+0.00% 24h) |
-| DEX volume 24h | $1,960,574,882.81 (+4.20%) |
-| Stablecoin supply | $16,415,288,594.09 |
+| SOL price | $104.32 (-1.08% 24h) |
+| TVL | $5,895,055,452.37 (+0.00% 24h) |
+| DEX volume 24h | $2,904,503,252.44 (+55.76%) |
+| Stablecoin supply | $16,378,007,948.58 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 3,733 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 3,527 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 586,165,978 SOL
+- Circulating: 586,165,820 SOL
 - Non-circulating: 47,477,279 SOL
 
 ## Ecosystem Growth
@@ -98,21 +99,21 @@ _Auto-generated at 2026-09-07T15:54:30Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,924,761,772.53 | $1,960,574,882.81 | $16,415,288,594.09 |
-| Ethereum | $49,623,596,232.29 | $836,934,801.79 | $147,912,288,422.37 |
-| Base | $5,669,436,606.59 | $567,216,376.38 | $4,968,726,895.76 |
-| Tron | $5,451,729,165.46 | $41,850,851 | $94,217,471,608.71 |
-| Arbitrum | $1,419,305,364.13 | $112,626,463.10 | $3,614,308,774.94 |
+| Solana | $5,895,055,452.37 | $2,904,503,252.44 | $16,378,007,948.58 |
+| Ethereum | $49,545,214,386.73 | $910,785,408.07 | $147,900,073,402.73 |
+| Base | $5,625,338,384.71 | $806,560,266.46 | $4,941,229,301.62 |
+| Tron | $5,453,686,831.07 | $27,846,149 | $94,219,354,545.73 |
+| Arbitrum | $1,404,932,717.54 | $185,037,292.52 | $3,634,237,421.58 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,427.64 | 1,431.66 | 49th |
+| Avg TPS | 1,308.24 | 1,431.62 | 32th |
 | Slot time (s) | 0.32 | 0.41 | 10th |
-| TVL (USD) | 5,924,761,772.53 | 4,854,463,345.70 | 99th |
-| SOL price (USD) | 103.31 | 76.68 | 94th |
-| DEX volume 24h (USD) | 1,960,574,882.81 | 1,738,979,711.93 | 62th |
+| TVL (USD) | 5,895,055,452.37 | 4,854,856,096.14 | 95th |
+| SOL price (USD) | 104.32 | 76.68 | 96th |
+| DEX volume 24h (USD) | 2,904,503,252.44 | 1,738,979,711.93 | 76th |
 
 ## Ecosystem / Development News
 
