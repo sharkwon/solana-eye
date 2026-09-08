@@ -1,21 +1,21 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-09-07T22:50:39Z UTC — refresh every 60 min_
+_Auto-generated at 2026-09-08T01:12:54Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 12 validators delinquent (0.01% of stake)
-- 🔵 DEX Volume 24h Change Pct: DEX volume surged 55.8% in 24h
+- 🔵 DEX Volume 24h Change Pct: DEX volume dropped 6.4% in 24h
 
 ## ❤️ Solana Health Score
 
-82.7/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+81.7/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 27.8 |
+| price_trend | 34.5 |
 | slot_time | 100.0 |
-| tps | 77.3 |
-| tvl_trend | 50.0 |
+| tps | 72.4 |
+| tvl_trend | 47.7 |
 | validators | 99.8 |
 
 ## Network Performance
@@ -23,18 +23,18 @@ _Auto-generated at 2026-09-07T22:50:39Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,159.09 |
-| Peak TPS | 1,347.43 |
-| Non-vote TPS | 487.49 |
-| Avg slot time | 0.3150 s |
-| Slot | 445,183,004 |
-| Block height | 423,227,174 |
+| Avg TPS (10 samples) | 1,086.04 |
+| Peak TPS | 1,142.50 |
+| Non-vote TPS | 413.06 |
+| Avg slot time | 0.3160 s |
+| Slot | 445,210,015 |
+| Block height | 423,254,180 |
 
 ### Epoch
 
-- Epoch 1030 — 51.62% complete (223,003/432,000 slots)
-- Slots remaining: 208,997
-- Total transactions (all-time): 546,150,290,940
+- Epoch 1030 — 57.87% complete (250,014/432,000 slots)
+- Slots remaining: 181,986
+- Total transactions (all-time): 546,181,938,325
 
 ## Validators
 
@@ -76,16 +76,16 @@ _Auto-generated at 2026-09-07T22:50:39Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $103.42 (-2.22% 24h) |
-| TVL | $5,906,537,412.45 (+0.00% 24h) |
-| DEX volume 24h | $2,904,503,252.44 (+55.76%) |
-| Stablecoin supply | $16,364,308,082.11 |
+| SOL price | $104.11 (-1.55% 24h) |
+| TVL | $5,901,283,578.90 (-0.23% 24h) |
+| DEX volume 24h | $2,718,644,546.44 (-6.40%) |
+| Stablecoin supply | $16,391,523,224.47 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 10,575 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 2,947 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 586,165,713 SOL
+- Circulating: 586,165,628 SOL
 - Non-circulating: 47,477,279 SOL
 
 ## Ecosystem Growth
@@ -99,34 +99,34 @@ _Auto-generated at 2026-09-07T22:50:39Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,906,537,412.45 | $2,904,503,252.44 | $16,364,308,082.11 |
-| Ethereum | $49,577,154,821.39 | $910,785,408.07 | $147,873,077,260.04 |
-| Base | $5,639,790,490.42 | $806,560,266.46 | $4,942,765,045.95 |
-| Tron | $5,454,778,122.11 | $27,846,149 | $94,213,059,698.76 |
-| Arbitrum | $1,405,289,671.53 | $185,037,292.52 | $3,642,317,328.80 |
+| Solana | $5,901,283,578.90 | $2,718,644,546.44 | $16,391,523,224.47 |
+| Ethereum | $49,118,954,044.33 | $1,247,038,484.95 | $147,858,039,113.62 |
+| Base | $5,617,946,306.69 | $910,085,899.25 | $4,940,684,131.96 |
+| Tron | $5,445,884,997.53 | $28,104,396 | $94,213,167,338.09 |
+| Arbitrum | $1,401,045,606.17 | $152,422,327.23 | $3,638,590,547.15 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,159.09 | 1,430.37 | 7th |
-| Slot time (s) | 0.32 | 0.41 | 5th |
-| TVL (USD) | 5,906,537,412.45 | 4,855,726,313.49 | 96th |
-| SOL price (USD) | 103.42 | 76.69 | 94th |
-| DEX volume 24h (USD) | 2,904,503,252.44 | 1,743,267,929.93 | 76th |
+| Avg TPS | 1,086.04 | 1,429.12 | 4th |
+| Slot time (s) | 0.32 | 0.41 | 7th |
+| TVL (USD) | 5,901,283,578.90 | 4,856,596,530.84 | 95th |
+| SOL price (USD) | 104.11 | 76.69 | 95th |
+| DEX volume 24h (USD) | 2,718,644,546.44 | 1,747,556,147.93 | 70th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #616 Amend simd 0376 ed25519-zebra verification (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/616)
+- #579 SIMD-0579: Keccak-p1600 syscall (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/579)
 - #621 SIMD-0558 - Leader Info Syscall (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/621)
 - #629 Request Access (Level [X]) for [rewalwer89] (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/629)
 - #628 Request Access (Level [X]) for [Username] (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/628)
 - #627 Request Access (Level [X]) for [Shoha] (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/627)
 - #626 Request Access (Level [X]) for [Username] (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/626)
 - #625 Request Access (Level [X]) for [Username] (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/625)
-- #624 Request Access (Level [X]) for [Username] (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/624)
-- #623 Request Access (Level [X]) for [Username] (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/623)
 
 ## Solana News
 
