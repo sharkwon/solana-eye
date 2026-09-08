@@ -1,49 +1,49 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-09-08T11:18:21Z UTC — refresh every 60 min_
+_Auto-generated at 2026-09-08T16:37:55Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 14 validators delinquent (0.19% of stake)
+- 🔵 Validators Delinquent: 13 validators delinquent (0.01% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume dropped 6.3% in 24h
 
 ## ❤️ Solana Health Score
 
-80.7/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+89.3/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 31.1 |
+| price_trend | 53.5 |
 | slot_time | 100.0 |
-| tps | 77.9 |
-| tvl_trend | 30.8 |
-| validators | 96.2 |
+| tps | 93.0 |
+| tvl_trend | 50.0 |
+| validators | 99.8 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,168.20 |
-| Peak TPS | 1,242.79 |
-| Non-vote TPS | 499.08 |
+| Avg TPS (10 samples) | 1,394.83 |
+| Peak TPS | 1,490.82 |
+| Non-vote TPS | 723.02 |
 | Avg slot time | 0.3170 s |
-| Slot | 445,324,940 |
-| Block height | 423,368,949 |
+| Slot | 445,385,461 |
+| Block height | 423,429,422 |
 
 ### Epoch
 
-- Epoch 1030 — 84.48% complete (364,939/432,000 slots)
-- Slots remaining: 67,061
-- Total transactions (all-time): 546,312,280,366
+- Epoch 1030 — 98.49% complete (425,460/432,000 slots)
+- Slots remaining: 6,540
+- Total transactions (all-time): 546,391,397,114
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 674 |
-| Delinquent validators | 14 |
-| Total active stake | 438,662,793 SOL |
-| Delinquent stake | 815,195 SOL (0.19%) |
+| Active validators | 675 |
+| Delinquent validators | 13 |
+| Total active stake | 439,412,185 SOL |
+| Delinquent stake | 65,804 SOL (0.01%) |
 | Avg commission | 12.82% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
@@ -76,16 +76,16 @@ _Auto-generated at 2026-09-08T11:18:21Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $102.88 (-1.89% 24h) |
-| TVL | $5,877,855,560.33 (-1.92% 24h) |
+| SOL price | $103.99 (+0.35% 24h) |
+| TVL | $5,858,201,608.34 (+0.00% 24h) |
 | DEX volume 24h | $2,720,639,104.66 (-6.33%) |
-| Stablecoin supply | $16,301,653,155.22 |
+| Stablecoin supply | $16,206,239,219.16 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 4,245 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 4,641 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 586,165,285 SOL
+- Circulating: 586,165,077 SOL
 - Non-circulating: 47,477,279 SOL
 
 ## Ecosystem Growth
@@ -99,45 +99,45 @@ _Auto-generated at 2026-09-08T11:18:21Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,877,855,560.33 | $2,720,639,104.66 | $16,306,861,118.89 |
-| Ethereum | $49,389,437,253.09 | $1,300,048,908.96 | $147,857,145,262.00 |
-| Base | $5,594,566,423.67 | $904,343,922.43 | $4,947,639,551.33 |
-| Tron | $5,452,158,818.20 | $45,002,638 | $94,214,915,152.37 |
-| Arbitrum | $1,402,415,438.64 | $149,003,040.78 | $3,656,946,312.63 |
+| Solana | $5,858,201,608.34 | $2,720,639,104.66 | $16,206,239,219.16 |
+| Ethereum | $49,090,332,411.78 | $1,300,081,559.96 | $147,994,565,438.29 |
+| Base | $5,564,284,955.81 | $904,343,922.43 | $4,950,219,232.77 |
+| Tron | $5,256,653,727.00 | $45,002,638 | $94,199,692,734.60 |
+| Arbitrum | $1,389,651,835.48 | $149,003,040.78 | $3,650,932,315.86 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,168.20 | 1,428.10 | 9th |
-| Slot time (s) | 0.32 | 0.41 | 10th |
-| TVL (USD) | 5,877,855,560.33 | 4,857,363,451.68 | 93th |
-| SOL price (USD) | 102.88 | 76.72 | 92th |
+| Avg TPS | 1,394.83 | 1,427.87 | 45th |
+| Slot time (s) | 0.32 | 0.41 | 11th |
+| TVL (USD) | 5,858,201,608.34 | 4,857,494,160.58 | 92th |
+| SOL price (USD) | 103.99 | 76.75 | 95th |
 | DEX volume 24h (USD) | 2,720,639,104.66 | 1,747,556,147.93 | 70th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #630 SIMD-0630: Slot Time Compensation for Alpenglow Fast Leader Handover (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/630)
+- #582 SIMD-0582: Early detection of instruction trace overflow (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/582)
 - #616 Amend simd 0376 ed25519-zebra verification (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/616)
 - #579 SIMD-0579: Keccak-p1600 syscall (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/579)
 - #621 SIMD-0558 - Leader Info Syscall (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/621)
 - #629 Request Access (Level [X]) for [rewalwer89] (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/629)
 - #628 Request Access (Level [X]) for [Username] (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/628)
 - #627 Request Access (Level [X]) for [Shoha] (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/627)
-- #626 Request Access (Level [X]) for [Username] (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/626)
-- #625 Request Access (Level [X]) for [Username] (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/625)
 
 ## Solana News
 
-- [# How BitRobot Crowdsources Real-World Data for Embodied AI, with Jonathan Victor](https://solana.com/news/bits-to-bricks-bitrobot-jonathan-victor) 🖼️ — 2026-09-07
+- [Report: Stablecoins Are Reshaping Remittances](https://solana.com/news/report-stablecoins-are-reshaping-remittances) 🖼️ — 2026-09-08
+- [How BitRobot Crowdsources Real-World Data for Embodied AI, with Jonathan Victor](https://solana.com/news/bits-to-bricks-bitrobot-jonathan-victor) 🖼️ — 2026-09-07
 - [Solana Ecosystem Roundup: August 2026](https://solana.com/news/solana-ecosystem-roundup-august-2026) 🖼️ — 2026-09-04
 - [Payment Channels: 1 Million Payments Per Second](https://solana.com/news/payment-channels-1-million-payments-per-second) 🖼️ — 2026-09-03
 - [How to Reclaim Excess SOL After Rent Reduction](https://solana.com/news/how-to-reclaim-excess-sol-after-rent-reduction) 🖼️ — 2026-09-03
 - [The Token Supercycle: Everything of Value is Becoming Programmable](https://solana.com/news/the-token-supercycle-oped) 🖼️ — 2026-09-02
 - [Webinar Recap: Cross-Border Payments in Latin America](https://solana.com/news/webinar-recap-cross-border-payments-in-latin-america) 🖼️ — 2026-09-01
 - [Solana Changelog: August 27, 2026](https://solana.com/news/solana-changelog-august-27-2026) 🖼️ — 2026-08-28
-- [The Token Supercycle Is Here: Solana Brings Breakpoint 2026 to London](https://solana.com/news/breakpoint-2026-london-speakers) 🖼️ — 2026-08-27
 
 ## Community News (X/Twitter)
 
@@ -152,6 +152,7 @@ Recently updated SIMD proposals (solana-foundation/simd):
 _Upcoming protocol upgrades tracked from the SIMD repo (keyless)._
 
 - SIMD #525 — SIMD-0525: Shorter slot times (MERGED) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/525)
+- SIMD #630 — SIMD-0630: Slot Time Compensation for Alpenglow Fast Leader Handover (OPEN) [alpenglow] — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/630)
 
 Latest Agave client releases:
 
