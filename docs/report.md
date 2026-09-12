@@ -1,5 +1,5 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-09-12T19:20:39Z UTC — refresh every 60 min_
+_Auto-generated at 2026-09-12T22:19:34Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 11 validators delinquent (0.38% of stake)
@@ -7,15 +7,15 @@ _Auto-generated at 2026-09-12T19:20:39Z UTC — refresh every 60 min_
 
 ## ❤️ Solana Health Score
 
-87.7/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+81.9/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 54.6 |
+| price_trend | 44.5 |
 | slot_time | 100.0 |
-| tps | 91.8 |
-| tvl_trend | 50.0 |
+| tps | 73.4 |
+| tvl_trend | 51.1 |
 | validators | 92.4 |
 
 ## Network Performance
@@ -23,18 +23,18 @@ _Auto-generated at 2026-09-12T19:20:39Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,377.19 |
-| Peak TPS | 1,434.04 |
-| Non-vote TPS | 702.27 |
-| Avg slot time | 0.3200 s |
-| Slot | 446,507,295 |
-| Block height | 424,550,047 |
+| Avg TPS (10 samples) | 1,100.57 |
+| Peak TPS | 1,212.55 |
+| Non-vote TPS | 425.86 |
+| Avg slot time | 0.3150 s |
+| Slot | 446,540,778 |
+| Block height | 424,583,507 |
 
 ### Epoch
 
-- Epoch 1033 — 58.17% complete (251,294/432,000 slots)
-- Slots remaining: 180,706
-- Total transactions (all-time): 547,806,443,672
+- Epoch 1033 — 65.92% complete (284,777/432,000 slots)
+- Slots remaining: 147,223
+- Total transactions (all-time): 547,848,961,445
 
 ## Validators
 
@@ -76,16 +76,16 @@ _Auto-generated at 2026-09-12T19:20:39Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $101.60 (+0.46% 24h) |
-| TVL | $5,903,105,267.37 (+0.00% 24h) |
+| SOL price | $101.48 (-0.55% 24h) |
+| TVL | $5,896,921,496.36 (+0.11% 24h) |
 | DEX volume 24h | $3,183,599,712.43 (+8.96%) |
-| Stablecoin supply | $16,227,293,498.16 |
+| Stablecoin supply | $16,221,122,980.30 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 3,243 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 3,275 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 586,632,665 SOL
+- Circulating: 586,632,553 SOL
 - Non-circulating: 47,291,276 SOL
 
 ## Ecosystem Growth
@@ -99,20 +99,20 @@ _Auto-generated at 2026-09-12T19:20:39Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,903,105,267.37 | $3,183,599,712.43 | $16,227,293,498.16 |
-| Ethereum | $50,197,560,131.48 | $1,832,527,634.86 | $147,876,188,069.07 |
-| Base | $5,590,920,877.11 | $1,295,301,206.12 | $5,052,022,274.41 |
-| Tron | $5,512,319,480.88 | $46,257,644 | $94,647,088,680.94 |
-| Arbitrum | $1,397,444,640.80 | $315,884,441.39 | $3,822,229,329.54 |
+| Solana | $5,896,921,496.36 | $3,183,599,712.43 | $16,221,122,980.30 |
+| Ethereum | $50,143,705,376.20 | $1,832,527,634.86 | $147,806,308,669.06 |
+| Base | $5,584,977,842.77 | $1,295,301,206.12 | $5,042,880,191.63 |
+| Tron | $5,504,726,582.59 | $46,257,644 | $94,652,416,070.30 |
+| Arbitrum | $1,396,917,400.12 | $315,884,441.39 | $3,823,116,427.56 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,377.19 | 1,422.73 | 44th |
-| Slot time (s) | 0.32 | 0.41 | 16th |
-| TVL (USD) | 5,903,105,267.37 | 4,885,310,926.91 | 94th |
-| SOL price (USD) | 101.60 | 76.97 | 87th |
+| Avg TPS | 1,100.57 | 1,422.16 | 5th |
+| Slot time (s) | 0.32 | 0.41 | 6th |
+| TVL (USD) | 5,896,921,496.36 | 4,885,486,488.88 | 93th |
+| SOL price (USD) | 101.48 | 76.99 | 87th |
 | DEX volume 24h (USD) | 3,183,599,712.43 | 1,820,756,097.04 | 91th |
 
 ## Ecosystem / Development News
@@ -143,9 +143,8 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 - @solana: RSS reader not yet whitelisted!
 - @SolanaFndn: RSS reader not yet whitelisted!
-- @SolanaFloor: RSS reader not yet whitelisted!
-- @solana_daily: RSS reader not yet whitelisted!
-- @SolanaEvents: RSS reader not yet whitelisted!
+
+_Degraded (no data): SolanaFloor, solana_daily, SolanaEvents_
 
 ## Upgrade Radar
 
