@@ -1,40 +1,39 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-09-14T06:17:27Z UTC — refresh every 60 min_
+_Auto-generated at 2026-09-14T12:57:07Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 13 validators delinquent (0.41% of stake)
-- 🔵 DEX Volume 24h Change Pct: DEX volume dropped 6.1% in 24h
+- 🔵 Validators Delinquent: 13 validators delinquent (0.43% of stake)
 
 ## ❤️ Solana Health Score
 
-82.4/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+84.3/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 49.6 |
+| price_trend | 67.1 |
 | slot_time | 100.0 |
-| tps | 76.3 |
-| tvl_trend | 44.4 |
-| validators | 91.8 |
+| tps | 75.8 |
+| tvl_trend | 50.0 |
+| validators | 91.4 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,145.19 |
-| Peak TPS | 1,220.43 |
-| Non-vote TPS | 471.27 |
-| Avg slot time | 0.3170 s |
-| Slot | 446,905,805 |
-| Block height | 424,948,343 |
+| Avg TPS (10 samples) | 1,136.81 |
+| Peak TPS | 1,248.19 |
+| Non-vote TPS | 462.61 |
+| Avg slot time | 0.3160 s |
+| Slot | 446,981,813 |
+| Block height | 425,024,279 |
 
 ### Epoch
 
-- Epoch 1034 — 50.42% complete (217,804/432,000 slots)
-- Slots remaining: 214,196
-- Total transactions (all-time): 548,275,511,652
+- Epoch 1034 — 68.01% complete (293,813/432,000 slots)
+- Slots remaining: 138,187
+- Total transactions (all-time): 548,359,212,975
 
 ## Validators
 
@@ -42,8 +41,8 @@ _Auto-generated at 2026-09-14T06:17:27Z UTC — refresh every 60 min_
 |---|---|
 | Active validators | 677 |
 | Delinquent validators | 13 |
-| Total active stake | 436,948,046 SOL |
-| Delinquent stake | 1,792,321 SOL (0.41%) |
+| Total active stake | 436,869,534 SOL |
+| Delinquent stake | 1,870,833 SOL (0.43%) |
 | Avg commission | 12.81% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
@@ -76,16 +75,16 @@ _Auto-generated at 2026-09-14T06:17:27Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $101.67 (-0.04% 24h) |
-| TVL | $5,873,962,194.78 (-0.56% 24h) |
-| DEX volume 24h | $1,637,067,485.97 (-6.11%) |
-| Stablecoin supply | $16,092,635,333.59 |
+| SOL price | $101.32 (+1.71% 24h) |
+| TVL | $5,899,561,227.96 (+0.00% 24h) |
+| DEX volume 24h | $1,790,994,711.97 (+2.72%) |
+| Stablecoin supply | $16,030,168,885.93 |
 | Median tx fee | 0.000005000 SOL (5,000 lamports) |
-| Est. fee revenue 24h | 2,301 SOL (sampled block meta.fee (estimates)) |
+| Est. fee revenue 24h | 3,907 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 586,892,967 SOL
+- Circulating: 586,892,746 SOL
 - Non-circulating: 47,124,745 SOL
 
 ## Ecosystem Growth
@@ -99,26 +98,27 @@ _Auto-generated at 2026-09-14T06:17:27Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,873,962,194.78 | $1,637,067,485.97 | $16,092,635,333.59 |
-| Ethereum | $50,056,094,501.20 | $721,598,785.76 | $147,990,738,234.67 |
-| Base | $5,610,560,111.86 | $615,826,433.00 | $5,024,677,449.72 |
-| Tron | $5,472,916,767.53 | $49,796,593 | $94,563,367,454.99 |
-| Arbitrum | $1,398,686,733.17 | $95,665,527.07 | $3,874,148,195.19 |
+| Solana | $5,899,561,227.96 | $1,790,994,711.97 | $16,030,168,885.93 |
+| Ethereum | $50,062,818,185.68 | $722,596,741.76 | $148,045,732,187.97 |
+| Base | $5,632,666,099.72 | $621,416,422.00 | $5,042,844,891.52 |
+| Tron | $5,477,629,702.25 | $49,796,593 | $94,565,662,278.98 |
+| Arbitrum | $1,404,005,308.11 | $95,665,527.07 | $3,835,344,934.96 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,145.19 | 1,415.30 | 8th |
-| Slot time (s) | 0.32 | 0.41 | 14th |
-| TVL (USD) | 5,873,962,194.78 | 4,895,877,204.79 | 90th |
-| SOL price (USD) | 101.67 | 77.16 | 87th |
-| DEX volume 24h (USD) | 1,637,067,485.97 | 1,820,756,097.04 | 34th |
+| Avg TPS | 1,136.81 | 1,414.87 | 7th |
+| Slot time (s) | 0.32 | 0.41 | 10th |
+| TVL (USD) | 5,899,561,227.96 | 4,895,913,563.93 | 93th |
+| SOL price (USD) | 101.32 | 77.18 | 85th |
+| DEX volume 24h (USD) | 1,790,994,711.97 | 1,820,756,097.04 | 49th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #637 ci: bump dessant/lock-threads to v6.0.2 to fix weekly workflow failure (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/637)
 - #634 SIMD-0558 Amendment: Use accountless sysvar instead of new syscall (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/634)
 - #602 SIMD-0602: Disallow Nonce Account as Program ID (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/602)
 - #610 SIMD-0610: Prohibit Nonce Account Self-Withdrawals (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/610)
@@ -126,7 +126,6 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - #616 Amend simd 0376 ed25519-zebra verification (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/616)
 - #635 Remove ripatel-fd from Firedancer reviewer group (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/635)
 - #571 SIMD-0571: Soft Deprecation of Durable Nonce Transactions (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/571)
-- #582 SIMD-0582: Early detection of instruction trace overflow (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/582)
 
 ## Solana News
 
@@ -138,14 +137,6 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - [The Token Supercycle: Everything of Value is Becoming Programmable](https://solana.com/news/the-token-supercycle-oped) 🖼️ — 2026-09-02
 - [Webinar Recap: Cross-Border Payments in Latin America](https://solana.com/news/webinar-recap-cross-border-payments-in-latin-america) 🖼️ — 2026-09-01
 - [Solana Changelog: August 27, 2026](https://solana.com/news/solana-changelog-august-27-2026) 🖼️ — 2026-08-28
-
-## Community News (X/Twitter)
-
-- @solana: RSS reader not yet whitelisted!
-- @SolanaFndn: RSS reader not yet whitelisted!
-- @SolanaFloor: RSS reader not yet whitelisted!
-- @solana_daily: RSS reader not yet whitelisted!
-- @SolanaEvents: RSS reader not yet whitelisted!
 
 ## Upgrade Radar
 
@@ -187,7 +178,7 @@ Latest Agave client releases:
 | statuspage | ✅ |
 | dune | ✅ |
 | solana_news | ✅ |
-| twitter | ✅ |
+| twitter | ❌ |
 | upgrade_radar | ✅ |
 
 _Generated by [Solana Eye](https://github.com/sharkwon/solana-eye) — keyless, stdlib-only, reproducible._
