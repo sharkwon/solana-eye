@@ -1,50 +1,50 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-09-15T13:33:36Z UTC — refresh every 60 min_
+_Auto-generated at 2026-09-15T18:12:42Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 12 validators delinquent (0.1% of stake)
+- 🔵 Validators Delinquent: 10 validators delinquent (0.04% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 41.3% in 24h
 
 ## ❤️ Solana Health Score
 
-85.6/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+84.1/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 44.4 |
+| price_trend | 17.5 |
 | slot_time | 100.0 |
-| tps | 83.9 |
-| tvl_trend | 50.0 |
-| validators | 98.0 |
+| tps | 86.6 |
+| tvl_trend | 49.3 |
+| validators | 99.2 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,257.95 |
-| Peak TPS | 1,474.43 |
-| Non-vote TPS | 583.76 |
-| Avg slot time | 0.3180 s |
-| Slot | 447,262,139 |
-| Block height | 425,304,005 |
+| Avg TPS (10 samples) | 1,299.09 |
+| Peak TPS | 1,398.02 |
+| Non-vote TPS | 622.82 |
+| Avg slot time | 0.3160 s |
+| Slot | 447,315,051 |
+| Block height | 425,356,841 |
 
 ### Epoch
 
-- Epoch 1035 — 32.90% complete (142,137/432,000 slots)
-- Slots remaining: 289,863
-- Total transactions (all-time): 548,700,657,856
+- Epoch 1035 — 45.15% complete (195,050/432,000 slots)
+- Slots remaining: 236,950
+- Total transactions (all-time): 548,772,012,320
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 677 |
-| Delinquent validators | 12 |
-| Total active stake | 438,821,507 SOL |
-| Delinquent stake | 427,132 SOL (0.10%) |
-| Avg commission | 12.21% |
+| Active validators | 679 |
+| Delinquent validators | 10 |
+| Total active stake | 439,088,348 SOL |
+| Delinquent stake | 160,291 SOL (0.04%) |
+| Avg commission | 12.33% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -76,21 +76,21 @@ _Auto-generated at 2026-09-15T13:33:36Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $100.90 (-0.56% 24h) |
-| TVL | $5,853,377,513.68 (+0.00% 24h) |
+| SOL price | $99.83 (-3.25% 24h) |
+| TVL | $5,780,379,303.27 (-0.07% 24h) |
 | DEX volume 24h | $2,530,223,236.85 (+41.27%) |
-| Stablecoin supply | $15,946,487,255.77 |
+| Stablecoin supply | $15,800,033,292.32 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 587,027,993 SOL
+- Circulating: 587,027,806 SOL
 - Non-circulating: 47,083,556 SOL
 
 ## Ecosystem Growth
 
-- Daily Active Addresses: 1,885,837
+- Daily Active Addresses: 1,903,353
 - Tokenized Equities Volume (24h): $1,023,549,568
 - Tokenized Equities AUM: $1,826,661,941
 - Tokenized Equities Holders: 1,217,254
@@ -99,34 +99,34 @@ _Auto-generated at 2026-09-15T13:33:36Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,853,377,513.68 | $2,530,223,236.85 | $15,946,487,255.77 |
-| Ethereum | $49,943,683,573.47 | $1,320,363,843.07 | $148,073,496,232.09 |
-| Base | $5,591,765,835.13 | $930,840,919.64 | $5,050,681,998.45 |
-| Tron | $5,434,289,074.59 | $3,078,242 | $94,562,253,609.08 |
-| Arbitrum | $1,394,061,188.50 | $225,340,022.03 | $3,834,377,120.89 |
+| Solana | $5,780,379,303.27 | $2,530,223,236.85 | $15,800,033,292.32 |
+| Ethereum | $49,237,879,538.89 | $1,320,363,843.07 | $147,958,468,603.41 |
+| Base | $5,528,441,237.90 | $947,585,767.64 | $5,040,446,215.10 |
+| Tron | $5,400,739,429.60 | $37,586,734 | $94,544,173,228.21 |
+| Arbitrum | $1,373,158,477.31 | $225,340,022.03 | $3,818,817,787.35 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,257.95 | 1,411.92 | 27th |
-| Slot time (s) | 0.32 | 0.41 | 17th |
-| TVL (USD) | 5,853,377,513.68 | 4,897,085,366.07 | 88th |
-| SOL price (USD) | 100.90 | 77.19 | 84th |
+| Avg TPS | 1,299.09 | 1,411.72 | 32th |
+| Slot time (s) | 0.32 | 0.41 | 11th |
+| TVL (USD) | 5,780,379,303.27 | 4,897,176,668.12 | 82th |
+| SOL price (USD) | 99.83 | 77.20 | 81th |
 | DEX volume 24h (USD) | 2,530,223,236.85 | 1,820,756,097.04 | 65th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #596 Increase TxV1 Account Lock Limit to 96 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/596)
 - #630 SIMD-0630: Slot Time Compensation for Alpenglow Fast Leader Handover (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/630)
 - #582 SIMD-0582: Early detection of instruction trace overflow (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/582)
-- #639 SIMD-0377: fix JMP32 register opcodes, JSGE32 condition and callx opcode (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/639)
-- #596 Increase TxV1 Account Lock Limit to 96 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/596)
 - #638 Sync SIMD statuses and feature keys with mainnet activations (55 SIMDs) (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/638)
 - #637 ci: bump dessant/lock-threads to v6.0.2 to fix weekly workflow failure (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/637)
 - #634 SIMD-0558 Amendment: Use accountless sysvar instead of new syscall (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/634)
 - #602 SIMD-0602: Disallow Nonce Account as Program ID (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/602)
+- #616 Amend simd 0376 ed25519-zebra verification (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/616)
 
 ## Solana News
 
