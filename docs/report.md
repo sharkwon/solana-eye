@@ -1,40 +1,40 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-09-16T20:08:32Z UTC — refresh every 60 min_
+_Auto-generated at 2026-09-16T22:56:56Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 14 validators delinquent (0.04% of stake)
+- 🔵 Validators Delinquent: 14 validators delinquent (0.68% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 6.8% in 24h
 
 ## ❤️ Solana Health Score
 
-91.9/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+86.1/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 62.0 |
+| price_trend | 52.7 |
 | slot_time | 100.0 |
-| tps | 100.0 |
-| tvl_trend | 50.1 |
-| validators | 99.2 |
+| tps | 90.5 |
+| tvl_trend | 50.0 |
+| validators | 86.4 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,565.05 |
-| Peak TPS | 1,657.36 |
-| Non-vote TPS | 894.21 |
+| Avg TPS (10 samples) | 1,356.79 |
+| Peak TPS | 1,443.57 |
+| Non-vote TPS | 683.05 |
 | Avg slot time | 0.3180 s |
-| Slot | 447,609,337 |
-| Block height | 425,650,694 |
+| Slot | 447,641,165 |
+| Block height | 425,682,479 |
 
 ### Epoch
 
-- Epoch 1036 — 13.27% complete (57,335/432,000 slots)
-- Slots remaining: 374,665
-- Total transactions (all-time): 549,170,378,312
+- Epoch 1036 — 20.64% complete (89,164/432,000 slots)
+- Slots remaining: 342,836
+- Total transactions (all-time): 549,214,078,537
 
 ## Validators
 
@@ -42,9 +42,9 @@ _Auto-generated at 2026-09-16T20:08:32Z UTC — refresh every 60 min_
 |---|---|
 | Active validators | 677 |
 | Delinquent validators | 14 |
-| Total active stake | 439,569,431 SOL |
-| Delinquent stake | 191,651 SOL (0.04%) |
-| Avg commission | 12.36% |
+| Total active stake | 436,756,124 SOL |
+| Delinquent stake | 3,004,959 SOL (0.68%) |
+| Avg commission | 12.37% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -76,17 +76,17 @@ _Auto-generated at 2026-09-16T20:08:32Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $98.47 (+1.20% 24h) |
-| TVL | $5,724,351,309.94 (+0.01% 24h) |
+| SOL price | $97.44 (+0.27% 24h) |
+| TVL | $5,745,678,167.71 (-0.00% 24h) |
 | DEX volume 24h | $2,703,297,666.22 (+6.84%) |
-| Stablecoin supply | $15,474,769,159.79 |
+| Stablecoin supply | $15,413,525,120.41 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 587,150,301 SOL
-- Non-circulating: 47,054,926 SOL
+- Circulating: 587,150,192 SOL
+- Non-circulating: 47,054,922 SOL
 
 ## Ecosystem Growth
 
@@ -99,26 +99,27 @@ _Auto-generated at 2026-09-16T20:08:32Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,724,351,309.94 | $2,703,297,666.22 | $15,474,769,159.79 |
-| Ethereum | $48,826,193,771.45 | $1,851,319,270.43 | $147,336,663,262.87 |
-| Base | $5,487,106,330.28 | $1,045,476,715.60 | $4,987,648,017.38 |
-| Tron | $5,391,749,589.14 | $68,644,749 | $94,535,977,005.02 |
-| Arbitrum | $1,361,666,459.56 | $278,222,306.75 | $3,766,580,546.57 |
+| Solana | $5,745,678,167.71 | $2,703,297,666.22 | $15,413,525,120.41 |
+| Ethereum | $49,069,136,789.48 | $1,851,319,270.43 | $147,254,791,672.93 |
+| Base | $5,522,365,527.11 | $1,045,476,715.60 | $5,012,814,091.08 |
+| Tron | $5,395,288,534.38 | $68,644,749 | $94,537,938,724.83 |
+| Arbitrum | $1,366,629,233.77 | $278,222,306.75 | $3,775,277,774.24 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,565.05 | 1,409.80 | 71th |
+| Avg TPS | 1,356.79 | 1,409.83 | 44th |
 | Slot time (s) | 0.32 | 0.41 | 18th |
-| TVL (USD) | 5,724,351,309.94 | 4,898,037,937.70 | 80th |
-| SOL price (USD) | 98.47 | 77.26 | 78th |
+| TVL (USD) | 5,745,678,167.71 | 4,898,132,642.13 | 80th |
+| SOL price (USD) | 97.44 | 77.27 | 76th |
 | DEX volume 24h (USD) | 2,703,297,666.22 | 1,838,194,723.04 | 68th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #641 SIMD-0123: Refine calculation and inclusion based on Alpenglow (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/641)
 - #630 SIMD-0630: Slot Time Compensation for Alpenglow Fast Leader Handover (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/630)
 - #499 SIMD-0499: Deactivate execution of loader-v1 and ABI-v0 (labels: stale) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/499)
 - #596 Increase TxV1 Account Lock Limit to 96 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/596)
@@ -126,7 +127,6 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - #637 ci: bump dessant/lock-threads to v6.0.2 to fix weekly workflow failure (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/637)
 - #602 SIMD-0602: Disallow Nonce Account as Program ID (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/602)
 - #616 Amend simd 0376 ed25519-zebra verification (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/616)
-- #635 Remove ripatel-fd from Firedancer reviewer group (labels: access) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/635)
 
 ## Solana News
 
@@ -144,6 +144,7 @@ Recently updated SIMD proposals (solana-foundation/simd):
 _Upcoming protocol upgrades tracked from the SIMD repo (keyless)._
 
 - SIMD #525 — SIMD-0525: Shorter slot times (MERGED) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/525)
+- SIMD #641 — SIMD-0123: Refine calculation and inclusion based on Alpenglow (OPEN) [alpenglow] — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/641)
 - SIMD #630 — SIMD-0630: Slot Time Compensation for Alpenglow Fast Leader Handover (OPEN) [alpenglow] — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/630)
 - SIMD #635 — Remove ripatel-fd from Firedancer reviewer group (OPEN) [firedancer] — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/635)
 
