@@ -1,20 +1,20 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-09-17T21:25:23Z UTC — refresh every 60 min_
+_Auto-generated at 2026-09-18T00:18:27Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 13 validators delinquent (0.04% of stake)
 
 ## ❤️ Solana Health Score
 
-92.6/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+93.0/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 78.3 |
+| price_trend | 75.0 |
 | slot_time | 100.0 |
-| tps | 97.3 |
-| tvl_trend | 49.8 |
+| tps | 100.0 |
+| tvl_trend | 50.0 |
 | validators | 99.2 |
 
 ## Network Performance
@@ -22,18 +22,18 @@ _Auto-generated at 2026-09-17T21:25:23Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,458.78 |
-| Peak TPS | 1,548.11 |
-| Non-vote TPS | 784.99 |
-| Avg slot time | 0.3190 s |
-| Slot | 447,896,013 |
-| Block height | 425,937,126 |
+| Avg TPS (10 samples) | 1,553.54 |
+| Peak TPS | 1,631.01 |
+| Non-vote TPS | 880.54 |
+| Avg slot time | 0.3210 s |
+| Slot | 447,929,242 |
+| Block height | 425,970,339 |
 
 ### Epoch
 
-- Epoch 1036 — 79.63% complete (344,013/432,000 slots)
-- Slots remaining: 87,987
-- Total transactions (all-time): 549,553,486,851
+- Epoch 1036 — 87.32% complete (377,242/432,000 slots)
+- Slots remaining: 54,758
+- Total transactions (all-time): 549,599,112,666
 
 ## Validators
 
@@ -75,16 +75,16 @@ _Auto-generated at 2026-09-17T21:25:23Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $101.12 (+2.83% 24h) |
-| TVL | $5,862,019,936.13 (-0.02% 24h) |
+| SOL price | $101.37 (+2.50% 24h) |
+| TVL | $5,868,376,588.22 (-0.00% 24h) |
 | DEX volume 24h | $2,800,249,070.18 (+3.59%) |
-| Stablecoin supply | $15,386,688,780.55 |
+| Stablecoin supply | $16,383,068,479.51 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 587,211,799 SOL
+- Circulating: 587,211,679 SOL
 - Non-circulating: 46,992,427 SOL
 
 ## Ecosystem Growth
@@ -98,20 +98,20 @@ _Auto-generated at 2026-09-17T21:25:23Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,862,019,936.13 | $2,800,249,070.18 | $15,386,688,780.55 |
-| Ethereum | $50,093,784,470.60 | $1,525,537,913.10 | $147,274,114,888.74 |
-| Base | $5,579,900,098.44 | $1,017,150,150.61 | $5,065,250,013.64 |
-| Tron | $5,426,036,587.46 | $39,182,751 | $94,534,598,834.38 |
-| Arbitrum | $1,373,405,551.76 | $269,043,363.59 | $3,716,185,601.95 |
+| Solana | $5,868,376,588.22 | $2,800,249,070.18 | $16,383,068,479.51 |
+| Ethereum | $50,100,736,659.78 | $1,525,537,913.10 | $147,282,665,498.35 |
+| Base | $5,579,077,322.12 | $1,017,150,150.61 | $5,033,226,082.06 |
+| Tron | $5,416,398,979.32 | $39,182,751 | $94,534,509,138.89 |
+| Arbitrum | $1,371,305,674.06 | $269,043,363.59 | $3,709,560,656.57 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,458.78 | 1,406.55 | 59th |
-| Slot time (s) | 0.32 | 0.41 | 20th |
-| TVL (USD) | 5,862,019,936.13 | 4,902,061,493.69 | 88th |
-| SOL price (USD) | 101.12 | 77.42 | 84th |
+| Avg TPS | 1,553.54 | 1,407.85 | 70th |
+| Slot time (s) | 0.32 | 0.41 | 21th |
+| TVL (USD) | 5,868,376,588.22 | 4,903,553,540.59 | 89th |
+| SOL price (USD) | 101.37 | 77.45 | 85th |
 | DEX volume 24h (USD) | 2,800,249,070.18 | 1,838,194,723.04 | 75th |
 
 ## Ecosystem / Development News
@@ -131,12 +131,12 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 - [Project Harmonia Brings Institutional Tokenized Funds to Solana](https://solana.com/news/project-harmonia-brings-institutional-tokenized-funds-to-solana) 🖼️ — 2026-09-16
 - [Solana: Building, Proving and Earning Trust in Public](https://solana.com/news/solana-building-trust-in-public) 🖼️ — 2026-09-14
+- [Solana Changelog: September 10, 2026](https://solana.com/news/solana-changelog-september-10-2026) 🖼️ — 2026-09-10
+- [Solana Changelog: September 3, 2026](https://solana.com/news/solana-changelog-september-3-2026) 🖼️ — 2026-09-10
 - [Report: Stablecoins Are Reshaping Remittances](https://solana.com/news/report-stablecoins-are-reshaping-remittances) 🖼️ — 2026-09-08
 - [How BitRobot Crowdsources Real-World Data for Embodied AI, with Jonathan Victor](https://solana.com/news/bits-to-bricks-bitrobot-jonathan-victor) 🖼️ — 2026-09-07
 - [Solana Ecosystem Roundup: August 2026](https://solana.com/news/solana-ecosystem-roundup-august-2026) 🖼️ — 2026-09-04
 - [Payment Channels: 1 Million Payments Per Second](https://solana.com/news/payment-channels-1-million-payments-per-second) 🖼️ — 2026-09-03
-- [How to Reclaim Excess SOL After Rent Reduction](https://solana.com/news/how-to-reclaim-excess-sol-after-rent-reduction) 🖼️ — 2026-09-03
-- [The Token Supercycle: Everything of Value is Becoming Programmable](https://solana.com/news/the-token-supercycle-oped) 🖼️ — 2026-09-02
 
 ## Upgrade Radar
 
