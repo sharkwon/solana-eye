@@ -1,52 +1,52 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-09-19T05:53:39Z UTC — refresh every 60 min_
+_Auto-generated at 2026-09-19T10:58:37Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 11 validators delinquent (0.04% of stake)
+- 🔵 Validators Delinquent: 10 validators delinquent (0.03% of stake)
 - 🔵 TVL 24h Change Pct: TVL surged 6.1% in 24h
-- 🔵 SOL Price 24h Change Pct: SOL price surged 6.9% in 24h
-- 🔵 DEX Volume 24h Change Pct: DEX volume surged 25.7% in 24h
+- 🔵 SOL Price 24h Change Pct: SOL price surged 5.1% in 24h
+- 🔵 DEX Volume 24h Change Pct: DEX volume surged 36.4% in 24h
 
 ## ❤️ Solana Health Score
 
-91.6/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+91.7/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
 | price_trend | 100.0 |
 | slot_time | 100.0 |
-| tps | 69.7 |
+| tps | 70.1 |
 | tvl_trend | 100.0 |
-| validators | 99.2 |
+| validators | 99.4 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,045.99 |
-| Peak TPS | 1,084.93 |
-| Non-vote TPS | 371.91 |
+| Avg TPS (10 samples) | 1,051.56 |
+| Peak TPS | 1,113.68 |
+| Non-vote TPS | 376.62 |
 | Avg slot time | 0.2660 s |
-| Slot | 448,318,182 |
-| Block height | 426,359,041 |
+| Slot | 448,387,065 |
+| Block height | 426,427,904 |
 
 ### Epoch
 
-- Epoch 1037 — 77.36% complete (334,180/432,000 slots)
-- Slots remaining: 97,820
-- Total transactions (all-time): 550,077,524,136
+- Epoch 1037 — 93.30% complete (403,064/432,000 slots)
+- Slots remaining: 28,936
+- Total transactions (all-time): 550,149,385,686
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 677 |
-| Delinquent validators | 11 |
-| Total active stake | 439,453,838 SOL |
-| Delinquent stake | 158,570 SOL (0.04%) |
-| Avg commission | 12.53% |
+| Active validators | 678 |
+| Delinquent validators | 10 |
+| Total active stake | 439,464,650 SOL |
+| Delinquent stake | 147,758 SOL (0.03%) |
+| Avg commission | 12.51% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -78,16 +78,16 @@ _Auto-generated at 2026-09-19T05:53:39Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $112.56 (+6.90% 24h) |
-| TVL | $6,305,117,588.84 (+6.14% 24h) |
-| DEX volume 24h | $3,257,762,192.43 (+25.68%) |
-| Stablecoin supply | $15,542,083,559.22 |
+| SOL price | $111.78 (+5.14% 24h) |
+| TVL | $6,255,704,029.35 (+6.08% 24h) |
+| DEX volume 24h | $3,536,797,881.43 (+36.44%) |
+| Stablecoin supply | $15,553,308,434.81 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 587,296,466 SOL
+- Circulating: 587,296,278 SOL
 - Non-circulating: 47,001,249 SOL
 
 ## Ecosystem Growth
@@ -101,34 +101,34 @@ _Auto-generated at 2026-09-19T05:53:39Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $6,305,117,588.84 | $3,257,762,192.43 | $15,542,083,559.22 |
-| Ethereum | $52,546,228,311.20 | $1,636,145,192.54 | $147,338,884,532.32 |
-| Base | $5,888,475,173.47 | $1,041,332,151.10 | $5,079,771,116.22 |
-| Tron | $5,555,513,429.57 | $32,932,199 | $94,449,222,686.15 |
-| Arbitrum | $1,423,503,630.98 | $290,237,586.87 | $3,637,828,546.79 |
+| Solana | $6,255,704,029.35 | $3,536,797,881.43 | $15,553,308,434.81 |
+| Ethereum | $52,902,348,519.91 | $1,643,731,842.54 | $147,337,862,694.44 |
+| Base | $5,902,449,030.14 | $1,062,863,836.10 | $5,078,452,157.79 |
+| Tron | $5,564,464,181.90 | $32,932,199 | $94,447,598,114.78 |
+| Arbitrum | $1,430,581,245.67 | $290,237,586.87 | $3,620,625,188.15 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,045.99 | 1,405.70 | 2th |
+| Avg TPS | 1,051.56 | 1,404.46 | 2th |
 | Slot time (s) | 0.27 | 0.41 | 1th |
-| TVL (USD) | 6,305,117,588.84 | 4,926,145,239.44 | 100th |
-| SOL price (USD) | 112.56 | 79.26 | 100th |
-| DEX volume 24h (USD) | 3,257,762,192.43 | 1,838,194,723.04 | 92th |
+| TVL (USD) | 6,255,704,029.35 | 4,927,769,763.90 | 100th |
+| SOL price (USD) | 111.78 | 80.21 | 99th |
+| DEX volume 24h (USD) | 3,536,797,881.43 | 1,838,194,723.04 | 94th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
 - #645 SIMD-0645: SVM JIT intrinsics sol_multi3 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/645)
+- #499 SIMD-0499: Deactivate execution of loader-v1 and ABI-v0 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/499)
+- #596 Increase TxV1 Account Lock Limit to 96 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/596)
 - #602 SIMD-0602: Disallow Nonce Account as Program ID (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/602)
 - #642 Amend SIMD-0607: Derive per-slot decay and increase intermediate precision (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/642)
 - #630 SIMD-0630: Slot Time Compensation for Alpenglow Fast Leader Handover (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/630)
 - #644 amend SIMD-0558: fix CU cost (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/644)
 - #646 SIMD-0646: Disable legacy and v0 transaction formats (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/646)
-- #643 SIMD-0643: Move fee burn rounding from per slot to per transaction (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/643)
-- #641 SIMD-0123: Refine calculation and inclusion based on Alpenglow (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/641)
 
 ## Solana News
 
