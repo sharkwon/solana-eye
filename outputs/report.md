@@ -1,94 +1,92 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-09-19T10:58:37Z UTC — refresh every 60 min_
+_Auto-generated at 2026-09-19T14:25:42Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 10 validators delinquent (0.03% of stake)
-- 🔵 TVL 24h Change Pct: TVL surged 6.1% in 24h
-- 🔵 SOL Price 24h Change Pct: SOL price surged 5.1% in 24h
+- 🔵 Validators Delinquent: 13 validators delinquent (0.04% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 36.4% in 24h
 
 ## ❤️ Solana Health Score
 
-91.7/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+85.7/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 100.0 |
+| price_trend | 69.2 |
 | slot_time | 100.0 |
-| tps | 70.1 |
-| tvl_trend | 100.0 |
-| validators | 99.4 |
+| tps | 75.1 |
+| tvl_trend | 50.0 |
+| validators | 99.2 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,051.56 |
-| Peak TPS | 1,113.68 |
-| Non-vote TPS | 376.62 |
-| Avg slot time | 0.2660 s |
-| Slot | 448,387,065 |
-| Block height | 426,427,904 |
+| Avg TPS (10 samples) | 1,126.93 |
+| Peak TPS | 1,148.59 |
+| Non-vote TPS | 452.76 |
+| Avg slot time | 0.2680 s |
+| Slot | 448,433,780 |
+| Block height | 426,474,591 |
 
 ### Epoch
 
-- Epoch 1037 — 93.30% complete (403,064/432,000 slots)
-- Slots remaining: 28,936
-- Total transactions (all-time): 550,149,385,686
+- Epoch 1038 — 4.12% complete (17,779/432,000 slots)
+- Slots remaining: 414,221
+- Total transactions (all-time): 550,199,167,180
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 678 |
-| Delinquent validators | 10 |
-| Total active stake | 439,464,650 SOL |
-| Delinquent stake | 147,758 SOL (0.03%) |
-| Avg commission | 12.51% |
+| Active validators | 677 |
+| Delinquent validators | 13 |
+| Total active stake | 440,069,130 SOL |
+| Delinquent stake | 158,241 SOL (0.04%) |
+| Avg commission | 12.23% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
 
 | Rank | Vote Account (prefix) | Stake (SOL) | Stake % | Commission |
 |---|---|---|---|---|
-| 1 | CcaHc2L4… | 17,815,472 | 4.05% | 7% |
-| 2 | he1iusun… | 15,816,148 | 3.60% | 0% |
-| 3 | 3N7s9zXM… | 12,510,308 | 2.85% | 0% |
-| 4 | CatzoSMU… | 11,398,202 | 2.59% | 5% |
-| 5 | 8GbwASqd… | 9,784,908 | 2.23% | 0% |
-| 6 | 26pV97Ce… | 9,254,526 | 2.11% | 7% |
-| 7 | 51JBzSTU… | 9,077,527 | 2.06% | 10% |
-| 8 | 9QU2QSxh… | 7,397,869 | 1.68% | 7% |
-| 9 | CvSb7wdQ… | 7,085,578 | 1.61% | 5% |
-| 10 | DumiCKHV… | 6,557,940 | 1.49% | 0% |
-| 11 | 3JD3jMmn… | 6,205,746 | 1.41% | 0% |
-| 12 | HZKopZYv… | 6,112,429 | 1.39% | 100% |
-| 13 | DdCNGDpP… | 5,968,580 | 1.36% | 5% |
-| 14 | GHViLgbr… | 5,670,480 | 1.29% | 100% |
-| 15 | FKsC411d… | 4,835,118 | 1.10% | 7% |
-| 16 | HimWQUK6… | 4,764,799 | 1.08% | 8% |
-| 17 | 3ZYJxzCe… | 4,100,427 | 0.93% | 100% |
-| 18 | AZoCYB4V… | 4,038,970 | 0.92% | 100% |
-| 19 | G9x1mqew… | 4,029,876 | 0.92% | 100% |
-| 20 | EcEowA4G… | 3,992,138 | 0.91% | 100% |
+| 1 | CcaHc2L4… | 17,849,776 | 4.05% | 7% |
+| 2 | he1iusun… | 15,819,247 | 3.59% | 0% |
+| 3 | 3N7s9zXM… | 12,500,805 | 2.84% | 0% |
+| 4 | CatzoSMU… | 11,362,749 | 2.58% | 5% |
+| 5 | 8GbwASqd… | 9,786,807 | 2.22% | 0% |
+| 6 | 26pV97Ce… | 9,252,843 | 2.10% | 7% |
+| 7 | 51JBzSTU… | 9,116,740 | 2.07% | 10% |
+| 8 | 9QU2QSxh… | 7,434,776 | 1.69% | 7% |
+| 9 | CvSb7wdQ… | 7,086,871 | 1.61% | 5% |
+| 10 | HZKopZYv… | 6,627,951 | 1.51% | 100% |
+| 11 | DumiCKHV… | 6,558,688 | 1.49% | 0% |
+| 12 | 3JD3jMmn… | 6,206,804 | 1.41% | 0% |
+| 13 | DdCNGDpP… | 5,957,393 | 1.35% | 5% |
+| 14 | GHViLgbr… | 5,648,980 | 1.28% | 100% |
+| 15 | FKsC411d… | 4,835,847 | 1.10% | 7% |
+| 16 | HimWQUK6… | 4,696,679 | 1.07% | 8% |
+| 17 | 3ZYJxzCe… | 4,093,373 | 0.93% | 100% |
+| 18 | AZoCYB4V… | 4,057,933 | 0.92% | 100% |
+| 19 | G9x1mqew… | 4,038,444 | 0.92% | 100% |
+| 20 | EcEowA4G… | 3,988,882 | 0.91% | 100% |
 
 ## Economics
 
 | Metric | Value |
 |---|---|
-| SOL price | $111.78 (+5.14% 24h) |
-| TVL | $6,255,704,029.35 (+6.08% 24h) |
+| SOL price | $111.80 (+1.92% 24h) |
+| TVL | $6,246,016,500.78 (+0.00% 24h) |
 | DEX volume 24h | $3,536,797,881.43 (+36.44%) |
-| Stablecoin supply | $15,553,308,434.81 |
+| Stablecoin supply | $16,594,133,848.18 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 587,296,278 SOL
-- Non-circulating: 47,001,249 SOL
+- Circulating: 587,367,940 SOL
+- Non-circulating: 47,008,472 SOL
 
 ## Ecosystem Growth
 
@@ -101,20 +99,20 @@ _Auto-generated at 2026-09-19T10:58:37Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $6,255,704,029.35 | $3,536,797,881.43 | $15,553,308,434.81 |
-| Ethereum | $52,902,348,519.91 | $1,643,731,842.54 | $147,337,862,694.44 |
-| Base | $5,902,449,030.14 | $1,062,863,836.10 | $5,078,452,157.79 |
-| Tron | $5,564,464,181.90 | $32,932,199 | $94,447,598,114.78 |
-| Arbitrum | $1,430,581,245.67 | $290,237,586.87 | $3,620,625,188.15 |
+| Solana | $6,246,016,500.78 | $3,536,797,881.43 | $16,594,133,848.18 |
+| Ethereum | $52,773,647,929.08 | $1,643,891,548.54 | $147,253,907,519.53 |
+| Base | $5,913,746,107.43 | $1,062,863,836.10 | $5,078,098,448.66 |
+| Tron | $5,572,500,553.39 | $32,932,199 | $94,447,607,060.35 |
+| Arbitrum | $1,430,254,690.76 | $290,237,586.87 | $3,484,784,420.23 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,051.56 | 1,404.46 | 2th |
+| Avg TPS | 1,126.93 | 1,403.22 | 7th |
 | Slot time (s) | 0.27 | 0.41 | 1th |
-| TVL (USD) | 6,255,704,029.35 | 4,927,769,763.90 | 100th |
-| SOL price (USD) | 111.78 | 80.21 | 99th |
+| TVL (USD) | 6,246,016,500.78 | 4,929,394,288.36 | 99th |
+| SOL price (USD) | 111.80 | 81.15 | 99th |
 | DEX volume 24h (USD) | 3,536,797,881.43 | 1,838,194,723.04 | 94th |
 
 ## Ecosystem / Development News
