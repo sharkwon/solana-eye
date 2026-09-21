@@ -1,5 +1,5 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-09-20T21:33:43Z UTC — refresh every 60 min_
+_Auto-generated at 2026-09-21T00:16:52Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 14 validators delinquent (0.05% of stake)
@@ -7,15 +7,15 @@ _Auto-generated at 2026-09-20T21:33:43Z UTC — refresh every 60 min_
 
 ## ❤️ Solana Health Score
 
-87.2/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+88.9/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 42.0 |
+| price_trend | 60.3 |
 | slot_time | 100.0 |
-| tps | 88.8 |
-| tvl_trend | 52.6 |
+| tps | 90.4 |
+| tvl_trend | 48.1 |
 | validators | 99.0 |
 
 ## Network Performance
@@ -23,18 +23,18 @@ _Auto-generated at 2026-09-20T21:33:43Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,332.59 |
-| Peak TPS | 1,386.29 |
-| Non-vote TPS | 659.36 |
+| Avg TPS (10 samples) | 1,356.50 |
+| Peak TPS | 1,440.49 |
+| Non-vote TPS | 683.42 |
 | Avg slot time | 0.2680 s |
-| Slot | 448,853,803 |
-| Block height | 426,894,464 |
+| Slot | 448,890,449 |
+| Block height | 426,931,096 |
 
 ### Epoch
 
-- Epoch 1039 — 1.34% complete (5,803/432,000 slots)
-- Slots remaining: 426,197
-- Total transactions (all-time): 550,688,897,231
+- Epoch 1039 — 9.83% complete (42,449/432,000 slots)
+- Slots remaining: 389,551
+- Total transactions (all-time): 550,735,410,394
 
 ## Validators
 
@@ -76,17 +76,17 @@ _Auto-generated at 2026-09-20T21:33:43Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $109.86 (-0.80% 24h) |
-| TVL | $6,204,499,597.26 (+0.26% 24h) |
+| SOL price | $112.03 (+1.03% 24h) |
+| TVL | $6,209,061,067.16 (-0.19% 24h) |
 | DEX volume 24h | $2,876,208,374.20 (-18.68%) |
-| Stablecoin supply | $15,567,729,303.65 |
-| Median tx fee | n/a SOL (n/a lamports) |
-| Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
+| Stablecoin supply | $15,598,161,749.26 |
+| Median tx fee | 0.000005000 SOL (5,000 lamports) |
+| Est. fee revenue 24h | 5,366 SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 587,438,195 SOL
-- Non-circulating: 47,015,914 SOL
+- Circulating: 587,437,882 SOL
+- Non-circulating: 47,016,105 SOL
 
 ## Ecosystem Growth
 
@@ -99,21 +99,21 @@ _Auto-generated at 2026-09-20T21:33:43Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $6,204,499,597.26 | $2,876,208,374.20 | $15,567,729,303.65 |
-| Ethereum | $52,865,711,468.34 | $1,179,614,253.65 | $146,991,679,818.51 |
-| Base | $5,915,339,579.71 | $702,645,704.04 | $5,060,663,210.84 |
-| Tron | $5,615,686,290.01 | $37,186,167 | $94,454,715,834.22 |
-| Arbitrum | $1,430,437,021.18 | $134,467,534.57 | $3,789,045,862.07 |
+| Solana | $6,209,061,067.16 | $2,876,208,374.20 | $15,598,161,749.26 |
+| Ethereum | $52,846,373,078.77 | $1,179,614,253.65 | $147,026,795,942.03 |
+| Base | $5,919,909,973.97 | $702,645,704.04 | $5,059,015,471.37 |
+| Tron | $5,619,069,206.11 | $37,186,167 | $94,451,885,635.04 |
+| Arbitrum | $1,429,426,485.67 | $134,467,534.57 | $3,789,258,167.68 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,332.59 | 1,397.78 | 41th |
+| Avg TPS | 1,356.50 | 1,396.81 | 45th |
 | Slot time (s) | 0.27 | 0.41 | 3th |
-| TVL (USD) | 6,204,499,597.26 | 5,082,536,135.68 | 99th |
-| SOL price (USD) | 109.86 | 82.46 | 98th |
-| DEX volume 24h (USD) | 2,876,208,374.20 | 1,842,802,836.52 | 75th |
+| TVL (USD) | 6,209,061,067.16 | 5,085,999,626.64 | 99th |
+| SOL price (USD) | 112.03 | 82.61 | 99th |
+| DEX volume 24h (USD) | 2,876,208,374.20 | 1,847,410,950.00 | 75th |
 
 ## Ecosystem / Development News
 
@@ -169,7 +169,7 @@ Latest Agave client releases:
 | rpc_perf | ✅ |
 | rpc_votes | ✅ |
 | rpc_supply | ✅ |
-| rpc_fee_sampling | ❌ |
+| rpc_fee_sampling | ✅ |
 | defillama_tvl | ✅ |
 | defillama_tvl_history | ✅ |
 | defillama_dex | ✅ |
