@@ -1,20 +1,20 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-09-25T18:37:01Z UTC — refresh every 60 min_
+_Auto-generated at 2026-09-25T22:20:18Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 10 validators delinquent (0.01% of stake)
 
 ## ❤️ Solana Health Score
 
-90.0/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+88.6/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 91.9 |
+| price_trend | 96.0 |
 | slot_time | 100.0 |
-| tps | 83.8 |
-| tvl_trend | 47.5 |
+| tps | 76.2 |
+| tvl_trend | 50.7 |
 | validators | 99.8 |
 
 ## Network Performance
@@ -22,18 +22,18 @@ _Auto-generated at 2026-09-25T18:37:01Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,256.79 |
-| Peak TPS | 1,310.10 |
-| Non-vote TPS | 584.26 |
+| Avg TPS (10 samples) | 1,142.39 |
+| Peak TPS | 1,219.39 |
+| Non-vote TPS | 469.85 |
 | Avg slot time | 0.2690 s |
-| Slot | 450,434,824 |
-| Block height | 428,474,701 |
+| Slot | 450,484,877 |
+| Block height | 428,524,741 |
 
 ### Epoch
 
-- Epoch 1042 — 67.32% complete (290,822/432,000 slots)
-- Slots remaining: 141,178
-- Total transactions (all-time): 552,577,913,089
+- Epoch 1042 — 78.91% complete (340,876/432,000 slots)
+- Slots remaining: 91,124
+- Total transactions (all-time): 552,639,534,687
 
 ## Validators
 
@@ -75,17 +75,17 @@ _Auto-generated at 2026-09-25T18:37:01Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $121.92 (+4.19% 24h) |
-| TVL | $6,572,202,465.66 (-0.25% 24h) |
-| DEX volume 24h | $2,450,711,180.43 (-4.00%) |
-| Stablecoin supply | $16,663,149,036.07 |
+| SOL price | $121.76 (+4.60% 24h) |
+| TVL | $6,618,771,244.27 (+0.07% 24h) |
+| DEX volume 24h | $2,450,711,186.89 (-4.00%) |
+| Stablecoin supply | $17,244,088,706.59 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 587,653,301 SOL
-- Non-circulating: 47,032,594 SOL
+- Circulating: 587,641,976 SOL
+- Non-circulating: 47,043,757 SOL
 
 ## Ecosystem Growth
 
@@ -98,26 +98,27 @@ _Auto-generated at 2026-09-25T18:37:01Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $6,572,202,465.66 | $2,450,711,180.43 | $16,663,149,036.07 |
-| Ethereum | $53,545,336,503.03 | $1,555,508,238.82 | $146,787,192,549.99 |
-| Base | $6,236,433,328.26 | $995,779,558.09 | $5,107,504,148.37 |
-| Tron | $5,664,886,917.87 | $61,413,185 | $94,588,741,972.84 |
-| Arbitrum | $1,447,349,682.77 | $435,331,257.85 | $3,757,211,516.15 |
+| Solana | $6,618,771,244.27 | $2,450,711,186.89 | $17,244,088,706.59 |
+| Ethereum | $53,638,237,650.72 | $1,555,561,683.82 | $146,800,584,606.18 |
+| Base | $6,231,547,448.09 | $995,974,447.09 | $5,112,787,760.72 |
+| Tron | $5,674,614,967.59 | $61,413,185 | $94,590,007,611.54 |
+| Arbitrum | $1,448,788,707.69 | $435,333,005.85 | $3,637,410,326.00 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,256.79 | 1,388.42 | 30th |
+| Avg TPS | 1,142.39 | 1,388.33 | 10th |
 | Slot time (s) | 0.27 | 0.41 | 7th |
-| TVL (USD) | 6,572,202,465.66 | 5,244,868,172.26 | 100th |
-| SOL price (USD) | 121.92 | 86.70 | 100th |
-| DEX volume 24h (USD) | 2,450,711,180.43 | 1,942,768,290.75 | 58th |
+| TVL (USD) | 6,618,771,244.27 | 5,251,211,518.82 | 100th |
+| SOL price (USD) | 121.76 | 86.81 | 100th |
+| DEX volume 24h (USD) | 2,450,711,186.89 | 1,942,768,290.75 | 58th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #650 SIMD-0650: bn254 pairing output (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/650)
 - #670 SIMD-0670: ABIv1 invoke signed v2 syscall (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/670)
 - #646 SIMD-0646: Disable legacy and v0 transaction formats (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/646)
 - #630 SIMD-0630: Slot Time Compensation for Alpenglow Fast Leader Handover (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/630)
@@ -125,7 +126,6 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - #648 SIMD-0648: Unbound LoaderV3 Instruction Data (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/648)
 - #645 SIMD-0645: SVM JIT intrinsics sol_multi3 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/645)
 - #667 SIMD-0565: is the all-zero identity point a valid input to ADD/SUB/MUL/MSM? (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/667)
-- #658 SIMD-0152 changes #2 and #3 (reject zero-signature precompile inputs) were never implemented (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/issues/658)
 
 ## Solana News
 
@@ -134,9 +134,9 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - [Solana Changelog: September 18, 2026](https://solana.com/news/solana-changelog-september-18-2026) 🖼️ — 2026-09-19
 - [How AI Is Reshaping Crypto Security, with Michael Coates](https://solana.com/news/bits-to-bricks-crypto-security-michael-coates) 🖼️ — 2026-09-19
 - [Project Harmonia Brings Institutional Tokenized Funds to Solana](https://solana.com/news/project-harmonia-brings-institutional-tokenized-funds-to-solana) 🖼️ — 2026-09-16
+- [Solana Summer School 2026: From first program to demo day](https://solana.com/news/solana-summer-school-2026) 🖼️ — 2026-09-14
 - [Solana: Building, Proving and Earning Trust in Public](https://solana.com/news/solana-building-trust-in-public) 🖼️ — 2026-09-14
 - [Solana Changelog: September 10, 2026](https://solana.com/news/solana-changelog-september-10-2026) 🖼️ — 2026-09-10
-- [Solana Changelog: September 3, 2026](https://solana.com/news/solana-changelog-september-3-2026) 🖼️ — 2026-09-10
 
 ## Upgrade Radar
 
