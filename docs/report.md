@@ -1,21 +1,22 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-09-28T06:53:41Z UTC — refresh every 60 min_
+_Auto-generated at 2026-09-28T15:27:31Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
+- 🟠 Coordinated Drawdown: Coordinated drawdown: price, TVL and/or DEX volume falling together — SOL price=-3.1, DEX volume=-10.6
 - 🔵 Validators Delinquent: 7 validators delinquent (0.01% of stake)
-- 🔵 DEX Volume 24h Change Pct: DEX volume dropped 11.8% in 24h
+- 🔵 DEX Volume 24h Change Pct: DEX volume dropped 10.6% in 24h
 
 ## ❤️ Solana Health Score
 
-82.2/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+86.4/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 27.8 |
+| price_trend | 18.7 |
 | slot_time | 100.0 |
-| tps | 77.8 |
-| tvl_trend | 43.3 |
+| tps | 93.9 |
+| tvl_trend | 50.1 |
 | validators | 99.8 |
 
 ## Network Performance
@@ -23,18 +24,18 @@ _Auto-generated at 2026-09-28T06:53:41Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,167.09 |
-| Peak TPS | 1,212.27 |
-| Non-vote TPS | 494.63 |
+| Avg TPS (10 samples) | 1,407.95 |
+| Peak TPS | 1,571.04 |
+| Non-vote TPS | 734.47 |
 | Avg slot time | 0.2690 s |
-| Slot | 451,243,726 |
-| Block height | 429,283,373 |
+| Slot | 451,358,832 |
+| Block height | 429,398,468 |
 
 ### Epoch
 
-- Epoch 1044 — 54.57% complete (235,725/432,000 slots)
-- Slots remaining: 196,275
-- Total transactions (all-time): 553,560,457,257
+- Epoch 1044 — 81.21% complete (350,832/432,000 slots)
+- Slots remaining: 81,168
+- Total transactions (all-time): 553,696,992,892
 
 ## Validators
 
@@ -76,52 +77,52 @@ _Auto-generated at 2026-09-28T06:53:41Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $118.68 (-2.22% 24h) |
-| TVL | $6,580,344,193.48 (-0.67% 24h) |
-| DEX volume 24h | $1,901,726,118.71 (-11.76%) |
-| Stablecoin supply | $16,504,813,904.33 |
+| SOL price | $117.90 (-3.13% 24h) |
+| TVL | $6,551,225,778.24 (+0.01% 24h) |
+| DEX volume 24h | $1,926,466,128.71 (-10.61%) |
+| Stablecoin supply | $16,559,822,663.54 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 587,782,271 SOL
+- Circulating: 587,781,916 SOL
 - Non-circulating: 47,058,711 SOL
 
 ## Ecosystem Growth
 
 - Daily Active Addresses: 2,072,512
-- Tokenized Equities Volume (24h): $1,652,210,611
-- Tokenized Equities AUM: $1,880,215,691
+- Tokenized Equities Volume (24h): $1,877,931,950
+- Tokenized Equities AUM: $1,947,169,736
 - Tokenized Equities Holders: 1,851,910
 
 ## Cross-Chain Comparison
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $6,580,344,193.48 | $1,901,726,118.71 | $16,504,813,904.33 |
-| Ethereum | $53,118,328,907.79 | $877,560,455.37 | $147,172,009,146.80 |
-| Base | $6,202,062,482.46 | $669,712,340.10 | $5,094,598,528.76 |
-| Tron | $5,624,426,727.86 | $31,144,317 | $94,428,851,013.03 |
-| Arbitrum | $1,438,799,367.03 | $107,391,506.62 | $3,766,851,346.25 |
+| Solana | $6,551,225,778.24 | $1,926,466,128.71 | $16,559,822,663.54 |
+| Ethereum | $53,429,288,224.93 | $877,956,617.37 | $146,944,529,909.48 |
+| Base | $6,221,881,834.15 | $675,362,470.10 | $5,115,252,775.87 |
+| Tron | $5,614,362,267.57 | $31,144,317 | $94,555,110,181.27 |
+| Arbitrum | $1,439,662,220.21 | $107,787,658.62 | $3,785,355,420.76 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,167.09 | 1,381.86 | 14th |
+| Avg TPS | 1,407.95 | 1,379.22 | 54th |
 | Slot time (s) | 0.27 | 0.41 | 8th |
-| TVL (USD) | 6,580,344,193.48 | 5,289,284,889.82 | 98th |
-| SOL price (USD) | 118.68 | 87.48 | 97th |
-| DEX volume 24h (USD) | 1,901,726,118.71 | 1,942,768,290.75 | 48th |
+| TVL (USD) | 6,551,225,778.24 | 5,289,890,314.75 | 98th |
+| SOL price (USD) | 117.90 | 87.48 | 96th |
+| DEX volume 24h (USD) | 1,926,466,128.71 | 1,942,768,290.75 | 48th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #503 SIMD-0503: Static Sysvars (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/503)
 - #562 Remove mentions of SIMD-0161 (labels: stale) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/562)
 - #670 SIMD-0670: ABIv1 invoke signed v2 syscall (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/670)
-- #671 SIMD: Typed Settlement Wire Linkage via SPL Memo v2 and Token-2022 Introspection (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/671)
 - #630 SIMD-0630: Slot Time Compensation for Alpenglow Fast Leader Handover (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/630)
 - #650 SIMD-0650: bn254 pairing output (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/650)
 - #646 SIMD-0646: Disable legacy and v0 transaction formats (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/646)
@@ -130,6 +131,7 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Solana News
 
+- [Slot Time Reduction Effects](https://solana.com/news/slot-time-reduction-effects) — 2026-09-28
 - [Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments](https://solana.com/news/solana-foundation-appoints-2026) 🖼️ — 2026-09-24
 - [Stocks Go Onchain: What the SEC's Innovation Exemption Means for Solana](https://solana.com/news/stocks-sec-innovation-exemption) 🖼️ — 2026-09-23
 - [Solana Changelog: September 18, 2026](https://solana.com/news/solana-changelog-september-18-2026) 🖼️ — 2026-09-19
@@ -137,7 +139,6 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - [Project Harmonia Brings Institutional Tokenized Funds to Solana](https://solana.com/news/project-harmonia-brings-institutional-tokenized-funds-to-solana) 🖼️ — 2026-09-16
 - [Solana Summer School 2026: From first program to demo day](https://solana.com/news/solana-summer-school-2026) 🖼️ — 2026-09-14
 - [Solana: Building, Proving and Earning Trust in Public](https://solana.com/news/solana-building-trust-in-public) 🖼️ — 2026-09-14
-- [Solana Changelog: September 10, 2026](https://solana.com/news/solana-changelog-september-10-2026) 🖼️ — 2026-09-10
 
 ## Upgrade Radar
 
@@ -148,9 +149,9 @@ _Upcoming protocol upgrades tracked from the SIMD repo (keyless)._
 
 Latest Agave client releases:
 
+- Release v4.4.0-beta.0 (pre-release) — 2026-09-28 — [link](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-beta.0)
 - Release v4.4.0-alpha.5 (pre-release) — 2026-09-18 — [link](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-alpha.5)
 - Release v4.3.0 — 2026-09-18 — [link](https://github.com/anza-xyz/agave/releases/tag/v4.3.0)
-- Release v4.3.0-rc.1 — 2026-09-11 — [link](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-rc.1)
 
 ## Network Status
 
