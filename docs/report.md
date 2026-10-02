@@ -1,49 +1,49 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-10-02T15:49:07Z UTC — refresh every 60 min_
+_Auto-generated at 2026-10-02T20:45:02Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 12 validators delinquent (0.02% of stake)
+- 🔵 Validators Delinquent: 13 validators delinquent (0.04% of stake)
 
 ## ❤️ Solana Health Score
 
-91.1/100 — EXCELLENT (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+88.7/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 73.7 |
+| price_trend | 49.9 |
 | slot_time | 100.0 |
-| tps | 92.7 |
-| tvl_trend | 50.7 |
-| validators | 99.6 |
+| tps | 92.1 |
+| tvl_trend | 50.6 |
+| validators | 99.2 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,391.15 |
-| Peak TPS | 1,457.31 |
-| Non-vote TPS | 721.94 |
+| Avg TPS (10 samples) | 1,381.77 |
+| Peak TPS | 1,434.65 |
+| Non-vote TPS | 715.35 |
 | Avg slot time | 0.2680 s |
-| Slot | 452,655,009 |
-| Block height | 430,693,692 |
+| Slot | 452,721,180 |
+| Block height | 430,759,812 |
 
 ### Epoch
 
-- Epoch 1047 — 81.25% complete (351,009/432,000 slots)
-- Slots remaining: 80,991
-- Total transactions (all-time): 555,256,846,496
+- Epoch 1047 — 96.57% complete (417,180/432,000 slots)
+- Slots remaining: 14,820
+- Total transactions (all-time): 555,346,097,490
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 672 |
-| Delinquent validators | 12 |
-| Total active stake | 440,720,833 SOL |
-| Delinquent stake | 89,640 SOL (0.02%) |
-| Avg commission | 13.00% |
+| Active validators | 671 |
+| Delinquent validators | 13 |
+| Total active stake | 440,655,941 SOL |
+| Delinquent stake | 154,532 SOL (0.04%) |
+| Avg commission | 13.02% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -75,16 +75,16 @@ _Auto-generated at 2026-10-02T15:49:07Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $119.88 (+2.37% 24h) |
-| TVL | $6,713,961,207.47 (+0.07% 24h) |
+| SOL price | $117.91 (-0.01% 24h) |
+| TVL | $6,621,997,048.01 (+0.06% 24h) |
 | DEX volume 24h | $2,488,460,102.88 (-3.17%) |
-| Stablecoin supply | $16,516,818,260.92 |
+| Stablecoin supply | $16,735,957,648.34 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 588,075,090 SOL
+- Circulating: 588,074,857 SOL
 - Non-circulating: 46,997,662 SOL
 
 ## Ecosystem Growth
@@ -98,20 +98,20 @@ _Auto-generated at 2026-10-02T15:49:07Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $6,713,961,207.47 | $2,488,460,102.88 | $16,516,818,260.92 |
-| Ethereum | $54,566,077,998.52 | $1,315,460,952.48 | $146,463,045,186.06 |
-| Base | $6,481,034,131.27 | $1,240,372,254.53 | $5,215,782,146.40 |
-| Tron | $5,684,097,428.80 | $63,521,550 | $94,510,652,069.85 |
-| Arbitrum | $1,436,344,108.98 | $173,117,856.89 | $3,942,423,699.65 |
+| Solana | $6,621,997,048.01 | $2,488,460,102.88 | $16,735,957,648.34 |
+| Ethereum | $53,339,384,163.52 | $1,315,460,952.48 | $146,284,500,039.94 |
+| Base | $6,308,028,215.13 | $1,240,372,254.53 | $5,204,010,305.86 |
+| Tron | $5,629,228,609.56 | $63,521,550 | $94,510,806,523.38 |
+| Arbitrum | $1,403,046,963.89 | $173,117,856.89 | $3,835,701,709.39 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,391.15 | 1,371.28 | 52th |
+| Avg TPS | 1,381.77 | 1,372.91 | 51th |
 | Slot time (s) | 0.27 | 0.41 | 9th |
-| TVL (USD) | 6,713,961,207.47 | 5,334,113,257.02 | 100th |
-| SOL price (USD) | 119.88 | 88.50 | 97th |
+| TVL (USD) | 6,621,997,048.01 | 5,339,545,968.51 | 98th |
+| SOL price (USD) | 117.91 | 89.06 | 95th |
 | DEX volume 24h (USD) | 2,488,460,102.88 | 1,960,574,882.81 | 58th |
 
 ## Ecosystem / Development News
