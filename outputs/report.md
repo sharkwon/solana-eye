@@ -1,20 +1,20 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-10-07T00:42:33Z UTC — refresh every 60 min_
+_Auto-generated at 2026-10-07T07:14:45Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 8 validators delinquent (0.0% of stake)
 
 ## ❤️ Solana Health Score
 
-85.1/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+79.5/100 — FAIR (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 46.9 |
+| price_trend | 42.9 |
 | slot_time | 100.0 |
-| tps | 79.6 |
-| tvl_trend | 50.6 |
+| tps | 72.6 |
+| tvl_trend | 13.4 |
 | validators | 100.0 |
 
 ## Network Performance
@@ -22,18 +22,18 @@ _Auto-generated at 2026-10-07T00:42:33Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,194.50 |
-| Peak TPS | 1,315.86 |
-| Non-vote TPS | 523.97 |
-| Avg slot time | 0.2680 s |
-| Slot | 454,064,707 |
-| Block height | 432,102,317 |
+| Avg TPS (10 samples) | 1,088.97 |
+| Peak TPS | 1,126.01 |
+| Non-vote TPS | 418.38 |
+| Avg slot time | 0.2660 s |
+| Slot | 454,152,439 |
+| Block height | 432,190,035 |
 
 ### Epoch
 
-- Epoch 1051 — 7.57% complete (32,706/432,000 slots)
-- Slots remaining: 399,294
-- Total transactions (all-time): 556,941,034,537
+- Epoch 1051 — 27.88% complete (120,438/432,000 slots)
+- Slots remaining: 311,562
+- Total transactions (all-time): 557,044,796,522
 
 ## Validators
 
@@ -75,16 +75,16 @@ _Auto-generated at 2026-10-07T00:42:33Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $120.48 (-0.31% 24h) |
-| TVL | $6,631,095,669.46 (+0.06% 24h) |
-| DEX volume 24h | $2,034,746,293.77 (-1.09%) |
-| Stablecoin supply | $16,672,420,255.62 |
+| SOL price | $118.88 (-0.71% 24h) |
+| TVL | $6,538,060,372.57 (-3.66% 24h) |
+| DEX volume 24h | $2,039,240,588.65 (-0.87%) |
+| Stablecoin supply | $16,643,226,181.27 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 589,094,951 SOL
+- Circulating: 589,094,681 SOL
 - Non-circulating: 46,287,899 SOL
 
 ## Ecosystem Growth
@@ -98,28 +98,28 @@ _Auto-generated at 2026-10-07T00:42:33Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $6,631,095,669.46 | $2,034,746,293.77 | $16,672,420,255.62 |
-| Ethereum | $54,202,334,820.95 | $3,169,240,579.44 | $147,268,786,166.47 |
-| Base | $6,432,029,103.90 | $1,056,328,260.69 | $5,290,322,892.87 |
-| Tron | $5,715,106,490.46 | $45,799,596 | $94,808,923,868.42 |
-| Arbitrum | $1,437,011,750.79 | $108,445,353.46 | $3,774,347,419.51 |
+| Solana | $6,538,060,372.57 | $2,039,240,588.65 | $16,643,226,181.27 |
+| Ethereum | $53,024,852,589.27 | $3,152,244,679.60 | $147,435,792,690.18 |
+| Base | $6,317,482,961.39 | $1,051,282,164.78 | $5,297,108,529.08 |
+| Tron | $5,623,214,691.99 | $34,826,391 | $94,803,775,354.47 |
+| Arbitrum | $1,414,178,890.89 | $109,262,347.36 | $3,904,024,807.67 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,194.50 | 1,357.07 | 21th |
-| Slot time (s) | 0.27 | 0.37 | 10th |
-| TVL (USD) | 6,631,095,669.46 | 5,443,292,168.54 | 96th |
-| SOL price (USD) | 120.48 | 91.03 | 96th |
-| DEX volume 24h (USD) | 2,034,746,293.77 | 1,960,574,882.81 | 52th |
+| Avg TPS | 1,088.97 | 1,356.79 | 5th |
+| Slot time (s) | 0.27 | 0.37 | 5th |
+| TVL (USD) | 6,538,060,372.57 | 5,443,501,136.35 | 93th |
+| SOL price (USD) | 118.88 | 91.10 | 94th |
+| DEX volume 24h (USD) | 2,039,240,588.65 | 1,960,574,882.81 | 52th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
-- #177 SIMD-0177: Program Runtime ABI v2 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/177)
 - #503 SIMD-0503: Static Sysvars (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/503)
+- #177 SIMD-0177: Program Runtime ABI v2 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/177)
 - #688 SIMD-0686: Single Program Runtime Environment (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/688)
 - #677 SIMD-0677: Vote Account v5 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/677)
 - #641 SIMD-0123: Refine inclusion based on Alpenglow, remove `DepositDelegatorRewards` (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/641)
@@ -131,12 +131,12 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 - [Solana Foundation Launches Solana DvP, an Atomic Settlement Program Built for Financial Institutions](https://solana.com/news/solana-foundation-launches-solana-dv-p-an-atomic-settlement-program-built-for-financial-institutions) 🖼️ — 2026-10-06
 - [Solana x AI: The Democratization Layer](https://solana.com/news/solana-ai-the-democratization-layer) 🖼️ — 2026-10-02
+- [Solana Changelog: October 1, 2026](https://solana.com/news/solana-changelog-october-1-2026) — 2026-10-01
 - [Open USD Is Live on Solana](https://solana.com/news/open-usd-is-live-on-solana) 🖼️ — 2026-09-30
 - [Slot Time Reduction Effects](https://solana.com/news/slot-time-reduction-effects) — 2026-09-28
+- [Solana Changelog: September 24, 2026](https://solana.com/news/solana-changelog-september-24-2026) 🖼️ — 2026-09-24
 - [Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments](https://solana.com/news/solana-foundation-appoints-2026) 🖼️ — 2026-09-24
 - [Stocks Go Onchain: What the SEC's Innovation Exemption Means for Solana](https://solana.com/news/stocks-sec-innovation-exemption) 🖼️ — 2026-09-23
-- [Solana Changelog: September 18, 2026](https://solana.com/news/solana-changelog-september-18-2026) 🖼️ — 2026-09-19
-- [How AI Is Reshaping Crypto Security, with Michael Coates](https://solana.com/news/bits-to-bricks-crypto-security-michael-coates) 🖼️ — 2026-09-19
 
 ## Upgrade Radar
 
