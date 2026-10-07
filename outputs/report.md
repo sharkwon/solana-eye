@@ -1,20 +1,20 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-10-07T14:31:37Z UTC — refresh every 60 min_
+_Auto-generated at 2026-10-07T20:38:04Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 10 validators delinquent (0.01% of stake)
 
 ## ❤️ Solana Health Score
 
-82.4/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+84.4/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 8.2 |
+| price_trend | 10.3 |
 | slot_time | 100.0 |
-| tps | 82.8 |
-| tvl_trend | 50.0 |
+| tps | 89.6 |
+| tvl_trend | 50.2 |
 | validators | 99.8 |
 
 ## Network Performance
@@ -22,18 +22,18 @@ _Auto-generated at 2026-10-07T14:31:37Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,241.82 |
-| Peak TPS | 1,325.82 |
-| Non-vote TPS | 573.36 |
-| Avg slot time | 0.2680 s |
-| Slot | 454,250,212 |
-| Block height | 432,287,793 |
+| Avg TPS (10 samples) | 1,343.54 |
+| Peak TPS | 1,440.63 |
+| Non-vote TPS | 675.86 |
+| Avg slot time | 0.2710 s |
+| Slot | 454,331,669 |
+| Block height | 432,369,200 |
 
 ### Epoch
 
-- Epoch 1051 — 50.51% complete (218,212/432,000 slots)
-- Slots remaining: 213,788
-- Total transactions (all-time): 557,156,443,196
+- Epoch 1051 — 69.37% complete (299,668/432,000 slots)
+- Slots remaining: 132,332
+- Total transactions (all-time): 557,265,603,083
 
 ## Validators
 
@@ -75,17 +75,17 @@ _Auto-generated at 2026-10-07T14:31:37Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $115.85 (-4.18% 24h) |
-| TVL | $6,492,402,074.11 (+0.00% 24h) |
+| SOL price | $116.20 (-3.97% 24h) |
+| TVL | $6,462,065,036.56 (+0.02% 24h) |
 | DEX volume 24h | $2,052,545,605.65 (-0.22%) |
-| Stablecoin supply | $16,673,041,134.65 |
+| Stablecoin supply | $16,355,667,277.66 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 589,094,389 SOL
-- Non-circulating: 46,287,899 SOL
+- Circulating: 589,094,104 SOL
+- Non-circulating: 46,287,900 SOL
 
 ## Ecosystem Growth
 
@@ -98,37 +98,38 @@ _Auto-generated at 2026-10-07T14:31:37Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $6,492,402,074.11 | $2,052,545,605.65 | $16,673,041,134.65 |
-| Ethereum | $52,540,810,538.92 | $3,148,903,516.60 | $147,499,438,168.12 |
-| Base | $6,270,151,004.68 | $1,005,984,183.78 | $5,238,199,454.95 |
-| Tron | $5,597,008,551.78 | $34,826,391 | $94,788,818,267.59 |
-| Arbitrum | $1,402,942,192.25 | $109,262,347.36 | $3,927,032,985.59 |
+| Solana | $6,462,065,036.56 | $2,052,545,605.65 | $16,355,667,277.66 |
+| Ethereum | $52,350,042,479.24 | $3,148,903,516.60 | $147,455,479,705.63 |
+| Base | $6,248,133,545.14 | $1,005,984,183.78 | $5,220,170,452.35 |
+| Tron | $5,606,710,065.14 | $34,826,391 | $94,776,879,204.90 |
+| Arbitrum | $1,403,853,662.25 | $109,262,347.36 | $3,921,845,049.68 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,241.82 | 1,356.65 | 29th |
-| Slot time (s) | 0.27 | 0.37 | 11th |
-| TVL (USD) | 6,492,402,074.11 | 5,443,506,113.57 | 91th |
-| SOL price (USD) | 115.85 | 91.18 | 90th |
+| Avg TPS | 1,343.54 | 1,356.50 | 48th |
+| Slot time (s) | 0.27 | 0.37 | 14th |
+| TVL (USD) | 6,462,065,036.56 | 5,443,511,090.79 | 90th |
+| SOL price (USD) | 116.20 | 91.26 | 90th |
 | DEX volume 24h (USD) | 2,052,545,605.65 | 1,960,574,882.81 | 52th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #641 SIMD-0123: Refine inclusion based on Alpenglow, remove `DepositDelegatorRewards` (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/641)
+- #645 SIMD-0645: SVM JIT intrinsics sol_multi3 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/645)
+- #676 SIMD-0511: On-Chain Epoch Stakes (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/676)
+- #642 Amend SIMD-0607: Derive per-slot decay and increase intermediate precision (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/642)
 - #688 SIMD-0686: Single Program Runtime Environment (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/688)
 - #503 SIMD-0503: Static Sysvars (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/503)
 - #177 SIMD-0177: Program Runtime ABI v2 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/177)
 - #677 SIMD-0677: Vote Account v5 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/677)
-- #641 SIMD-0123: Refine inclusion based on Alpenglow, remove `DepositDelegatorRewards` (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/641)
-- #645 SIMD-0645: SVM JIT intrinsics sol_multi3 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/645)
-- #685 SIMD-0685: Loader V3: Remove ExtendProgram (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/685)
-- #683 SIMD-0683: Pass ABIv1 input metadata via registers r3–r5 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/683)
 
 ## Solana News
 
+- [Solana Ecosystem Roundup: September 2026](https://solana.com/news/solana-ecosystem-roundup-september-2026) 🖼️ — 2026-10-06
 - [Solana Foundation Launches Solana DvP, an Atomic Settlement Program Built for Financial Institutions](https://solana.com/news/solana-foundation-launches-solana-dv-p-an-atomic-settlement-program-built-for-financial-institutions) 🖼️ — 2026-10-06
 - [Introducing Solana Microscope: Program Monitoring and Alerts](https://solana.com/news/solana-microscope) 🖼️ — 2026-10-05
 - [Solana x AI: The Democratization Layer](https://solana.com/news/solana-ai-the-democratization-layer) 🖼️ — 2026-10-02
@@ -136,7 +137,6 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - [Open USD Is Live on Solana](https://solana.com/news/open-usd-is-live-on-solana) 🖼️ — 2026-09-30
 - [Slot Time Reduction Effects](https://solana.com/news/slot-time-reduction-effects) — 2026-09-28
 - [Solana Changelog: September 24, 2026](https://solana.com/news/solana-changelog-september-24-2026) 🖼️ — 2026-09-24
-- [Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments](https://solana.com/news/solana-foundation-appoints-2026) 🖼️ — 2026-09-24
 
 ## Upgrade Radar
 
