@@ -1,20 +1,20 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-10-10T22:31:39Z UTC — refresh every 60 min_
+_Auto-generated at 2026-10-11T01:53:35Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 5 validators delinquent (0.0% of stake)
-- 🔵 DEX Volume 24h Change Pct: DEX volume dropped 25.2% in 24h
+- 🔵 DEX Volume 24h Change Pct: DEX volume dropped 20.1% in 24h
 
 ## ❤️ Solana Health Score
 
-83.8/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+82.2/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 61.9 |
+| price_trend | 51.8 |
 | slot_time | 100.0 |
-| tps | 70.1 |
+| tps | 67.5 |
 | tvl_trend | 50.0 |
 | validators | 100.0 |
 
@@ -23,18 +23,18 @@ _Auto-generated at 2026-10-10T22:31:39Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,051.85 |
-| Peak TPS | 1,103.21 |
-| Non-vote TPS | 379.31 |
-| Avg slot time | 0.2170 s |
-| Slot | 455,420,630 |
-| Block height | 433,457,800 |
+| Avg TPS (10 samples) | 1,012.16 |
+| Peak TPS | 1,096.70 |
+| Non-vote TPS | 339.64 |
+| Avg slot time | 0.2190 s |
+| Slot | 455,476,082 |
+| Block height | 433,513,252 |
 
 ### Epoch
 
-- Epoch 1054 — 21.44% complete (92,629/432,000 slots)
-- Slots remaining: 339,371
-- Total transactions (all-time): 558,495,326,336
+- Epoch 1054 — 34.28% complete (148,081/432,000 slots)
+- Slots remaining: 283,919
+- Total transactions (all-time): 558,554,219,518
 
 ## Validators
 
@@ -76,17 +76,17 @@ _Auto-generated at 2026-10-10T22:31:39Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $110.29 (+1.19% 24h) |
-| TVL | $6,223,734,204.16 (+0.00% 24h) |
-| DEX volume 24h | $1,978,097,665.91 (-25.21%) |
-| Stablecoin supply | $16,114,125,106.60 |
+| SOL price | $110.05 (+0.18% 24h) |
+| TVL | $6,219,199,779.28 (+0.00% 24h) |
+| DEX volume 24h | $1,579,782,608.57 (-20.14%) |
+| Stablecoin supply | $16,113,300,247.73 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 588,848,314 SOL
-- Non-circulating: 46,750,310 SOL
+- Circulating: 589,051,478 SOL
+- Non-circulating: 46,546,993 SOL
 
 ## Ecosystem Growth
 
@@ -99,34 +99,34 @@ _Auto-generated at 2026-10-10T22:31:39Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $6,223,734,204.16 | $1,978,097,665.91 | $16,114,125,106.60 |
-| Ethereum | $51,583,156,337.68 | $1,044,588,497.35 | $145,820,411,885.24 |
-| Base | $6,213,930,088.50 | $823,622,212.93 | $5,287,351,440.99 |
-| Tron | $5,712,545,330.25 | $47,825,335 | $95,515,592,935.83 |
-| Arbitrum | $1,370,652,067.66 | $117,246,481.48 | $3,774,352,735.10 |
+| Solana | $6,219,199,779.28 | $1,579,782,608.57 | $16,113,300,247.73 |
+| Ethereum | $51,524,257,395.28 | $575,020,432.72 | $145,654,627,646.04 |
+| Base | $6,209,979,972.53 | $590,065,210.61 | $5,288,848,048.79 |
+| Tron | $5,705,449,819.06 | $46,797,354 | $95,421,407,988.27 |
+| Arbitrum | $1,369,659,391.95 | $66,762,024.33 | $3,782,963,721.01 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,051.85 | 1,351.71 | 3th |
-| Slot time (s) | 0.22 | 0.37 | 0th |
-| TVL (USD) | 6,223,734,204.16 | 5,449,752,891.51 | 86th |
-| SOL price (USD) | 110.29 | 91.92 | 87th |
-| DEX volume 24h (USD) | 1,978,097,665.91 | 1,978,136,856.83 | 50th |
+| Avg TPS | 1,012.16 | 1,351.34 | 1th |
+| Slot time (s) | 0.22 | 0.37 | 1th |
+| TVL (USD) | 6,219,199,779.28 | 5,449,768,870.19 | 86th |
+| SOL price (USD) | 110.05 | 92.07 | 87th |
+| DEX volume 24h (USD) | 1,579,782,608.57 | 1,978,097,665.91 | 24th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #674 SIMD-0674: Validator Location Registration (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/674)
+- #648 SIMD-0648: Unbound LoaderV3 Instruction Data (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/648)
+- #630 SIMD-0630: FLH Slot Time Compensation (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/630)
+- #690 SIMD-0690: Hash validation in v2 program migrations (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/690)
+- #683 SIMD-0683: Pass ABIv1 input metadata via registers r3–r5 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/683)
+- #677 SIMD-0677: Vote Account v5 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/677)
 - #177 SIMD-0177: Program Runtime ABI v2 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/177)
 - #676 SIMD-0511: On-Chain Epoch Stakes (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/676)
-- #567 SIMD-0567: CU-optimized ATA Program (`p-ATA`) (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/567)
-- #641 SIMD-0123: Refine inclusion based on Alpenglow, remove `DepositDelegatorRewards` (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/641)
-- #690 SIMD-0690: Hash validation in v2 program migrations (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/690)
-- #645 SIMD-0645: SVM JIT intrinsics sol_multi3 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/645)
-- #691 amend SIMD-0083: Update feature identifier in relax entry constraints proposal (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/691)
-- #642 Amend SIMD-0607: Derive per-slot decay and increase intermediate precision (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/642)
 
 ## Solana News
 
