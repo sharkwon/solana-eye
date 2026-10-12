@@ -1,91 +1,91 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-10-12T15:23:16Z UTC — refresh every 60 min_
+_Auto-generated at 2026-10-12T22:59:15Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 8 validators delinquent (0.02% of stake)
+- 🔵 Validators Delinquent: 8 validators delinquent (0.01% of stake)
 
 ## ❤️ Solana Health Score
 
-84.6/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+79.8/100 — FAIR (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 44.0 |
+| price_trend | 10.8 |
 | slot_time | 100.0 |
-| tps | 79.1 |
+| tps | 72.3 |
 | tvl_trend | 50.0 |
-| validators | 99.6 |
+| validators | 99.8 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,187.11 |
-| Peak TPS | 1,255.96 |
-| Non-vote TPS | 518.21 |
-| Avg slot time | 0.2210 s |
-| Slot | 456,094,329 |
-| Block height | 434,131,247 |
+| Avg TPS (10 samples) | 1,084.55 |
+| Peak TPS | 1,134.66 |
+| Non-vote TPS | 415.55 |
+| Avg slot time | 0.2180 s |
+| Slot | 456,219,299 |
+| Block height | 434,256,054 |
 
 ### Epoch
 
-- Epoch 1055 — 77.39% complete (334,328/432,000 slots)
-- Slots remaining: 97,672
-- Total transactions (all-time): 559,199,952,543
+- Epoch 1056 — 6.32% complete (27,298/432,000 slots)
+- Slots remaining: 404,702
+- Total transactions (all-time): 559,348,892,147
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 673 |
+| Active validators | 672 |
 | Delinquent validators | 8 |
-| Total active stake | 438,683,847 SOL |
-| Delinquent stake | 78,293 SOL (0.02%) |
-| Avg commission | 13.08% |
+| Total active stake | 438,732,413 SOL |
+| Delinquent stake | 58,109 SOL (0.01%) |
+| Avg commission | 12.81% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
 
 | Rank | Vote Account (prefix) | Stake (SOL) | Stake % | Commission |
 |---|---|---|---|---|
-| 1 | CcaHc2L4… | 17,781,885 | 4.05% | 7% |
-| 2 | he1iusun… | 15,956,122 | 3.64% | 0% |
-| 3 | 3N7s9zXM… | 12,320,023 | 2.81% | 0% |
-| 4 | 8GbwASqd… | 11,147,729 | 2.54% | 0% |
-| 5 | CatzoSMU… | 10,755,463 | 2.45% | 5% |
-| 6 | 51JBzSTU… | 9,332,199 | 2.13% | 10% |
-| 7 | 26pV97Ce… | 9,248,710 | 2.11% | 7% |
-| 8 | 9QU2QSxh… | 7,607,284 | 1.73% | 7% |
-| 9 | CvSb7wdQ… | 6,811,094 | 1.55% | 5% |
-| 10 | 3JD3jMmn… | 6,422,658 | 1.46% | 0% |
-| 11 | DumiCKHV… | 6,408,575 | 1.46% | 0% |
-| 12 | DdCNGDpP… | 5,970,860 | 1.36% | 5% |
-| 13 | GHViLgbr… | 5,671,980 | 1.29% | 100% |
-| 14 | FKsC411d… | 4,854,840 | 1.11% | 7% |
-| 15 | HimWQUK6… | 4,708,547 | 1.07% | 8% |
+| 1 | CcaHc2L4… | 17,789,243 | 4.05% | 7% |
+| 2 | he1iusun… | 15,958,932 | 3.64% | 0% |
+| 3 | 3N7s9zXM… | 12,305,752 | 2.80% | 0% |
+| 4 | 8GbwASqd… | 11,149,129 | 2.54% | 0% |
+| 5 | CatzoSMU… | 10,758,268 | 2.45% | 5% |
+| 6 | 51JBzSTU… | 9,401,788 | 2.14% | 10% |
+| 7 | 26pV97Ce… | 9,237,163 | 2.11% | 7% |
+| 8 | 9QU2QSxh… | 7,681,229 | 1.75% | 7% |
+| 9 | CvSb7wdQ… | 6,812,456 | 1.55% | 5% |
+| 10 | 3JD3jMmn… | 6,638,148 | 1.51% | 0% |
+| 11 | DumiCKHV… | 6,408,628 | 1.46% | 0% |
+| 12 | DdCNGDpP… | 5,983,317 | 1.36% | 5% |
+| 13 | GHViLgbr… | 5,668,480 | 1.29% | 100% |
+| 14 | FKsC411d… | 4,855,845 | 1.11% | 7% |
+| 15 | HimWQUK6… | 4,709,167 | 1.07% | 8% |
 | 16 | HZKopZYv… | 4,612,429 | 1.05% | 100% |
-| 17 | 2tucttro… | 4,245,224 | 0.97% | 5% |
-| 18 | 3ZYJxzCe… | 4,109,397 | 0.94% | 100% |
-| 19 | G9x1mqew… | 4,051,380 | 0.92% | 100% |
-| 20 | AZoCYB4V… | 4,049,279 | 0.92% | 100% |
+| 17 | 2tucttro… | 4,265,111 | 0.97% | 5% |
+| 18 | 3ZYJxzCe… | 4,111,121 | 0.94% | 100% |
+| 19 | G9x1mqew… | 4,059,567 | 0.93% | 100% |
+| 20 | AZoCYB4V… | 4,049,135 | 0.92% | 100% |
 
 ## Economics
 
 | Metric | Value |
 |---|---|
-| SOL price | $109.03 (-0.60% 24h) |
-| TVL | $6,203,471,096.97 (+0.00% 24h) |
-| DEX volume 24h | $1,277,019,605.31 (-0.72%) |
-| Stablecoin supply | $16,013,070,884.90 |
+| SOL price | $106.68 (-3.92% 24h) |
+| TVL | $6,106,147,024.66 (+0.00% 24h) |
+| DEX volume 24h | $1,277,023,682.31 (-0.72%) |
+| Stablecoin supply | $15,925,079,185.04 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 589,106,772 SOL
-- Non-circulating: 46,552,784 SOL
+- Circulating: 589,163,318 SOL
+- Non-circulating: 46,558,590 SOL
 
 ## Ecosystem Growth
 
@@ -98,21 +98,21 @@ _Auto-generated at 2026-10-12T15:23:16Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $6,203,471,096.97 | $1,277,019,605.31 | $16,013,070,884.90 |
-| Ethereum | $51,577,132,958.51 | $712,388,423.00 | $146,199,395,680.33 |
-| Base | $6,211,314,983.31 | $671,859,801.80 | $5,318,895,407.22 |
-| Tron | $5,590,637,650.59 | $40,287,147 | $95,308,878,514.57 |
-| Arbitrum | $1,376,586,236.33 | $99,519,560.42 | $3,818,587,649.67 |
+| Solana | $6,106,147,024.66 | $1,277,023,682.31 | $15,925,079,185.04 |
+| Ethereum | $51,370,704,640.65 | $712,388,423.00 | $146,193,943,448.20 |
+| Base | $6,213,634,006.69 | $671,859,801.80 | $5,330,138,208.09 |
+| Tron | $5,587,430,835.11 | $40,287,147 | $95,313,315,191.47 |
+| Arbitrum | $1,372,927,401.61 | $99,519,560.42 | $3,732,693,106.35 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,187.11 | 1,348.69 | 21th |
-| Slot time (s) | 0.22 | 0.37 | 2th |
-| TVL (USD) | 6,203,471,096.97 | 5,478,156,356.12 | 85th |
-| SOL price (USD) | 109.03 | 92.54 | 84th |
-| DEX volume 24h (USD) | 1,277,019,605.31 | 1,960,574,882.81 | 6th |
+| Avg TPS | 1,084.55 | 1,348.43 | 6th |
+| Slot time (s) | 0.22 | 0.37 | 1th |
+| TVL (USD) | 6,106,147,024.66 | 5,482,467,940.79 | 83th |
+| SOL price (USD) | 106.68 | 92.63 | 83th |
+| DEX volume 24h (USD) | 1,277,023,682.31 | 1,960,574,882.81 | 7th |
 
 ## Ecosystem / Development News
 
@@ -129,6 +129,7 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Solana News
 
+- [Payments on Solana: September 2026 in Five Stories](https://solana.com/news/payments-on-solana-september-2026-in-five-stories) 🖼️ — 2026-10-09
 - [Breakpoint 2026: Booked Breakpoint? Let's Get You Prepped (Part 2)](https://solana.com/news/breakpoint-guide-part2) 🖼️ — 2026-10-08
 - [Solana Changelog: October 8, 2026](https://solana.com/news/solana-changelog-october-8-2026) 🖼️ — 2026-10-08
 - [Samsung Partners with Solana to Natively Deliver Stablecoins in Samsung Wallet to 82 Million U.S. Galaxy Devices](https://solana.com/news/samsung-wallet) 🖼️ — 2026-10-07
@@ -136,7 +137,6 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - [Solana Foundation Launches Solana DvP, an Atomic Settlement Program Built for Financial Institutions](https://solana.com/news/solana-foundation-launches-solana-dv-p-an-atomic-settlement-program-built-for-financial-institutions) 🖼️ — 2026-10-06
 - [Introducing Solana Microscope: Program Monitoring and Alerts](https://solana.com/news/solana-microscope) 🖼️ — 2026-10-05
 - [Solana x AI: The Democratization Layer](https://solana.com/news/solana-ai-the-democratization-layer) 🖼️ — 2026-10-02
-- [Solana Changelog: October 1, 2026](https://solana.com/news/solana-changelog-october-1-2026) 🖼️ — 2026-10-01
 
 ## Upgrade Radar
 
