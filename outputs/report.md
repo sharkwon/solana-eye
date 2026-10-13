@@ -1,22 +1,21 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-10-13T03:34:16Z UTC — refresh every 60 min_
+_Auto-generated at 2026-10-13T11:47:31Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🟠 Coordinated Drawdown: Coordinated drawdown: price, TVL and/or DEX volume falling together — SOL price=-4.2, TVL=-3.1
-- 🔵 Validators Delinquent: 8 validators delinquent (0.01% of stake)
-- 🔵 DEX Volume 24h Change Pct: DEX volume surged 46.2% in 24h
+- 🔵 Validators Delinquent: 7 validators delinquent (0.01% of stake)
+- 🔵 DEX Volume 24h Change Pct: DEX volume surged 74.8% in 24h
 
 ## ❤️ Solana Health Score
 
-77.1/100 — FAIR (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+78.3/100 — FAIR (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 7.5 |
+| price_trend | 13.0 |
 | slot_time | 100.0 |
-| tps | 74.2 |
-| tvl_trend | 18.5 |
+| tps | 73.2 |
+| tvl_trend | 28.9 |
 | validators | 99.8 |
 
 ## Network Performance
@@ -24,28 +23,28 @@ _Auto-generated at 2026-10-13T03:34:16Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,113.30 |
-| Peak TPS | 1,283.85 |
-| Non-vote TPS | 446.17 |
-| Avg slot time | 0.2190 s |
-| Slot | 456,294,735 |
-| Block height | 434,331,415 |
+| Avg TPS (10 samples) | 1,098.03 |
+| Peak TPS | 1,209.21 |
+| Non-vote TPS | 428.12 |
+| Avg slot time | 0.2180 s |
+| Slot | 456,430,668 |
+| Block height | 434,467,218 |
 
 ### Epoch
 
-- Epoch 1056 — 23.78% complete (102,734/432,000 slots)
-- Slots remaining: 329,266
-- Total transactions (all-time): 559,431,666,790
+- Epoch 1056 — 55.25% complete (238,668/432,000 slots)
+- Slots remaining: 193,332
+- Total transactions (all-time): 559,568,518,726
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 672 |
-| Delinquent validators | 8 |
-| Total active stake | 438,732,413 SOL |
-| Delinquent stake | 58,109 SOL (0.01%) |
-| Avg commission | 12.81% |
+| Active validators | 673 |
+| Delinquent validators | 7 |
+| Total active stake | 438,737,413 SOL |
+| Delinquent stake | 53,109 SOL (0.01%) |
+| Avg commission | 13.24% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -77,16 +76,16 @@ _Auto-generated at 2026-10-13T03:34:16Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $106.97 (-4.25% 24h) |
-| TVL | $5,976,237,562.04 (-3.15% 24h) |
-| DEX volume 24h | $1,866,875,583.02 (+46.19%) |
-| Stablecoin supply | $15,989,148,409.98 |
+| SOL price | $106.81 (-3.70% 24h) |
+| TVL | $6,092,240,285.66 (-2.11% 24h) |
+| DEX volume 24h | $2,231,841,478.02 (+74.77%) |
+| Stablecoin supply | $15,957,577,182.74 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 589,163,079 SOL
+- Circulating: 589,162,725 SOL
 - Non-circulating: 46,558,615 SOL
 
 ## Ecosystem Growth
@@ -100,26 +99,27 @@ _Auto-generated at 2026-10-13T03:34:16Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,976,237,562.04 | $1,866,875,583.02 | $15,989,148,409.98 |
-| Ethereum | $50,539,174,631.85 | $1,196,801,045.53 | $146,186,377,709.56 |
-| Base | $6,160,872,481.73 | $1,036,197,991.74 | $5,323,548,282.83 |
-| Tron | $5,545,287,187.08 | $87,688,788 | $95,291,490,104.80 |
-| Arbitrum | $1,356,462,046.74 | $168,451,515.88 | $3,759,461,118.45 |
+| Solana | $6,092,240,285.66 | $2,231,841,478.02 | $15,957,577,182.74 |
+| Ethereum | $51,329,836,002.77 | $1,209,583,472.53 | $146,369,275,232.64 |
+| Base | $6,237,662,723.35 | $1,051,572,133.74 | $5,337,182,370.11 |
+| Tron | $5,586,488,913.06 | $87,688,788 | $95,278,853,680.36 |
+| Arbitrum | $1,378,358,297.54 | $168,451,515.88 | $3,763,397,153.99 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,113.30 | 1,348.18 | 10th |
-| Slot time (s) | 0.22 | 0.37 | 2th |
-| TVL (USD) | 5,976,237,562.04 | 5,486,779,525.46 | 82th |
-| SOL price (USD) | 106.97 | 92.72 | 84th |
-| DEX volume 24h (USD) | 1,866,875,583.02 | 1,960,574,882.81 | 45th |
+| Avg TPS | 1,098.03 | 1,347.31 | 8th |
+| Slot time (s) | 0.22 | 0.37 | 1th |
+| TVL (USD) | 6,092,240,285.66 | 5,489,617,416.61 | 83th |
+| SOL price (USD) | 106.81 | 92.76 | 83th |
+| DEX volume 24h (USD) | 2,231,841,478.02 | 1,960,574,882.81 | 55th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #645 SIMD-0645: SVM JIT intrinsics sol_multi3 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/645)
 - #630 SIMD-0630: FLH Slot Time Compensation (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/630)
 - #676 SIMD-0511: On-Chain Epoch Stakes (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/676)
 - #677 SIMD-0677: Vote Account v5 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/677)
@@ -127,7 +127,6 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - #674 SIMD-0674: Validator Location Registration (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/674)
 - #648 SIMD-0648: Unbound LoaderV3 Instruction Data (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/648)
 - #683 SIMD-0683: Pass ABIv1 input metadata via registers r3–r5 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/683)
-- #177 SIMD-0177: Program Runtime ABI v2 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/177)
 
 ## Solana News
 
@@ -149,9 +148,9 @@ _Upcoming protocol upgrades tracked from the SIMD repo (keyless)._
 
 Latest Agave client releases:
 
+- Release v4.4.0-beta.1 (pre-release) — 2026-10-13 — [link](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-beta.1)
+- Release v4.3.1 (pre-release) — 2026-10-13 — [link](https://github.com/anza-xyz/agave/releases/tag/v4.3.1)
 - Release v4.5.0-alpha.2 (pre-release) — 2026-10-08 — [link](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.2)
-- Release v4.5.0-alpha.1 (pre-release) — 2026-10-03 — [link](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.1)
-- Release v4.4.0-beta.0 (pre-release) — 2026-09-28 — [link](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-beta.0)
 
 ## Network Status
 
