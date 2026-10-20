@@ -1,50 +1,50 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-10-20T19:16:16Z UTC — refresh every 60 min_
+_Auto-generated at 2026-10-20T22:20:10Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 12 validators delinquent (0.1% of stake)
+- 🔵 Validators Delinquent: 13 validators delinquent (0.73% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 7.4% in 24h
 
 ## ❤️ Solana Health Score
 
-87.7/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+82.6/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 67.8 |
+| price_trend | 64.9 |
 | slot_time | 100.0 |
-| tps | 81.9 |
-| tvl_trend | 54.9 |
-| validators | 98.0 |
+| tps | 73.8 |
+| tvl_trend | 51.7 |
+| validators | 85.4 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 1,228.85 |
-| Peak TPS | 1,317.86 |
-| Non-vote TPS | 564.32 |
+| Avg TPS (10 samples) | 1,106.91 |
+| Peak TPS | 1,194.97 |
+| Non-vote TPS | 447.58 |
 | Avg slot time | 0.2150 s |
-| Slot | 459,342,291 |
-| Block height | 437,377,305 |
+| Slot | 459,393,333 |
+| Block height | 437,428,265 |
 
 ### Epoch
 
-- Epoch 1063 — 29.23% complete (126,291/432,000 slots)
-- Slots remaining: 305,709
-- Total transactions (all-time): 562,711,532,051
+- Epoch 1063 — 41.05% complete (177,332/432,000 slots)
+- Slots remaining: 254,668
+- Total transactions (all-time): 562,771,830,986
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 667 |
-| Delinquent validators | 12 |
-| Total active stake | 438,116,794 SOL |
-| Delinquent stake | 460,417 SOL (0.10%) |
-| Avg commission | 12.73% |
+| Active validators | 666 |
+| Delinquent validators | 13 |
+| Total active stake | 435,384,395 SOL |
+| Delinquent stake | 3,192,816 SOL (0.73%) |
+| Avg commission | 12.75% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -76,16 +76,16 @@ _Auto-generated at 2026-10-20T19:16:16Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $105.73 (+1.78% 24h) |
-| TVL | $5,978,471,626.18 (+0.49% 24h) |
+| SOL price | $106.98 (+1.49% 24h) |
+| TVL | $5,970,902,005.57 (+0.17% 24h) |
 | DEX volume 24h | $1,823,579,289.83 (+7.44%) |
-| Stablecoin supply | $15,694,097,312.73 |
+| Stablecoin supply | $15,663,577,729.60 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 589,549,460 SOL
+- Circulating: 589,549,302 SOL
 - Non-circulating: 46,602,301 SOL
 
 ## Ecosystem Growth
@@ -99,34 +99,34 @@ _Auto-generated at 2026-10-20T19:16:16Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,978,471,626.18 | $1,823,579,289.83 | $15,694,097,312.73 |
-| Ethereum | $50,160,724,824.64 | $1,046,876,242.66 | $144,011,060,159.04 |
-| Base | $6,246,156,672.16 | $811,928,999.71 | $5,171,429,460.42 |
-| Tron | $5,544,929,476.53 | $37,676,528 | $94,866,944,182.57 |
-| Arbitrum | $1,433,910,281.36 | $170,379,649.82 | $3,542,606,996.02 |
+| Solana | $5,970,902,005.57 | $1,823,579,289.83 | $15,663,577,729.60 |
+| Ethereum | $50,055,633,249.35 | $1,047,425,932.66 | $143,974,229,109.19 |
+| Base | $6,235,886,307.03 | $811,928,999.71 | $5,145,733,789.35 |
+| Tron | $5,542,098,767.17 | $37,676,528 | $94,864,533,651.97 |
+| Arbitrum | $1,431,761,663.96 | $170,379,649.82 | $3,538,134,999.96 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 1,228.85 | 1,330.94 | 32th |
+| Avg TPS | 1,106.91 | 1,330.88 | 13th |
 | Slot time (s) | 0.21 | 0.37 | 0th |
-| TVL (USD) | 5,978,471,626.18 | 5,538,938,117.97 | 82th |
-| SOL price (USD) | 105.73 | 93.98 | 82th |
-| DEX volume 24h (USD) | 1,823,579,289.83 | 1,978,136,856.83 | 42th |
+| TVL (USD) | 5,970,902,005.57 | 5,539,048,282.00 | 81th |
+| SOL price (USD) | 106.98 | 94.00 | 84th |
+| DEX volume 24h (USD) | 1,823,579,289.83 | 1,978,097,665.91 | 42th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #699 [SIMD-0529] Finalize compute unit costs for the SIMD-0529 big_mod_exp syscall (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/699)
+- #701 SIMD-0701: Vote Account v5 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/701)
+- #641 SIMD-0123: Refine inclusion based on Alpenglow, remove `DepositDelegatorRewards` (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/641)
+- #677 SIMD-0677: Vote Account v5 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/677)
 - #676 SIMD-0676: On-Chain Epoch Stakes (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/676)
 - #700 rewards: Use live commission collectors (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/700)
 - #695 [SIMD-0565] Specify compute unit costs for the SIMD-0565 secp256r1 syscalls (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/695)
 - #670 SIMD-0670: ABIv1 invoke signed v2 syscall (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/670)
-- #683 SIMD-0683: Pass ABIv1 input metadata via registers r3–r5 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/683)
-- #648 SIMD-0648: Unbound LoaderV3 Instruction Data (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/648)
-- #699 [SIMD-0529] Finalize compute unit costs for the SIMD-0529 big_mod_exp syscall (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/699)
-- #698 100M CUs Pt2 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/698)
 
 ## Solana News
 
