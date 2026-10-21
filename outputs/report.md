@@ -1,132 +1,132 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-10-21T07:38:47Z UTC — refresh every 60 min_
+_Auto-generated at 2026-10-21T13:47:56Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 11 validators delinquent (0.0% of stake)
-- 🔵 DEX Volume 24h Change Pct: DEX volume surged 22.6% in 24h
+- 🔵 Validators Delinquent: 22 validators delinquent (1.18% of stake)
+- 🔵 DEX Volume 24h Change Pct: DEX volume surged 33.7% in 24h
 
 ## ❤️ Solana Health Score
 
-85.7/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+82.4/100 — GOOD (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 72.3 |
+| price_trend | 69.8 |
 | slot_time | 100.0 |
-| tps | 66.3 |
-| tvl_trend | 71.7 |
-| validators | 100.0 |
+| tps | 76.6 |
+| tvl_trend | 54.4 |
+| validators | 76.4 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 995.04 |
-| Peak TPS | 1,025.25 |
-| Non-vote TPS | 330.55 |
+| Avg TPS (10 samples) | 1,148.92 |
+| Peak TPS | 1,280.99 |
+| Non-vote TPS | 504.11 |
 | Avg slot time | 0.2160 s |
-| Slot | 459,548,356 |
-| Block height | 437,583,175 |
+| Slot | 459,650,952 |
+| Block height | 437,685,715 |
 
 ### Epoch
 
-- Epoch 1063 — 76.93% complete (332,356/432,000 slots)
-- Slots remaining: 99,644
-- Total transactions (all-time): 562,936,840,211
+- Epoch 1064 — 0.68% complete (2,951/432,000 slots)
+- Slots remaining: 429,049
+- Total transactions (all-time): 563,041,937,168
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 668 |
-| Delinquent validators | 11 |
-| Total active stake | 438,566,794 SOL |
-| Delinquent stake | 10,417 SOL (0.00%) |
-| Avg commission | 13.16% |
+| Active validators | 654 |
+| Delinquent validators | 22 |
+| Total active stake | 433,676,265 SOL |
+| Delinquent stake | 5,191,781 SOL (1.18%) |
+| Avg commission | 12.96% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
 
 | Rank | Vote Account (prefix) | Stake (SOL) | Stake % | Commission |
 |---|---|---|---|---|
-| 1 | CcaHc2L4… | 17,103,015 | 3.90% | 7% |
-| 2 | he1iusun… | 15,937,532 | 3.63% | 0% |
-| 3 | 3N7s9zXM… | 12,537,315 | 2.86% | 0% |
-| 4 | 8GbwASqd… | 10,930,434 | 2.49% | 0% |
-| 5 | CatzoSMU… | 9,717,707 | 2.22% | 5% |
-| 6 | 51JBzSTU… | 9,482,037 | 2.16% | 10% |
-| 7 | 26pV97Ce… | 9,253,756 | 2.11% | 7% |
-| 8 | 9QU2QSxh… | 7,792,210 | 1.78% | 7% |
-| 9 | CvSb7wdQ… | 7,034,138 | 1.60% | 5% |
-| 10 | DumiCKHV… | 7,000,331 | 1.60% | 0% |
-| 11 | 3JD3jMmn… | 6,602,960 | 1.51% | 0% |
-| 12 | DdCNGDpP… | 5,986,828 | 1.37% | 5% |
-| 13 | GHViLgbr… | 5,677,980 | 1.29% | 100% |
-| 14 | FKsC411d… | 4,855,235 | 1.11% | 7% |
-| 15 | HimWQUK6… | 4,713,524 | 1.07% | 8% |
+| 1 | CcaHc2L4… | 17,130,984 | 3.90% | 7% |
+| 2 | he1iusun… | 15,955,653 | 3.64% | 0% |
+| 3 | 3N7s9zXM… | 12,545,894 | 2.86% | 0% |
+| 4 | 8GbwASqd… | 10,933,491 | 2.49% | 0% |
+| 5 | CatzoSMU… | 9,728,193 | 2.22% | 5% |
+| 6 | 51JBzSTU… | 9,480,474 | 2.16% | 10% |
+| 7 | 26pV97Ce… | 9,252,296 | 2.11% | 7% |
+| 8 | 9QU2QSxh… | 7,808,122 | 1.78% | 7% |
+| 9 | CvSb7wdQ… | 7,035,085 | 1.60% | 5% |
+| 10 | DumiCKHV… | 7,001,557 | 1.60% | 0% |
+| 11 | 3JD3jMmn… | 6,605,812 | 1.51% | 0% |
+| 12 | DdCNGDpP… | 5,988,348 | 1.36% | 5% |
+| 13 | GHViLgbr… | 5,672,980 | 1.29% | 100% |
+| 14 | FKsC411d… | 4,858,910 | 1.11% | 7% |
+| 15 | HimWQUK6… | 4,722,425 | 1.08% | 8% |
 | 16 | HZKopZYv… | 4,612,429 | 1.05% | 100% |
-| 17 | 2tucttro… | 4,360,780 | 0.99% | 5% |
-| 18 | AaVsZUEn… | 4,180,281 | 0.95% | 8% |
+| 17 | 2tucttro… | 4,313,264 | 0.98% | 5% |
+| 18 | AaVsZUEn… | 4,231,636 | 0.96% | 8% |
 | 19 | 3ZYJxzCe… | 4,113,037 | 0.94% | 100% |
-| 20 | AZoCYB4V… | 4,067,207 | 0.93% | 100% |
+| 20 | AZoCYB4V… | 4,067,220 | 0.93% | 100% |
 
 ## Economics
 
 | Metric | Value |
 |---|---|
-| SOL price | $106.62 (+2.23% 24h) |
-| TVL | $5,973,948,936.80 (+2.17% 24h) |
-| DEX volume 24h | $2,235,068,600 (+22.56%) |
-| Stablecoin supply | $15,748,204,895.66 |
+| SOL price | $106.50 (+1.98% 24h) |
+| TVL | $6,004,886,693.65 (+0.44% 24h) |
+| DEX volume 24h | $2,437,800,207 (+33.68%) |
+| Stablecoin supply | $15,689,569,880.08 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 589,548,901 SOL
-- Non-circulating: 46,602,275 SOL
+- Circulating: 589,605,034 SOL
+- Non-circulating: 46,607,910 SOL
 
 ## Ecosystem Growth
 
 - Daily Active Addresses: 1,859,194
 - Tokenized Equities Volume (24h): $2,762,761,198
 - Tokenized Equities AUM: $2,124,988,802
-- Tokenized Equities Holders: 1,599,778
+- Tokenized Equities Holders: 2,139,399
 
 ## Cross-Chain Comparison
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,973,948,936.80 | $2,235,068,600 | $15,748,204,895.66 |
-| Ethereum | $50,187,562,475.62 | $1,314,504,598.60 | $143,863,317,262.02 |
-| Base | $6,244,812,988.76 | $983,373,401.78 | $5,154,842,150.02 |
-| Tron | $5,530,917,358.75 | $62,737,606 | $94,657,032,331.55 |
-| Arbitrum | $1,445,748,509.31 | $182,345,761.27 | $3,540,522,040.10 |
+| Solana | $6,004,886,693.65 | $2,437,800,207 | $15,689,569,880.08 |
+| Ethereum | $50,579,998,867.50 | $1,317,138,850.60 | $144,147,880,593.06 |
+| Base | $6,295,536,938.04 | $981,946,926.78 | $5,152,689,870.84 |
+| Tron | $5,542,338,683.94 | $62,737,606 | $94,640,088,351.45 |
+| Arbitrum | $1,461,796,901.03 | $182,345,761.27 | $3,648,309,370.94 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 995.04 | 1,329.48 | 1th |
-| Slot time (s) | 0.22 | 0.37 | 2th |
-| TVL (USD) | 5,973,948,936.80 | 5,539,212,932.78 | 81th |
-| SOL price (USD) | 106.62 | 94.01 | 83th |
-| DEX volume 24h (USD) | 2,235,068,600.00 | 1,978,097,665.91 | 56th |
+| Avg TPS | 1,148.92 | 1,329.43 | 18th |
+| Slot time (s) | 0.22 | 0.37 | 3th |
+| TVL (USD) | 6,004,886,693.65 | 5,540,528,519.63 | 83th |
+| SOL price (USD) | 106.50 | 94.03 | 82th |
+| DEX volume 24h (USD) | 2,437,800,207.00 | 1,978,136,856.83 | 59th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
-- #700 rewards: Use live commission collectors (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/700)
-- #701 SIMD-0701: Vote Account v5 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/701)
-- #645 SIMD-0645: SVM JIT intrinsics sol_multi3 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/645)
 - #699 [SIMD-0529] Finalize compute unit costs for the SIMD-0529 big_mod_exp syscall (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/699)
+- #700 rewards: Use live commission collectors (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/700)
+- #702 Bump markdown-it, markdownlint and markdownlint-cli2 (labels: dependencies, javascript) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/702)
+- #701 SIMD-0701: Vote Account v5 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/701)
+- #676 SIMD-0676: On-Chain Epoch Stakes (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/676)
+- #645 SIMD-0645: SVM JIT intrinsics sol_multi3 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/645)
 - #641 SIMD-0123: Refine inclusion based on Alpenglow, remove `DepositDelegatorRewards` (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/641)
 - #677 SIMD-0677: Vote Account v5 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/677)
-- #676 SIMD-0676: On-Chain Epoch Stakes (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/676)
-- #670 SIMD-0670: ABIv1 invoke signed v2 syscall (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/670)
 
 ## Solana News
 
