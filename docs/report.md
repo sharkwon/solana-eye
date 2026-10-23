@@ -1,23 +1,23 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-10-22T22:20:41Z UTC — refresh every 60 min_
+_Auto-generated at 2026-10-23T01:30:52Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🟠 TPS: TPS statistically low (z=-3.2)
-- 🟠 Coordinated Drawdown: Coordinated drawdown: price, TVL and/or DEX volume falling together — SOL price=-3.8, DEX volume=-6.9
+- 🟠 TPS: TPS statistically low (z=-3.9)
+- 🟠 Coordinated Drawdown: Coordinated drawdown: price, TVL and/or DEX volume falling together — SOL price=-3.1, DEX volume=-6.7
 - 🔵 Validators Delinquent: 20 validators delinquent (0.3% of stake)
-- 🔵 DEX Volume 24h Change Pct: DEX volume dropped 6.9% in 24h
+- 🔵 DEX Volume 24h Change Pct: DEX volume dropped 6.7% in 24h
 
 ## ❤️ Solana Health Score
 
-65.2/100 — FAIR (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+66.2/100 — FAIR (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 12.1 |
+| price_trend | 19.2 |
 | slot_time | 100.0 |
-| tps | 20.9 |
-| tvl_trend | 54.7 |
+| tps | 24.1 |
+| tvl_trend | 48.6 |
 | validators | 94.0 |
 
 ## Network Performance
@@ -25,18 +25,18 @@ _Auto-generated at 2026-10-22T22:20:41Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 313.06 |
-| Peak TPS | 373.02 |
-| Non-vote TPS | 313.06 |
+| Avg TPS (10 samples) | 360.77 |
+| Peak TPS | 396.71 |
+| Non-vote TPS | 360.77 |
 | Avg slot time | 0.2130 s |
-| Slot | 460,202,399 |
-| Block height | 438,234,746 |
+| Slot | 460,256,298 |
+| Block height | 438,288,617 |
 
 ### Epoch
 
-- Epoch 1065 — 28.33% complete (122,398/432,000 slots)
-- Slots remaining: 309,602
-- Total transactions (all-time): 563,295,456,785
+- Epoch 1065 — 40.81% complete (176,297/432,000 slots)
+- Slots remaining: 255,703
+- Total transactions (all-time): 563,315,240,940
 
 ## Validators
 
@@ -78,17 +78,17 @@ _Auto-generated at 2026-10-22T22:20:41Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $103.55 (-3.79% 24h) |
-| TVL | $5,871,776,580.54 (+0.47% 24h) |
-| DEX volume 24h | $2,270,402,206.37 (-6.87%) |
-| Stablecoin supply | $15,775,225,783.53 |
+| SOL price | $103.95 (-3.08% 24h) |
+| TVL | $5,848,941,820.05 (-0.14% 24h) |
+| DEX volume 24h | $2,117,736,533.23 (-6.72%) |
+| Stablecoin supply | $15,688,432,616.29 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 589,653,482 SOL
-- Non-circulating: 46,620,409 SOL
+- Circulating: 589,653,428 SOL
+- Non-circulating: 46,620,410 SOL
 
 ## Ecosystem Growth
 
@@ -101,34 +101,34 @@ _Auto-generated at 2026-10-22T22:20:41Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,871,776,580.54 | $2,270,402,206.37 | $15,775,225,783.53 |
-| Ethereum | $49,351,918,621.29 | $1,284,350,926.27 | $144,118,475,726.10 |
-| Base | $6,129,574,190.26 | $971,589,053.61 | $5,147,764,674.72 |
-| Tron | $5,496,460,778.90 | $53,740,461 | $94,933,274,013.33 |
-| Arbitrum | $1,452,450,952.53 | $175,587,424.45 | $3,615,962,212.93 |
+| Solana | $5,848,941,820.05 | $2,117,736,533.23 | $15,688,432,616.29 |
+| Ethereum | $49,274,177,128.08 | $1,240,347,744.20 | $144,108,471,341.63 |
+| Base | $6,126,313,662.76 | $672,825,896.20 | $5,151,402,721.49 |
+| Tron | $5,502,671,420.65 | $48,862,796 | $94,752,788,409.47 |
+| Arbitrum | $1,453,320,966.25 | $172,324,442.57 | $3,624,752,014.55 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 313.06 | 1,324.31 | 0th |
+| Avg TPS | 360.77 | 1,323.58 | 0th |
 | Slot time (s) | 0.21 | 0.37 | 1th |
-| TVL (USD) | 5,871,776,580.54 | 5,548,146,562.30 | 69th |
-| SOL price (USD) | 103.55 | 94.10 | 74th |
-| DEX volume 24h (USD) | 2,270,402,206.37 | 1,978,678,628.75 | 56th |
+| TVL (USD) | 5,848,941,820.05 | 5,548,394,207.93 | 67th |
+| SOL price (USD) | 103.95 | 94.10 | 75th |
+| DEX volume 24h (USD) | 2,117,736,533.23 | 1,978,678,628.75 | 51th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #690 SIMD-0690: Hash validation in program migrations and upgrades (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/690)
+- #683 SIMD-0683: Pass ABIv1 input metadata via registers r3–r5 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/683)
+- #670 SIMD-0670: ABIv1 invoke signed v2 syscall (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/670)
+- #641 SIMD-0123: Refine inclusion based on Alpenglow, remove `DepositDelegatorRewards` (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/641)
 - #701 SIMD-0701: Vote Account v5 (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/701)
 - #676 SIMD-0676: On-Chain Epoch Stakes (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/676)
-- #690 SIMD-0690: Hash validation in program migrations and upgrades (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/690)
 - #674 SIMD-0674: Validator Location Registration (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/674)
 - #675 SIMD-0675: Geo-Aware Leader Schedule (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/675)
-- #704 docs: align SIMD-0550 with the integer inflation schedule (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/704)
-- #642 Amend SIMD-0607: Derive per-slot decay and increase intermediate precision (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/642)
-- #699 [SIMD-0529] Finalize compute unit costs for the SIMD-0529 big_mod_exp syscall (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/699)
 
 ## Solana News
 
