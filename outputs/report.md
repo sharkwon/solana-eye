@@ -1,92 +1,91 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-10-24T14:32:15Z UTC — refresh every 60 min_
+_Auto-generated at 2026-10-24T18:09:09Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🟠 TPS: TPS statistically low (z=-3.7)
-- 🔵 Validators Delinquent: 14 validators delinquent (0.07% of stake)
+- 🔵 Validators Delinquent: 25 validators delinquent (0.05% of stake)
 
 ## ❤️ Solana Health Score
 
-71.0/100 — FAIR (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+66.2/100 — FAIR (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 15.0 |
+| price_trend | 14.1 |
 | slot_time | 100.0 |
-| tps | 37.9 |
-| tvl_trend | 54.9 |
-| validators | 98.6 |
+| tps | 20.4 |
+| tvl_trend | 54.8 |
+| validators | 99.0 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 568.57 |
-| Peak TPS | 689.32 |
-| Non-vote TPS | 568.57 |
-| Avg slot time | 0.2130 s |
-| Slot | 460,885,038 |
-| Block height | 438,915,444 |
+| Avg TPS (10 samples) | 305.54 |
+| Peak TPS | 377.26 |
+| Non-vote TPS | 305.54 |
+| Avg slot time | 0.2110 s |
+| Slot | 460,946,344 |
+| Block height | 438,976,377 |
 
 ### Epoch
 
-- Epoch 1066 — 86.35% complete (373,037/432,000 slots)
-- Slots remaining: 58,963
-- Total transactions (all-time): 563,549,666,345
+- Epoch 1067 — 0.54% complete (2,342/432,000 slots)
+- Slots remaining: 429,658
+- Total transactions (all-time): 563,576,594,459
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 664 |
-| Delinquent validators | 14 |
-| Total active stake | 436,827,007 SOL |
-| Delinquent stake | 289,775 SOL (0.07%) |
-| Avg commission | 13.23% |
+| Active validators | 665 |
+| Delinquent validators | 25 |
+| Total active stake | 436,976,347 SOL |
+| Delinquent stake | 214,659 SOL (0.05%) |
+| Avg commission | 12.91% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
 
 | Rank | Vote Account (prefix) | Stake (SOL) | Stake % | Commission |
 |---|---|---|---|---|
-| 1 | CcaHc2L4… | 17,096,230 | 3.91% | 7% |
-| 2 | he1iusun… | 16,022,778 | 3.67% | 0% |
-| 3 | 3N7s9zXM… | 12,572,396 | 2.88% | 0% |
-| 4 | 8GbwASqd… | 10,882,511 | 2.49% | 0% |
-| 5 | CatzoSMU… | 9,724,046 | 2.22% | 5% |
-| 6 | 51JBzSTU… | 9,478,407 | 2.17% | 10% |
-| 7 | 26pV97Ce… | 9,213,418 | 2.11% | 7% |
-| 8 | 9QU2QSxh… | 7,782,539 | 1.78% | 7% |
-| 9 | CvSb7wdQ… | 7,037,301 | 1.61% | 5% |
-| 10 | DumiCKHV… | 7,003,145 | 1.60% | 0% |
-| 11 | 3JD3jMmn… | 6,607,876 | 1.51% | 0% |
-| 12 | DdCNGDpP… | 5,967,787 | 1.37% | 5% |
-| 13 | GHViLgbr… | 5,688,480 | 1.30% | 100% |
-| 14 | FKsC411d… | 4,860,227 | 1.11% | 7% |
-| 15 | HimWQUK6… | 4,723,673 | 1.08% | 8% |
-| 16 | HZKopZYv… | 4,477,329 | 1.02% | 100% |
-| 17 | 2tucttro… | 4,279,522 | 0.98% | 5% |
-| 18 | 3ZYJxzCe… | 4,120,077 | 0.94% | 100% |
-| 19 | AZoCYB4V… | 4,069,699 | 0.93% | 100% |
-| 20 | G9x1mqew… | 4,069,463 | 0.93% | 100% |
+| 1 | CcaHc2L4… | 17,099,113 | 3.91% | 7% |
+| 2 | he1iusun… | 16,646,121 | 3.81% | 0% |
+| 3 | 3N7s9zXM… | 12,588,035 | 2.88% | 0% |
+| 4 | 8GbwASqd… | 10,881,430 | 2.49% | 0% |
+| 5 | CatzoSMU… | 9,721,918 | 2.22% | 5% |
+| 6 | 51JBzSTU… | 9,483,244 | 2.17% | 10% |
+| 7 | 26pV97Ce… | 9,216,837 | 2.11% | 7% |
+| 8 | 9QU2QSxh… | 7,785,036 | 1.78% | 7% |
+| 9 | CvSb7wdQ… | 7,038,249 | 1.61% | 5% |
+| 10 | DumiCKHV… | 7,006,653 | 1.60% | 0% |
+| 11 | 3JD3jMmn… | 6,608,867 | 1.51% | 0% |
+| 12 | DdCNGDpP… | 5,973,285 | 1.37% | 5% |
+| 13 | GHViLgbr… | 5,695,981 | 1.30% | 100% |
+| 14 | FKsC411d… | 4,860,667 | 1.11% | 7% |
+| 15 | HimWQUK6… | 4,724,283 | 1.08% | 8% |
+| 16 | HZKopZYv… | 4,477,330 | 1.02% | 100% |
+| 17 | 2tucttro… | 4,319,078 | 0.99% | 5% |
+| 18 | 3ZYJxzCe… | 4,111,388 | 0.94% | 100% |
+| 19 | AZoCYB4V… | 4,064,606 | 0.93% | 100% |
+| 20 | G9x1mqew… | 4,063,118 | 0.93% | 100% |
 
 ## Economics
 
 | Metric | Value |
 |---|---|
-| SOL price | $100.28 (-3.50% 24h) |
-| TVL | $5,763,581,285.00 (+0.49% 24h) |
+| SOL price | $100.50 (-3.59% 24h) |
+| TVL | $5,707,747,995.73 (+0.48% 24h) |
 | DEX volume 24h | $1,997,070,440.37 (-2.07%) |
-| Stablecoin supply | $15,620,045,977.89 |
+| Stablecoin supply | $15,595,849,245.20 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 589,708,712 SOL
-- Non-circulating: 46,626,101 SOL
+- Circulating: 589,764,591 SOL
+- Non-circulating: 46,631,639 SOL
 
 ## Ecosystem Growth
 
@@ -99,21 +98,21 @@ _Auto-generated at 2026-10-24T14:32:15Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,763,581,285.00 | $1,997,070,440.37 | $15,620,045,977.89 |
-| Ethereum | $49,120,671,690.92 | $1,044,639,064.93 | $143,920,192,782.29 |
-| Base | $6,059,519,831.73 | $935,209,200.98 | $5,156,900,916.00 |
-| Tron | $5,511,118,972.04 | $62,471,646.89 | $94,631,892,990.40 |
-| Arbitrum | $1,450,767,276.22 | $151,284,913.94 | $3,685,218,010.63 |
+| Solana | $5,707,747,995.73 | $1,997,070,440.37 | $15,595,849,245.20 |
+| Ethereum | $48,382,272,731.90 | $1,044,639,064.93 | $143,877,428,321.93 |
+| Base | $5,976,699,858.28 | $935,209,200.98 | $5,161,660,174.77 |
+| Tron | $5,472,445,645.14 | $62,471,646.89 | $94,643,052,844.38 |
+| Arbitrum | $1,436,857,697.15 | $151,284,913.94 | $3,734,536,405.79 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 568.57 | 1,321.71 | 2th |
-| Slot time (s) | 0.21 | 0.37 | 2th |
-| TVL (USD) | 5,763,581,285.00 | 5,555,011,084.91 | 61th |
-| SOL price (USD) | 100.28 | 94.21 | 63th |
-| DEX volume 24h (USD) | 1,997,070,440.37 | 2,026,792,501.55 | 50th |
+| Avg TPS | 305.54 | 1,321.54 | 0th |
+| Slot time (s) | 0.21 | 0.37 | 0th |
+| TVL (USD) | 5,707,747,995.73 | 5,555,041,203.57 | 59th |
+| SOL price (USD) | 100.50 | 94.27 | 64th |
+| DEX volume 24h (USD) | 1,997,070,440.37 | 2,020,963,434.37 | 50th |
 
 ## Ecosystem / Development News
 
