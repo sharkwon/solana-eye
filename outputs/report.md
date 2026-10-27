@@ -1,50 +1,51 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-10-27T05:03:19Z UTC — refresh every 60 min_
+_Auto-generated at 2026-10-27T10:33:15Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 20 validators delinquent (0.09% of stake)
+- 🟠 TPS: TPS statistically low (z=-3.4)
+- 🔵 Validators Delinquent: 21 validators delinquent (0.11% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 18.4% in 24h
 
 ## ❤️ Solana Health Score
 
-66.8/100 — FAIR (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+67.0/100 — FAIR (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 36.3 |
+| price_trend | 30.1 |
 | slot_time | 100.0 |
-| tps | 18.0 |
-| tvl_trend | 48.3 |
-| validators | 98.2 |
+| tps | 20.0 |
+| tvl_trend | 50.7 |
+| validators | 97.8 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 270.67 |
-| Peak TPS | 317.53 |
-| Non-vote TPS | 270.67 |
+| Avg TPS (10 samples) | 300.28 |
+| Peak TPS | 339.35 |
+| Non-vote TPS | 300.28 |
 | Avg slot time | 0.2130 s |
-| Slot | 461,944,585 |
-| Block height | 439,970,457 |
+| Slot | 462,037,718 |
+| Block height | 440,063,476 |
 
 ### Epoch
 
-- Epoch 1069 — 31.62% complete (136,585/432,000 slots)
-- Slots remaining: 295,415
-- Total transactions (all-time): 563,946,904,216
+- Epoch 1069 — 53.18% complete (229,717/432,000 slots)
+- Slots remaining: 202,283
+- Total transactions (all-time): 563,972,075,912
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 665 |
-| Delinquent validators | 20 |
-| Total active stake | 436,501,444 SOL |
-| Delinquent stake | 372,148 SOL (0.09%) |
-| Avg commission | 12.76% |
+| Active validators | 664 |
+| Delinquent validators | 21 |
+| Total active stake | 436,408,090 SOL |
+| Delinquent stake | 465,503 SOL (0.11%) |
+| Avg commission | 13.07% |
 | Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -76,16 +77,16 @@ _Auto-generated at 2026-10-27T05:03:19Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $99.96 (-1.37% 24h) |
-| TVL | $5,694,831,052.15 (-0.17% 24h) |
+| SOL price | $99.45 (-1.99% 24h) |
+| TVL | $5,707,703,993.49 (+0.07% 24h) |
 | DEX volume 24h | $1,715,654,561.15 (+18.38%) |
-| Stablecoin supply | $15,483,454,552.98 |
+| Stablecoin supply | $15,335,131,207.32 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 589,874,679 SOL
+- Circulating: 589,874,611 SOL
 - Non-circulating: 46,643,074 SOL
 
 ## Ecosystem Growth
@@ -93,26 +94,26 @@ _Auto-generated at 2026-10-27T05:03:19Z UTC — refresh every 60 min_
 - Daily Active Addresses: 2,260,069
 - Tokenized Equities Volume (24h): $2,762,761,198
 - Tokenized Equities AUM: $2,124,988,802
-- Tokenized Equities Holders: 2,173,080
+- Tokenized Equities Holders: 2,182,569
 
 ## Cross-Chain Comparison
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,694,831,052.15 | $1,715,654,561.15 | $15,483,454,552.98 |
-| Ethereum | $48,388,413,127.47 | $1,383,015,671.73 | $142,874,413,566.82 |
-| Base | $6,013,247,426.25 | $995,872,755.46 | $5,153,962,833.76 |
-| Tron | $5,417,781,942.33 | $62,550,163 | $94,471,621,218.15 |
-| Arbitrum | $1,501,063,815.27 | $200,564,313.69 | $3,655,307,680.15 |
+| Solana | $5,707,703,993.49 | $1,715,654,561.15 | $15,335,131,207.32 |
+| Ethereum | $48,180,679,974.68 | $1,383,015,671.73 | $143,048,269,588.48 |
+| Base | $5,997,042,117.28 | $995,872,755.46 | $5,152,854,348.77 |
+| Tron | $5,400,503,803.72 | $62,550,163 | $94,454,411,482.69 |
+| Arbitrum | $1,495,299,193.71 | $200,564,313.69 | $3,670,803,202.69 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 270.67 | 1,318.46 | 0th |
+| Avg TPS | 300.28 | 1,318.44 | 1th |
 | Slot time (s) | 0.21 | 0.37 | 4th |
-| TVL (USD) | 5,694,831,052.15 | 5,561,225,765.56 | 58th |
-| SOL price (USD) | 99.96 | 94.65 | 61th |
+| TVL (USD) | 5,707,703,993.49 | 5,562,649,139.09 | 58th |
+| SOL price (USD) | 99.45 | 94.72 | 60th |
 | DEX volume 24h (USD) | 1,715,654,561.15 | 1,978,678,628.75 | 37th |
 
 ## Ecosystem / Development News
@@ -130,6 +131,7 @@ Recently updated SIMD proposals (solana-foundation/simd):
 
 ## Solana News
 
+- [Solana Breakpoint 2026 Adds Revolut Chair, Former Prime Minister, Former Chancellor and City Leaders to London Lineup](https://solana.com/news/breakpoint-london-lineup) 🖼️ — 2026-10-26
 - [Solana Changelog: October 22, 2026](https://solana.com/news/solana-changelog-october-22-2026) 🖼️ — 2026-10-23
 - [Solana Changelog: October 16, 2026](https://solana.com/news/solana-changelog-october-16-2026) — 2026-10-16
 - [Geo-Aware Leader Schedule](https://solana.com/news/geo-aware-leader-schedule) — 2026-10-14
@@ -137,7 +139,6 @@ Recently updated SIMD proposals (solana-foundation/simd):
 - [Payments on Solana: September 2026 in Five Stories](https://solana.com/news/payments-on-solana-september-2026-in-five-stories) 🖼️ — 2026-10-09
 - [Breakpoint 2026: Booked Breakpoint? Let's Get You Prepped (Part 2)](https://solana.com/news/breakpoint-guide-part2) 🖼️ — 2026-10-08
 - [Solana Changelog: October 8, 2026](https://solana.com/news/solana-changelog-october-8-2026) 🖼️ — 2026-10-08
-- [Samsung Partners with Solana to Natively Deliver Stablecoins in Samsung Wallet to 82 Million U.S. Galaxy Devices](https://solana.com/news/samsung-wallet) 🖼️ — 2026-10-07
 
 ## Upgrade Radar
 
