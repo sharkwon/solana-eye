@@ -1,24 +1,21 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-10-30T18:37:47Z UTC — refresh every 60 min_
+_Auto-generated at 2026-10-30T22:58:36Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🟠 TPS: TPS statistically low (z=-3.1)
-- 🟠 Delinquent Stake Pct: delinquent stake % statistically high (z=3.2)
 - 🔵 Validators Delinquent: 24 validators delinquent (0.62% of stake)
-- 🔵 SOL Price 24h Change Pct: SOL price dropped 6.5% in 24h
 - 🔵 DEX Volume 24h Change Pct: DEX volume surged 32.4% in 24h
 
 ## ❤️ Solana Health Score
 
-64.9/100 — AT-RISK (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+67.0/100 — FAIR (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 0.0 |
+| price_trend | 38.1 |
 | slot_time | 100.0 |
-| tps | 28.5 |
-| tvl_trend | 53.5 |
+| tps | 23.0 |
+| tvl_trend | 55.1 |
 | validators | 87.6 |
 
 ## Network Performance
@@ -26,18 +23,18 @@ _Auto-generated at 2026-10-30T18:37:47Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 427.74 |
-| Peak TPS | 485.23 |
-| Non-vote TPS | 427.74 |
+| Avg TPS (10 samples) | 344.85 |
+| Peak TPS | 405.50 |
+| Non-vote TPS | 344.85 |
 | Avg slot time | 0.2140 s |
-| Slot | 463,388,430 |
-| Block height | 441,410,738 |
+| Slot | 463,461,399 |
+| Block height | 441,483,664 |
 
 ### Epoch
 
-- Epoch 1072 — 65.84% complete (284,429/432,000 slots)
-- Slots remaining: 147,571
-- Total transactions (all-time): 564,500,101,421
+- Epoch 1072 — 82.73% complete (357,398/432,000 slots)
+- Slots remaining: 74,602
+- Total transactions (all-time): 564,529,496,463
 
 ## Validators
 
@@ -79,16 +76,16 @@ _Auto-generated at 2026-10-30T18:37:47Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $93.82 (-6.51% 24h) |
-| TVL | $5,341,963,487.66 (+0.35% 24h) |
+| SOL price | $95.74 (-1.19% 24h) |
+| TVL | $5,398,455,900.42 (+0.51% 24h) |
 | DEX volume 24h | $2,295,364,281.70 (+32.42%) |
-| Stablecoin supply | $15,211,310,635.11 |
+| Stablecoin supply | $15,282,904,212.68 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 590,039,764 SOL
+- Circulating: 590,039,683 SOL
 - Non-circulating: 46,660,395 SOL
 
 ## Ecosystem Growth
@@ -102,34 +99,34 @@ _Auto-generated at 2026-10-30T18:37:47Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,350,709,702.36 | $2,295,364,281.70 | $15,211,310,635.11 |
-| Ethereum | $43,096,875,189.75 | $6,243,673,661.40 | $141,459,562,469.83 |
-| Base | $5,754,995,126.61 | $1,482,596,811.09 | $5,141,695,034.13 |
-| Tron | $5,576,039,997.01 | $665,889,393 | $94,619,640,448.64 |
-| Arbitrum | $1,419,936,911.00 | $345,850,309.51 | $3,557,213,500.86 |
+| Solana | $5,398,455,900.42 | $2,295,364,281.70 | $15,282,904,212.68 |
+| Ethereum | $43,777,539,861.37 | $6,243,673,661.40 | $141,232,815,434.51 |
+| Base | $5,810,855,401.54 | $1,482,596,811.09 | $5,118,445,697.54 |
+| Tron | $5,567,487,873.96 | $665,889,393 | $94,595,624,657.25 |
+| Arbitrum | $1,422,415,058.35 | $345,850,309.51 | $3,557,814,069.82 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 427.74 | 1,311.42 | 4th |
+| Avg TPS | 344.85 | 1,310.70 | 2th |
 | Slot time (s) | 0.21 | 0.37 | 5th |
-| TVL (USD) | 5,341,963,487.66 | 5,568,565,570.71 | 42th |
-| SOL price (USD) | 93.82 | 95.17 | 46th |
-| DEX volume 24h (USD) | 2,295,364,281.70 | 1,978,136,856.83 | 60th |
+| TVL (USD) | 5,398,455,900.42 | 5,566,777,746.75 | 42th |
+| SOL price (USD) | 95.74 | 95.15 | 51th |
+| DEX volume 24h (USD) | 2,295,364,281.70 | 1,978,176,047.75 | 60th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
-- #715 rekey simd-0529 big int mod exp (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/715)
+- #567 SIMD-0567: CU-optimized ATA Program (`p-ATA`) (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/567)
 - #714 SIMD-0714: SIMD (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/714)
+- #715 rekey simd-0529 big int mod exp (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/715)
 - #713 Add missing feature gate keys to SIMD front matter (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/713)
 - #685 SIMD-0685: Loader V3: Remove ExtendProgram (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/685)
 - #676 SIMD-0676: On-Chain Epoch Stakes (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/676)
 - #568 SIMD-0568: Deprecate Precompiles (labels: stale) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/568)
 - #706 SIMD-0706: disable `sol_alloc_free_` again (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/706)
-- #579 SIMD-0579: Keccak-p1600 syscall (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/579)
 
 ## Upgrade Radar
 
