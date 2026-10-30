@@ -1,94 +1,94 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-10-29T23:57:28Z UTC — refresh every 60 min_
+_Auto-generated at 2026-10-30T05:47:02Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🟠 Delinquent Stake Pct: delinquent stake % statistically high (z=3.5)
-- 🔵 Validators Delinquent: 23 validators delinquent (0.74% of stake)
-- 🔵 SOL Price 24h Change Pct: SOL price dropped 6.4% in 24h
-- 🔵 DEX Volume 24h Change Pct: DEX volume surged 9.5% in 24h
+- 🟠 TVL 24h Change Pct: TVL dropped 5.2% in 24h
+- 🟠 Delinquent Stake Pct: delinquent stake % statistically high (z=3.2)
+- 🔵 Validators Delinquent: 25 validators delinquent (0.68% of stake)
+- 🔵 DEX Volume 24h Change Pct: DEX volume surged 11.0% in 24h
 
 ## ❤️ Solana Health Score
 
-65.3/100 — FAIR (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+59.4/100 — AT-RISK (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 0.0 |
+| price_trend | 27.4 |
 | slot_time | 100.0 |
-| tps | 30.8 |
-| tvl_trend | 55.2 |
-| validators | 85.2 |
+| tps | 17.7 |
+| tvl_trend | 0.0 |
+| validators | 86.4 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 462.66 |
-| Peak TPS | 594.50 |
-| Non-vote TPS | 462.66 |
-| Avg slot time | 0.2150 s |
-| Slot | 463,073,790 |
-| Block height | 441,096,960 |
+| Avg TPS (10 samples) | 265.67 |
+| Peak TPS | 294.43 |
+| Non-vote TPS | 265.67 |
+| Avg slot time | 0.2130 s |
+| Slot | 463,172,031 |
+| Block height | 441,194,526 |
 
 ### Epoch
 
-- Epoch 1071 — 93.01% complete (401,785/432,000 slots)
-- Slots remaining: 30,215
-- Total transactions (all-time): 564,383,225,925
+- Epoch 1072 — 15.75% complete (68,031/432,000 slots)
+- Slots remaining: 363,969
+- Total transactions (all-time): 564,422,944,936
 
 ## Validators
 
 | Metric | Value |
 |---|---|
 | Active validators | 666 |
-| Delinquent validators | 23 |
-| Total active stake | 433,555,190 SOL |
-| Delinquent stake | 3,220,997 SOL (0.74%) |
-| Avg commission | 13.04% |
-| Nakamoto coefficient | 17 (validators controlling >33% of active stake) |
+| Delinquent validators | 25 |
+| Total active stake | 432,411,234 SOL |
+| Delinquent stake | 2,945,859 SOL (0.68%) |
+| Avg commission | 12.75% |
+| Nakamoto coefficient | 18 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
 
 | Rank | Vote Account (prefix) | Stake (SOL) | Stake % | Commission |
 |---|---|---|---|---|
-| 1 | CcaHc2L4… | 17,028,574 | 3.90% | 7% |
-| 2 | he1iusun… | 16,665,444 | 3.82% | 0% |
-| 3 | 3N7s9zXM… | 12,878,826 | 2.95% | 0% |
-| 4 | 8GbwASqd… | 10,762,073 | 2.46% | 0% |
-| 5 | CatzoSMU… | 9,705,356 | 2.22% | 5% |
-| 6 | 51JBzSTU… | 9,466,646 | 2.17% | 10% |
-| 7 | 26pV97Ce… | 9,218,110 | 2.11% | 7% |
-| 8 | 9QU2QSxh… | 7,761,555 | 1.78% | 7% |
-| 9 | DumiCKHV… | 6,998,037 | 1.60% | 0% |
-| 10 | CvSb7wdQ… | 6,646,428 | 1.52% | 5% |
-| 11 | 3JD3jMmn… | 6,603,092 | 1.51% | 0% |
-| 12 | DdCNGDpP… | 6,110,565 | 1.40% | 5% |
-| 13 | GHViLgbr… | 5,717,980 | 1.31% | 100% |
-| 14 | FKsC411d… | 4,858,085 | 1.11% | 7% |
-| 15 | HimWQUK6… | 4,718,275 | 1.08% | 8% |
-| 16 | 2tucttro… | 4,520,697 | 1.04% | 5% |
-| 17 | HZKopZYv… | 4,477,330 | 1.03% | 100% |
-| 18 | 3ZYJxzCe… | 4,118,680 | 0.94% | 100% |
-| 19 | AZoCYB4V… | 4,062,910 | 0.93% | 100% |
-| 20 | G9x1mqew… | 4,060,129 | 0.93% | 100% |
+| 1 | CcaHc2L4… | 16,965,456 | 3.90% | 7% |
+| 2 | he1iusun… | 16,678,000 | 3.83% | 0% |
+| 3 | 3N7s9zXM… | 12,919,680 | 2.97% | 0% |
+| 4 | 8GbwASqd… | 10,502,229 | 2.41% | 0% |
+| 5 | CatzoSMU… | 9,659,910 | 2.22% | 5% |
+| 6 | 51JBzSTU… | 9,473,552 | 2.18% | 10% |
+| 7 | 26pV97Ce… | 9,222,406 | 2.12% | 7% |
+| 8 | 9QU2QSxh… | 7,780,140 | 1.79% | 7% |
+| 9 | CvSb7wdQ… | 7,045,150 | 1.62% | 5% |
+| 10 | DumiCKHV… | 7,001,506 | 1.61% | 0% |
+| 11 | 3JD3jMmn… | 6,603,673 | 1.52% | 0% |
+| 12 | DdCNGDpP… | 5,955,011 | 1.37% | 5% |
+| 13 | GHViLgbr… | 5,723,480 | 1.31% | 100% |
+| 14 | HimWQUK6… | 4,718,894 | 1.08% | 8% |
+| 15 | 2tucttro… | 4,497,872 | 1.03% | 5% |
+| 16 | HZKopZYv… | 4,477,330 | 1.03% | 100% |
+| 17 | FKsC411d… | 4,358,537 | 1.00% | 7% |
+| 18 | 3ZYJxzCe… | 4,110,422 | 0.94% | 100% |
+| 19 | G9x1mqew… | 4,063,777 | 0.93% | 100% |
+| 20 | AZoCYB4V… | 4,062,910 | 0.93% | 100% |
 
 ## Economics
 
 | Metric | Value |
 |---|---|
-| SOL price | $95.72 (-6.42% 24h) |
-| TVL | $5,517,728,355.82 (+0.52% 24h) |
-| DEX volume 24h | $1,733,397,982.06 (+9.50%) |
-| Stablecoin supply | $15,163,152,647.13 |
+| SOL price | $98.19 (-2.26% 24h) |
+| TVL | $5,398,769,348.99 (-5.20% 24h) |
+| DEX volume 24h | $1,924,354,203.70 (+11.02%) |
+| Stablecoin supply | $15,252,751,431.63 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 589,983,542 SOL
-- Non-circulating: 46,655,554 SOL
+- Circulating: 590,039,976 SOL
+- Non-circulating: 46,660,395 SOL
 
 ## Ecosystem Growth
 
@@ -101,34 +101,34 @@ _Auto-generated at 2026-10-29T23:57:28Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,517,728,355.82 | $1,733,397,982.06 | $15,163,152,647.13 |
-| Ethereum | $46,582,507,034.57 | $1,648,630,957.60 | $141,317,015,604.25 |
-| Base | $6,097,280,704.52 | $1,072,633,171.36 | $5,113,869,209.51 |
-| Tron | $5,647,133,966.84 | $104,075,167 | $94,142,737,223.26 |
-| Arbitrum | $1,485,337,635.82 | $202,648,507.88 | $3,442,789,078.85 |
+| Solana | $5,398,769,348.99 | $1,924,354,203.70 | $15,252,751,431.63 |
+| Ethereum | $43,326,085,567.43 | $6,240,236,655.40 | $141,372,905,448.19 |
+| Base | $5,840,998,846.95 | $1,466,645,030.09 | $5,083,015,224.14 |
+| Tron | $5,627,892,141.86 | $134,005,384 | $94,504,249,604.43 |
+| Arbitrum | $1,448,188,301.75 | $345,850,309.51 | $3,469,733,136.25 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 462.66 | 1,313.31 | 4th |
-| Slot time (s) | 0.21 | 0.37 | 6th |
-| TVL (USD) | 5,517,728,355.82 | 5,575,367,335.47 | 45th |
-| SOL price (USD) | 95.72 | 95.15 | 51th |
-| DEX volume 24h (USD) | 1,733,397,982.06 | 1,978,176,047.75 | 39th |
+| Avg TPS | 265.67 | 1,312.72 | 0th |
+| Slot time (s) | 0.21 | 0.37 | 4th |
+| TVL (USD) | 5,398,769,348.99 | 5,572,860,365.07 | 42th |
+| SOL price (USD) | 98.19 | 95.15 | 57th |
+| DEX volume 24h (USD) | 1,924,354,203.70 | 1,978,136,856.83 | 46th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
 - #713 Add missing feature gate keys to SIMD front matter (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/713)
+- #714 SIMD-0714: SIMD (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/714)
 - #685 SIMD-0685: Loader V3: Remove ExtendProgram (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/685)
 - #676 SIMD-0676: On-Chain Epoch Stakes (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/676)
 - #568 SIMD-0568: Deprecate Precompiles (labels: stale) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/568)
 - #706 SIMD-0706: disable `sol_alloc_free_` again (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/706)
 - #579 SIMD-0579: Keccak-p1600 syscall (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/579)
 - #709 SIMD-0709: Process for SIMDs that add cryptographic syscalls (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/709)
-- #707 Amend 0529: charge a flat cu first before execution (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/707)
 
 ## Upgrade Radar
 
