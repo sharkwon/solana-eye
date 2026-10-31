@@ -1,23 +1,22 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-10-31T15:44:45Z UTC — refresh every 60 min_
+_Auto-generated at 2026-10-31T19:59:21Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🟠 TPS: TPS statistically low (z=-3.3)
 - 🟠 Delinquent Stake Pct: delinquent stake % statistically high (z=3.6)
 - 🔵 Validators Delinquent: 27 validators delinquent (0.85% of stake)
 - 🔵 DEX Volume 24h Change Pct: DEX volume dropped 7.8% in 24h
 
 ## ❤️ Solana Health Score
 
-68.1/100 — FAIR (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+69.4/100 — FAIR (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 66.5 |
+| price_trend | 60.6 |
 | slot_time | 100.0 |
-| tps | 20.6 |
-| tvl_trend | 55.0 |
+| tps | 27.5 |
+| tvl_trend | 54.7 |
 | validators | 83.0 |
 
 ## Network Performance
@@ -25,18 +24,18 @@ _Auto-generated at 2026-10-31T15:44:45Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 308.31 |
-| Peak TPS | 341.73 |
-| Non-vote TPS | 308.31 |
+| Avg TPS (10 samples) | 412.57 |
+| Peak TPS | 590.32 |
+| Non-vote TPS | 412.57 |
 | Avg slot time | 0.2140 s |
-| Slot | 463,743,226 |
-| Block height | 441,765,065 |
+| Slot | 463,814,486 |
+| Block height | 441,836,317 |
 
 ### Epoch
 
-- Epoch 1073 — 47.97% complete (207,226/432,000 slots)
-- Slots remaining: 224,774
-- Total transactions (all-time): 564,604,950,928
+- Epoch 1073 — 64.46% complete (278,485/432,000 slots)
+- Slots remaining: 153,515
+- Total transactions (all-time): 564,630,914,116
 
 ## Validators
 
@@ -46,7 +45,7 @@ _Auto-generated at 2026-10-31T15:44:45Z UTC — refresh every 60 min_
 | Delinquent validators | 27 |
 | Total active stake | 429,974,623 SOL |
 | Delinquent stake | 3,674,724 SOL (0.85%) |
-| Avg commission | 12.77% |
+| Avg commission | 13.07% |
 | Nakamoto coefficient | 17 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -78,17 +77,17 @@ _Auto-generated at 2026-10-31T15:44:45Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $95.92 (+1.65% 24h) |
-| TVL | $5,452,377,115.11 (+0.50% 24h) |
+| SOL price | $95.75 (+1.06% 24h) |
+| TVL | $5,450,738,511.17 (+0.47% 24h) |
 | DEX volume 24h | $2,117,396,479.19 (-7.75%) |
-| Stablecoin supply | $15,207,302,669.06 |
+| Stablecoin supply | $15,198,110,279.13 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 590,095,090 SOL
-- Non-circulating: 46,666,067 SOL
+- Circulating: 590,095,018 SOL
+- Non-circulating: 46,666,068 SOL
 
 ## Ecosystem Growth
 
@@ -101,20 +100,20 @@ _Auto-generated at 2026-10-31T15:44:45Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,452,377,115.11 | $2,117,396,479.19 | $15,207,302,669.06 |
-| Ethereum | $44,079,483,985.39 | $3,747,499,415.30 | $141,034,699,236.33 |
-| Base | $5,857,217,221.61 | $1,268,633,691.92 | $5,128,089,923.34 |
-| Tron | $5,432,427,862.81 | $183,381,179 | $94,382,183,656.59 |
-| Arbitrum | $1,436,791,574.91 | $316,924,082.04 | $3,608,064,690.83 |
+| Solana | $5,450,738,511.17 | $2,117,396,479.19 | $15,198,110,279.13 |
+| Ethereum | $44,110,508,228.37 | $3,747,499,415.30 | $141,114,307,944.99 |
+| Base | $5,871,280,620.83 | $1,268,633,691.92 | $5,138,216,964.78 |
+| Tron | $5,377,608,064.75 | $183,381,179 | $94,404,815,319.37 |
+| Arbitrum | $1,443,495,479.49 | $316,924,082.04 | $3,633,501,811.37 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 308.31 | 1,310.47 | 2th |
+| Avg TPS | 412.57 | 1,310.28 | 4th |
 | Slot time (s) | 0.21 | 0.37 | 6th |
-| TVL (USD) | 5,452,377,115.11 | 5,565,947,230.65 | 44th |
-| SOL price (USD) | 95.92 | 95.19 | 52th |
+| TVL (USD) | 5,450,738,511.17 | 5,565,116,714.56 | 44th |
+| SOL price (USD) | 95.75 | 95.21 | 51th |
 | DEX volume 24h (USD) | 2,117,396,479.19 | 1,978,176,047.75 | 53th |
 
 ## Ecosystem / Development News
