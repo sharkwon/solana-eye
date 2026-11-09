@@ -1,50 +1,50 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-11-09T00:54:14Z UTC — refresh every 60 min_
+_Auto-generated at 2026-11-09T07:58:33Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
-- 🔵 Validators Delinquent: 36 validators delinquent (0.14% of stake)
-- 🔵 DEX Volume 24h Change Pct: DEX volume surged 13.4% in 24h
+- 🔵 Validators Delinquent: 34 validators delinquent (0.13% of stake)
+- 🔵 DEX Volume 24h Change Pct: DEX volume surged 8.7% in 24h
 
 ## ❤️ Solana Health Score
 
-68.1/100 — FAIR (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+63.3/100 — AT-RISK (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 27.5 |
+| price_trend | 7.1 |
 | slot_time | 100.0 |
-| tps | 24.1 |
-| tvl_trend | 54.6 |
-| validators | 97.2 |
+| tps | 19.3 |
+| tvl_trend | 36.4 |
+| validators | 97.4 |
 
 ## Network Performance
 
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 362.22 |
-| Peak TPS | 416.32 |
-| Non-vote TPS | 362.22 |
+| Avg TPS (10 samples) | 288.81 |
+| Peak TPS | 375.18 |
+| Non-vote TPS | 288.81 |
 | Avg slot time | 0.2140 s |
-| Slot | 467,123,234 |
-| Block height | 445,141,352 |
+| Slot | 467,241,785 |
+| Block height | 445,259,786 |
 
 ### Epoch
 
-- Epoch 1081 — 30.38% complete (131,234/432,000 slots)
-- Slots remaining: 300,766
-- Total transactions (all-time): 565,837,689,845
+- Epoch 1081 — 57.82% complete (249,784/432,000 slots)
+- Slots remaining: 182,216
+- Total transactions (all-time): 565,872,955,166
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active validators | 661 |
-| Delinquent validators | 36 |
-| Total active stake | 433,293,948 SOL |
-| Delinquent stake | 626,612 SOL (0.14%) |
-| Avg commission | 12.87% |
+| Active validators | 663 |
+| Delinquent validators | 34 |
+| Total active stake | 433,362,787 SOL |
+| Delinquent stake | 557,774 SOL (0.13%) |
+| Avg commission | 13.01% |
 | Nakamoto coefficient | 17 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -63,7 +63,7 @@ _Auto-generated at 2026-11-09T00:54:14Z UTC — refresh every 60 min_
 | 10 | CvSb7wdQ… | 6,711,284 | 1.55% | 5% |
 | 11 | 3JD3jMmn… | 6,294,270 | 1.45% | 0% |
 | 12 | DdCNGDpP… | 6,041,540 | 1.39% | 5% |
-| 13 | GHViLgbr… | 5,760,980 | 1.33% | 100% |
+| 13 | GHViLgbr… | 5,760,980 | 1.33% | 10% |
 | 14 | FKsC411d… | 5,393,784 | 1.24% | 7% |
 | 15 | 2tucttro… | 4,821,563 | 1.11% | 5% |
 | 16 | HimWQUK6… | 4,723,861 | 1.09% | 8% |
@@ -76,16 +76,16 @@ _Auto-generated at 2026-11-09T00:54:14Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $87.31 (-2.25% 24h) |
-| TVL | $5,128,733,692.86 (+0.46% 24h) |
-| DEX volume 24h | $1,040,192,160.70 (+13.38%) |
-| Stablecoin supply | $14,791,204,739.87 |
+| SOL price | $85.45 (-4.29% 24h) |
+| TVL | $5,111,534,083.38 (-1.36% 24h) |
+| DEX volume 24h | $997,094,322.30 (+8.68%) |
+| Stablecoin supply | $14,825,104,850.53 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 591,093,770 SOL
+- Circulating: 591,093,673 SOL
 - Non-circulating: 46,156,242 SOL
 
 ## Ecosystem Growth
@@ -99,34 +99,34 @@ _Auto-generated at 2026-11-09T00:54:14Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $5,128,733,692.86 | $1,040,192,160.70 | $14,791,204,739.87 |
-| Ethereum | $42,205,820,768.32 | $840,854,477.26 | $135,537,624,337.55 |
-| Base | $5,721,470,081.22 | $595,445,262.96 | $5,206,215,730.89 |
-| Tron | $4,995,085,386.18 | $42,572,648 | $94,195,106,598.02 |
-| Arbitrum | $1,406,835,462.42 | $87,663,528.27 | $3,665,540,462.19 |
+| Solana | $5,111,534,083.38 | $997,094,322.30 | $14,825,104,850.53 |
+| Ethereum | $41,842,744,896.12 | $1,138,244,803.46 | $135,422,800,550.60 |
+| Base | $5,702,275,647.68 | $756,791,244.24 | $5,206,384,966.77 |
+| Tron | $4,960,103,472.71 | $41,421,824 | $94,185,946,653.14 |
+| Arbitrum | $1,401,141,628.01 | $134,547,724.08 | $3,661,307,816.43 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 362.22 | 1,260.41 | 6th |
-| Slot time (s) | 0.21 | 0.32 | 9th |
-| TVL (USD) | 5,128,733,692.86 | 5,623,263,109.55 | 25th |
-| SOL price (USD) | 87.31 | 97.13 | 28th |
-| DEX volume 24h (USD) | 1,040,192,160.70 | 2,209,224,527.33 | 1th |
+| Avg TPS | 288.81 | 1,257.57 | 3th |
+| Slot time (s) | 0.21 | 0.32 | 10th |
+| TVL (USD) | 5,111,534,083.38 | 5,627,064,936.07 | 25th |
+| SOL price (USD) | 85.45 | 97.16 | 26th |
+| DEX volume 24h (USD) | 997,094,322.30 | 2,214,093,837.38 | 1th |
 
 ## Ecosystem / Development News
 
 Recently updated SIMD proposals (solana-foundation/simd):
 
+- #676 SIMD-0676: On-Chain Epoch Stakes (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/676)
+- #727 Amend SIMD-0326: define BLS validator ranks (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/727)
 - #571 SIMD-0571: Soft Deprecation of Durable Nonce Transactions (labels: stale) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/571)
 - #713 Add missing feature gate keys to SIMD front matter (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/713)
-- #676 SIMD-0676: On-Chain Epoch Stakes (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/676)
 - #707 Amend 0529: charge a flat cu first before execution (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/707)
 - #723 SIMD-0723: Remove Durable Nonces (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/723)
 - #709 SIMD-0709: Process for SIMDs that add cryptographic syscalls (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/709)
 - #725 docs(template): add required status and Advisory category hints (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/725)
-- #568 SIMD-0568: Deprecate Precompiles (labels: —) — [link](https://github.com/solana-foundation/solana-improvement-documents/pull/568)
 
 ## Upgrade Radar
 
