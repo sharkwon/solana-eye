@@ -1,20 +1,21 @@
 # 🟢 Solana Ecosystem Report
-_Auto-generated at 2026-11-26T23:52:05Z UTC — refresh every 60 min_
+_Auto-generated at 2026-11-27T08:29:04Z UTC — refresh every 60 min_
 
 ## ⚠️ Anomalies Detected
 - 🔵 Validators Delinquent: 34 validators delinquent (0.06% of stake)
+- 🔵 DEX Volume 24h Change Pct: DEX volume dropped 18.5% in 24h
 
 ## ❤️ Solana Health Score
 
-71.4/100 — FAIR (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
+73.8/100 — FAIR (weighted blend of TPS, slot time, validator health, TVL/price trend, status page)
 
 | Component | Score |
 |---|---|
 | network_status | 100 |
-| price_trend | 58.3 |
+| price_trend | 85.5 |
 | slot_time | 100.0 |
-| tps | 24.6 |
-| tvl_trend | 55.9 |
+| tps | 17.6 |
+| tvl_trend | 76.4 |
 | validators | 98.8 |
 
 ## Network Performance
@@ -22,18 +23,18 @@ _Auto-generated at 2026-11-26T23:52:05Z UTC — refresh every 60 min_
 | Metric | Value |
 |---|---|
 | Health | ok |
-| Avg TPS (10 samples) | 368.85 |
-| Peak TPS | 444.26 |
-| Non-vote TPS | 368.85 |
+| Avg TPS (10 samples) | 263.48 |
+| Peak TPS | 347.27 |
+| Non-vote TPS | 263.48 |
 | Avg slot time | 0.2150 s |
-| Slot | 474,338,619 |
-| Block height | 452,351,406 |
+| Slot | 474,483,006 |
+| Block height | 452,495,695 |
 
 ### Epoch
 
-- Epoch 1098 — 0.61% complete (2,619/432,000 slots)
-- Slots remaining: 429,381
-- Total transactions (all-time): 568,551,572,966
+- Epoch 1098 — 34.03% complete (147,005/432,000 slots)
+- Slots remaining: 284,995
+- Total transactions (all-time): 568,593,116,624
 
 ## Validators
 
@@ -43,7 +44,7 @@ _Auto-generated at 2026-11-26T23:52:05Z UTC — refresh every 60 min_
 | Delinquent validators | 34 |
 | Total active stake | 423,952,415 SOL |
 | Delinquent stake | 255,036 SOL (0.06%) |
-| Avg commission | 12.99% |
+| Avg commission | 13.00% |
 | Nakamoto coefficient | 17 (validators controlling >33% of active stake) |
 
 ### Top 20 Validators by Stake
@@ -75,17 +76,17 @@ _Auto-generated at 2026-11-26T23:52:05Z UTC — refresh every 60 min_
 
 | Metric | Value |
 |---|---|
-| SOL price | $70.91 (+0.83% 24h) |
-| TVL | $4,655,613,720.86 (+0.59% 24h) |
-| DEX volume 24h | $1,511,025,476.80 (+3.72%) |
-| Stablecoin supply | $12,431,342,912.19 |
+| SOL price | $73.40 (+3.55% 24h) |
+| TVL | $4,702,478,753.10 (+2.64% 24h) |
+| DEX volume 24h | $1,231,332,152.17 (-18.51%) |
+| Stablecoin supply | $12,451,524,143.85 |
 | Median tx fee | n/a SOL (n/a lamports) |
 | Est. fee revenue 24h | n/a SOL (sampled block meta.fee (estimates)) |
 
 ## Supply
 
-- Circulating: 592,238,597 SOL
-- Non-circulating: 46,047,112 SOL
+- Circulating: 592,238,322 SOL
+- Non-circulating: 46,047,273 SOL
 
 ## Ecosystem Growth
 
@@ -98,21 +99,21 @@ _Auto-generated at 2026-11-26T23:52:05Z UTC — refresh every 60 min_
 
 | Chain | TVL | DEX 24h | Stablecoins |
 |---|---|---|---|
-| Solana | $4,655,613,720.86 | $1,511,025,476.80 | $12,431,342,912.19 |
-| Ethereum | $36,836,652,538.35 | $1,394,923,112.95 | $129,117,468,840.28 |
-| Base | $4,669,494,039.38 | $1,230,916,619.86 | $4,853,412,451.40 |
-| Tron | $4,407,101,686.52 | $86,858,440 | $93,358,939,333.78 |
-| Arbitrum | $1,222,862,437.51 | $178,009,932.46 | $4,217,277,735.48 |
+| Solana | $4,702,478,753.10 | $1,231,332,152.17 | $12,451,524,143.85 |
+| Ethereum | $37,354,094,763.12 | $1,026,348,062.16 | $129,022,149,387.55 |
+| Base | $4,719,914,396.04 | $938,478,032.95 | $4,866,781,316.81 |
+| Tron | $4,385,417,265.91 | $61,233,852 | $93,358,739,025.09 |
+| Arbitrum | $1,232,169,908.06 | $96,466,146.41 | $4,188,993,678.68 |
 
 ## Baselines · 30-Day History
 
 | Metric | Current | Median (30d) | Percentile |
 |---|---|---|---|
-| Avg TPS | 368.85 | 1,091.84 | 17th |
+| Avg TPS | 263.48 | 1,091.11 | 5th |
 | Slot time (s) | 0.21 | 0.27 | 27th |
-| TVL (USD) | 4,655,613,720.86 | 5,893,174,876.19 | 4th |
-| SOL price (USD) | 70.91 | 103.13 | 4th |
-| DEX volume 24h (USD) | 1,511,025,476.80 | 2,155,234,120.21 | 16th |
+| TVL (USD) | 4,702,478,753.10 | 5,893,174,876.19 | 5th |
+| SOL price (USD) | 73.40 | 103.13 | 8th |
+| DEX volume 24h (USD) | 1,231,332,152.17 | 2,155,234,120.21 | 3th |
 
 ## Ecosystem / Development News
 
